@@ -11,13 +11,13 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/4/3/433_dsc02826.webp": {
     "path": "/assets/images/433_dsc02826.webp",
-    "bytes": 94214,
-    "sha256": "6e832690da0cdc836793e0d7daca2a8127f21392bee00d4f99b9ab590bfbe8dc"
+    "bytes": 646034,
+    "sha256": "94b0d3328073d5d9b36d6aa8dd4e5da58ee4086c62645fbe7e08becb1db433d5"
   },
   "https://www.bhr-is.nl/media/images/service/5/8/585_dsc02701.webp": {
     "path": "/assets/images/585_dsc02701.webp",
-    "bytes": 24062,
-    "sha256": "a44ca97db2a8b4cdfcb843d9a28d15d255858cb3b596deefacf1df50290ac6ae"
+    "bytes": 151762,
+    "sha256": "c416ad9152ce5a3a81f429e327897699c809a17dd6641756419b791fd6d2ed75"
   },
   "https://www.bhr-is.nl/media/images/project/1/1/1123_bierskid.webp": {
     "path": "/assets/images/1123_bierskid.webp",
@@ -51,8 +51,8 @@
   },
   "https://www.bhr-is.nl/media/images/project/5/6/568_dsc01712.webp": {
     "path": "/assets/images/568_dsc01712.webp",
-    "bytes": 39010,
-    "sha256": "8e40d5702ee6f6f15894f227f65c3b5b6b83ba9232856487607099d336b070eb"
+    "bytes": 201010,
+    "sha256": "c0b9502bc3ae47a8adfa0f68acbc0b6188602083ff38abf9c20bc98b62812c1a"
   },
   "https://www.bhr-is.nl/public/themes/www/_compiled/favicons/favicon-32x32.png": {
     "path": "/assets/images/favicon-32x32.png",
@@ -81,8 +81,8 @@
   },
   "https://www.bhr-is.nl/media/images/service/6/0/609_dsc02603.webp": {
     "path": "/assets/images/609_dsc02603.webp",
-    "bytes": 32948,
-    "sha256": "a851ce710a6bfdf3526e247cf5a81e43f3c0a322fb0c58b72952e0cc4941587a"
+    "bytes": 175724,
+    "sha256": "9c077d59497facf2930497add0e5160d7fc858d9ba75700b6db43ad087756b88"
   },
   "https://www.bhr-is.nl/media/images/partner/4/4/44_partner2.webp": {
     "path": "/assets/images/44_partner2.webp",
@@ -91,13 +91,13 @@
   },
   "https://www.bhr-is.nl/media/images/timeline/8/9/898_dsc02475.webp": {
     "path": "/assets/images/898_dsc02475.webp",
-    "bytes": 44376,
-    "sha256": "35975c9a0f9550e2685f6aecd40cce7524c80efbae315347127181727dc41cb7"
+    "bytes": 274936,
+    "sha256": "84d0ae1c5a38f8620547f6f33d0536bf7b51a0e24608f32861d2cc322d61431a"
   },
   "https://www.bhr-is.nl/media/images/timeline/8/3/831_dsc00930.webp": {
     "path": "/assets/images/831_dsc00930.webp",
-    "bytes": 57668,
-    "sha256": "55b231e9d47d89db5d3b77e4973a30bf34f442a80254030f78e578e0b6565be6"
+    "bytes": 308658,
+    "sha256": "3de4c557cf8d578cb343c65a1397490c03ed13779ad78557b71ea3ddbf65a1fb"
   },
   "https://www.bhr-is.nl/public/themes/www/_compiled/favicons/favicon-16x16.png": {
     "path": "/assets/images/favicon-16x16.png",
@@ -111,8 +111,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/4/5/452_dsc02362.webp": {
     "path": "/assets/images/452_dsc02362.webp",
-    "bytes": 92652,
-    "sha256": "b8602f7a7fd3a6a5c0c3b66b8e43fb61dd9cc0533c2420384c3b66569ac00f90"
+    "bytes": 737792,
+    "sha256": "f9a2d06a6d94ff659963dca47142b95bc0632b448dd79431734844123d686917"
   },
   "https://www.bhr-is.nl/media/images/service/6/1/613_dsc01030.webp": {
     "path": "/assets/images/613_dsc01030.webp",
@@ -141,8 +141,8 @@
   },
   "https://www.bhr-is.nl/media/images/service/6/0/600_dsc01226.webp": {
     "path": "/assets/images/600_dsc01226.webp",
-    "bytes": 41930,
-    "sha256": "3f11c1ce5665fc6b1bce0047df63bee9e1db8803b2b7ea37d378b7f20b9181e1"
+    "bytes": 200672,
+    "sha256": "48172e563c1a312b1323ed46f7fa260a07d8cdb680a1a71200f143989928c162"
   },
   "https://www.bhr-is.nl/media/images/project/5/6/564_nieuwe-map-slimme-automatisering.webp": {
     "path": "/assets/images/564_nieuwe-map-slimme-automatisering.webp",
@@ -151,8 +151,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/9/0/909_dsc01187.webp": {
     "path": "/assets/images/909_dsc01187.webp",
-    "bytes": 100820,
-    "sha256": "eb5ab2729dc411100653e6917bd24174725bf25f07d77838aa38707911c1f060"
+    "bytes": 712550,
+    "sha256": "ec81896d1ff6ca1c07ce9d0d16091a5674f1e3fe04f8523b20c8f271fe0d41d0"
   },
   "https://use.typekit.net/af/dcfb51/00000000000000007735a0ac/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3": {
     "path": "/assets/fonts/roboto-regular.woff2",
@@ -161,13 +161,13 @@
   },
   "https://www.bhr-is.nl/media/images/service/5/8/588_dsc02665.webp": {
     "path": "/assets/images/588_dsc02665.webp",
-    "bytes": 25440,
-    "sha256": "1003f2d8f130ac446d1978572cfec4aca00e2844440e155ca18e664faa47b5d7"
+    "bytes": 175962,
+    "sha256": "4c453366e0af54ac087a7f0a121b8deef477665014f9f4935deacbbb88f85b28"
   },
   "https://www.bhr-is.nl/media/images/document/8/5/851_dsc01712.webp": {
     "path": "/assets/images/851_dsc01712.webp",
-    "bytes": 125836,
-    "sha256": "7f4a1018d2f677b37a0d112abaae9aa068acfcbfcb550543c7ab7b3636e4121e"
+    "bytes": 1243884,
+    "sha256": "ffd8a2bb035ceb4ad65e7dedc110791a993408029949b622994b18192ef55f7f"
   },
   "https://use.typekit.net/af/c89631/00000000000000007750282a/31/l?subset_id=2&fvd=n5&v=3": {
     "path": "/assets/fonts/oxanium-medium.woff2",
@@ -201,8 +201,8 @@
   },
   "https://www.bhr-is.nl/media/images/document/8/9/892_dsc01712.webp": {
     "path": "/assets/images/892_dsc01712.webp",
-    "bytes": 34894,
-    "sha256": "d5e356085f96666bf0aeab45f7555c757636691d888f6cdb15d082e0169084c2"
+    "bytes": 169032,
+    "sha256": "3ead836e47f855f51c740fc6d2f93e17a20d4097789a37fceae68da567fb99b6"
   },
   "https://use.typekit.net/af/c89631/00000000000000007750282a/31/l": {
     "path": "/assets/fonts/oxanium-medium-7757280f.woff2",
@@ -211,8 +211,8 @@
   },
   "https://www.bhr-is.nl/media/images/timeline/8/9/899_dsc00962.webp": {
     "path": "/assets/images/899_dsc00962.webp",
-    "bytes": 43548,
-    "sha256": "a41b01087e74d2d0747fd3acda95871040cd1b168572613dcb3f1ecc6570c6b1"
+    "bytes": 252342,
+    "sha256": "b9c3ab26ddf72ab52c42983a9f2de567b77d7fe820b75eb3fb162b409cbbc4db"
   },
   "https://www.bhr-is.nl/public/themes/www/_compiled/images/vacancybg.png": {
     "path": "/assets/images/vacancybg.png",
@@ -231,8 +231,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/7/779_dsc02362.webp": {
     "path": "/assets/images/779_dsc02362.webp",
-    "bytes": 88734,
-    "sha256": "b11991ddff85ea73bd38d6babba3c0625ea860dff503c7ebd623785f9e548b6d"
+    "bytes": 731964,
+    "sha256": "4dd6a66fc53382ea0b046b3eeef80d79a4c61d0916eafc7653b67e804f618433"
   },
   "https://www.bhr-is.nl/media/images/partner/1/0/1003_lappkabel-logo.webp": {
     "path": "/assets/images/1003_lappkabel-logo.webp",
@@ -266,8 +266,8 @@
   },
   "https://www.bhr-is.nl/media/images/timeline/8/2/829_dsc01293.webp": {
     "path": "/assets/images/829_dsc01293.webp",
-    "bytes": 68396,
-    "sha256": "0cd47c8eb0051d79cc001117341ca83f96d97915f7da69e1d1c15f87ba7b0106"
+    "bytes": 315534,
+    "sha256": "3b0d81fa3851ed82670430c16e2ae384ea016094a679a4893ca11971c5208571"
   },
   "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp": {
     "path": "/assets/images/1147_dsc02542.webp",
@@ -276,8 +276,8 @@
   },
   "https://www.bhr-is.nl/media/images/timeline/8/2/828_dsc02710.webp": {
     "path": "/assets/images/828_dsc02710.webp",
-    "bytes": 36344,
-    "sha256": "724d85bd72941e9b776a4070353183b3786f400adcdb0cd3b3130ca1aefde86c"
+    "bytes": 230978,
+    "sha256": "f082d3b473e758654bf91609f2bb3c09db3ecf91c3d4f0ce0754a698ab6e17dd"
   },
   "https://www.bhr-is.nl/media/images/partner/1/1/1195_allen-bradley.webp": {
     "path": "/assets/images/1195_allen-bradley.webp",
@@ -291,13 +291,13 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/8/783_dsc01720.webp": {
     "path": "/assets/images/783_dsc01720.webp",
-    "bytes": 108378,
-    "sha256": "854f0d3a00dc72c9bca115857d4a7874084ef57bd76147e3f1fefb85954c7b37"
+    "bytes": 693686,
+    "sha256": "8f1f90ea55015239d2dced75d9611929ab5b5df7f8ff95914f7315047caa70c8"
   },
   "https://www.bhr-is.nl/media/images/textblock/7/8/781_dsc02826.webp": {
     "path": "/assets/images/781_dsc02826.webp",
-    "bytes": 94070,
-    "sha256": "bd824c3bf9c01a00a39999b6dc956e705ecac5221606f192309a7ef05dd07836"
+    "bytes": 647948,
+    "sha256": "cd3f40f6425f9ac97a10eeb7b17f09db29fbd3cc05fe826d8c76af98ddecab3d"
   },
   "https://use.typekit.net/af/c1681c/00000000000000007735a0a6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3": {
     "path": "/assets/fonts/roboto-medium.woff2",
@@ -321,13 +321,13 @@
   },
   "https://www.bhr-is.nl/media/images/step/4/3/437_dsc02673.webp": {
     "path": "/assets/images/437_dsc02673.webp",
-    "bytes": 59918,
-    "sha256": "ca6e7d9f3467a6da61e13f63b6e77e7b100dc452638cd488a51fdd8fe80df5ab"
+    "bytes": 412120,
+    "sha256": "880038dcf71bbeab920720b6f09754143776e0d16fe5f487c815c5e2c6c84a84"
   },
   "https://www.bhr-is.nl/media/images/textblock/4/4/440_dsc01350.webp": {
     "path": "/assets/images/440_dsc01350.webp",
-    "bytes": 87110,
-    "sha256": "7524254c59456025fffd4c621fb4d8116a55c6375ffce5dad4150fcb592dfa83"
+    "bytes": 645066,
+    "sha256": "b8b44b91f980aabd8bc2dee2422a3c4509de2e60593345639d17972c40568af2"
   },
   "https://www.bhr-is.nl/media/images/document/8/4/848_dsc01159.webp": {
     "path": "/assets/images/848_dsc01159.webp",
@@ -336,18 +336,18 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/7/771_dsc01350.webp": {
     "path": "/assets/images/771_dsc01350.webp",
-    "bytes": 88264,
-    "sha256": "1799b87856926bb4b404ea77878128a7eade6a53aa6565f1cb3660ac650c931c"
+    "bytes": 648808,
+    "sha256": "6e0a860067180190665d4cd83dce46092dbddc0e79720366eadda8f5ce420338"
   },
   "https://www.bhr-is.nl/media/images/textblock/7/7/773_dsc02153.webp": {
     "path": "/assets/images/773_dsc02153.webp",
-    "bytes": 855420,
-    "sha256": "d21cb144abf3adf0805abf89592297a2819621ff9f88d47ec08b51c637a8aad1"
+    "bytes": 843616,
+    "sha256": "45fbc28d99a682c0ca256ec2e8bfc88b4dcb5f8107af4e2a05cce899c32cfd78"
   },
   "https://www.bhr-is.nl/media/images/textblock/7/6/769_dsc02091.webp": {
     "path": "/assets/images/769_dsc02091.webp",
-    "bytes": 969190,
-    "sha256": "bfc8bfec967c34bddcc24fc4ab0665f3f0060e0989e1212e3c55b7e7b45bdf8c"
+    "bytes": 974360,
+    "sha256": "6e74db83e298677fec00f4d2acc4d6a9f09dffaffaa5efb6ad0216f77096239a"
   },
   "https://www.bhr-is.nl/media/images/document/4/2/421_dsc01159.webp": {
     "path": "/assets/images/421_dsc01159.webp",
@@ -356,8 +356,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/4/4/444_dsc01886.webp": {
     "path": "/assets/images/444_dsc01886.webp",
-    "bytes": 103174,
-    "sha256": "121357ce7dfc8a66147a169e3f0fe16a0a1bf6106a7b77086d8544df820bb81f"
+    "bytes": 759260,
+    "sha256": "ef0006919f1660d09a09ea961ac178f5ef9902e29853e95d37145e9eb8c8dcbf"
   },
   "https://www.bhr-is.nl/media/images/textblock/4/5/451_dsc02462.webp": {
     "path": "/assets/images/451_dsc02462.webp",
@@ -381,23 +381,23 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/8/785_dsc00930.webp": {
     "path": "/assets/images/785_dsc00930.webp",
-    "bytes": 117294,
-    "sha256": "5e60a40729fdb7eed0d38f10f010b04c24e18b2ce14ea0505f783966909d1122"
+    "bytes": 777620,
+    "sha256": "7b98ec3a3d5049e4cdccf79dbdabb78c2ab2be56c9a09499efdcb8d9843e61c9"
   },
   "https://www.bhr-is.nl/media/images/fact/8/1/816_dsc01886.webp": {
     "path": "/assets/images/816_dsc01886.webp",
-    "bytes": 91332,
-    "sha256": "b650850e04302952670c146911e0224c88bc8d1dec7d90cc62b14c29554df825"
+    "bytes": 630630,
+    "sha256": "c27553cafe18a1147de9354b147f8976d7c24a4f149f18d0d496fa35ec4ef7fd"
   },
   "https://www.bhr-is.nl/media/images/fact/8/1/819_dsc02091.webp": {
     "path": "/assets/images/819_dsc02091.webp",
-    "bytes": 387130,
-    "sha256": "e47dbbabd38b515503eb0bf2030d4816cfc080ea177695d251ddd5d2c20b6972"
+    "bytes": 393720,
+    "sha256": "a19ef7567da6ccc5dd934770e25cf214214a9d877ffad599cb2537a3ef74e4be"
   },
   "https://www.bhr-is.nl/media/images/fact/8/2/820_dsc02701.webp": {
     "path": "/assets/images/820_dsc02701.webp",
-    "bytes": 63678,
-    "sha256": "f18a0c07d3bb40bd0d15a375fa2c3b759030ed5f72fbb47437b050c7490516c2"
+    "bytes": 515784,
+    "sha256": "96f3a685baf5d42dffb0be3372f6aeac20371b2798a4c3f78347193f5d792299"
   },
   "https://www.bhr-is.nl/media/images/fact/8/2/822_dsc02552.webp": {
     "path": "/assets/images/822_dsc02552.webp",
@@ -411,8 +411,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/1/1120_dsc02091.webp": {
     "path": "/assets/images/1120_dsc02091.webp",
-    "bytes": 990502,
-    "sha256": "21f903c5f615e9d7d6f1e8c1e77fa4b8903d897377d1f4bee1d927682d49c3a2"
+    "bytes": 995336,
+    "sha256": "a4fa933b3bd92b3894e815d7037b465ef17d91454c0e557d8c88b31881a93d5e"
   },
   "https://www.bhr-is.nl/public/themes/www/_compiled/images/bgfacts.png": {
     "path": "/assets/images/bgfacts.png",
@@ -432,14 +432,14 @@
   },
   "https://www.bhr-is.nl/media/images/branche/8/0/800_dsc02710.webp": {
     "path": "/assets/images/800_dsc02710.webp",
-    "bytes": 25610,
-    "sha256": "0eba4606c9dca4bba4b6e8604530a2eb730e717bcfe13f92cb20967e63a6deeb",
+    "bytes": 149866,
+    "sha256": "ce23d6b68c5a4a9142be6fba0f4a3888583c30b0f37d882ad1d76d63c263eec6",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/branche/8/0/801_dsc02710.webp": {
     "path": "/assets/images/801_dsc02710.webp",
-    "bytes": 116244,
-    "sha256": "18e47aaf4b5b40d843fb334c186494f46009367fd0fb3c7b185074d9264ba3ef",
+    "bytes": 1162540,
+    "sha256": "69d795d02ba27b441eae7da4c513d32d3fc5ac3057d875845f64d12811ccd975",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/branche/8/0/802_dsc02866.webp": {
@@ -468,26 +468,26 @@
   },
   "https://www.bhr-is.nl/media/images/branche/8/0/808_dsc01712.webp": {
     "path": "/assets/images/808_dsc01712.webp",
-    "bytes": 34786,
-    "sha256": "756bbd9c0b52cb2dd6f7e0a9245f5dc03d7133942fe5603d34f5b0c8fd8530ed",
+    "bytes": 162720,
+    "sha256": "2bdf845e1f88e7b346c2dcc6a8cca5940d0b9be793bf03f0c37d586975e3928d",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/branche/8/0/809_dsc01712.webp": {
     "path": "/assets/images/809_dsc01712.webp",
-    "bytes": 95010,
-    "sha256": "5e14bf08deed62721ce83b1e0f1ded7f6b27d1ae8b87038b16a67106adffbb36",
+    "bytes": 1155344,
+    "sha256": "57deec3878729dac149891c4d3377bf197b5b5211f6019a188168a1bc506aebc",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/branche/8/1/810_dsc02665.webp": {
     "path": "/assets/images/810_dsc02665.webp",
-    "bytes": 25410,
-    "sha256": "f6c9b229ee23c7b3b3460d04df10cf893ae5945ecd8b969117c5d06f92be2de0",
+    "bytes": 178542,
+    "sha256": "70541fed2581b5d1357b979da895c438803d2341da74de252275a3593546b25f",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/branche/8/1/811_dsc02665.webp": {
     "path": "/assets/images/811_dsc02665.webp",
-    "bytes": 77104,
-    "sha256": "199bb8e89abf0f9a1f5d8e5e2b66cee725a866803b0c2dba648436684c997b3c",
+    "bytes": 1161312,
+    "sha256": "e54efcbc9d28e291cf1357849278a1c9c5c5e3c7c0a52c636cbf269681f527d6",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/branche/8/1/812_dsc01525.webp": {
@@ -552,20 +552,20 @@
   },
   "https://www.bhr-is.nl/media/images/document/1/2/1233_dsc01760.webp": {
     "path": "/assets/images/1233_dsc01760.webp",
-    "bytes": 139268,
-    "sha256": "83e62ee45ea045395275b0340ab8b7aa6dc00f1e076300d98a3db2eea03832c7",
+    "bytes": 1233302,
+    "sha256": "e127688e7006dcad5d0df0048c4eaaaf6022e82bea168afa82629ad2775429a0",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/document/1/2/1237_dsc01350.webp": {
     "path": "/assets/images/1237_dsc01350.webp",
-    "bytes": 122458,
-    "sha256": "0a0da017503626a24e543820384cdd6099d8e3e314837e7468baefee055eaa8c",
+    "bytes": 1205078,
+    "sha256": "e55f5d6aaddd6f1d91cbbdb02649f059b3d17f588ee1cbb67e07852f0a28b683",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/document/1/2/1255_dsc01293.webp": {
     "path": "/assets/images/1255_dsc01293.webp",
-    "bytes": 201898,
-    "sha256": "8a0394ad2a78ca5792c306c0cf8c563037300174eb4a87df062bb9ca064459ba",
+    "bytes": 1439010,
+    "sha256": "4e77b2646fe473b21f8f972fd300218220a2a6a08db3ad53b89600cbb406a847",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/document/4/5/459_dsc02204.webp": {
@@ -576,14 +576,14 @@
   },
   "https://www.bhr-is.nl/media/images/document/7/9/797_dsc00930.webp": {
     "path": "/assets/images/797_dsc00930.webp",
-    "bytes": 180024,
-    "sha256": "9bfbfd7e6f2f5f19e7ac3cca7eb43ba3610b838ed7219fa92b643a416fbb3a80",
+    "bytes": 1717482,
+    "sha256": "656c986e6f4888faf40ece0421ff635facf7a9592b84c27895f79cabe74b44d7",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/document/8/6/863_dsc01293.webp": {
     "path": "/assets/images/863_dsc01293.webp",
-    "bytes": 186828,
-    "sha256": "4af124e22b462175aa7811574b785e248010ffe4ea7d155ff5bb2a64295eda0e",
+    "bytes": 1454824,
+    "sha256": "c7fafc0cba3257d359468e376dfd9031cacca770239e24b340f20841f1167386",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/document/9/0/902_e626cecb65bde7bd9dcb34f3bf30566f14e364cf.webp": {
@@ -612,20 +612,20 @@
   },
   "https://www.bhr-is.nl/media/images/document/9/5/957_dsc02499.webp": {
     "path": "/assets/images/957_dsc02499.webp",
-    "bytes": 100756,
-    "sha256": "088ec723fa1b05dadca2f6e841524f3c2a165dd3285e1dafb09ead27c5ba6b84",
+    "bytes": 1194446,
+    "sha256": "eb210314f9a4c9564ff44f421fb4c847783e00fa7aa18f906d44d9773cd440ba",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1141_dsc02091.webp": {
     "path": "/assets/images/1141_dsc02091.webp",
-    "bytes": 992082,
-    "sha256": "51910071797115fc785df2d0e21949278e6257a90e33a52056062ee53e9c074a",
+    "bytes": 997474,
+    "sha256": "98ea8c78fa722c2605d2019319a1d5464da505278691b39908095d3590e4b06f",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1142_dsc02091.webp": {
     "path": "/assets/images/1142_dsc02091.webp",
-    "bytes": 1187468,
-    "sha256": "11679c21d6068a9bd39a3c3797f869cb2e98126bb5bc890f74872ef89e53c623",
+    "bytes": 1193930,
+    "sha256": "a0b4b107040d3ba55b36014d2ec0248eeb87ac7cb594990837b8eaf58e4b770e",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1143_dsc02204.webp": {
@@ -642,86 +642,86 @@
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1145_dsc02091.webp": {
     "path": "/assets/images/1145_dsc02091.webp",
-    "bytes": 994108,
-    "sha256": "2bba34c2eea353b6ac1fd47ad250c5d5c4e13a4051fecf3ea333a433cc963f90",
+    "bytes": 999026,
+    "sha256": "5d10701f5da73d6428b65a9b419e67e71a911027aa058f872d7e9c35031a71c3",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1146_dsc02091.webp": {
     "path": "/assets/images/1146_dsc02091.webp",
-    "bytes": 1187398,
-    "sha256": "ca3cb97f11d534052926d24c24ca86c2de218adc9a399aead32406a56e76e5f9",
+    "bytes": 1192090,
+    "sha256": "4ffd9f9efcf7c82a79465a47482299f75a77eddd3cbee162bdb421582ed061fa",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1170_dsc02091.webp": {
     "path": "/assets/images/1170_dsc02091.webp",
-    "bytes": 996100,
-    "sha256": "62b4d8b28c293fd0708cebe329dbb0117b4af2da427676c1fa2db5f1538ce344",
+    "bytes": 1000718,
+    "sha256": "1c43a1959cd323417b69832d588c28bbf8fa310061e07ac26cb40fb4111cee5c",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1173_dsc02091.webp": {
     "path": "/assets/images/1173_dsc02091.webp",
-    "bytes": 1185478,
-    "sha256": "fcd0a1e8b50243f2fce756e55926857a215750a97d3f763b299220568390edb1",
+    "bytes": 1192502,
+    "sha256": "6c437f77a90c8abde2194cd1cea505a414332bd453624eda94432b480a546042",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1186_dsc02091.webp": {
     "path": "/assets/images/1186_dsc02091.webp",
-    "bytes": 985814,
-    "sha256": "b5c4dcadcbb900c979da4d40385c25b249cf962f3ed6033ff5f38c894c0dc249",
+    "bytes": 990664,
+    "sha256": "20dad41d1e48b82598a5eb13fdf8f2c953cfbfe78db7ea1135c8ced7618108c5",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1187_dsc02091.webp": {
     "path": "/assets/images/1187_dsc02091.webp",
-    "bytes": 1187812,
-    "sha256": "4b9839bc9691bfa42a75990d8ada3d3f39d22bed3fe4eb9dc55458a9935fb077",
+    "bytes": 1194794,
+    "sha256": "2b374289f74796770f049a188f5bcf8994fe8879a8e6e5aae017da83209d168d",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1188_dsc02091.webp": {
     "path": "/assets/images/1188_dsc02091.webp",
-    "bytes": 995886,
-    "sha256": "90d224504116932df065da6ccc8ef4c93a972a214242a0bea13761ae6ad821e7",
+    "bytes": 1000700,
+    "sha256": "d0b9b5b39ddd4c9d659ebddd2261a64d9eac82e55a90ca4b71e46222ead077e1",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1189_dsc02091.webp": {
     "path": "/assets/images/1189_dsc02091.webp",
-    "bytes": 1189860,
-    "sha256": "d70136b60ff0ba0bdba951922e4c4ed9c54d3a864bfe00bfbbd6064413a9eb61",
+    "bytes": 1194542,
+    "sha256": "daffe65616f9d105b62c9b9e165981b2a1d816887beade039494685ce1162b7b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1190_dsc02091.webp": {
     "path": "/assets/images/1190_dsc02091.webp",
-    "bytes": 986328,
-    "sha256": "fa413d7cca7a563fdff2c799c07bbc5e94f02b97872e4430db9440aa631e4921",
+    "bytes": 991426,
+    "sha256": "5bb48cabe04e92cb3b5065596a50b7b3e9e48e33d0ed63aa5e325c04648c0175",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1191_dsc02091.webp": {
     "path": "/assets/images/1191_dsc02091.webp",
-    "bytes": 1189298,
-    "sha256": "6605a3b78f3bd344fb9ce8c21826ebbfff97b56217f6a3b46ab3d9302d5305f4",
+    "bytes": 1193878,
+    "sha256": "ff866a7c986a6e5a1e563c7cd1ffbacee34a20c6a70117e57910daae2500999a",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1192_dsc02091.webp": {
     "path": "/assets/images/1192_dsc02091.webp",
-    "bytes": 996644,
-    "sha256": "bd254135b061660287bb412c9b973504beaa2c67cc6770451cca4ed31e0cbb2b",
+    "bytes": 1001286,
+    "sha256": "c6a198cc332852520c1a848a61fb442c0421bbac7760576fb106db35ced56e43",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/1/1/1193_dsc02091.webp": {
     "path": "/assets/images/1193_dsc02091.webp",
-    "bytes": 1192988,
-    "sha256": "a16816a4c54785a0980a2bd411f9c635accb29f75b8bf4baf87b605bee75e3fe",
+    "bytes": 1197358,
+    "sha256": "8097017b211d83fd55121edc9eef4ca1d9d6ff143662d0a91be0ef1b31d957f5",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/5/5/554_dsc02091.webp": {
     "path": "/assets/images/554_dsc02091.webp",
-    "bytes": 986122,
-    "sha256": "79976753157d1fcb2895afb668a8b8feca2ba63157b3c52eada3333a888ef65e",
+    "bytes": 990946,
+    "sha256": "9db4bfd612297a4e1c936de853a9984c81f02717a92b16be93172466bb0c8eb4",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/location/5/5/557_dsc02091.webp": {
     "path": "/assets/images/557_dsc02091.webp",
-    "bytes": 1187606,
-    "sha256": "1de60d086470a0641e5bcc33298c5fa7c4b795837a26a308d2205277c6869629",
+    "bytes": 1189136,
+    "sha256": "aa958ad69a94bed2f5ff09c2d8c3960371624bf101cc30e7da17da68d5f37450",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/project/1/1/1102_20190805-100104.webp": {
@@ -858,14 +858,14 @@
   },
   "https://www.bhr-is.nl/media/images/project/5/7/570_dsc01712.webp": {
     "path": "/assets/images/570_dsc01712.webp",
-    "bytes": 69348,
-    "sha256": "1c23b25b1ef3f353a36653238a1aa23fd5ae163f97b0e5bea24a0d58ea957e68",
+    "bytes": 413208,
+    "sha256": "3775d2f39c00de6d724882b7c1fdb7fee1f6ae5f6bc04684c2bb183b8eafa0ce",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/project/5/7/571_dsc01712.webp": {
     "path": "/assets/images/571_dsc01712.webp",
-    "bytes": 131184,
-    "sha256": "f157447618d83e535bfe683395b7c87ac442d1d121615df9950efc7cf58f3d03",
+    "bytes": 1226464,
+    "sha256": "1cd48d17ee5549cd49ee87269e1ac309899a2e3c3e9425bf1ce642d1cff90a61",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/project/5/7/578_dsc02289.webp": {
@@ -906,8 +906,8 @@
   },
   "https://www.bhr-is.nl/media/images/service/5/9/591_dsc02826.webp": {
     "path": "/assets/images/591_dsc02826.webp",
-    "bytes": 124282,
-    "sha256": "d4672015697122218ae9ba36cd3bb585cd6586dc5724e0e0512883c474e34625",
+    "bytes": 1204530,
+    "sha256": "72b80cf69671a920c4d24fc9c8841349c283c2e0810170b0d2c5c0036990a4f6",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/service/6/0/603_dsc02275.webp": {
@@ -942,8 +942,8 @@
   },
   "https://www.bhr-is.nl/media/images/step/4/3/438_dsc02665.webp": {
     "path": "/assets/images/438_dsc02665.webp",
-    "bytes": 52718,
-    "sha256": "8cec1896eec75a9afbf823318f5b35e5bc9cc995cc31cce0ddcfde957f14c232",
+    "bytes": 450284,
+    "sha256": "e827ff4c908b74a24d62c7982d9baea7b4856530942e1d50f538acd606547622",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/step/6/2/620_dsc01525.webp": {
@@ -960,14 +960,14 @@
   },
   "https://www.bhr-is.nl/media/images/step/6/2/622_dsc02475.webp": {
     "path": "/assets/images/622_dsc02475.webp",
-    "bytes": 72076,
-    "sha256": "695540d7e4937e856b7dc159a516c2b940880aee59124d0295aeed641713c1e7",
+    "bytes": 481474,
+    "sha256": "45a43c357668df9c7d14862ab33d453b3b7d9f54f584185803e1fe00954faaee",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/step/6/2/623_dsc01187.webp": {
     "path": "/assets/images/623_dsc01187.webp",
-    "bytes": 64148,
-    "sha256": "6c5431e50f588fd2427883a4e83df0e8e0a2405853bb392959ccbaaee4a764cf",
+    "bytes": 449544,
+    "sha256": "f173316e1011ef5c8dacfabf556440031d04d1d9b4b710e4afc51d920cb9e593",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/step/6/2/624_dsc01086.webp": {
@@ -978,14 +978,14 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1000_dsc01226.webp": {
     "path": "/assets/images/1000_dsc01226.webp",
-    "bytes": 98232,
-    "sha256": "533e404d182ed1218ea6b491c2932bd1a088ba59058eac9e400ff6ef5c8eecc2",
+    "bytes": 763034,
+    "sha256": "d0603cf8d90160bc8d204803cae2438c155353e268636611913e1d0dba9e8d9d",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1018_dsc01226.webp": {
     "path": "/assets/images/1018_dsc01226.webp",
-    "bytes": 96424,
-    "sha256": "6ea62608e73d33ac5adab7b8d348aae46dfc160bb1b4aea317cb52f2c5b3a94c",
+    "bytes": 766894,
+    "sha256": "f9747ecde82210e3bec345de2ccd60cef2bd07ec2fe4c8648cda3422b4541343",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1020_dsc02552.webp": {
@@ -1020,14 +1020,14 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1048_dsc01293.webp": {
     "path": "/assets/images/1048_dsc01293.webp",
-    "bytes": 146646,
-    "sha256": "185e2a003681a4a43c58e528a383377e7a71abc485ecc8cff8268cee505cddc1",
+    "bytes": 826184,
+    "sha256": "0eb7843b93ec1630047546bb5fab603db3d2ebac2ead0c1c646e3be2aa9dd67c",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1050_dsc02603.webp": {
     "path": "/assets/images/1050_dsc02603.webp",
-    "bytes": 116460,
-    "sha256": "f4be2833a02b97c95510648072ac55a74d889ad101b9eabee090dec36297a414",
+    "bytes": 708900,
+    "sha256": "ad1c04380e8704a5b1a63c4b9c0371e3036eae7133104913a61c6a21ac762508",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1052_dsc02447.webp": {
@@ -1038,8 +1038,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1058_dsc02362.webp": {
     "path": "/assets/images/1058_dsc02362.webp",
-    "bytes": 85404,
-    "sha256": "64c6acbee18d4018180b65c9d2aa3c09cd4d44f77346409c41157344d19862dd",
+    "bytes": 730768,
+    "sha256": "b9ba800589d8f1476132601885b0cfba4aa5de00107cc89d5fbe9c3c28c03701",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1060_dsc01075.webp": {
@@ -1050,20 +1050,20 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1062_dsc02153.webp": {
     "path": "/assets/images/1062_dsc02153.webp",
-    "bytes": 831082,
-    "sha256": "558510f5f277d1fd85c4a9007cdfadec52f51ee19afe0062d391976e5f414ef9",
+    "bytes": 816320,
+    "sha256": "ad80ef9cb453dca69096df5d4ac59582778b5a1ff2f0fd9578a4acae9bd98a5b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1068_dsc01886.webp": {
     "path": "/assets/images/1068_dsc01886.webp",
-    "bytes": 105086,
-    "sha256": "c4deb46926a234e775e56617752faf8bebcab5180718fad2c8bcfb8d3342bb4c",
+    "bytes": 765512,
+    "sha256": "93d75019f881443e4eed808d1c52dee6e18dca21e10e9e7aca289fab14bb619b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1070_dsc02619.webp": {
     "path": "/assets/images/1070_dsc02619.webp",
-    "bytes": 102508,
-    "sha256": "01ef5edd44bf054da13e25cf06eedd5eee06c8be8c42072d7bc587f66a172083",
+    "bytes": 683936,
+    "sha256": "7c95b387a3710036b803a49d407cd43a330fbad9059ad436c87f6ce5d43d66a1",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1072_dsc02178.webp": {
@@ -1074,14 +1074,14 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1078_dsc02665.webp": {
     "path": "/assets/images/1078_dsc02665.webp",
-    "bytes": 72646,
-    "sha256": "2161020dcc2063cef72856b2fd9a3fefbd80cc62726384a4c0faf202448d8791",
+    "bytes": 718534,
+    "sha256": "4d70a4b302b97eacad3a83622d5f176bb8314b366f30e5e0f02570477503ddfb",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1080_dsc02701.webp": {
     "path": "/assets/images/1080_dsc02701.webp",
-    "bytes": 76514,
-    "sha256": "9637771b5d79616e42252d3ee64bc1b542c648dc1c4479499cfba0c8d8573bef",
+    "bytes": 620936,
+    "sha256": "fc25c958d3f20ada61ce8da2ab247a982b85c5e1126699b2445f9e1274dc32c4",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/0/1082_dsc02261.webp": {
@@ -1098,14 +1098,14 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/1/1137_dsc02362.webp": {
     "path": "/assets/images/1137_dsc02362.webp",
-    "bytes": 91550,
-    "sha256": "b451f00d7bab221d4a2ead64383270606908b832d721ead9d4076f0a4823eac7",
+    "bytes": 743464,
+    "sha256": "c7c9319bff55f8ead73e1d06f88778d616041934a2b7f384f12b79e57c4ccaba",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/1/1139_dsc01293.webp": {
     "path": "/assets/images/1139_dsc01293.webp",
-    "bytes": 144474,
-    "sha256": "b9127471cb5f2de257f3eeb29d304e3e76e54035ccc7f34a85f9c76bc92df3aa",
+    "bytes": 828826,
+    "sha256": "4cbcafd5157822ad27a3c8acfa085255b1324b3642fa3fd8e4dcba843b17de3d",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/1/1176_dsc02289.webp": {
@@ -1122,8 +1122,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/1/1180_dsc02826.webp": {
     "path": "/assets/images/1180_dsc02826.webp",
-    "bytes": 89772,
-    "sha256": "2c1506b9fc985d2271053e7272178994ee93bc6a7f1f065fc4619c75fb0f4219",
+    "bytes": 643612,
+    "sha256": "416d639f29b42fd758426521ce194b1f3bc1a13151545ba12152bfcde30913f5",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/1/1199_dsc00971.webp": {
@@ -1134,8 +1134,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/2/1201_dsc02701.webp": {
     "path": "/assets/images/1201_dsc02701.webp",
-    "bytes": 69970,
-    "sha256": "c6641d9e1d576a658db9135a494bd1d6a029e42d2fcc04db1bea7858226a0f4f",
+    "bytes": 625136,
+    "sha256": "b6812e7af70419a4b395c2621152451fbc87b1254d38487e2b363042499c8d35",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/2/1203_dsc02892.webp": {
@@ -1182,8 +1182,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/2/1219_dsc02673.webp": {
     "path": "/assets/images/1219_dsc02673.webp",
-    "bytes": 84110,
-    "sha256": "d4261fb77e2cf7cc605916f675252d689db93954b1d80138ea5be767bd1169f6",
+    "bytes": 629104,
+    "sha256": "affd099c21b1b42370d68b136d00fd28409e534ba188ca92d6af6eac5baaaea3",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/2/1221_dsc02888.webp": {
@@ -1212,8 +1212,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/1/2/1229_dsc02826.webp": {
     "path": "/assets/images/1229_dsc02826.webp",
-    "bytes": 90074,
-    "sha256": "5b8b5f1fd078b213ab25df879d826e59aa82c0d801d8f2273acbcc0c32e71a4d",
+    "bytes": 648712,
+    "sha256": "1febcf6eb0520b92a89f1353ac0ea1deb83e199f51186d29e2728a5ea8cbcfb3",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/1/2/1239_dsc02916.webp": {
@@ -1266,8 +1266,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/2/625_dsc01293.webp": {
     "path": "/assets/images/625_dsc01293.webp",
-    "bytes": 142066,
-    "sha256": "7c95f0619d9769865040d7b3b617dbffbd9e78395ba7ecd4d154b5dc1d57daf1",
+    "bytes": 810016,
+    "sha256": "b9d8ae86d57405dbd27e543748caf0c2dcb902eb300222cc2a4ea30fbfae2aac",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/2/627_dsc02204.webp": {
@@ -1278,8 +1278,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/2/629_dsc02756.webp": {
     "path": "/assets/images/629_dsc02756.webp",
-    "bytes": 95132,
-    "sha256": "9bd88ce92f67b6625147657d041b5d7c27855b5d47f3e803962a630dd22af253",
+    "bytes": 652344,
+    "sha256": "af28cf6a769e835c90d9ce1aa2a8c6103733ec0aa8c5d48c7352ea53cb77fcdb",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/3/633_dsc02866.webp": {
@@ -1290,14 +1290,14 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/3/635_dsc02153.webp": {
     "path": "/assets/images/635_dsc02153.webp",
-    "bytes": 836512,
-    "sha256": "d3468fe1ceab5d7c013ecdbe7d7dfd4d425f7b3b578dda10b220cba3fd5e145a",
+    "bytes": 824920,
+    "sha256": "3b66721aa4bdc7569779194f9eb861e6d3252b0edb527048a0313543901fdcb4",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/3/637_dsc01350.webp": {
     "path": "/assets/images/637_dsc01350.webp",
-    "bytes": 87916,
-    "sha256": "e0896cd131ac7e470b3011138b84b5b421b45859a486caf7443fbcd9b9e5a261",
+    "bytes": 646952,
+    "sha256": "334089d3fc07c4e604b767115c1056f3f9ad9a5d5a3a552fa3702a4c4561bd26",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/3/639_dsc01030.webp": {
@@ -1314,8 +1314,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/4/643_dsc02091.webp": {
     "path": "/assets/images/643_dsc02091.webp",
-    "bytes": 969048,
-    "sha256": "da9f68f2dd5df3c27d80d46e08a61ab7050dfef2bbbd680042451378e93f5265",
+    "bytes": 973588,
+    "sha256": "1810727bda3b688dc83281c22e72a81cc0ae23afa94f38fac9de6e62b1555115",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/4/645_dsc02936.webp": {
@@ -1344,20 +1344,20 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/5/653_dsc02826.webp": {
     "path": "/assets/images/653_dsc02826.webp",
-    "bytes": 93986,
-    "sha256": "779a60f504f70b0eb0a871ab986f497e73297cd77d4f531f1cc25b618d330cba",
+    "bytes": 647020,
+    "sha256": "f10eafa1da7810b6205de1bc3cb88d60ef20292ca4a59e5bae5d1875c88cdc38",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/5/655_dsc02396.webp": {
     "path": "/assets/images/655_dsc02396.webp",
-    "bytes": 102660,
-    "sha256": "3eb3330cb4a71a36b89d8697cd9ecd2c8e331f1069935c07a2da5ae49149c77d",
+    "bytes": 780876,
+    "sha256": "deefef254d88c8aef3f427c3c95c02f91de031ab845aeabbf6f869be9a90019d",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/5/657_dsc01187.webp": {
     "path": "/assets/images/657_dsc01187.webp",
-    "bytes": 81546,
-    "sha256": "6f598f301c8cff7a38f4d5cc08252a968259b3280a525841b8718cbfe9026b53",
+    "bytes": 690980,
+    "sha256": "a76c6d64d7d717e5da4375332d82a77f718225784866971ceac34eaac944168d",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/5/659_dsc02562.webp": {
@@ -1368,8 +1368,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/6/661_dsc02091.webp": {
     "path": "/assets/images/661_dsc02091.webp",
-    "bytes": 968920,
-    "sha256": "ce10e73474c8527c4cdec675ae6af2b91b12e6b82fb39e6bb9415f9c49a710a4",
+    "bytes": 973628,
+    "sha256": "bec6e8f613638c6f79878c8ed3dc4896d19f5810035be9e5a22d3efe7beb4d1b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/6/663_dsc01557.webp": {
@@ -1422,8 +1422,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/7/679_dsc02153.webp": {
     "path": "/assets/images/679_dsc02153.webp",
-    "bytes": 851582,
-    "sha256": "fc96663de9a74a646abdb414750ce8b84bf3b2a7bb9d9f4088f7234e12dec211",
+    "bytes": 838774,
+    "sha256": "edadf5372fe87bf09fd1a305f9c5c5906eace4244e41dc989c19955f7d1909e3",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/8/681_dsc02289.webp": {
@@ -1440,20 +1440,20 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/8/685_dsc02619.webp": {
     "path": "/assets/images/685_dsc02619.webp",
-    "bytes": 103834,
-    "sha256": "93bc6341d00462f64b6c6aa7a1234869bc872b3c73ea141668d4838cccdc81f4",
+    "bytes": 681470,
+    "sha256": "b03336a2ef6b6752c35d64f46205767cedf91eb2858f4ab50de14846280a1019",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/8/687_dsc02826.webp": {
     "path": "/assets/images/687_dsc02826.webp",
-    "bytes": 90594,
-    "sha256": "6be1246dd630fd2a85bc11c5fb55fb518fef42e053586cf52909a334df9ceb5b",
+    "bytes": 646562,
+    "sha256": "7f3b7d7764de87173c92cd83e323dce5f7befd430bbf81e900507cc187dd2a61",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/8/689_dsc01350.webp": {
     "path": "/assets/images/689_dsc01350.webp",
-    "bytes": 87164,
-    "sha256": "65cbb39ee2ab7c5962a7b430d25e33fad12784455a60d0236281e135b3cec88f",
+    "bytes": 650120,
+    "sha256": "f61592a7b968bd0d3300322546457051872bd8ff04ba368e71f6046aa2a28dd4",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/9/691_nieuwe-map-slimme-automatisering.webp": {
@@ -1464,8 +1464,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/9/693_dsc02499.webp": {
     "path": "/assets/images/693_dsc02499.webp",
-    "bytes": 76318,
-    "sha256": "c22bfd75d797b82908217df09e47172847400a1fcd8526c1ab08fe1447cc5514",
+    "bytes": 652356,
+    "sha256": "375c6b0e1f379267159ce3879c5c5c2d04aa4c85a2ca91402376a15dca004c4b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/9/695_dsc01030.webp": {
@@ -1476,8 +1476,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/6/9/697_dsc02701.webp": {
     "path": "/assets/images/697_dsc02701.webp",
-    "bytes": 75376,
-    "sha256": "fe66a252f464dbe1ba0c4ff0f5ed0cb76e7d4865da7eb583db00eb61aac0a4fd",
+    "bytes": 622660,
+    "sha256": "b1c325128d0063627c0f013d70d11926a2500ef1ee7e68a86331b134100cbb82",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/6/9/699_dsc01013.webp": {
@@ -1494,8 +1494,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/0/703_dsc00930.webp": {
     "path": "/assets/images/703_dsc00930.webp",
-    "bytes": 115732,
-    "sha256": "4c1d512cdf3442491a71a830678e6cb1926a488422a4b326e99315ee62c6ddc3",
+    "bytes": 777730,
+    "sha256": "dba4865887fc44851bffaf700c1c64ebcf32502e08607d14b1f7461b394211c7",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/0/705_dsc01159.webp": {
@@ -1512,8 +1512,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/0/709_dsc01293.webp": {
     "path": "/assets/images/709_dsc01293.webp",
-    "bytes": 145966,
-    "sha256": "e4d95578cdf60ff4c9c5c13c28c41ccbdb280048be09b2b4ba40cf2250485cee",
+    "bytes": 821838,
+    "sha256": "8b704f43dfbe02e1cb9a7c735cbf8da3f799badbc478783b65a1b751a430ecc4",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/1/711_dsc01086.webp": {
@@ -1548,44 +1548,44 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/2/721_dsc02091.webp": {
     "path": "/assets/images/721_dsc02091.webp",
-    "bytes": 968886,
-    "sha256": "ae527bdc9681600e509b02c5ce43d6a788aaec83a9f891cb581263e849b3ae79",
+    "bytes": 973232,
+    "sha256": "953a00e862ab2bd78070784257001533249faf8b0f569af45f1471484e63c728",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/2/723_dsc01886.webp": {
     "path": "/assets/images/723_dsc01886.webp",
-    "bytes": 105240,
-    "sha256": "85dd81cb3d98b16c1e96634cf710b0a9462165a7d90e926f22515324acb64831",
+    "bytes": 765332,
+    "sha256": "ddaadeff7092af6ad96731dc4d0bff74cdd975df7c04797fa0f2b5c45f322ccd",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/2/725_dsc01760.webp": {
     "path": "/assets/images/725_dsc01760.webp",
-    "bytes": 106302,
-    "sha256": "5805542b0c717dbc0f6b60dd5e4167813a72d9f8cef59e4c03307b872b2a1501",
+    "bytes": 686832,
+    "sha256": "32d997a6744faeb1c36fee07622be013e882a658e01739f5dadac66f12e6d95b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/2/727_dsc02710.webp": {
     "path": "/assets/images/727_dsc02710.webp",
-    "bytes": 77764,
-    "sha256": "187b41a20bbc8350349dbc254870c0d0cb5ae9e1e44c9dd14d5b713162ef31fa",
+    "bytes": 611260,
+    "sha256": "3a570eca9079f88d683e9693c6658165a71d4b8f4c46d7e852313f2fdc938096",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/4/743_dsc02665.webp": {
     "path": "/assets/images/743_dsc02665.webp",
-    "bytes": 71344,
-    "sha256": "5e2dd0e79a91827b5c1e4eb9e9dab99054bb8b275430f1dd0947aebc8f25a832",
+    "bytes": 706718,
+    "sha256": "1981dd6768f7d0980159012e60f85e2da10cd766778362d6e6533821c061057c",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/4/745_dsc01712.webp": {
     "path": "/assets/images/745_dsc01712.webp",
-    "bytes": 99742,
-    "sha256": "f05bcc2f3731477754bca92fb13bd566751257fd250c2436b5c13a4f99d370ac",
+    "bytes": 681490,
+    "sha256": "55ac750a95422b2282178efda9a47a18d0d3373ec2316270ec6889c26768948b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/4/747_dsc02701.webp": {
     "path": "/assets/images/747_dsc02701.webp",
-    "bytes": 72930,
-    "sha256": "f7d391edb8cd71d5112feafc21aa2ea02cd642188447f015ce76b5453ef2ea2d",
+    "bytes": 626410,
+    "sha256": "64863a20ecee6087df28effc7729b4d1a9c41c9325e8e49ecc900dcd4b013ce0",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/4/749_dsc01525.webp": {
@@ -1596,8 +1596,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/5/751_dsc02826.webp": {
     "path": "/assets/images/751_dsc02826.webp",
-    "bytes": 88476,
-    "sha256": "114afbce60c8a65cf913da1b4f6bb67dfdf551d0ab7ee1f0bfde58a77baeecb8",
+    "bytes": 640318,
+    "sha256": "94bb00c07e9d516cba9fdf66ffd65cf6309eb40f06b91e1be503ca1bb335eaaa",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/7/6/763_dsc02892.webp": {
@@ -1638,8 +1638,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/9/2/925_dsc02499.webp": {
     "path": "/assets/images/925_dsc02499.webp",
-    "bytes": 77038,
-    "sha256": "e309218b84b98807a2d987df793d125a95fabb936deca134373e66c5d12050e0",
+    "bytes": 652268,
+    "sha256": "c7b1cf639dcd2e8e2688c4081ffc30d1939df479440f30050c3c834878241c08",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/9/3/931_dsc02275.webp": {
@@ -1662,14 +1662,14 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/9/4/949_dsc02475.webp": {
     "path": "/assets/images/949_dsc02475.webp",
-    "bytes": 97692,
-    "sha256": "7ba53c99676e2996d8a394574f78dc4da9adfcda50c9dc56cacbcd02cd95dd5d",
+    "bytes": 734836,
+    "sha256": "38b60a5a98a5f1d9322662ce88463fbb137f010ca603ba527360d5224e1c4419",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/9/5/951_dsc02396.webp": {
     "path": "/assets/images/951_dsc02396.webp",
-    "bytes": 102526,
-    "sha256": "44de2fad43e761d3056bcf679fb61099614bc056758518703a70f0a0950faae2",
+    "bytes": 774754,
+    "sha256": "38b60ceba00e55fc74714ea958deb1f3d234db5cd73c7669f10c6ad509aa5e97",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/9/5/953_dsc02883.webp": {
@@ -1704,8 +1704,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/9/6/967_dsc02475.webp": {
     "path": "/assets/images/967_dsc02475.webp",
-    "bytes": 99520,
-    "sha256": "78af8ef0a165d9808b6e477cf3a01dea7b358d640497c0b3c76fbfb91f3e4530",
+    "bytes": 741958,
+    "sha256": "af5e65911ed5e6b359b8685b8e60b6d1786221e8164e286c589f8483dbbd1d4d",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/9/7/970_nieuwe-map-kleine-verdelerbouw-tot-630-a.webp": {
@@ -1716,8 +1716,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/9/7/972_dsc01293.webp": {
     "path": "/assets/images/972_dsc01293.webp",
-    "bytes": 139714,
-    "sha256": "26600441e583da313a6f196afbbc03a2c9a3c3aab9f594fa1753bdb8a94c4cf0",
+    "bytes": 800750,
+    "sha256": "6c12508625cd8ec03af86299c23d97e4d7c698073a705619ff0231b2a2256f6a",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/9/7/974_dsc02888.webp": {
@@ -1752,8 +1752,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/9/8/984_dsc01350.webp": {
     "path": "/assets/images/984_dsc01350.webp",
-    "bytes": 87700,
-    "sha256": "14541ffe9513382d65550f477a48bba6bcb7047997fdd373675501552cf9ca83",
+    "bytes": 649064,
+    "sha256": "e0b494069baa9aab9c0ef8a24f2f207e773da33c506a8030ee39504bf83ecf5f",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/9/8/986_dsc02275.webp": {
@@ -1770,8 +1770,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/9/9/990_dsc02772.webp": {
     "path": "/assets/images/990_dsc02772.webp",
-    "bytes": 80556,
-    "sha256": "4457e22bb1a472f36979a03109f8e73284f6dea09d2cf80a02724233755e3d56",
+    "bytes": 628934,
+    "sha256": "feb2b8dd88176b4ac08b6685603b8b01cca507d509cfbb032883e1eba76d461b",
     "secondaryOnly": true
   },
   "https://www.bhr-is.nl/media/images/textblock/9/9/992_dsc01159.webp": {
@@ -1867,8 +1867,8 @@
   },
   "https://www.bhr-is.nl/media/images/fact/8/1/818_dsc02091.webp": {
     "path": "/assets/images/mobile-1439e61958-818_dsc02091.webp",
-    "bytes": 808474,
-    "sha256": "2f85bb1c6655c87186714440d57020472e805a2f647749b8c46ce44c43b87373",
+    "bytes": 814980,
+    "sha256": "03e7e379ca89523f7bef41c937749f1debcd367fcdd56762a35e52054660a048",
     "secondaryOnly": true,
     "role": "original mobile derivative"
   },
@@ -1930,8 +1930,8 @@
   },
   "https://www.bhr-is.nl/media/images/textblock/7/3/731_dsc01689.webp": {
     "path": "/assets/images/mobile-ffe045c5ad-731_dsc01689.webp",
-    "bytes": 109338,
-    "sha256": "50078d2fffd7690c828a937b18566efafb4e18d7f3daf267628c0d26e8b9a94b",
+    "bytes": 658718,
+    "sha256": "3e607f7a8c4d628e18d5cc2ce79f382e69df6bf16fd4be020dd72f48e803c2a8",
     "secondaryOnly": true,
     "role": "original mobile derivative"
   },

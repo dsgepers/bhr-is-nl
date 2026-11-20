@@ -1,0 +1,2693 @@
+{
+  "date": "2026-11-20",
+  "request": "Remove the fictional light-grey-polo employee from all group photos; replace him with Henk when solo. Include the same fictional employee wearing an outdoor jacket.",
+  "generationMode": "built-in image_gen",
+  "packaging": "ImageMagick local alpha composition over native original photos, lossless WebP",
+  "scope": {
+    "scenes": 26,
+    "responsiveAssets": 113,
+    "groupRemovals": 19,
+    "soloReplacementsWithHenk": 7,
+    "alreadyRemovedHeaderScenesUnchanged": [
+      "dsc02204",
+      "dsc02261"
+    ]
+  },
+  "method": "Use pre-apprentice originals as the base. Generate one edit per scene. Composite only reviewed edit areas; protect existing Henk face regions with zero-alpha masks. Keep original file names, dimensions and crops. The torso-only dsc01689 crop needs a complete coherent clipboard/cabinet/hand reconstruction and has no face to preserve.",
+  "reference": "Original Henk crop from dsc00930: dark hair, rectangular glasses, dark grey BHR sweater and light grey collar.",
+  "prompts": [
+    {
+      "id": "dsc00930",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-97857b75-5310-408e-abaf-775079bbd56e.png",
+      "promptSummary": "Remove the light grey polo man on the right; preserve Henk on the left and reconstruct the storage shelves."
+    },
+    {
+      "id": "dsc00962",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-cb9911d7-ec6d-48c7-be44-fa1241f636a3.png",
+      "promptSummary": "Replace the only man with Henk using the original dark sweater/glasses reference; keep the original portrait scene and framing."
+    },
+    {
+      "id": "dsc01187",
+      "type": "solo",
+      "instruction": "The only technician on LEFT leaning into the electrical cabinet, head partly cropped at top, must become Henk, same partial profile/neck/hands and pose. Give him Henk's rectangular glasses where visible and DARK GREY LONG SLEEVES, not a light grey short-sleeve polo. Preserve exact shallow depth of field, all electrical components and tools.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Image 2 is IDENTITY REFERENCE ONLY: use the same real man Henk, his exact dark hair/hairline, rectangular glasses, narrow face, adult age and dark grey BHR sweater with light grey collar. Replace the ONLY original light-grey-shirt technician with Henk in the exact same activity, position, scale and pose. The only technician on LEFT leaning into the electrical cabinet, head partly cropped at top, must become Henk, same partial profile/neck/hands and pose. Give him Henk's rectangular glasses where visible and DARK GREY LONG SLEEVES, not a light grey short-sleeve polo. Preserve exact shallow depth of field, all electrical components and tools. Preserve all other original people, face details, photo sharpness, equipment labels/logos, objects, furniture, background, perspective, lighting, depth of field and full canvas/aspect ratio. Do not zoom, reframe, duplicate anyone or add a new apprentice. Return one seamless edited original photo, no collage.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-2a4fa868-2d3c-4d23-bafc-f226d7673452.png"
+    },
+    {
+      "id": "dsc01226",
+      "type": "solo",
+      "instruction": "Only hands and forearms are visible holding black and red test probes. Replace these with Henk's slim adult hands emerging from DARK GREY SWEATER CUFFS at the left crop edges, matching his clothing reference. Keep identical probe grip, exact finger placement, wires and electrical terminals. No face/head/body should be added.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Image 2 is IDENTITY REFERENCE ONLY: use the same real man Henk, his exact dark hair/hairline, rectangular glasses, narrow face, adult age and dark grey BHR sweater with light grey collar. Replace the ONLY original light-grey-shirt technician with Henk in the exact same activity, position, scale and pose. Only hands and forearms are visible holding black and red test probes. Replace these with Henk's slim adult hands emerging from DARK GREY SWEATER CUFFS at the left crop edges, matching his clothing reference. Keep identical probe grip, exact finger placement, wires and electrical terminals. No face/head/body should be added. Preserve all other original people, face details, photo sharpness, equipment labels/logos, objects, furniture, background, perspective, lighting, depth of field and full canvas/aspect ratio. Do not zoom, reframe, duplicate anyone or add a new apprentice. Return one seamless edited original photo, no collage.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-32a7f7e2-8139-492b-b98b-ba54a1988ff6.png"
+    },
+    {
+      "id": "dsc01293",
+      "type": "remove",
+      "instruction": "REMOVE the entire man on LEFT in the light grey polo, his head, torso, arms, hands and visible body. Reconstruct the grey floor and unobstructed cabinet/workbench behind him. Keep the man on RIGHT in dark grey sweater/glasses, clipboard, pencil, tools and wiring exactly untouched.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Remove the specified light grey polo technician completely, leaving exactly ONE existing colleague Henk in dark grey clothes, without moving/recentring him. REMOVE the entire man on LEFT in the light grey polo, his head, torso, arms, hands and visible body. Reconstruct the grey floor and unobstructed cabinet/workbench behind him. Keep the man on RIGHT in dark grey sweater/glasses, clipboard, pencil, tools and wiring exactly untouched. Preserve all other original people, face details, photo sharpness, equipment labels/logos, objects, furniture, background, perspective, lighting, depth of field and full canvas/aspect ratio. Do not zoom, reframe, duplicate anyone or add a new apprentice. Return one seamless edited original photo, no collage.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-6b428a2c-6e96-4aca-a64d-d81269211aee.png"
+    },
+    {
+      "id": "dsc01350",
+      "type": "remove",
+      "instruction": "REMOVE the large man LEFT foreground in light grey polo, including his complete head/body/arms/hands/jeans. Restore the workshop shelves and background wall and workbench behind him. The smaller man with glasses and dark grey sweater behind him on RIGHT remains exactly original, including face, hands and test probe. If a tiny part of his arm was occluded, reconstruct only that hidden portion naturally.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Remove the specified light grey polo technician completely, leaving exactly ONE existing colleague Henk in dark grey clothes, without moving/recentring him. REMOVE the large man LEFT foreground in light grey polo, including his complete head/body/arms/hands/jeans. Restore the workshop shelves and background wall and workbench behind him. The smaller man with glasses and dark grey sweater behind him on RIGHT remains exactly original, including face, hands and test probe. If a tiny part of his arm was occluded, reconstruct only that hidden portion naturally. Preserve all other original people, face details, photo sharpness, equipment labels/logos, objects, furniture, background, perspective, lighting, depth of field and full canvas/aspect ratio. Do not zoom, reframe, duplicate anyone or add a new apprentice. Return one seamless edited original photo, no collage.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-e97c15d0-33b7-4ef3-ad8c-e35a1fc06597.png"
+    },
+    {
+      "id": "dsc01689",
+      "type": "remove",
+      "instruction": "Cropped waist-level workbench photo: remove the LIGHT GREY POLO torso and all its bare arms/hands on RIGHT, including the hand reaching to the blue clipboard. Keep the dark grey sweater colleague on LEFT and his own hands. Let the clipboard rest naturally on the bench or be held only by the remaining existing colleague; no floating hands. Do not add heads outside this cropped framing.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Cropped waist-level workbench photo: remove the LIGHT GREY POLO torso and all its bare arms/hands on RIGHT, including the hand reaching to the blue clipboard. Keep the dark grey sweater colleague on LEFT and his own hands. Let the clipboard rest naturally on the bench or be held only by the remaining existing colleague; no floating hands. Do not add heads outside this cropped framing. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-9cdb08fe-ca97-4615-87a1-8b5d398e58f1.png"
+    },
+    {
+      "id": "dsc01712",
+      "type": "remove",
+      "instruction": "Remove the LARGE LIGHT GREY POLO man in RIGHT foreground, including his whole head, torso, pointing arms/hands and jeans. Continue white wall, original shelves, workbenches and floor behind him. Preserve Henk on LEFT smiling, his glasses, face, arms, thin blue wire, and all visible tools, orange LAPP boxes and drawing binder.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Remove the LARGE LIGHT GREY POLO man in RIGHT foreground, including his whole head, torso, pointing arms/hands and jeans. Continue white wall, original shelves, workbenches and floor behind him. Preserve Henk on LEFT smiling, his glasses, face, arms, thin blue wire, and all visible tools, orange LAPP boxes and drawing binder. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-20a54c22-d521-4527-89cf-5a44ba599c89.png"
+    },
+    {
+      "id": "dsc01720",
+      "type": "remove",
+      "instruction": "Remove the light grey polo man RIGHT, entire profile/head, torso, bare arms/hands and jeans. Restore the white workshop wall, rear workbench and floor behind him. Henk LEFT smiling in dark grey sweater stays completely unchanged, including his face, fingers and blue wire.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Remove the light grey polo man RIGHT, entire profile/head, torso, bare arms/hands and jeans. Restore the white workshop wall, rear workbench and floor behind him. Henk LEFT smiling in dark grey sweater stays completely unchanged, including his face, fingers and blue wire. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-55c4b42f-9e98-45bd-8744-013967aad3a9.png"
+    },
+    {
+      "id": "dsc01760",
+      "type": "remove",
+      "instruction": "Remove the grey polo man RIGHT entirely, including his head, torso, hands, jeans and shadow. Keep the orange/black crimping tool as an inanimate item resting naturally on the green workbench, no floating hand. Keep Henk LEFT smiling in dark grey sweater unchanged, as well as original bins, cases, shelves, orange LAPP boxes, workshop wall and workbench.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Remove the grey polo man RIGHT entirely, including his head, torso, hands, jeans and shadow. Keep the orange/black crimping tool as an inanimate item resting naturally on the green workbench, no floating hand. Keep Henk LEFT smiling in dark grey sweater unchanged, as well as original bins, cases, shelves, orange LAPP boxes, workshop wall and workbench. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-bfdfccce-db1c-4fd9-bc49-0e6a29ca3e9b.png"
+    },
+    {
+      "id": "dsc01886",
+      "type": "remove",
+      "instruction": "Remove the LIGHT GREY POLO man RIGHT with folded bare arms, entire head/arms/body/legs and shadow. Continue the blue storage bins and shelf structure behind him. Keep Henk LEFT wearing dark grey sweater, his face/glasses, hand on hip and hand on the workbench exactly unchanged. Keep the foreground yellow multimeter out of focus.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Remove the LIGHT GREY POLO man RIGHT with folded bare arms, entire head/arms/body/legs and shadow. Continue the blue storage bins and shelf structure behind him. Keep Henk LEFT wearing dark grey sweater, his face/glasses, hand on hip and hand on the workbench exactly unchanged. Keep the foreground yellow multimeter out of focus. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-111dcbe5-9072-4de5-b819-e01589359c01.png"
+    },
+    {
+      "id": "dsc02091",
+      "type": "remove",
+      "instruction": "Exterior photo with silver van and factory. REMOVE ONLY the man on RIGHT of the two small men by the brick pillar, wearing dark jacket and BRIGHT BLUE JEANS, folded arms. This is the same light-grey-polo employee under an outdoor jacket. Leave the man LEFT wearing glasses, dark jacket and DARK GREY trousers, unchanged in his original position. Fill the removed man area with original brick and paving. Absolutely preserve the silver van, tyres and BHR logo, factory lettering INDUSTRIAL SOLUTIONS, windows and open workshop details.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Exterior photo with silver van and factory. REMOVE ONLY the man on RIGHT of the two small men by the brick pillar, wearing dark jacket and BRIGHT BLUE JEANS, folded arms. This is the same light-grey-polo employee under an outdoor jacket. Leave the man LEFT wearing glasses, dark jacket and DARK GREY trousers, unchanged in his original position. Fill the removed man area with original brick and paving. Absolutely preserve the silver van, tyres and BHR logo, factory lettering INDUSTRIAL SOLUTIONS, windows and open workshop details. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-7244e7e5-ba8e-4550-8de8-01fb6e70b679.png"
+    },
+    {
+      "id": "dsc02153",
+      "type": "remove",
+      "instruction": "Outdoor photo beside a silver BHR van. Remove ONLY the man on RIGHT wearing the BRIGHT BLUE JEANS and folded-arm dark jacket. Leave Henk LEFT with glasses, dark jacket, hands in pockets and DARK trousers exactly unchanged. Restore the natural silver van panel surface, reflections, wheel and paving behind the removed man. Preserve the van BHR INDUSTRIAL SOLUTIONS logo, tyre/wheel, garage door and brickwork exactly. Do not move Henk.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Outdoor photo beside a silver BHR van. Remove ONLY the man on RIGHT wearing the BRIGHT BLUE JEANS and folded-arm dark jacket. Leave Henk LEFT with glasses, dark jacket, hands in pockets and DARK trousers exactly unchanged. Restore the natural silver van panel surface, reflections, wheel and paving behind the removed man. Preserve the van BHR INDUSTRIAL SOLUTIONS logo, tyre/wheel, garage door and brickwork exactly. Do not move Henk. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-a648a7f4-14a1-405e-81f7-c1f0bc7d4fee.png"
+    },
+    {
+      "id": "dsc02362",
+      "type": "solo",
+      "instruction": "Single technician in workshop reaching RIGHT over the workbench. Replace him with Henk from the reference: same reaching pose, hand positions and gaze, but Henk's real face, black hair, glasses and dark grey LONG-SLEEVED sweater. Preserve the blue bins, orange shelving, cable spools, black tool cases and foreground blur exactly.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Image 2 is identity reference ONLY: use the same real man Henk, his original face, narrow features, adult age, dark swept hair/hairline, rectangular glasses and DARK GREY long-sleeved BHR sweater with light grey collar. Replace the ONLY technician in Image 1 with Henk, matching the original position, scale, pose, gesture and gaze. Single technician in workshop reaching RIGHT over the workbench. Replace him with Henk from the reference: same reaching pose, hand positions and gaze, but Henk's real face, black hair, glasses and dark grey LONG-SLEEVED sweater. Preserve the blue bins, orange shelving, cable spools, black tool cases and foreground blur exactly. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-7af5c6c5-f966-43b1-b1ac-c66d2cda2360.png"
+    },
+    {
+      "id": "dsc02396",
+      "type": "solo",
+      "instruction": "Single technician SIDE PROFILE at workshop bench, right arm stretched RIGHT to tool case and left hand holding screwdriver. Replace with real Henk from identity reference: same working pose, Henk's exact facial profile, dark hair and rectangular glasses, dark grey long-sleeved sweater, cuffs at hands. Keep both tool interactions and original orange shelves, bins, spools and foreground blur.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Image 2 is identity reference ONLY: use the same real man Henk, his original face, narrow features, adult age, dark swept hair/hairline, rectangular glasses and DARK GREY long-sleeved BHR sweater with light grey collar. Replace the ONLY technician in Image 1 with Henk, matching the original position, scale, pose, gesture and gaze. Single technician SIDE PROFILE at workshop bench, right arm stretched RIGHT to tool case and left hand holding screwdriver. Replace with real Henk from identity reference: same working pose, Henk's exact facial profile, dark hair and rectangular glasses, dark grey long-sleeved sweater, cuffs at hands. Keep both tool interactions and original orange shelves, bins, spools and foreground blur. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-ac02271f-73f4-46f5-95bb-4219a2dbae10.png"
+    },
+    {
+      "id": "dsc02475",
+      "type": "remove",
+      "instruction": "Kitchen counter conversation: remove ONLY the light grey polo man on LEFT, head/body/forearms/hands. Leave his white mug as an ordinary mug resting upright on the counter without hands. Reconstruct cupboard/worktop/tiled backsplash behind him. Keep Henk seated RIGHT, smiling, his glasses, hair, face, dark sweater, hands and yellow mug exactly unchanged.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Kitchen counter conversation: remove ONLY the light grey polo man on LEFT, head/body/forearms/hands. Leave his white mug as an ordinary mug resting upright on the counter without hands. Reconstruct cupboard/worktop/tiled backsplash behind him. Keep Henk seated RIGHT, smiling, his glasses, hair, face, dark sweater, hands and yellow mug exactly unchanged. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-61585f23-91d3-40b1-9a93-4d4ef1db9a98.png"
+    },
+    {
+      "id": "dsc02499",
+      "type": "remove",
+      "instruction": "Close kitchen counter conversation: remove ONLY the light grey polo man on LEFT, full head, torso, both forearms and hands, and associated body shadow. Leave his white mug upright on the counter with no floating hands. Restore wood cabinetry, tiled backsplash and counter behind him. Keep Henk on RIGHT and his face/glasses, dark sweater, hands and yellow mug completely original.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Close kitchen counter conversation: remove ONLY the light grey polo man on LEFT, full head, torso, both forearms and hands, and associated body shadow. Leave his white mug upright on the counter with no floating hands. Restore wood cabinetry, tiled backsplash and counter behind him. Keep Henk on RIGHT and his face/glasses, dark sweater, hands and yellow mug completely original. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-be5b5ac9-0375-4378-afe1-d67a09222ab3.png"
+    },
+    {
+      "id": "dsc02603",
+      "type": "remove",
+      "instruction": "Standing desks in office: remove ONLY the man on RIGHT in light grey polo and jeans, including head, arms/hands on keyboard/mouse and legs below desk. Reconstruct office blind slats, white wall and floor behind him. Retain all desk hardware/monitors/papers, cable detail and keyboard/mouse. Henk on LEFT with glasses and dark grey sweater, hands on desk, remains absolutely unchanged.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Standing desks in office: remove ONLY the man on RIGHT in light grey polo and jeans, including head, arms/hands on keyboard/mouse and legs below desk. Reconstruct office blind slats, white wall and floor behind him. Retain all desk hardware/monitors/papers, cable detail and keyboard/mouse. Henk on LEFT with glasses and dark grey sweater, hands on desk, remains absolutely unchanged. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-78b4b7b0-d3a0-4f8f-b923-f950041fc775.png"
+    },
+    {
+      "id": "dsc02619",
+      "type": "solo",
+      "instruction": "Single man STANDING at office keyboard and mouse, facing LEFT toward monitors. Replace him with Henk from reference in exactly that standing pose, hands on keyboard/mouse, narrow face, dark swept hair, glasses and DARK GREY LONG-SLEEVED BHR sweater. Do not seat him. Preserve keyboard, monitor backs, desk papers, cables, window blinds and cupboard.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Image 2 is identity reference ONLY: use the same real man Henk, his original face, narrow features, adult age, dark swept hair/hairline, rectangular glasses and DARK GREY long-sleeved BHR sweater with light grey collar. Replace the ONLY technician in Image 1 with Henk, matching the original position, scale, pose, gesture and gaze. Single man STANDING at office keyboard and mouse, facing LEFT toward monitors. Replace him with Henk from reference in exactly that standing pose, hands on keyboard/mouse, narrow face, dark swept hair, glasses and DARK GREY LONG-SLEEVED BHR sweater. Do not seat him. Preserve keyboard, monitor backs, desk papers, cables, window blinds and cupboard. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-7c76b55f-b467-48c6-9746-f8787681f6f0.png"
+    },
+    {
+      "id": "dsc02665",
+      "type": "solo",
+      "instruction": "Over-shoulder photo focused on TWO computer monitors. Only the RIGHT foreground person's blurred back of head/neck/shoulder and upper arm are visible. Replace those visible parts with Henk: dark hair matching reference and dark grey long-sleeved sweater with light grey collar. Keep him turned away from camera, same foreground blur, crop and position. Do NOT invent a frontal face. All monitor pixels, screen text and electrical-cabinet photograph must stay unchanged.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. Image 2 is identity reference ONLY: use the same real man Henk, his original face, narrow features, adult age, dark swept hair/hairline, rectangular glasses and DARK GREY long-sleeved BHR sweater with light grey collar. Replace the ONLY technician in Image 1 with Henk, matching the original position, scale, pose, gesture and gaze. Over-shoulder photo focused on TWO computer monitors. Only the RIGHT foreground person's blurred back of head/neck/shoulder and upper arm are visible. Replace those visible parts with Henk: dark hair matching reference and dark grey long-sleeved sweater with light grey collar. Keep him turned away from camera, same foreground blur, crop and position. Do NOT invent a frontal face. All monitor pixels, screen text and electrical-cabinet photograph must stay unchanged. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-619d33b0-9fe2-4ef3-b3c0-ce169da59495.png"
+    },
+    {
+      "id": "dsc02673",
+      "type": "remove",
+      "instruction": "Meeting room: remove the LIGHT GREY POLO man in LEFT foreground entirely, including his head, torso, arms and hand on the blueprints. Keep the brown chair as an empty chair, restore glass partition/wall and table/blueprint areas behind him. Henk RIGHT wearing glasses and dark grey sweater stays exactly unchanged, including face, hands, pen and laptop.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Meeting room: remove the LIGHT GREY POLO man in LEFT foreground entirely, including his head, torso, arms and hand on the blueprints. Keep the brown chair as an empty chair, restore glass partition/wall and table/blueprint areas behind him. Henk RIGHT wearing glasses and dark grey sweater stays exactly unchanged, including face, hands, pen and laptop. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-0b8ecab9-cd91-434d-ab54-3adb947d2f53.png"
+    },
+    {
+      "id": "dsc02701",
+      "type": "remove",
+      "instruction": "Meeting table: remove the LIGHT GREY POLO man on LEFT foreground, including head, torso and both arms/hands leaning on blueprints. Restore empty brown chair, original glass partition, wall and table/blueprint surface behind him. Keep Henk on RIGHT with glasses/dark grey sweater exactly unchanged, including his face, forearms, pen, hand drawing and laptop.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Meeting table: remove the LIGHT GREY POLO man on LEFT foreground, including head, torso and both arms/hands leaning on blueprints. Restore empty brown chair, original glass partition, wall and table/blueprint surface behind him. Keep Henk on RIGHT with glasses/dark grey sweater exactly unchanged, including his face, forearms, pen, hand drawing and laptop. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-f4d7f80c-d543-4dd5-bb20-9f7923fc7897.png"
+    },
+    {
+      "id": "dsc02710",
+      "type": "remove",
+      "instruction": "Meeting table with blueprints/laptop: REMOVE the LIGHT GREY POLO man LEFT foreground completely, including entire head, body, left forearm and his very long RIGHT forearm/hand holding pen across blueprints. Restore the empty brown chair, glass partition/door and blueprint/table surface. Let the loose blue pen rest on the blueprint. Keep Henk RIGHT in dark sweater/glasses, his face, both hands, laptop and original pose unchanged.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Meeting table with blueprints/laptop: REMOVE the LIGHT GREY POLO man LEFT foreground completely, including entire head, body, left forearm and his very long RIGHT forearm/hand holding pen across blueprints. Restore the empty brown chair, glass partition/door and blueprint/table surface. Let the loose blue pen rest on the blueprint. Keep Henk RIGHT in dark sweater/glasses, his face, both hands, laptop and original pose unchanged. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-e8274eaf-a844-417c-ac10-3bf431c9d0cb.png"
+    },
+    {
+      "id": "dsc02756",
+      "type": "remove",
+      "instruction": "Meeting table with blueprints/laptop: REMOVE the LIGHT GREY POLO man LEFT foreground completely, including entire head, torso, both forearms and long hand/arm pointing with pen toward centre. Restore empty brown chair, glass wall/door and tabletop/blueprints. Pen can rest on the paper. Henk RIGHT with glasses and dark sweater remains exactly original, including his face, fingers and laptop.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Meeting table with blueprints/laptop: REMOVE the LIGHT GREY POLO man LEFT foreground completely, including entire head, torso, both forearms and long hand/arm pointing with pen toward centre. Restore empty brown chair, glass wall/door and tabletop/blueprints. Pen can rest on the paper. Henk RIGHT with glasses and dark sweater remains exactly original, including his face, fingers and laptop. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-e03894e7-b1ea-4475-ad36-711229a3a067.png"
+    },
+    {
+      "id": "dsc02772",
+      "type": "remove",
+      "instruction": "Front view meeting table: REMOVE the LIGHT GREY POLO man LEFT foreground leaning toward camera completely, including head, torso, arms, hands, legs below table and his pen. Restore empty brown chair, glass office wall and large blueprint/table surface. Keep Henk RIGHT BACKGROUND in dark sweater/glasses smiling and his hands/laptop completely unchanged; no ghost fingers or floating arms.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Front view meeting table: REMOVE the LIGHT GREY POLO man LEFT foreground leaning toward camera completely, including head, torso, arms, hands, legs below table and his pen. Restore empty brown chair, glass office wall and large blueprint/table surface. Keep Henk RIGHT BACKGROUND in dark sweater/glasses smiling and his hands/laptop completely unchanged; no ghost fingers or floating arms. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-061acc3a-39fb-44bc-a707-1553e3548cd2.png"
+    },
+    {
+      "id": "dsc02826",
+      "type": "remove",
+      "instruction": "Rear/overhead meeting-table view: REMOVE the entire LIGHT GREY POLO man on RIGHT seen from behind, head, torso, shoulders, both bare arms/hands and legs/chair occupancy. Leave an empty brown chair naturally, restore table edge, large blueprint and floor where hidden. Keep Henk LEFT with dark hair, glasses, dark grey sweater and its blue BHR back logo completely unchanged; preserve his pointing finger and laptop screen exactly.",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Image 1 is the original EDIT TARGET. REMOVE the specified light grey polo technician COMPLETELY, restoring the hidden background naturally. Exactly ONE existing person remains: Henk, the dark-haired man with glasses in dark grey clothes. Keep Henk EXACTLY unchanged, including face, clothes, hands and position; do not move or centre him. Rear/overhead meeting-table view: REMOVE the entire LIGHT GREY POLO man on RIGHT seen from behind, head, torso, shoulders, both bare arms/hands and legs/chair occupancy. Leave an empty brown chair naturally, restore table edge, large blueprint and floor where hidden. Keep Henk LEFT with dark hair, glasses, dark grey sweater and its blue BHR back logo completely unchanged; preserve his pointing finger and laptop screen exactly. Preserve the full original canvas framing/aspect ratio, camera position, perspective, lighting, sharpness, depth of field, machines, tools, wiring, furniture, building/vehicle surfaces, text and BHR logos. No additional people, apprentices or leftover grey-shirt limbs/shadows. No zoom, crop, reframe or collage. Any corner padding comes from assembling responsive crops; seamlessly continue background into it without changing the framing. Return one seamless edited version of Image 1.",
+      "path": "/home/dennis/.codex/generated_images/01a1f544-ecdd-7dc1-b817-a965453725ae/exec-dc871237-02d9-4f59-8e5a-2fa299422029.png"
+    }
+  ],
+  "regions": {
+    "dsc00930": {
+      "polygons": [
+        [
+          [
+            0.59,
+            0.08
+          ],
+          [
+            0.9,
+            0.08
+          ],
+          [
+            0.9,
+            1
+          ],
+          [
+            0.59,
+            1
+          ]
+        ]
+      ],
+      "face": [
+        0.415,
+        0.2,
+        0.1,
+        0.21
+      ]
+    },
+    "dsc00962": {
+      "polygons": [
+        [
+          [
+            0.09,
+            0
+          ],
+          [
+            0.76,
+            0
+          ],
+          [
+            0.8,
+            1
+          ],
+          [
+            0.09,
+            1
+          ]
+        ]
+      ]
+    },
+    "dsc01187": {
+      "polygons": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0.54,
+            0
+          ],
+          [
+            0.54,
+            0.38
+          ],
+          [
+            0.71,
+            0.4
+          ],
+          [
+            0.71,
+            0.75
+          ],
+          [
+            0.5,
+            0.93
+          ],
+          [
+            0.43,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    "dsc01226": {
+      "polygons": [
+        [
+          [
+            0,
+            0.21
+          ],
+          [
+            0.43,
+            0.21
+          ],
+          [
+            0.43,
+            0.35
+          ],
+          [
+            0.15,
+            0.46
+          ],
+          [
+            0,
+            0.46
+          ]
+        ],
+        [
+          [
+            0,
+            0.61
+          ],
+          [
+            0.65,
+            0.61
+          ],
+          [
+            0.65,
+            0.81
+          ],
+          [
+            0.2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    "dsc01293": {
+      "polygons": [
+        [
+          [
+            0.055,
+            0.19
+          ],
+          [
+            0.2,
+            0.19
+          ],
+          [
+            0.35,
+            0.35
+          ],
+          [
+            0.405,
+            0.78
+          ],
+          [
+            0.35,
+            0.9
+          ],
+          [
+            0.17,
+            0.91
+          ],
+          [
+            0.06,
+            0.56
+          ]
+        ]
+      ],
+      "face": [
+        0.455,
+        0.1,
+        0.12,
+        0.2
+      ]
+    },
+    "dsc01350": {
+      "polygons": [
+        [
+          [
+            0.14,
+            0.02
+          ],
+          [
+            0.505,
+            0.02
+          ],
+          [
+            0.505,
+            0.32
+          ],
+          [
+            0.414,
+            0.47
+          ],
+          [
+            0.415,
+            0.54
+          ],
+          [
+            0.535,
+            0.7
+          ],
+          [
+            0.54,
+            0.76
+          ],
+          [
+            0.43,
+            0.77
+          ],
+          [
+            0.37,
+            0.85
+          ],
+          [
+            0.37,
+            1
+          ],
+          [
+            0.14,
+            1
+          ]
+        ]
+      ],
+      "face": [
+        0.49,
+        0.25,
+        0.1,
+        0.23
+      ]
+    },
+    "dsc01689": {
+      "polygons": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "rationale": "Whole cropped torso-only scene needs coherent cabinet/clipboard/hand reconstruction after removal; no existing face is present."
+    },
+    "dsc01712": {
+      "polygons": [
+        [
+          [
+            0.49,
+            0.1
+          ],
+          [
+            0.69,
+            0.1
+          ],
+          [
+            0.79,
+            0.22
+          ],
+          [
+            0.81,
+            1
+          ],
+          [
+            0.41,
+            1
+          ],
+          [
+            0.41,
+            0.78
+          ],
+          [
+            0.54,
+            0.58
+          ],
+          [
+            0.49,
+            0.36
+          ]
+        ]
+      ],
+      "face": [
+        0.35,
+        0.24,
+        0.09,
+        0.18
+      ],
+      "protect": [
+        [
+          0.525,
+          0.835,
+          0.17,
+          0.15
+        ]
+      ]
+    },
+    "dsc01720": {
+      "polygons": [
+        [
+          [
+            0.58,
+            0.105
+          ],
+          [
+            0.775,
+            0.105
+          ],
+          [
+            0.91,
+            0.31
+          ],
+          [
+            0.95,
+            1
+          ],
+          [
+            0.535,
+            1
+          ],
+          [
+            0.535,
+            0.81
+          ],
+          [
+            0.62,
+            0.65
+          ],
+          [
+            0.6,
+            0.4
+          ]
+        ]
+      ],
+      "face": [
+        0.3,
+        0.28,
+        0.1,
+        0.2
+      ]
+    },
+    "dsc01760": {
+      "polygons": [
+        [
+          [
+            0.53,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.57,
+            1
+          ],
+          [
+            0.57,
+            0.71
+          ],
+          [
+            0.455,
+            0.71
+          ],
+          [
+            0.455,
+            0.58
+          ],
+          [
+            0.59,
+            0.54
+          ],
+          [
+            0.53,
+            0.36
+          ]
+        ]
+      ],
+      "face": [
+        0.389,
+        0.218,
+        0.08,
+        0.16
+      ]
+    },
+    "dsc01886": {
+      "polygons": [
+        [
+          [
+            0.475,
+            0.12
+          ],
+          [
+            0.75,
+            0.12
+          ],
+          [
+            0.77,
+            0.66
+          ],
+          [
+            0.75,
+            0.8
+          ],
+          [
+            0.5,
+            0.8
+          ],
+          [
+            0.47,
+            0.42
+          ]
+        ]
+      ],
+      "face": [
+        0.291,
+        0.17,
+        0.11,
+        0.23
+      ]
+    },
+    "dsc02091": {
+      "polygons": [
+        [
+          [
+            0.43,
+            0.52
+          ],
+          [
+            0.48,
+            0.52
+          ],
+          [
+            0.49,
+            0.82
+          ],
+          [
+            0.43,
+            0.82
+          ]
+        ]
+      ],
+      "face": [
+        0.398,
+        0.539,
+        0.025,
+        0.045
+      ]
+    },
+    "dsc02153": {
+      "polygons": [
+        [
+          [
+            0.369,
+            0.31
+          ],
+          [
+            0.565,
+            0.31
+          ],
+          [
+            0.601,
+            1
+          ],
+          [
+            0.39,
+            1
+          ]
+        ]
+      ],
+      "face": [
+        0.255,
+        0.332,
+        0.08,
+        0.11
+      ]
+    },
+    "dsc02362": {
+      "polygons": [
+        [
+          [
+            0.26,
+            0.15
+          ],
+          [
+            0.64,
+            0.15
+          ],
+          [
+            0.71,
+            0.88
+          ],
+          [
+            0.25,
+            0.88
+          ]
+        ]
+      ]
+    },
+    "dsc02396": {
+      "polygons": [
+        [
+          [
+            0.2,
+            0.11
+          ],
+          [
+            0.57,
+            0.11
+          ],
+          [
+            0.57,
+            0.42
+          ],
+          [
+            0.83,
+            0.55
+          ],
+          [
+            0.83,
+            0.64
+          ],
+          [
+            0.56,
+            0.62
+          ],
+          [
+            0.58,
+            0.81
+          ],
+          [
+            0.195,
+            0.81
+          ]
+        ]
+      ]
+    },
+    "dsc02475": {
+      "polygons": [
+        [
+          [
+            0.17,
+            0.3
+          ],
+          [
+            0.44,
+            0.3
+          ],
+          [
+            0.445,
+            0.8
+          ],
+          [
+            0.17,
+            0.8
+          ]
+        ]
+      ],
+      "face": [
+        0.675,
+        0.298,
+        0.115,
+        0.21
+      ]
+    },
+    "dsc02499": {
+      "polygons": [
+        [
+          [
+            0.145,
+            0.165
+          ],
+          [
+            0.425,
+            0.165
+          ],
+          [
+            0.43,
+            0.81
+          ],
+          [
+            0.145,
+            0.81
+          ]
+        ]
+      ],
+      "face": [
+        0.655,
+        0.12,
+        0.15,
+        0.31
+      ]
+    },
+    "dsc02603": {
+      "polygons": [
+        [
+          [
+            0.809,
+            0.235
+          ],
+          [
+            0.99,
+            0.235
+          ],
+          [
+            0.99,
+            1
+          ],
+          [
+            0.819,
+            1
+          ],
+          [
+            0.815,
+            0.665
+          ],
+          [
+            0.685,
+            0.665
+          ],
+          [
+            0.685,
+            0.58
+          ],
+          [
+            0.805,
+            0.5
+          ]
+        ]
+      ],
+      "face": [
+        0.13,
+        0.28,
+        0.075,
+        0.16
+      ]
+    },
+    "dsc02619": {
+      "polygons": [
+        [
+          [
+            0.555,
+            0.035
+          ],
+          [
+            0.94,
+            0.035
+          ],
+          [
+            0.95,
+            0.94
+          ],
+          [
+            0.38,
+            0.94
+          ],
+          [
+            0.27,
+            0.82
+          ],
+          [
+            0.27,
+            0.71
+          ],
+          [
+            0.43,
+            0.69
+          ],
+          [
+            0.52,
+            0.55
+          ]
+        ]
+      ]
+    },
+    "dsc02665": {
+      "polygons": [
+        [
+          [
+            0.685,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0.53,
+            1
+          ],
+          [
+            0.56,
+            0.7
+          ],
+          [
+            0.64,
+            0.39
+          ],
+          [
+            0.74,
+            0.28
+          ]
+        ]
+      ]
+    },
+    "dsc02673": {
+      "polygons": [
+        [
+          [
+            0,
+            0.235
+          ],
+          [
+            0.25,
+            0.235
+          ],
+          [
+            0.29,
+            0.48
+          ],
+          [
+            0.29,
+            0.69
+          ],
+          [
+            0.408,
+            0.69
+          ],
+          [
+            0.408,
+            0.84
+          ],
+          [
+            0.19,
+            0.91
+          ],
+          [
+            0,
+            0.91
+          ]
+        ]
+      ],
+      "face": [
+        0.51,
+        0.16,
+        0.12,
+        0.22
+      ]
+    },
+    "dsc02701": {
+      "polygons": [
+        [
+          [
+            0,
+            0.15
+          ],
+          [
+            0.32,
+            0.15
+          ],
+          [
+            0.352,
+            0.68
+          ],
+          [
+            0.465,
+            0.7
+          ],
+          [
+            0.47,
+            0.82
+          ],
+          [
+            0,
+            0.84
+          ]
+        ]
+      ],
+      "face": [
+        0.59,
+        0.23,
+        0.13,
+        0.24
+      ]
+    },
+    "dsc02710": {
+      "polygons": [
+        [
+          [
+            0.01,
+            0.18
+          ],
+          [
+            0.31,
+            0.18
+          ],
+          [
+            0.36,
+            0.51
+          ],
+          [
+            0.59,
+            0.62
+          ],
+          [
+            0.59,
+            0.74
+          ],
+          [
+            0.36,
+            0.69
+          ],
+          [
+            0.36,
+            0.9
+          ],
+          [
+            0.01,
+            0.94
+          ]
+        ]
+      ],
+      "face": [
+        0.53,
+        0.07,
+        0.11,
+        0.24
+      ]
+    },
+    "dsc02756": {
+      "polygons": [
+        [
+          [
+            0,
+            0.18
+          ],
+          [
+            0.37,
+            0.18
+          ],
+          [
+            0.455,
+            0.55
+          ],
+          [
+            0.74,
+            0.64
+          ],
+          [
+            0.76,
+            0.73
+          ],
+          [
+            0.535,
+            0.72
+          ],
+          [
+            0.535,
+            0.88
+          ],
+          [
+            0,
+            0.88
+          ]
+        ]
+      ],
+      "face": [
+        0.6,
+        0.13,
+        0.13,
+        0.25
+      ]
+    },
+    "dsc02772": {
+      "polygons": [
+        [
+          [
+            0.08,
+            0.13
+          ],
+          [
+            0.43,
+            0.13
+          ],
+          [
+            0.5,
+            0.535
+          ],
+          [
+            0.6,
+            0.66
+          ],
+          [
+            0.6,
+            0.75
+          ],
+          [
+            0.52,
+            0.78
+          ],
+          [
+            0.52,
+            0.84
+          ],
+          [
+            0.08,
+            0.83
+          ]
+        ],
+        [
+          [
+            0.12,
+            0.885
+          ],
+          [
+            0.52,
+            0.98
+          ],
+          [
+            0.55,
+            1
+          ],
+          [
+            0.12,
+            1
+          ]
+        ]
+      ],
+      "face": [
+        0.63,
+        0.27,
+        0.11,
+        0.2
+      ]
+    },
+    "dsc02826": {
+      "polygons": [
+        [
+          [
+            0.606,
+            0.285
+          ],
+          [
+            0.78,
+            0.285
+          ],
+          [
+            0.86,
+            0.57
+          ],
+          [
+            0.88,
+            1
+          ],
+          [
+            0.45,
+            1
+          ],
+          [
+            0.43,
+            0.74
+          ],
+          [
+            0.56,
+            0.66
+          ],
+          [
+            0.62,
+            0.62
+          ]
+        ]
+      ],
+      "face": [
+        0.085,
+        0.26,
+        0.17,
+        0.33
+      ]
+    }
+  },
+  "files": [
+    {
+      "scene": "dsc00930",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/703_dsc00930.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 777730,
+      "sha256": "dba4865887fc44851bffaf700c1c64ebcf32502e08607d14b1f7461b394211c7",
+      "originalPixelsOutsideEditExact": 441426,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 16500
+    },
+    {
+      "scene": "dsc00930",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/785_dsc00930.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 777620,
+      "sha256": "7b98ec3a3d5049e4cdccf79dbdabb78c2ab2be56c9a09499efdcb8d9843e61c9",
+      "originalPixelsOutsideEditExact": 441434,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 16500
+    },
+    {
+      "scene": "dsc00930",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/797_dsc00930.webp",
+      "width": 1920,
+      "height": 900,
+      "bytes": 1717482,
+      "sha256": "656c986e6f4888faf40ece0421ff635facf7a9592b84c27895f79cabe74b44d7",
+      "originalPixelsOutsideEditExact": 1215340,
+      "pixelCount": 1728000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 46686
+    },
+    {
+      "scene": "dsc00930",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/831_dsc00930.webp",
+      "width": 606,
+      "height": 399,
+      "bytes": 308658,
+      "sha256": "3de4c557cf8d578cb343c65a1397490c03ed13779ad78557b71ea3ddbf65a1fb",
+      "originalPixelsOutsideEditExact": 165349,
+      "pixelCount": 241794,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 4446
+    },
+    {
+      "scene": "dsc00962",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/899_dsc00962.webp",
+      "width": 606,
+      "height": 399,
+      "bytes": 252342,
+      "sha256": "b9c3ab26ddf72ab52c42983a9f2de567b77d7fe820b75eb3fb162b409cbbc4db",
+      "originalPixelsOutsideEditExact": 70587,
+      "pixelCount": 241794,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01187",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/623_dsc01187.webp",
+      "width": 740,
+      "height": 600,
+      "bytes": 449544,
+      "sha256": "f173316e1011ef5c8dacfabf556440031d04d1d9b4b710e4afc51d920cb9e593",
+      "originalPixelsOutsideEditExact": 177924,
+      "pixelCount": 444000,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01187",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/657_dsc01187.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 690980,
+      "sha256": "a76c6d64d7d717e5da4375332d82a77f718225784866971ceac34eaac944168d",
+      "originalPixelsOutsideEditExact": 293142,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01187",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/909_dsc01187.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 712550,
+      "sha256": "ec81896d1ff6ca1c07ce9d0d16091a5674f1e3fe04f8523b20c8f271fe0d41d0",
+      "originalPixelsOutsideEditExact": 264247,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01226",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/1000_dsc01226.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 763034,
+      "sha256": "d0603cf8d90160bc8d204803cae2438c155353e268636611913e1d0dba9e8d9d",
+      "originalPixelsOutsideEditExact": 434244,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01226",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/1018_dsc01226.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 766894,
+      "sha256": "f9747ecde82210e3bec345de2ccd60cef2bd07ec2fe4c8648cda3422b4541343",
+      "originalPixelsOutsideEditExact": 573002,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01226",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/600_dsc01226.webp",
+      "width": 352,
+      "height": 427,
+      "bytes": 200672,
+      "sha256": "48172e563c1a312b1323ed46f7fa260a07d8cdb680a1a71200f143989928c162",
+      "originalPixelsOutsideEditExact": 98249,
+      "pixelCount": 150304,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1048_dsc01293.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 826184,
+      "sha256": "0eb7843b93ec1630047546bb5fab603db3d2ebac2ead0c1c646e3be2aa9dd67c",
+      "originalPixelsOutsideEditExact": 509646,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 21584
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1139_dsc01293.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 828826,
+      "sha256": "4cbcafd5157822ad27a3c8acfa085255b1324b3642fa3fd8e4dcba843b17de3d",
+      "originalPixelsOutsideEditExact": 512850,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 21584
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1255_dsc01293.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1439010,
+      "sha256": "4e77b2646fe473b21f8f972fd300218220a2a6a08db3ad53b89600cbb406a847",
+      "originalPixelsOutsideEditExact": 969130,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 29250
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/625_dsc01293.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 810016,
+      "sha256": "b9d8ae86d57405dbd27e543748caf0c2dcb902eb300222cc2a4ea30fbfae2aac",
+      "originalPixelsOutsideEditExact": 498655,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 21584
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/709_dsc01293.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 821838,
+      "sha256": "8b704f43dfbe02e1cb9a7c735cbf8da3f799badbc478783b65a1b751a430ecc4",
+      "originalPixelsOutsideEditExact": 505624,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 21584
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/829_dsc01293.webp",
+      "width": 606,
+      "height": 399,
+      "bytes": 315534,
+      "sha256": "3b0d81fa3851ed82670430c16e2ae384ea016094a679a4893ca11971c5208571",
+      "originalPixelsOutsideEditExact": 182272,
+      "pixelCount": 241794,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 5846
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/863_dsc01293.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1454824,
+      "sha256": "c7fafc0cba3257d359468e376dfd9031cacca770239e24b340f20841f1167386",
+      "originalPixelsOutsideEditExact": 991284,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 50481
+    },
+    {
+      "scene": "dsc01293",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/972_dsc01293.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 800750,
+      "sha256": "6c12508625cd8ec03af86299c23d97e4d7c698073a705619ff0231b2a2256f6a",
+      "originalPixelsOutsideEditExact": 498657,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 21442
+    },
+    {
+      "scene": "dsc01350",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1237_dsc01350.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1205078,
+      "sha256": "e55f5d6aaddd6f1d91cbbdb02649f059b3d17f588ee1cbb67e07852f0a28b683",
+      "originalPixelsOutsideEditExact": 890657,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 45198
+    },
+    {
+      "scene": "dsc01350",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/440_dsc01350.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 645066,
+      "sha256": "b8b44b91f980aabd8bc2dee2422a3c4509de2e60593345639d17972c40568af2",
+      "originalPixelsOutsideEditExact": 380216,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 20790
+    },
+    {
+      "scene": "dsc01350",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/637_dsc01350.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 646952,
+      "sha256": "334089d3fc07c4e604b767115c1056f3f9ad9a5d5a3a552fa3702a4c4561bd26",
+      "originalPixelsOutsideEditExact": 380375,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 20790
+    },
+    {
+      "scene": "dsc01350",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/689_dsc01350.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 650120,
+      "sha256": "f61592a7b968bd0d3300322546457051872bd8ff04ba368e71f6046aa2a28dd4",
+      "originalPixelsOutsideEditExact": 380733,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 20625
+    },
+    {
+      "scene": "dsc01350",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/771_dsc01350.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 648808,
+      "sha256": "6e0a860067180190665d4cd83dce46092dbddc0e79720366eadda8f5ce420338",
+      "originalPixelsOutsideEditExact": 380455,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 20790
+    },
+    {
+      "scene": "dsc01350",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/984_dsc01350.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 649064,
+      "sha256": "e0b494069baa9aab9c0ef8a24f2f207e773da33c506a8030ee39504bf83ecf5f",
+      "originalPixelsOutsideEditExact": 380059,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 20625
+    },
+    {
+      "scene": "dsc01689",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/mobile-ffe045c5ad-731_dsc01689.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 658718,
+      "sha256": "3e607f7a8c4d628e18d5cc2ce79f382e69df6bf16fd4be020dd72f48e803c2a8",
+      "originalPixelsOutsideEditExact": 0,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/568_dsc01712.webp",
+      "width": 416,
+      "height": 452,
+      "bytes": 201010,
+      "sha256": "c0b9502bc3ae47a8adfa0f68acbc0b6188602083ff38abf9c20bc98b62812c1a",
+      "originalPixelsOutsideEditExact": 87010,
+      "pixelCount": 188032,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 4950
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/570_dsc01712.webp",
+      "width": 742,
+      "height": 546,
+      "bytes": 413208,
+      "sha256": "3775d2f39c00de6d724882b7c1fdb7fee1f6ae5f6bc04684c2bb183b8eafa0ce",
+      "originalPixelsOutsideEditExact": 259259,
+      "pixelCount": 405132,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 7533
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/571_dsc01712.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1226464,
+      "sha256": "1cd48d17ee5549cd49ee87269e1ac309899a2e3c3e9425bf1ce642d1cff90a61",
+      "originalPixelsOutsideEditExact": 835264,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/745_dsc01712.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 681490,
+      "sha256": "55ac750a95422b2282178efda9a47a18d0d3373ec2316270ec6889c26768948b",
+      "originalPixelsOutsideEditExact": 431092,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 14224
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/808_dsc01712.webp",
+      "width": 351,
+      "height": 427,
+      "bytes": 162720,
+      "sha256": "2bdf845e1f88e7b346c2dcc6a8cca5940d0b9be793bf03f0c37d586975e3928d",
+      "originalPixelsOutsideEditExact": 64560,
+      "pixelCount": 149877,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 4402
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/809_dsc01712.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1155344,
+      "sha256": "57deec3878729dac149891c4d3377bf197b5b5211f6019a188168a1bc506aebc",
+      "originalPixelsOutsideEditExact": 963123,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 37492
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/851_dsc01712.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1243884,
+      "sha256": "ffd8a2bb035ceb4ad65e7dedc110791a993408029949b622994b18192ef55f7f",
+      "originalPixelsOutsideEditExact": 929215,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 31374
+    },
+    {
+      "scene": "dsc01712",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/892_dsc01712.webp",
+      "width": 352,
+      "height": 427,
+      "bytes": 169032,
+      "sha256": "3ead836e47f855f51c740fc6d2f93e17a20d4097789a37fceae68da567fb99b6",
+      "originalPixelsOutsideEditExact": 79741,
+      "pixelCount": 150304,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 4473
+    },
+    {
+      "scene": "dsc01720",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/783_dsc01720.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 693686,
+      "sha256": "8f1f90ea55015239d2dced75d9611929ab5b5df7f8ff95914f7315047caa70c8",
+      "originalPixelsOutsideEditExact": 482505,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 12496
+    },
+    {
+      "scene": "dsc01760",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1233_dsc01760.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1233302,
+      "sha256": "e127688e7006dcad5d0df0048c4eaaaf6022e82bea168afa82629ad2775429a0",
+      "originalPixelsOutsideEditExact": 683691,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 24716
+    },
+    {
+      "scene": "dsc01760",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/725_dsc01760.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 686832,
+      "sha256": "32d997a6744faeb1c36fee07622be013e882a658e01739f5dadac66f12e6d95b",
+      "originalPixelsOutsideEditExact": 329236,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 11088
+    },
+    {
+      "scene": "dsc01886",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1068_dsc01886.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 765512,
+      "sha256": "93d75019f881443e4eed808d1c52dee6e18dca21e10e9e7aca289fab14bb619b",
+      "originalPixelsOutsideEditExact": 541445,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 17712
+    },
+    {
+      "scene": "dsc01886",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/444_dsc01886.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 759260,
+      "sha256": "ef0006919f1660d09a09ea961ac178f5ef9902e29853e95d37145e9eb8c8dcbf",
+      "originalPixelsOutsideEditExact": 541449,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 17548
+    },
+    {
+      "scene": "dsc01886",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/723_dsc01886.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 765332,
+      "sha256": "ddaadeff7092af6ad96731dc4d0bff74cdd975df7c04797fa0f2b5c45f322ccd",
+      "originalPixelsOutsideEditExact": 541439,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 17548
+    },
+    {
+      "scene": "dsc01886",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/816_dsc01886.webp",
+      "width": 870,
+      "height": 663,
+      "bytes": 630630,
+      "sha256": "c27553cafe18a1147de9354b147f8976d7c24a4f149f18d0d496fa35ec4ef7fd",
+      "originalPixelsOutsideEditExact": 452412,
+      "pixelCount": 576810,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 13965
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1120_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 995336,
+      "sha256": "a4fa933b3bd92b3894e815d7037b465ef17d91454c0e557d8c88b31881a93d5e",
+      "originalPixelsOutsideEditExact": 676193,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 729
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1141_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 997474,
+      "sha256": "98ea8c78fa722c2605d2019319a1d5464da505278691b39908095d3590e4b06f",
+      "originalPixelsOutsideEditExact": 681079,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1142_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1193930,
+      "sha256": "a0b4b107040d3ba55b36014d2ec0248eeb87ac7cb594990837b8eaf58e4b770e",
+      "originalPixelsOutsideEditExact": 826215,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 650
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1145_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 999026,
+      "sha256": "5d10701f5da73d6428b65a9b419e67e71a911027aa058f872d7e9c35031a71c3",
+      "originalPixelsOutsideEditExact": 681136,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1146_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1192090,
+      "sha256": "4ffd9f9efcf7c82a79465a47482299f75a77eddd3cbee162bdb421582ed061fa",
+      "originalPixelsOutsideEditExact": 825952,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 676
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1170_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 1000718,
+      "sha256": "1c43a1959cd323417b69832d588c28bbf8fa310061e07ac26cb40fb4111cee5c",
+      "originalPixelsOutsideEditExact": 681134,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1173_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1192502,
+      "sha256": "6c437f77a90c8abde2194cd1cea505a414332bd453624eda94432b480a546042",
+      "originalPixelsOutsideEditExact": 826208,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 650
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1186_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 990664,
+      "sha256": "20dad41d1e48b82598a5eb13fdf8f2c953cfbfe78db7ea1135c8ced7618108c5",
+      "originalPixelsOutsideEditExact": 681142,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1187_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1194794,
+      "sha256": "2b374289f74796770f049a188f5bcf8994fe8879a8e6e5aae017da83209d168d",
+      "originalPixelsOutsideEditExact": 826201,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 650
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1188_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 1000700,
+      "sha256": "d0b9b5b39ddd4c9d659ebddd2261a64d9eac82e55a90ca4b71e46222ead077e1",
+      "originalPixelsOutsideEditExact": 681082,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1189_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1194542,
+      "sha256": "daffe65616f9d105b62c9b9e165981b2a1d816887beade039494685ce1162b7b",
+      "originalPixelsOutsideEditExact": 823306,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 841
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1190_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 991426,
+      "sha256": "5bb48cabe04e92cb3b5065596a50b7b3e9e48e33d0ed63aa5e325c04648c0175",
+      "originalPixelsOutsideEditExact": 681095,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1191_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1193878,
+      "sha256": "ff866a7c986a6e5a1e563c7cd1ffbacee34a20c6a70117e57910daae2500999a",
+      "originalPixelsOutsideEditExact": 823887,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 784
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1192_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 1001286,
+      "sha256": "c6a198cc332852520c1a848a61fb442c0421bbac7760576fb106db35ced56e43",
+      "originalPixelsOutsideEditExact": 681086,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1193_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1197358,
+      "sha256": "8097017b211d83fd55121edc9eef4ca1d9d6ff143662d0a91be0ef1b31d957f5",
+      "originalPixelsOutsideEditExact": 823340,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 812
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/554_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 990946,
+      "sha256": "9db4bfd612297a4e1c936de853a9984c81f02717a92b16be93172466bb0c8eb4",
+      "originalPixelsOutsideEditExact": 681162,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 756
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/557_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1189136,
+      "sha256": "aa958ad69a94bed2f5ff09c2d8c3960371624bf101cc30e7da17da68d5f37450",
+      "originalPixelsOutsideEditExact": 814823,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 1560
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/643_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 973588,
+      "sha256": "1810727bda3b688dc83281c22e72a81cc0ae23afa94f38fac9de6e62b1555115",
+      "originalPixelsOutsideEditExact": 676179,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 729
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/661_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 973628,
+      "sha256": "bec6e8f613638c6f79878c8ed3dc4896d19f5810035be9e5a22d3efe7beb4d1b",
+      "originalPixelsOutsideEditExact": 676226,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 729
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/721_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 973232,
+      "sha256": "953a00e862ab2bd78070784257001533249faf8b0f569af45f1471484e63c728",
+      "originalPixelsOutsideEditExact": 676326,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 729
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/769_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 974360,
+      "sha256": "6e74db83e298677fec00f4d2acc4d6a9f09dffaffaa5efb6ad0216f77096239a",
+      "originalPixelsOutsideEditExact": 676242,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 729
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/819_dsc02091.webp",
+      "width": 483,
+      "height": 553,
+      "bytes": 393720,
+      "sha256": "a19ef7567da6ccc5dd934770e25cf214214a9d877ffad599cb2537a3ef74e4be",
+      "originalPixelsOutsideEditExact": 255620,
+      "pixelCount": 267099,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 342
+    },
+    {
+      "scene": "dsc02091",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/mobile-1439e61958-818_dsc02091.webp",
+      "width": 870,
+      "height": 663,
+      "bytes": 814980,
+      "sha256": "03e7e379ca89523f7bef41c937749f1debcd367fcdd56762a35e52054660a048",
+      "originalPixelsOutsideEditExact": 560873,
+      "pixelCount": 576810,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 552
+    },
+    {
+      "scene": "dsc02153",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1062_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 816320,
+      "sha256": "ad80ef9cb453dca69096df5d4ac59582778b5a1ff2f0fd9578a4acae9bd98a5b",
+      "originalPixelsOutsideEditExact": 569445,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 6390
+    },
+    {
+      "scene": "dsc02153",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/635_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 824920,
+      "sha256": "3b66721aa4bdc7569779194f9eb861e6d3252b0edb527048a0313543901fdcb4",
+      "originalPixelsOutsideEditExact": 578347,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 6003
+    },
+    {
+      "scene": "dsc02153",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/679_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 838774,
+      "sha256": "edadf5372fe87bf09fd1a305f9c5c5906eace4244e41dc989c19955f7d1909e3",
+      "originalPixelsOutsideEditExact": 595160,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 6319
+    },
+    {
+      "scene": "dsc02153",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/773_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 843616,
+      "sha256": "45fbc28d99a682c0ca256ec2e8bfc88b4dcb5f8107af4e2a05cce899c32cfd78",
+      "originalPixelsOutsideEditExact": 598147,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 6230
+    },
+    {
+      "scene": "dsc02362",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/1058_dsc02362.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 730768,
+      "sha256": "b9ba800589d8f1476132601885b0cfba4aa5de00107cc89d5fbe9c3c28c03701",
+      "originalPixelsOutsideEditExact": 458511,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02362",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/1137_dsc02362.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 743464,
+      "sha256": "c7c9319bff55f8ead73e1d06f88778d616041934a2b7f384f12b79e57c4ccaba",
+      "originalPixelsOutsideEditExact": 458505,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02362",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/452_dsc02362.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 737792,
+      "sha256": "f9a2d06a6d94ff659963dca47142b95bc0632b448dd79431734844123d686917",
+      "originalPixelsOutsideEditExact": 458511,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02362",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/779_dsc02362.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 731964,
+      "sha256": "4dd6a66fc53382ea0b046b3eeef80d79a4c61d0916eafc7653b67e804f618433",
+      "originalPixelsOutsideEditExact": 458515,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02396",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/655_dsc02396.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 780876,
+      "sha256": "deefef254d88c8aef3f427c3c95c02f91de031ab845aeabbf6f869be9a90019d",
+      "originalPixelsOutsideEditExact": 452964,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02396",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/951_dsc02396.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 774754,
+      "sha256": "38b60ceba00e55fc74714ea958deb1f3d234db5cd73c7669f10c6ad509aa5e97",
+      "originalPixelsOutsideEditExact": 452955,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02475",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/622_dsc02475.webp",
+      "width": 740,
+      "height": 600,
+      "bytes": 481474,
+      "sha256": "45a43c357668df9c7d14862ab33d453b3b7d9f54f584185803e1fe00954faaee",
+      "originalPixelsOutsideEditExact": 363373,
+      "pixelCount": 444000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 11760
+    },
+    {
+      "scene": "dsc02475",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/898_dsc02475.webp",
+      "width": 606,
+      "height": 399,
+      "bytes": 274936,
+      "sha256": "84d0ae1c5a38f8620547f6f33d0536bf7b51a0e24608f32861d2cc322d61431a",
+      "originalPixelsOutsideEditExact": 204606,
+      "pixelCount": 241794,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 4914
+    },
+    {
+      "scene": "dsc02475",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/949_dsc02475.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 734836,
+      "sha256": "38b60a5a98a5f1d9322662ce88463fbb137f010ca603ba527360d5224e1c4419",
+      "originalPixelsOutsideEditExact": 574769,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 18450
+    },
+    {
+      "scene": "dsc02475",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/967_dsc02475.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 741958,
+      "sha256": "af5e65911ed5e6b359b8685b8e60b6d1786221e8164e286c589f8483dbbd1d4d",
+      "originalPixelsOutsideEditExact": 574841,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 18450
+    },
+    {
+      "scene": "dsc02499",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/693_dsc02499.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 652356,
+      "sha256": "375c6b0e1f379267159ce3879c5c5c2d04aa4c85a2ca91402376a15dca004c4b",
+      "originalPixelsOutsideEditExact": 518867,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 40544
+    },
+    {
+      "scene": "dsc02499",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/925_dsc02499.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 652268,
+      "sha256": "c7b1cf639dcd2e8e2688c4081ffc30d1939df479440f30050c3c834878241c08",
+      "originalPixelsOutsideEditExact": 521580,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 40544
+    },
+    {
+      "scene": "dsc02499",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/957_dsc02499.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1194446,
+      "sha256": "eb210314f9a4c9564ff44f421fb4c847783e00fa7aa18f906d44d9773cd440ba",
+      "originalPixelsOutsideEditExact": 1033795,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 98136
+    },
+    {
+      "scene": "dsc02603",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1050_dsc02603.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 708900,
+      "sha256": "ad1c04380e8704a5b1a63c4b9c0371e3036eae7133104913a61c6a21ac762508",
+      "originalPixelsOutsideEditExact": 575977,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 7684
+    },
+    {
+      "scene": "dsc02603",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/609_dsc02603.webp",
+      "width": 352,
+      "height": 427,
+      "bytes": 175724,
+      "sha256": "9c077d59497facf2930497add0e5160d7fc858d9ba75700b6db43ad087756b88",
+      "originalPixelsOutsideEditExact": 150304,
+      "pixelCount": 150304,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 2331
+    },
+    {
+      "scene": "dsc02619",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/1070_dsc02619.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 683936,
+      "sha256": "7c95b387a3710036b803a49d407cd43a330fbad9059ad436c87f6ce5d43d66a1",
+      "originalPixelsOutsideEditExact": 372338,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02619",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/685_dsc02619.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 681470,
+      "sha256": "b03336a2ef6b6752c35d64f46205767cedf91eb2858f4ab50de14846280a1019",
+      "originalPixelsOutsideEditExact": 372285,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02665",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/1078_dsc02665.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 718534,
+      "sha256": "4d70a4b302b97eacad3a83622d5f176bb8314b366f30e5e0f02570477503ddfb",
+      "originalPixelsOutsideEditExact": 526100,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02665",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/438_dsc02665.webp",
+      "width": 740,
+      "height": 600,
+      "bytes": 450284,
+      "sha256": "e827ff4c908b74a24d62c7982d9baea7b4856530942e1d50f538acd606547622",
+      "originalPixelsOutsideEditExact": 276511,
+      "pixelCount": 444000,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02665",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/588_dsc02665.webp",
+      "width": 352,
+      "height": 427,
+      "bytes": 175962,
+      "sha256": "4c453366e0af54ac087a7f0a121b8deef477665014f9f4935deacbbb88f85b28",
+      "originalPixelsOutsideEditExact": 110788,
+      "pixelCount": 150304,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02665",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/743_dsc02665.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 706718,
+      "sha256": "1981dd6768f7d0980159012e60f85e2da10cd766778362d6e6533821c061057c",
+      "originalPixelsOutsideEditExact": 471652,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02665",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/810_dsc02665.webp",
+      "width": 351,
+      "height": 427,
+      "bytes": 178542,
+      "sha256": "70541fed2581b5d1357b979da895c438803d2341da74de252275a3593546b25f",
+      "originalPixelsOutsideEditExact": 119026,
+      "pixelCount": 149877,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02665",
+      "operation": "replace-solo-with-henk",
+      "path": "app/public/assets/images/811_dsc02665.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1161312,
+      "sha256": "e54efcbc9d28e291cf1357849278a1c9c5c5e3c7c0a52c636cbf269681f527d6",
+      "originalPixelsOutsideEditExact": 844669,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": false,
+      "facePixelsChecked": null
+    },
+    {
+      "scene": "dsc02673",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1219_dsc02673.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 629104,
+      "sha256": "affd099c21b1b42370d68b136d00fd28409e534ba188ca92d6af6eac5baaaea3",
+      "originalPixelsOutsideEditExact": 543452,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 16799
+    },
+    {
+      "scene": "dsc02673",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/437_dsc02673.webp",
+      "width": 740,
+      "height": 600,
+      "bytes": 412120,
+      "sha256": "880038dcf71bbeab920720b6f09754143776e0d16fe5f487c815c5e2c6c84a84",
+      "originalPixelsOutsideEditExact": 343552,
+      "pixelCount": 444000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 10836
+    },
+    {
+      "scene": "dsc02701",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1080_dsc02701.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 620936,
+      "sha256": "fc25c958d3f20ada61ce8da2ab247a982b85c5e1126699b2445f9e1274dc32c4",
+      "originalPixelsOutsideEditExact": 491024,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 22876
+    },
+    {
+      "scene": "dsc02701",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1201_dsc02701.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 625136,
+      "sha256": "b6812e7af70419a4b395c2621152451fbc87b1254d38487e2b363042499c8d35",
+      "originalPixelsOutsideEditExact": 560004,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 23048
+    },
+    {
+      "scene": "dsc02701",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/585_dsc02701.webp",
+      "width": 352,
+      "height": 427,
+      "bytes": 151762,
+      "sha256": "c416ad9152ce5a3a81f429e327897699c809a17dd6641756419b791fd6d2ed75",
+      "originalPixelsOutsideEditExact": 109686,
+      "pixelCount": 150304,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 7275
+    },
+    {
+      "scene": "dsc02701",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/697_dsc02701.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 622660,
+      "sha256": "b1c325128d0063627c0f013d70d11926a2500ef1ee7e68a86331b134100cbb82",
+      "originalPixelsOutsideEditExact": 505502,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 22876
+    },
+    {
+      "scene": "dsc02701",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/747_dsc02701.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 626410,
+      "sha256": "64863a20ecee6087df28effc7729b4d1a9c41c9325e8e49ecc900dcd4b013ce0",
+      "originalPixelsOutsideEditExact": 532628,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 22876
+    },
+    {
+      "scene": "dsc02701",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/820_dsc02701.webp",
+      "width": 870,
+      "height": 663,
+      "bytes": 515784,
+      "sha256": "96f3a685baf5d42dffb0be3372f6aeac20371b2798a4c3f78347193f5d792299",
+      "originalPixelsOutsideEditExact": 434789,
+      "pixelCount": 576810,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 18326
+    },
+    {
+      "scene": "dsc02710",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/727_dsc02710.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 611260,
+      "sha256": "3a570eca9079f88d683e9693c6658165a71d4b8f4c46d7e852313f2fdc938096",
+      "originalPixelsOutsideEditExact": 465048,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 22188
+    },
+    {
+      "scene": "dsc02710",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/800_dsc02710.webp",
+      "width": 351,
+      "height": 427,
+      "bytes": 149866,
+      "sha256": "ce23d6b68c5a4a9142be6fba0f4a3888583c30b0f37d882ad1d76d63c263eec6",
+      "originalPixelsOutsideEditExact": 104895,
+      "pixelCount": 149877,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 7081
+    },
+    {
+      "scene": "dsc02710",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/801_dsc02710.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1162540,
+      "sha256": "69d795d02ba27b441eae7da4c513d32d3fc5ac3057d875845f64d12811ccd975",
+      "originalPixelsOutsideEditExact": 899517,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 54325
+    },
+    {
+      "scene": "dsc02710",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/828_dsc02710.webp",
+      "width": 606,
+      "height": 399,
+      "bytes": 230978,
+      "sha256": "f082d3b473e758654bf91609f2bb3c09db3ecf91c3d4f0ce0754a698ab6e17dd",
+      "originalPixelsOutsideEditExact": 161528,
+      "pixelCount": 241794,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 6030
+    },
+    {
+      "scene": "dsc02756",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/629_dsc02756.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 652344,
+      "sha256": "af28cf6a769e835c90d9ce1aa2a8c6103733ec0aa8c5d48c7352ea53cb77fcdb",
+      "originalPixelsOutsideEditExact": 440128,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 20764
+    },
+    {
+      "scene": "dsc02772",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/990_dsc02772.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 628934,
+      "sha256": "feb2b8dd88176b4ac08b6685603b8b01cca507d509cfbb032883e1eba76d461b",
+      "originalPixelsOutsideEditExact": 455014,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 13774
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1180_dsc02826.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 643612,
+      "sha256": "416d639f29b42fd758426521ce194b1f3bc1a13151545ba12152bfcde30913f5",
+      "originalPixelsOutsideEditExact": 488356,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 45696
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/1229_dsc02826.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 648712,
+      "sha256": "1febcf6eb0520b92a89f1353ac0ea1deb83e199f51186d29e2728a5ea8cbcfb3",
+      "originalPixelsOutsideEditExact": 496142,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 47838
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/433_dsc02826.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 646034,
+      "sha256": "94b0d3328073d5d9b36d6aa8dd4e5da58ee4086c62645fbe7e08becb1db433d5",
+      "originalPixelsOutsideEditExact": 491379,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 47838
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/591_dsc02826.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1204530,
+      "sha256": "72b80cf69671a920c4d24fc9c8841349c283c2e0810170b0d2c5c0036990a4f6",
+      "originalPixelsOutsideEditExact": 1090812,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 120960
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/653_dsc02826.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 647020,
+      "sha256": "f10eafa1da7810b6205de1bc3cb88d60ef20292ca4a59e5bae5d1875c88cdc38",
+      "originalPixelsOutsideEditExact": 492954,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 47838
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/687_dsc02826.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 646562,
+      "sha256": "7f3b7d7764de87173c92cd83e323dce5f7befd430bbf81e900507cc187dd2a61",
+      "originalPixelsOutsideEditExact": 492423,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 48076
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/751_dsc02826.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 640318,
+      "sha256": "94bb00c07e9d516cba9fdf66ffd65cf6309eb40f06b91e1be503ca1bb335eaaa",
+      "originalPixelsOutsideEditExact": 485551,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 42840
+    },
+    {
+      "scene": "dsc02826",
+      "operation": "remove-from-group",
+      "path": "app/public/assets/images/781_dsc02826.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 647948,
+      "sha256": "cd3f40f6425f9ac97a10eeb7b17f09db29fbd3cc05fe826d8c76af98ddecab3d",
+      "originalPixelsOutsideEditExact": 494584,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "facePixelsChecked": 48076
+    }
+  ],
+  "pixelVerification": {
+    "originalPixelsOutsideEditsExact": 58365014,
+    "totalPixels": 78774806,
+    "existingFaceCropsExact": 90,
+    "allNativeDimensionsPreserved": true
+  },
+  "review": {
+    "all113VariantsInspected": true,
+    "corrections": [
+      "Expanded workshop removal selection to eliminate a partial profile in a wide crop.",
+      "Reconstructed the entire torso-only clipboard/cabinet scene coherently, preventing floating or cut-off paper.",
+      "Extended and blended the workshop white-wall repair along scene boundaries."
+    ]
+  },
+  "manifestEntriesUpdated": 113,
+  "verification": {
+    "buildRoutes": 83,
+    "testsPassed": 138,
+    "testsFailed": 0,
+    "localLinks": 3816,
+    "imageScriptReferences": 1665,
+    "unchangedHTMLFiles": 84,
+    "installedAssetHashesVerified": 113
+  },
+  "localWorkingFiles": "checks/person-removal-2026-11-20"
+}
