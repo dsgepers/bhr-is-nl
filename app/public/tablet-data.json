@@ -1,0 +1,48 @@
+{
+  "/": [
+    {
+      "from": "/assets/images/868_c22991b5faaf0b9d9fd0cee04b059c2a98d25ff4.webp",
+      "to": "/assets/images/tablet-ba3dd6c3ae-871_c22991b5faaf0b9d9fd0cee04b059c2a98d25ff4.webp",
+      "alt": "Homepage",
+      "source": "https://www.bhr-is.nl/media/images/banner/8/7/871_c22991b5faaf0b9d9fd0cee04b059c2a98d25ff4.webp"
+    },
+    {
+      "from": "/assets/images/872_1493618a8e8e77f6d88bb54501e6ea1d35a356b9.webp",
+      "to": "/assets/images/tablet-8cf1d1808d-881_1493618a8e8e77f6d88bb54501e6ea1d35a356b9.webp",
+      "alt": "Homepage",
+      "source": "https://www.bhr-is.nl/media/images/banner/8/8/881_1493618a8e8e77f6d88bb54501e6ea1d35a356b9.webp"
+    },
+    {
+      "from": "/assets/images/873_e626cecb65bde7bd9dcb34f3bf30566f14e364cf.webp",
+      "to": "/assets/images/tablet-236788f8e2-882_e626cecb65bde7bd9dcb34f3bf30566f14e364cf.webp",
+      "alt": "Homepage",
+      "source": "https://www.bhr-is.nl/media/images/banner/8/8/882_e626cecb65bde7bd9dcb34f3bf30566f14e364cf.webp"
+    },
+    {
+      "from": "/assets/images/1131_banner-1920x900.webp",
+      "to": "/assets/images/tablet-f0ad6fc0af-1134_banner-1920x900.webp",
+      "alt": "Homepage",
+      "source": "https://www.bhr-is.nl/media/images/banner/1/1/1134_banner-1920x900.webp"
+    },
+    {
+      "from": "/assets/images/874_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp",
+      "to": "/assets/images/tablet-ab58d0262c-883_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp",
+      "alt": "Homepage",
+      "source": "https://www.bhr-is.nl/media/images/banner/8/8/883_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp"
+    }
+  ],
+  "/over-ons": [
+    {
+      "from": "/assets/images/1113_dsc02261.webp",
+      "to": "/assets/images/tablet-399adad59b-1115_dsc02261.webp",
+      "alt": "Over ons",
+      "source": "https://www.bhr-is.nl/media/images/banner/1/1/1115_dsc02261.webp"
+    },
+    {
+      "from": "/assets/images/1116_1493618a8e8e77f6d88bb54501e6ea1d35a356b9.webp",
+      "to": "/assets/images/tablet-6a757fd668-1119_1493618a8e8e77f6d88bb54501e6ea1d35a356b9.webp",
+      "alt": "Over ons",
+      "source": "https://www.bhr-is.nl/media/images/banner/1/1/1119_1493618a8e8e77f6d88bb54501e6ea1d35a356b9.webp"
+    }
+  ]
+}

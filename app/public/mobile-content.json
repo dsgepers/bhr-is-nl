@@ -1,0 +1,124 @@
+{
+  "/expertises/paneelbouw": {
+    "branches": [
+      {
+        "title": "Machinebouw",
+        "href": "/branches/machinebouw",
+        "image": "/assets/images/808_dsc01712.webp"
+      },
+      {
+        "title": "Voedingsindustrie",
+        "href": "/branches/voedingsindustrie",
+        "image": "/assets/images/812_dsc01525.webp"
+      },
+      {
+        "title": "Watertechnologie",
+        "href": "/branches/watertechnologie",
+        "image": "/assets/images/814_dsc01557.webp"
+      },
+      {
+        "title": "Agro",
+        "href": "/branches/agro",
+        "image": "/assets/images/800_dsc02710.webp"
+      },
+      {
+        "title": "Verpakkingsindustrie",
+        "href": "/branches/productie-industrie",
+        "image": "/assets/images/810_dsc02665.webp"
+      },
+      {
+        "title": "Chemie en farmacie",
+        "href": "/branches/chemie-en-farmacie",
+        "image": "/assets/images/802_dsc02866.webp"
+      },
+      {
+        "title": "Energie en Utiliteit",
+        "href": "/branches/energie-en-utiliteit",
+        "image": "/assets/images/806_dsc02275.webp"
+      }
+    ],
+    "quoteTitle": "Bereken direct de investering voor jouw paneelbouw",
+    "quoteIntro": "In slechts 3 stappen direct een prijsindicatie in beeld. Op basis van branche, toepassing, materiaal en formaat berekenen we een transparante richtprijs. Gratis, snel en vrijblijvend.",
+    "lead": {
+      "title": "Paneelbouw",
+      "text": "Onze kasten zijn strak opgebouwd, logisch ontworpen en technisch doordacht, zodat jouw installatie een leven lang meegaat, zonder onnodige stilstand. Dat doen we voor machinebouwers en productiebedrijven in Breda , Oosterhout, Tilburg en een groot deel van Brabant. Paneelbouw wordt in de markt vaak ook bordenbouw genoemd."
+    },
+    "region": {
+      "eyebrow": "Onze regio",
+      "title": "Vanuit Dongen actief in heel Zuid-Nederland",
+      "intro": "BHR is gevestigd in Dongen, midden in Brabant. Vanuit hier werken we dagelijks aan innovatieve paneelbouw en automatiseringsoplossingen voor bedrijven in de regio. Dankzij onze centrale ligging zijn we actief in een groot deel van Zuid-Nederland.",
+      "href": "/afspraak-maken",
+      "cta": "Afspraak maken",
+      "image": "/assets/images/map.png",
+      "locations": [
+        "Dongen",
+        "Etten-Leur",
+        "Breda",
+        "Oosterhout",
+        "Raamsdonksveer",
+        "Tilburg",
+        "Waalwijk",
+        "Den Bosch",
+        "Oisterwijk"
+      ]
+    }
+  },
+  "/expertises/retrofit": {
+    "branches": [
+      {
+        "title": "Machinebouw",
+        "href": "/branches/machinebouw",
+        "image": "/assets/images/808_dsc01712.webp"
+      },
+      {
+        "title": "Voedingsindustrie",
+        "href": "/branches/voedingsindustrie",
+        "image": "/assets/images/812_dsc01525.webp"
+      },
+      {
+        "title": "Watertechnologie",
+        "href": "/branches/watertechnologie",
+        "image": "/assets/images/814_dsc01557.webp"
+      },
+      {
+        "title": "Agro",
+        "href": "/branches/agro",
+        "image": "/assets/images/800_dsc02710.webp"
+      },
+      {
+        "title": "Verpakkingsindustrie",
+        "href": "/branches/productie-industrie",
+        "image": "/assets/images/810_dsc02665.webp"
+      },
+      {
+        "title": "Chemie en farmacie",
+        "href": "/branches/chemie-en-farmacie",
+        "image": "/assets/images/802_dsc02866.webp"
+      },
+      {
+        "title": "Energie en Utiliteit",
+        "href": "/branches/energie-en-utiliteit",
+        "image": "/assets/images/806_dsc02275.webp"
+      }
+    ],
+    "region": {
+      "eyebrow": "Onze regio",
+      "title": "Vanuit Dongen actief in heel Zuid-Nederland",
+      "intro": "BHR is gevestigd in Dongen, midden in Brabant. Vanuit hier werken we dagelijks aan innovatieve paneelbouw en automatiseringsoplossingen voor bedrijven in de regio. Dankzij onze centrale ligging zijn we actief in een groot deel van Zuid-Nederland.",
+      "href": "/afspraak-maken",
+      "cta": "Afspraak maken",
+      "image": "/assets/images/map.png",
+      "locations": [
+        "Dongen",
+        "Etten-Leur",
+        "Breda",
+        "Oosterhout",
+        "Raamsdonksveer",
+        "Tilburg",
+        "Waalwijk",
+        "Den Bosch",
+        "Oisterwijk"
+      ]
+    }
+  }
+}

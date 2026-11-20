@@ -1,3 +1,4 @@
+import {siteUrl} from './paths.mjs';
 import {searchPages,stepTarget,submitStaticForm,bindFormStatusReset,cookiePreferences,birthDateValue,carouselTarget} from './behavior.mjs';
 import {arrowIcon} from './icons.mjs';
 const $=(q,root=document)=>root.querySelector(q),$$=(q,root=document)=>[...root.querySelectorAll(q)];
@@ -30,7 +31,7 @@ if(slides.length&&!matchMedia('(prefers-reduced-motion: reduce)').matches)setInt
 const searchDialog=$('.search-dialog');$('.search-open')?.addEventListener('click',e=>{if(searchDialog?.showModal){e.preventDefault();searchDialog.showModal();$('input',searchDialog).focus()}});
 $$('.dialog-close').forEach(b=>b.addEventListener('click',()=>b.closest('dialog').close()));
 $$('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}}));
-let searchIndex;async function find(form,query){const result=form.parentElement.querySelector('.search-results');try{searchIndex??=await fetch('/search-index.json').then(r=>{if(!r.ok)throw Error();return r.json()});const matches=searchPages(searchIndex,query);result.replaceChildren();const label=document.createElement('p');label.textContent=matches.length?`${matches.length} resultaten voor “${query}”`:`Geen resultaten voor “${query}”.`;result.append(label);matches.forEach(p=>{const article=document.createElement('article'),h=document.createElement('h3'),a=document.createElement('a');a.href=p.url;a.textContent=p.title;h.append(a);article.append(h);result.append(article)})}catch{result.textContent='Zoeken is tijdelijk niet beschikbaar. Probeer het opnieuw.'}}
+let searchIndex;async function find(form,query){const result=form.parentElement.querySelector('.search-results');try{searchIndex??=await fetch(siteUrl('/search-index.json')).then(r=>{if(!r.ok)throw Error();return r.json()});const matches=searchPages(searchIndex,query);result.replaceChildren();const label=document.createElement('p');label.textContent=matches.length?`${matches.length} resultaten voor “${query}”`:`Geen resultaten voor “${query}”.`;result.append(label);matches.forEach(p=>{const article=document.createElement('article'),h=document.createElement('h3'),a=document.createElement('a');a.href=p.url;a.textContent=p.title;h.append(a);article.append(h);result.append(article)})}catch{result.textContent='Zoeken is tijdelijk niet beschikbaar. Probeer het opnieuw.'}}
 $$('.site-search').forEach(form=>{form.addEventListener('submit',e=>{e.preventDefault();const q=new FormData(form).get('q').trim();if(q)find(form,q)});if(!form.closest('dialog')){const q=new URLSearchParams(location.search).get('q');if(q){$('input',form).value=q;find(form,q)}}});
 $('.filters')?.addEventListener('submit',e=>{e.preventDefault();const chosen=new FormData(e.currentTarget).getAll('categorie');let visible=0;$$('.project-card').forEach(p=>{p.hidden=chosen.length>0&&!chosen.includes(p.dataset.category);if(!p.hidden)visible++});$$('[data-project-category]').forEach(section=>{section.hidden=$$('.project-card',section).every(p=>p.hidden)});$('.results-empty').hidden=visible>0;const url=new URL(location.href);url.searchParams.delete('categorie');chosen.forEach(v=>url.searchParams.append('categorie',v));history.replaceState(null,'',url)});
 if($('.filters')){const params=new URLSearchParams(location.search).getAll('categorie');$$('.filters input').forEach(i=>i.checked=params.includes(i.value));if(params.length)$('.filters').dispatchEvent(new Event('submit',{cancelable:true}))}
@@ -85,6 +86,8 @@ $$('[data-carousel]').forEach(root=>{
   const wrapped=loop&&((direction>0&&previous===items.length-1&&position===0)||(direction<0&&previous===0&&position===items.length-1));
   if(wrapped)visual=direction>0?2*items.length:items.length-1;
   paint(visual,step,animate&&!motion.matches);
+  const photo=$('.parity-step-photo,.secondary-steps-layout>.secondary-photo',root),photoSource=items[position].dataset.stepImage;
+  if(photo&&photoSource){photo.src=photoSource;photo.alt=$('h3',items[position])?.textContent||photo.alt;}
   if(wrapped)wrapTimer=setTimeout(()=>{paint(items.length+position,step,false);wrapTimer=null;},motion.matches?0:360);
   const status=$('[data-carousel-status]',root);
   if(status){

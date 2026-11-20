@@ -104,17 +104,20 @@
       {
         "title": "Advies en Concept",
         "text": "Wij denken mee vanaf het begin. Met onze ervaring in industriële automatisering vertalen we uw wensen naar slimme, haalbare oplossingen.",
-        "label": "Stap 1"
+        "label": "Stap 1",
+        "image": "/assets/images/437_dsc02673.webp"
       },
       {
         "title": "Ontwerp",
         "text": "Onze engineers werken elk detail uit met precisie. Van elektrische schema’s tot softwarelogica, alles wordt afgestemd op uw proces.",
-        "label": "Stap 2"
+        "label": "Stap 2",
+        "image": "/assets/images/438_dsc02665.webp"
       },
       {
         "title": "Nog een stap",
         "text": "Onze engineers werken elk detail uit met precisie. Van elektrische schema’s tot softwarelogica, alles wordt afgestemd op uw proces.",
-        "label": "Stap 3"
+        "label": "Stap 3",
+        "image": "/assets/images/624_dsc01086.webp"
       }
     ],
     "stepsImage": "https://www.bhr-is.nl/media/images/step/4/3/437_dsc02673.webp",
