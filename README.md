@@ -12,6 +12,18 @@ npm --prefix app run verify
 
 The build generates 76 routes in `app/dist/`. Serve that directory with a static web server, or upload its contents to a static host.
 
+GitHub Pages deployment is configured in `.github/workflows/pages.yml`. In the GitHub repository, open **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**. Push these changes to the default branch, or run **Deploy GitHub Pages** manually from the Actions tab on that branch. The workflow builds, tests and verifies the site before publishing `app/dist/`. Other branches do not deploy. No deployment secret or package installation is required.
+
+The workflow reads the Pages base path automatically, supporting both `https://<owner>.github.io/bhr-is-nl/` and a custom domain configured in Pages settings. `app/prepare-pages.mjs` prefixes published HTML/CSS/JSON URLs; browser modules resolve runtime links and requests relative to their published root. To verify a repository deployment locally, run these commands on a fresh build:
+
+```sh
+npm --prefix app run build
+PAGES_BASE_PATH=/bhr-is-nl node app/prepare-pages.mjs
+PAGES_BASE_PATH=/bhr-is-nl npm --prefix app run verify
+```
+
+Run the normal build again before running the full test suite, which checks the original root URL output.
+
 Form configuration is in `app/public/config.js`. Without a configured form key, deliverable forms display contact alternatives rather than sending a request. Newsletter and alternate test-quote forms are intentionally local-only.
 
 Page plans, review decisions and execution notes are in `docs/superpowers/`. Visual parity remains open on some pages and responsive widths; passing the functional tests does not certify visual identity.
