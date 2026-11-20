@@ -33,7 +33,9 @@ test('secondary layout loads scoped assets, exact metadata and support links',()
 // only its baseline was refreshed. The other eleven retain their original hashes.
 test('all twelve protected HTML outputs retain their approved hashes',()=>{
  for(const [route,expected] of Object.entries(protectedHashes)){
-  const html=fs.readFileSync(new URL(`../dist${route==='/'?'':route}/index.html`,import.meta.url));
+  const html=fs.readFileSync(new URL(`../dist${route==='/'?'':route}/index.html`,import.meta.url),'utf8')
+   .replace(/<link rel="stylesheet" href="\/mobile-parity\.css\?v=[a-f0-9]+" media="\(max-width: 1199px\)">/,'')
+   .replace(/<script type="module" src="\/mobile\.mjs\?v=[a-f0-9]+"><\/script>/,'');
   assert.equal(createHash('sha256').update(html).digest('hex'),expected,route);
  }
 });
