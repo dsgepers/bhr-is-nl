@@ -1,0 +1,2011 @@
+[
+  {
+    "route": "/projecten",
+    "key": "projecten",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten",
+    "candidate": "http://127.0.0.1:4173/projecten",
+    "referenceSize": {
+      "width": 1920,
+      "height": 8982
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 76.33430634416982,
+      "ssim": -0.14422859183167228,
+      "referenceSize": {
+        "width": 1920,
+        "height": 8982
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 6278
+      },
+      "heightDelta": -2704
+    }
+  },
+  {
+    "route": "/projecten",
+    "key": "projecten",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten",
+    "candidate": "http://127.0.0.1:4173/projecten",
+    "referenceSize": {
+      "width": 1440,
+      "height": 8024
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 79.16562811565304,
+      "ssim": -0.15586668454187233,
+      "referenceSize": {
+        "width": 1440,
+        "height": 8024
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 5932
+      },
+      "heightDelta": -2092
+    }
+  },
+  {
+    "route": "/projecten",
+    "key": "projecten",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten",
+    "candidate": "http://127.0.0.1:4173/projecten",
+    "referenceSize": {
+      "width": 768,
+      "height": 7395
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 78.12873281496506,
+      "ssim": -0.22793941558556816,
+      "referenceSize": {
+        "width": 768,
+        "height": 7395
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 5567
+      },
+      "heightDelta": -1828
+    }
+  },
+  {
+    "route": "/projecten",
+    "key": "projecten",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten",
+    "candidate": "http://127.0.0.1:4173/projecten",
+    "referenceSize": {
+      "width": 390,
+      "height": 12611
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 72.60183925714018,
+      "ssim": -0.1883364150483211,
+      "referenceSize": {
+        "width": 390,
+        "height": 12611
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 8050
+      },
+      "heightDelta": -4561
+    }
+  },
+  {
+    "route": "/projecten/bierskid-besturing-zonder-plc",
+    "key": "projecten--bierskid-besturing-zonder-plc",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/bierskid-besturing-zonder-plc",
+    "candidate": "http://127.0.0.1:4173/projecten/bierskid-besturing-zonder-plc",
+    "referenceSize": {
+      "width": 1920,
+      "height": 4043
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 81.84127401269684,
+      "ssim": 0.16800343290552114,
+      "referenceSize": {
+        "width": 1920,
+        "height": 4043
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3878
+      },
+      "heightDelta": -165
+    }
+  },
+  {
+    "route": "/projecten/bierskid-besturing-zonder-plc",
+    "key": "projecten--bierskid-besturing-zonder-plc",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/bierskid-besturing-zonder-plc",
+    "candidate": "http://127.0.0.1:4173/projecten/bierskid-besturing-zonder-plc",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3749
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 80.82912850834296,
+      "ssim": 0.07069723319495651,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3749
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 3547
+      },
+      "heightDelta": -202
+    }
+  },
+  {
+    "route": "/projecten/bierskid-besturing-zonder-plc",
+    "key": "projecten--bierskid-besturing-zonder-plc",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/bierskid-besturing-zonder-plc",
+    "candidate": "http://127.0.0.1:4173/projecten/bierskid-besturing-zonder-plc",
+    "referenceSize": {
+      "width": 768,
+      "height": 3362
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 95.47868986299916,
+      "ssim": -0.26084565172978863,
+      "referenceSize": {
+        "width": 768,
+        "height": 3362
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 4708
+      },
+      "heightDelta": 1346
+    }
+  },
+  {
+    "route": "/projecten/bierskid-besturing-zonder-plc",
+    "key": "projecten--bierskid-besturing-zonder-plc",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/bierskid-besturing-zonder-plc",
+    "candidate": "http://127.0.0.1:4173/projecten/bierskid-besturing-zonder-plc",
+    "referenceSize": {
+      "width": 390,
+      "height": 8393
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 79.19487240588158,
+      "ssim": -0.14136868016804668,
+      "referenceSize": {
+        "width": 390,
+        "height": 8393
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 4644
+      },
+      "heightDelta": -3749
+    }
+  },
+  {
+    "route": "/projecten/bouwen-afdelingsinstallatie",
+    "key": "projecten--bouwen-afdelingsinstallatie",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-afdelingsinstallatie",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-afdelingsinstallatie",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3710
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 85.78881682389937,
+      "ssim": -0.0783754374380952,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3710
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3236
+      },
+      "heightDelta": -474
+    }
+  },
+  {
+    "route": "/projecten/bouwen-afdelingsinstallatie",
+    "key": "projecten--bouwen-afdelingsinstallatie",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-afdelingsinstallatie",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-afdelingsinstallatie",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3292
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 82.50951380450925,
+      "ssim": -0.002776194931102583,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3292
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 2905
+      },
+      "heightDelta": -387
+    }
+  },
+  {
+    "route": "/projecten/bouwen-afdelingsinstallatie",
+    "key": "projecten--bouwen-afdelingsinstallatie",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-afdelingsinstallatie",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-afdelingsinstallatie",
+    "referenceSize": {
+      "width": 768,
+      "height": 2903
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 87.73901403037812,
+      "ssim": -0.19057476414648417,
+      "referenceSize": {
+        "width": 768,
+        "height": 2903
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 3632
+      },
+      "heightDelta": 729
+    }
+  },
+  {
+    "route": "/projecten/bouwen-afdelingsinstallatie",
+    "key": "projecten--bouwen-afdelingsinstallatie",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-afdelingsinstallatie",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-afdelingsinstallatie",
+    "referenceSize": {
+      "width": 390,
+      "height": 6298
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 73.1445065995717,
+      "ssim": 0.02255525925903404,
+      "referenceSize": {
+        "width": 390,
+        "height": 6298
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 2975
+      },
+      "heightDelta": -3323
+    }
+  },
+  {
+    "route": "/projecten/bouwen-daf-installatie-waterzuivering",
+    "key": "projecten--bouwen-daf-installatie-waterzuivering",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-daf-installatie-waterzuivering",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-daf-installatie-waterzuivering",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3644
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 78.1485547017929,
+      "ssim": 0.42258496135079887,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3644
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3581
+      },
+      "heightDelta": -63
+    }
+  },
+  {
+    "route": "/projecten/bouwen-daf-installatie-waterzuivering",
+    "key": "projecten--bouwen-daf-installatie-waterzuivering",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-daf-installatie-waterzuivering",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-daf-installatie-waterzuivering",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3309
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 76.58993989456366,
+      "ssim": 0.39976687936367794,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3309
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 3250
+      },
+      "heightDelta": -59
+    }
+  },
+  {
+    "route": "/projecten/bouwen-daf-installatie-waterzuivering",
+    "key": "projecten--bouwen-daf-installatie-waterzuivering",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-daf-installatie-waterzuivering",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-daf-installatie-waterzuivering",
+    "referenceSize": {
+      "width": 768,
+      "height": 3782
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 81.53381830682179,
+      "ssim": -0.00956683697070988,
+      "referenceSize": {
+        "width": 768,
+        "height": 3782
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 4212
+      },
+      "heightDelta": 430
+    }
+  },
+  {
+    "route": "/projecten/bouwen-daf-installatie-waterzuivering",
+    "key": "projecten--bouwen-daf-installatie-waterzuivering",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-daf-installatie-waterzuivering",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-daf-installatie-waterzuivering",
+    "referenceSize": {
+      "width": 390,
+      "height": 5799
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 79.14109859790149,
+      "ssim": -0.3591212797950128,
+      "referenceSize": {
+        "width": 390,
+        "height": 5799
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 3811
+      },
+      "heightDelta": -1988
+    }
+  },
+  {
+    "route": "/projecten/cummins",
+    "key": "projecten--cummins",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/cummins",
+    "candidate": "http://127.0.0.1:4173/projecten/cummins",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3649
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 79.58752968849913,
+      "ssim": 0.4102022351210946,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3649
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3581
+      },
+      "heightDelta": -68
+    }
+  },
+  {
+    "route": "/projecten/cummins",
+    "key": "projecten--cummins",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/cummins",
+    "candidate": "http://127.0.0.1:4173/projecten/cummins",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3259
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 74.21946916231973,
+      "ssim": 0.48167480768090004,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3259
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 3250
+      },
+      "heightDelta": -9
+    }
+  },
+  {
+    "route": "/projecten/cummins",
+    "key": "projecten--cummins",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/cummins",
+    "candidate": "http://127.0.0.1:4173/projecten/cummins",
+    "referenceSize": {
+      "width": 768,
+      "height": 2787
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 93.33319113050015,
+      "ssim": -0.16301215935886013,
+      "referenceSize": {
+        "width": 768,
+        "height": 2787
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 4212
+      },
+      "heightDelta": 1425
+    }
+  },
+  {
+    "route": "/projecten/cummins",
+    "key": "projecten--cummins",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/cummins",
+    "candidate": "http://127.0.0.1:4173/projecten/cummins",
+    "referenceSize": {
+      "width": 390,
+      "height": 6077
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 74.822934730784,
+      "ssim": -0.31694583553709804,
+      "referenceSize": {
+        "width": 390,
+        "height": 6077
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 3786
+      },
+      "heightDelta": -2291
+    }
+  },
+  {
+    "route": "/projecten/energiebesparing-door-frequentieregelaars",
+    "key": "projecten--energiebesparing-door-frequentieregelaars",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/energiebesparing-door-frequentieregelaars",
+    "candidate": "http://127.0.0.1:4173/projecten/energiebesparing-door-frequentieregelaars",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3649
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 84.16386909655613,
+      "ssim": 0.021686198760154315,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3649
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3236
+      },
+      "heightDelta": -413
+    }
+  },
+  {
+    "route": "/projecten/energiebesparing-door-frequentieregelaars",
+    "key": "projecten--energiebesparing-door-frequentieregelaars",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/energiebesparing-door-frequentieregelaars",
+    "candidate": "http://127.0.0.1:4173/projecten/energiebesparing-door-frequentieregelaars",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3259
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 81.66295898537383,
+      "ssim": 0.05261476015326961,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3259
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 2905
+      },
+      "heightDelta": -354
+    }
+  },
+  {
+    "route": "/projecten/energiebesparing-door-frequentieregelaars",
+    "key": "projecten--energiebesparing-door-frequentieregelaars",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/energiebesparing-door-frequentieregelaars",
+    "candidate": "http://127.0.0.1:4173/projecten/energiebesparing-door-frequentieregelaars",
+    "referenceSize": {
+      "width": 768,
+      "height": 3848
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 74.66767774384961,
+      "ssim": 0.22424052214192444,
+      "referenceSize": {
+        "width": 768,
+        "height": 3848
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 3785
+      },
+      "heightDelta": -63
+    }
+  },
+  {
+    "route": "/projecten/energiebesparing-door-frequentieregelaars",
+    "key": "projecten--energiebesparing-door-frequentieregelaars",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/energiebesparing-door-frequentieregelaars",
+    "candidate": "http://127.0.0.1:4173/projecten/energiebesparing-door-frequentieregelaars",
+    "referenceSize": {
+      "width": 390,
+      "height": 6077
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 71.37660704716818,
+      "ssim": -0.1723200267950807,
+      "referenceSize": {
+        "width": 390,
+        "height": 6077
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 3176
+      },
+      "heightDelta": -2901
+    }
+  },
+  {
+    "route": "/projecten/kleine-verdelerbouw-tot-630-a",
+    "key": "projecten--kleine-verdelerbouw-tot-630-a",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/kleine-verdelerbouw-tot-630-a",
+    "candidate": "http://127.0.0.1:4173/projecten/kleine-verdelerbouw-tot-630-a",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3256
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 70.03331989660114,
+      "ssim": 0.6381168115470879,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3256
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3236
+      },
+      "heightDelta": -20
+    }
+  },
+  {
+    "route": "/projecten/kleine-verdelerbouw-tot-630-a",
+    "key": "projecten--kleine-verdelerbouw-tot-630-a",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/kleine-verdelerbouw-tot-630-a",
+    "candidate": "http://127.0.0.1:4173/projecten/kleine-verdelerbouw-tot-630-a",
+    "referenceSize": {
+      "width": 1440,
+      "height": 2854
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 65.18923312296806,
+      "ssim": 0.5771292219426832,
+      "referenceSize": {
+        "width": 1440,
+        "height": 2854
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 2905
+      },
+      "heightDelta": 51
+    }
+  },
+  {
+    "route": "/projecten/kleine-verdelerbouw-tot-630-a",
+    "key": "projecten--kleine-verdelerbouw-tot-630-a",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/kleine-verdelerbouw-tot-630-a",
+    "candidate": "http://127.0.0.1:4173/projecten/kleine-verdelerbouw-tot-630-a",
+    "referenceSize": {
+      "width": 768,
+      "height": 3696
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 75.79786133862828,
+      "ssim": 0.1975733568189855,
+      "referenceSize": {
+        "width": 768,
+        "height": 3696
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 4029
+      },
+      "heightDelta": 333
+    }
+  },
+  {
+    "route": "/projecten/kleine-verdelerbouw-tot-630-a",
+    "key": "projecten--kleine-verdelerbouw-tot-630-a",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/kleine-verdelerbouw-tot-630-a",
+    "candidate": "http://127.0.0.1:4173/projecten/kleine-verdelerbouw-tot-630-a",
+    "referenceSize": {
+      "width": 390,
+      "height": 6367
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 68.79361934332879,
+      "ssim": -0.2855036829440994,
+      "referenceSize": {
+        "width": 390,
+        "height": 6367
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 3670
+      },
+      "heightDelta": -2697
+    }
+  },
+  {
+    "route": "/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "key": "projecten--retrofit-oplossingen-in-bestaande-machineframe",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "candidate": "http://127.0.0.1:4173/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3644
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 78.82695298207099,
+      "ssim": 0.45609206420960996,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3644
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3581
+      },
+      "heightDelta": -63
+    }
+  },
+  {
+    "route": "/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "key": "projecten--retrofit-oplossingen-in-bestaande-machineframe",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "candidate": "http://127.0.0.1:4173/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3392
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 78.15208579009433,
+      "ssim": 0.28551290486022024,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3392
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 3250
+      },
+      "heightDelta": -142
+    }
+  },
+  {
+    "route": "/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "key": "projecten--retrofit-oplossingen-in-bestaande-machineframe",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "candidate": "http://127.0.0.1:4173/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "referenceSize": {
+      "width": 768,
+      "height": 4195
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 79.19204651433901,
+      "ssim": 0.2346988367276143,
+      "referenceSize": {
+        "width": 768,
+        "height": 4195
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 4289
+      },
+      "heightDelta": 94
+    }
+  },
+  {
+    "route": "/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "key": "projecten--retrofit-oplossingen-in-bestaande-machineframe",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "candidate": "http://127.0.0.1:4173/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "referenceSize": {
+      "width": 390,
+      "height": 5950
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 76.76315449256626,
+      "ssim": -0.33309554286111825,
+      "referenceSize": {
+        "width": 390,
+        "height": 5950
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 3842
+      },
+      "heightDelta": -2108
+    }
+  },
+  {
+    "route": "/projecten/sc100",
+    "key": "projecten--sc100",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/projecten/sc100",
+    "candidate": "http://127.0.0.1:4173/projecten/sc100",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3880
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 83.06503704896907,
+      "ssim": 0.03163978182905725,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3880
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3581
+      },
+      "heightDelta": -299
+    }
+  },
+  {
+    "route": "/projecten/sc100",
+    "key": "projecten--sc100",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/projecten/sc100",
+    "candidate": "http://127.0.0.1:4173/projecten/sc100",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3648
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 84.43681088572124,
+      "ssim": -0.09509323613366152,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3648
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 3250
+      },
+      "heightDelta": -398
+    }
+  },
+  {
+    "route": "/projecten/sc100",
+    "key": "projecten--sc100",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/projecten/sc100",
+    "candidate": "http://127.0.0.1:4173/projecten/sc100",
+    "referenceSize": {
+      "width": 768,
+      "height": 3054
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 95.06930274623451,
+      "ssim": -0.3422726026210834,
+      "referenceSize": {
+        "width": 768,
+        "height": 3054
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 4227
+      },
+      "heightDelta": 1173
+    }
+  },
+  {
+    "route": "/projecten/sc100",
+    "key": "projecten--sc100",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/projecten/sc100",
+    "candidate": "http://127.0.0.1:4173/projecten/sc100",
+    "referenceSize": {
+      "width": 390,
+      "height": 6750
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 79.41508072174739,
+      "ssim": -0.19473578581938036,
+      "referenceSize": {
+        "width": 390,
+        "height": 6750
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 3908
+      },
+      "heightDelta": -2842
+    }
+  },
+  {
+    "route": "/contact",
+    "key": "contact",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/contact",
+    "candidate": "http://127.0.0.1:4173/contact",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3390
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 52.293972252772434,
+      "ssim": 0.2924333801823925,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3390
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3637
+      },
+      "heightDelta": 247
+    }
+  },
+  {
+    "route": "/contact",
+    "key": "contact",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/contact",
+    "candidate": "http://127.0.0.1:4173/contact",
+    "referenceSize": {
+      "width": 1440,
+      "height": 3474
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 47.25221483942414,
+      "ssim": 0.40576482253570473,
+      "referenceSize": {
+        "width": 1440,
+        "height": 3474
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 3612
+      },
+      "heightDelta": 138
+    }
+  },
+  {
+    "route": "/contact",
+    "key": "contact",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/contact",
+    "candidate": "http://127.0.0.1:4173/contact",
+    "referenceSize": {
+      "width": 768,
+      "height": 4398
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 59.868471555381866,
+      "ssim": 0.46368615313117606,
+      "referenceSize": {
+        "width": 768,
+        "height": 4398
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 4478
+      },
+      "heightDelta": 80
+    }
+  },
+  {
+    "route": "/contact",
+    "key": "contact",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/contact",
+    "candidate": "http://127.0.0.1:4173/contact",
+    "referenceSize": {
+      "width": 390,
+      "height": 5808
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 92.81848202302749,
+      "ssim": -0.40495532573740417,
+      "referenceSize": {
+        "width": 390,
+        "height": 5808
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 4546
+      },
+      "heightDelta": -1262
+    }
+  },
+  {
+    "route": "/afspraak-maken",
+    "key": "afspraak-maken",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/afspraak-maken",
+    "candidate": "http://127.0.0.1:4173/afspraak-maken",
+    "referenceSize": {
+      "width": 1920,
+      "height": 2576
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 54.665139616055846,
+      "ssim": 0.5082033391521963,
+      "referenceSize": {
+        "width": 1920,
+        "height": 2576
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 2674
+      },
+      "heightDelta": 98
+    }
+  },
+  {
+    "route": "/afspraak-maken",
+    "key": "afspraak-maken",
+    "viewport": "desktop",
+    "reference": "https://www.bhr-is.nl/afspraak-maken",
+    "candidate": "http://127.0.0.1:4173/afspraak-maken",
+    "referenceSize": {
+      "width": 1440,
+      "height": 2504
+    },
+    "metrics": {
+      "viewport": "desktop",
+      "mismatch": 55.57513758883689,
+      "ssim": 0.5288848985409281,
+      "referenceSize": {
+        "width": 1440,
+        "height": 2504
+      },
+      "candidateSize": {
+        "width": 1440,
+        "height": 2564
+      },
+      "heightDelta": 60
+    }
+  },
+  {
+    "route": "/afspraak-maken",
+    "key": "afspraak-maken",
+    "viewport": "tablet",
+    "reference": "https://www.bhr-is.nl/afspraak-maken",
+    "candidate": "http://127.0.0.1:4173/afspraak-maken",
+    "referenceSize": {
+      "width": 768,
+      "height": 2859
+    },
+    "metrics": {
+      "viewport": "tablet",
+      "mismatch": 72.47866475282699,
+      "ssim": -0.028690353952443976,
+      "referenceSize": {
+        "width": 768,
+        "height": 2859
+      },
+      "candidateSize": {
+        "width": 768,
+        "height": 3331
+      },
+      "heightDelta": 472
+    }
+  },
+  {
+    "route": "/afspraak-maken",
+    "key": "afspraak-maken",
+    "viewport": "mobile",
+    "reference": "https://www.bhr-is.nl/afspraak-maken",
+    "candidate": "http://127.0.0.1:4173/afspraak-maken",
+    "referenceSize": {
+      "width": 390,
+      "height": 4250
+    },
+    "metrics": {
+      "viewport": "mobile",
+      "mismatch": 81.6772850678733,
+      "ssim": -0.0022436023489781453,
+      "referenceSize": {
+        "width": 390,
+        "height": 4250
+      },
+      "candidateSize": {
+        "width": 390,
+        "height": 3470
+      },
+      "heightDelta": -780
+    }
+  },
+  {
+    "route": "/algemene-voorwaarden",
+    "key": "algemene-voorwaarden",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/algemene-voorwaarden",
+    "candidate": "http://127.0.0.1:4173/algemene-voorwaarden",
+    "referenceSize": {
+      "width": 1920,
+      "height": 1458
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 48.545164284131204,
+      "ssim": 0.21847203673565438,
+      "referenceSize": {
+        "width": 1920,
+        "height": 1458
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 1504
+      },
+      "heightDelta": 46
+    }
+  },
+  {
+    "route": "/betrouwbare-paneelbouw-etten-leur",
+    "key": "betrouwbare-paneelbouw-etten-leur",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/betrouwbare-paneelbouw-etten-leur",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6068
+    },
+    "metrics": null
+  },
+  {
+    "route": "/bordenbouw-op-maat",
+    "key": "bordenbouw-op-maat",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/bordenbouw-op-maat",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 10331
+    },
+    "metrics": null
+  },
+  {
+    "route": "/bordenbouwer",
+    "key": "bordenbouwer",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/bordenbouwer",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 9966
+    },
+    "metrics": null
+  },
+  {
+    "route": "/branches/agro",
+    "key": "branches--agro",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/branches/agro",
+    "candidate": "http://127.0.0.1:4173/branches/agro",
+    "referenceSize": {
+      "width": 1920,
+      "height": 9557
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 82.26080575211992,
+      "ssim": -0.2280212322904186,
+      "referenceSize": {
+        "width": 1920,
+        "height": 9557
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 11164
+      },
+      "heightDelta": 1607
+    }
+  },
+  {
+    "route": "/branches/chemie-en-farmacie",
+    "key": "branches--chemie-en-farmacie",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/branches/chemie-en-farmacie",
+    "candidate": "http://127.0.0.1:4173/branches/chemie-en-farmacie",
+    "referenceSize": {
+      "width": 1920,
+      "height": 8553
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 82.97340236369305,
+      "ssim": -0.0027499333486356945,
+      "referenceSize": {
+        "width": 1920,
+        "height": 8553
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 6924
+      },
+      "heightDelta": -1629
+    }
+  },
+  {
+    "route": "/branches/energie-en-utiliteit",
+    "key": "branches--energie-en-utiliteit",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/branches/energie-en-utiliteit",
+    "candidate": "http://127.0.0.1:4173/branches/energie-en-utiliteit",
+    "referenceSize": {
+      "width": 1920,
+      "height": 7726
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 93.10410869143153,
+      "ssim": -0.20321279597378658,
+      "referenceSize": {
+        "width": 1920,
+        "height": 7726
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 6924
+      },
+      "heightDelta": -802
+    }
+  },
+  {
+    "route": "/branches/machinebouw",
+    "key": "branches--machinebouw",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/branches/machinebouw",
+    "candidate": "http://127.0.0.1:4173/branches/machinebouw",
+    "referenceSize": {
+      "width": 1920,
+      "height": 10122
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 89.05039250312849,
+      "ssim": -0.1398791249507687,
+      "referenceSize": {
+        "width": 1920,
+        "height": 10122
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 8821
+      },
+      "heightDelta": -1301
+    }
+  },
+  {
+    "route": "/branches/productie-industrie",
+    "key": "branches--productie-industrie",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/branches/productie-industrie",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 8275
+    },
+    "metrics": null
+  },
+  {
+    "route": "/branches/voedingsindustrie",
+    "key": "branches--voedingsindustrie",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/branches/voedingsindustrie",
+    "candidate": "http://127.0.0.1:4173/branches/voedingsindustrie",
+    "referenceSize": {
+      "width": 1920,
+      "height": 10566
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 94.2942082308032,
+      "ssim": -0.05308175908638381,
+      "referenceSize": {
+        "width": 1920,
+        "height": 10566
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 6924
+      },
+      "heightDelta": -3642
+    }
+  },
+  {
+    "route": "/branches/watertechnologie",
+    "key": "branches--watertechnologie",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/branches/watertechnologie",
+    "candidate": "http://127.0.0.1:4173/branches/watertechnologie",
+    "referenceSize": {
+      "width": 1920,
+      "height": 9238
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 92.32957056902649,
+      "ssim": -0.14907572613844877,
+      "referenceSize": {
+        "width": 1920,
+        "height": 9238
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 8053
+      },
+      "heightDelta": -1185
+    }
+  },
+  {
+    "route": "/certificering",
+    "key": "certificering",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/certificering",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 3189
+    },
+    "metrics": null
+  },
+  {
+    "route": "/cookie-instellingen",
+    "key": "cookie-instellingen",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/cookie-instellingen",
+    "candidate": "http://127.0.0.1:4173/cookie-instellingen",
+    "referenceSize": {
+      "width": 1920,
+      "height": 2560
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 96.86749267578125,
+      "ssim": -0.6245589063056929,
+      "referenceSize": {
+        "width": 1920,
+        "height": 2560
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 1795
+      },
+      "heightDelta": -765
+    }
+  },
+  {
+    "route": "/de-mensen-achter-de-techniek",
+    "key": "de-mensen-achter-de-techniek",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/de-mensen-achter-de-techniek",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 4680
+    },
+    "metrics": null
+  },
+  {
+    "route": "/expertises/bekabeling-en-installatie",
+    "key": "expertises--bekabeling-en-installatie",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/bekabeling-en-installatie",
+    "candidate": "http://127.0.0.1:4173/expertises/bekabeling-en-installatie",
+    "referenceSize": {
+      "width": 1920,
+      "height": 8038
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 88.19740347930663,
+      "ssim": 0.2009689929105831,
+      "referenceSize": {
+        "width": 1920,
+        "height": 8038
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 6730
+      },
+      "heightDelta": -1308
+    }
+  },
+  {
+    "route": "/expertises/cybersecurity",
+    "key": "expertises--cybersecurity",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/cybersecurity",
+    "candidate": "http://127.0.0.1:4173/expertises/cybersecurity",
+    "referenceSize": {
+      "width": 1920,
+      "height": 7159
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 92.15372113190855,
+      "ssim": 0.1599456853724418,
+      "referenceSize": {
+        "width": 1920,
+        "height": 7159
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 5978
+      },
+      "heightDelta": -1181
+    }
+  },
+  {
+    "route": "/expertises/elektrocomponenten",
+    "key": "expertises--elektrocomponenten",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/elektrocomponenten",
+    "candidate": "http://127.0.0.1:4173/expertises/elektrocomponenten",
+    "referenceSize": {
+      "width": 1920,
+      "height": 8401
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 92.62035397571718,
+      "ssim": -0.12457044261336007,
+      "referenceSize": {
+        "width": 1920,
+        "height": 8401
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 7481
+      },
+      "heightDelta": -920
+    }
+  },
+  {
+    "route": "/expertises/hardware-engineering",
+    "key": "expertises--hardware-engineering",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/hardware-engineering",
+    "candidate": "http://127.0.0.1:4173/expertises/hardware-engineering",
+    "referenceSize": {
+      "width": 1920,
+      "height": 8609
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 86.45031725519804,
+      "ssim": -0.22920049409879506,
+      "referenceSize": {
+        "width": 1920,
+        "height": 8609
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 7333
+      },
+      "heightDelta": -1276
+    }
+  },
+  {
+    "route": "/expertises/inbedrijfstelling",
+    "key": "expertises--inbedrijfstelling",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/inbedrijfstelling",
+    "candidate": "http://127.0.0.1:4173/expertises/inbedrijfstelling",
+    "referenceSize": {
+      "width": 1920,
+      "height": 10047
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 85.90786843502207,
+      "ssim": -0.08031436043859638,
+      "referenceSize": {
+        "width": 1920,
+        "height": 10047
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 4500
+      },
+      "heightDelta": -5547
+    }
+  },
+  {
+    "route": "/expertises/industriele-automatisering",
+    "key": "expertises--industriele-automatisering",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/industriele-automatisering",
+    "candidate": "http://127.0.0.1:4173/expertises/industriele-automatisering",
+    "referenceSize": {
+      "width": 1920,
+      "height": 9788
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 84.54381853630296,
+      "ssim": -0.06966892643781067,
+      "referenceSize": {
+        "width": 1920,
+        "height": 9788
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 8871
+      },
+      "heightDelta": -917
+    }
+  },
+  {
+    "route": "/expertises/machineveiligheid",
+    "key": "expertises--machineveiligheid",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/machineveiligheid",
+    "candidate": "http://127.0.0.1:4173/expertises/machineveiligheid",
+    "referenceSize": {
+      "width": 1920,
+      "height": 6784
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 88.37698690546384,
+      "ssim": 0.20009967814405832,
+      "referenceSize": {
+        "width": 1920,
+        "height": 6784
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 5626
+      },
+      "heightDelta": -1158
+    }
+  },
+  {
+    "route": "/expertises/software-engineering",
+    "key": "expertises--software-engineering",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/expertises/software-engineering",
+    "candidate": "http://127.0.0.1:4173/expertises/software-engineering",
+    "referenceSize": {
+      "width": 1920,
+      "height": 9467
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 80.99122280025351,
+      "ssim": -0.08799675249210917,
+      "referenceSize": {
+        "width": 1920,
+        "height": 9467
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 8426
+      },
+      "heightDelta": -1041
+    }
+  },
+  {
+    "route": "/industriele-bordenbouw",
+    "key": "industriele-bordenbouw",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/industriele-bordenbouw",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 10556
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties",
+    "key": "locaties",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 3702
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "key": "locaties--betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 5419
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/oisterwijk",
+    "key": "locaties--oisterwijk",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/oisterwijk",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6400
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "key": "locaties--paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6417
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "key": "locaties--paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 5039
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "key": "locaties--paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2299
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/paneelbouwer-in-de-regio-dongen",
+    "key": "locaties--paneelbouwer-in-de-regio-dongen",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouwer-in-de-regio-dongen",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6544
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/raamsdonksveer",
+    "key": "locaties--raamsdonksveer",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/raamsdonksveer",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6098
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/s-hertogenbosch",
+    "key": "locaties--s-hertogenbosch",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/s-hertogenbosch",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6322
+    },
+    "metrics": null
+  },
+  {
+    "route": "/locaties/waalwijk",
+    "key": "locaties--waalwijk",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/locaties/waalwijk",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6322
+    },
+    "metrics": null
+  },
+  {
+    "route": "/nieuws",
+    "key": "nieuws",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/nieuws",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2269
+    },
+    "metrics": null
+  },
+  {
+    "route": "/offerteaanvraag",
+    "key": "offerteaanvraag",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/offerteaanvraag",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2238
+    },
+    "metrics": null
+  },
+  {
+    "route": "/over-ons",
+    "key": "over-ons",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/over-ons",
+    "candidate": "http://127.0.0.1:4173/over-ons",
+    "referenceSize": {
+      "width": 1920,
+      "height": 8722
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 82.48710158220591,
+      "ssim": -0.12202427744077803,
+      "referenceSize": {
+        "width": 1920,
+        "height": 8722
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 7925
+      },
+      "heightDelta": -797
+    }
+  },
+  {
+    "route": "/pagina-niet-gevonden",
+    "key": "pagina-niet-gevonden",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/pagina-niet-gevonden",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 1598
+    },
+    "metrics": null
+  },
+  {
+    "route": "/paneelbouw-automatisering-tilburg",
+    "key": "paneelbouw-automatisering-tilburg",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/paneelbouw-automatisering-tilburg",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6051
+    },
+    "metrics": null
+  },
+  {
+    "route": "/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "key": "paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 5283
+    },
+    "metrics": null
+  },
+  {
+    "route": "/paneelbouw-oosterhout",
+    "key": "paneelbouw-oosterhout",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/paneelbouw-oosterhout",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 5497
+    },
+    "metrics": null
+  },
+  {
+    "route": "/paneelbouwer-dongen",
+    "key": "paneelbouwer-dongen",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/paneelbouwer-dongen",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 8027
+    },
+    "metrics": null
+  },
+  {
+    "route": "/paneelbrouwer-breda",
+    "key": "paneelbrouwer-breda",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/paneelbrouwer-breda",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 5726
+    },
+    "metrics": null
+  },
+  {
+    "route": "/privacy",
+    "key": "privacy",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/privacy",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 1458
+    },
+    "metrics": null
+  },
+  {
+    "route": "/referentie",
+    "key": "referentie",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/referentie",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 3109
+    },
+    "metrics": null
+  },
+  {
+    "route": "/sitemap",
+    "key": "sitemap",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/sitemap",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2085
+    },
+    "metrics": null
+  },
+  {
+    "route": "/test",
+    "key": "test",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/test",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 2141
+    },
+    "metrics": null
+  },
+  {
+    "route": "/vacature",
+    "key": "vacature",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/vacature",
+    "candidate": "http://127.0.0.1:4173/vacature",
+    "referenceSize": {
+      "width": 1920,
+      "height": 1726
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 63.896833206365336,
+      "ssim": 0.1541583521679104,
+      "referenceSize": {
+        "width": 1920,
+        "height": 1726
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 1969
+      },
+      "heightDelta": 243
+    }
+  },
+  {
+    "route": "/vacature/junior-e-plan-engineer",
+    "key": "vacature--junior-e-plan-engineer",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/vacature/junior-e-plan-engineer",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 6181
+    },
+    "metrics": null
+  },
+  {
+    "route": "/vacature/monteur-paneelbouw",
+    "key": "vacature--monteur-paneelbouw",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 5951
+    },
+    "metrics": null
+  },
+  {
+    "route": "/veelgestelde-vragen",
+    "key": "veelgestelde-vragen",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/veelgestelde-vragen",
+    "candidate": "http://127.0.0.1:4173/veelgestelde-vragen",
+    "referenceSize": {
+      "width": 1920,
+      "height": 3553
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 34.41641160052538,
+      "ssim": 0.3495953261429912,
+      "referenceSize": {
+        "width": 1920,
+        "height": 3553
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 3339
+      },
+      "heightDelta": -214
+    }
+  },
+  {
+    "route": "/voor-machinebouwers",
+    "key": "voor-machinebouwers",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/voor-machinebouwers",
+    "candidate": "http://127.0.0.1:4173/voor-machinebouwers",
+    "referenceSize": {
+      "width": 1920,
+      "height": 7523
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 69.85956173681475,
+      "ssim": 0.5665974875112276,
+      "referenceSize": {
+        "width": 1920,
+        "height": 7523
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 7698
+      },
+      "heightDelta": 175
+    }
+  },
+  {
+    "route": "/werken-bij",
+    "key": "werken-bij",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/werken-bij",
+    "candidate": null,
+    "referenceSize": {
+      "width": 1920,
+      "height": 8761
+    },
+    "metrics": null
+  },
+  {
+    "route": "/zoeken",
+    "key": "zoeken",
+    "viewport": "wide",
+    "reference": "https://www.bhr-is.nl/zoeken",
+    "candidate": "http://127.0.0.1:4173/zoeken",
+    "referenceSize": {
+      "width": 1920,
+      "height": 1698
+    },
+    "metrics": {
+      "viewport": "wide",
+      "mismatch": 66.15242810168826,
+      "ssim": -0.1483107726990422,
+      "referenceSize": {
+        "width": 1920,
+        "height": 1698
+      },
+      "candidateSize": {
+        "width": 1920,
+        "height": 1466
+      },
+      "heightDelta": -232
+    }
+  }
+]

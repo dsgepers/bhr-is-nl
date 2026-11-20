@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Voor welke branche is de besturingskast bedoeld?",
+    "required": true,
+    "prompt": null,
+    "options": [
+      "Agrarisch",
+      "Chemie",
+      "Bouw",
+      "Industrie",
+      "Recycling",
+      "Food",
+      "Overig"
+    ]
+  },
+  {
+    "question": "Hoe wordt de kast geplaatst of toegepast?",
+    "required": true,
+    "prompt": "- Bijvoorbeeld wandmontage, vloerplaatsing, ingebouwd of vervanging. -",
+    "options": [
+      "Wandmontage",
+      "Staand op de vloer",
+      "Ingebouwd",
+      "Retrofit",
+      "Speciaal",
+      "Overig"
+    ]
+  },
+  {
+    "question": "Van welk materiaal moet de kast gemaakt zijn?",
+    "required": true,
+    "prompt": "- Kies een materiaal dat past bij de omgeving en eisen van jouw branche. -",
+    "options": [
+      "Kunststof",
+      "Plaatstaal",
+      "RVS",
+      "Weet ik nog niet",
+      "Overig"
+    ]
+  },
+  {
+    "question": "Welke vorm van besturing wordt toegepast?",
+    "required": false,
+    "prompt": "- Van eenvoudige aansturing tot complexe PLC-besturingen. -",
+    "options": [
+      "Eenvoudig zonder PLC",
+      "Eenvoudig met PLC",
+      "Relatief eenvoudig met PLC",
+      "Relatief eenvoudig zonder PLC",
+      "Complex",
+      "Weet ik niet",
+      "Overig"
+    ]
+  },
+  {
+    "question": "Wenst u een touchscreen?",
+    "required": false,
+    "prompt": "- Van toepassing bij een PLC aplicaties. -",
+    "options": [
+      "Nee",
+      "Ja, 7\"",
+      "Ja, 10\"",
+      "Ja, 12\"",
+      "Groter dan 12\""
+    ]
+  },
+  {
+    "question": "Wat is het gewenste formaat van de kast?",
+    "required": true,
+    "prompt": "- Kies een formaat op basis van beschikbare ruimte of gebruikstoepassing. -",
+    "options": [
+      "Klein: 30x30cm",
+      "Klein-middel: 50x50cm",
+      "Middel: 120x120cm",
+      "Middel-groot: 60x220cm",
+      "Groot: 120x220cm",
+      "Weet ik niet",
+      "Overig"
+    ]
+  },
+  {
+    "question": "Voor welke land/continent is de kast?",
+    "required": false,
+    "prompt": "- Selecteer -",
+    "options": [
+      "Nederland",
+      "Europa",
+      "Amerika",
+      "Overig"
+    ]
+  }
+]

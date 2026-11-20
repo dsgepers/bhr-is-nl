@@ -1,0 +1,358 @@
+{
+  "/privacy": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/pagina-niet-gevonden": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/projecten": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/projecten/bierskid-besturing-zonder-plc": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/projecten/bouwen-afdelingsinstallatie": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/projecten/bouwen-daf-installatie-waterzuivering": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/projecten/cummins": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/projecten/energiebesparing-door-frequentieregelaars": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/projecten/kleine-verdelerbouw-tot-630-a": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/projecten/retrofit-oplossingen-in-bestaande-machineframe": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/projecten/sc100": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/contact": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/afspraak-maken": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/offerteaanvraag": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/branches/productie-industrie": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/bordenbouw-op-maat": {
+    "reverseArticles": [
+      1,
+      3,
+      5
+    ],
+    "staticBranches": []
+  },
+  "/industriele-bordenbouw": {
+    "reverseArticles": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "staticBranches": []
+  },
+  "/bordenbouwer": {
+    "reverseArticles": [
+      1,
+      3,
+      5
+    ],
+    "staticBranches": []
+  },
+  "/werken-bij": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/algemene-voorwaarden": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/betrouwbare-paneelbouw-etten-leur": {
+    "reverseArticles": [
+      0,
+      2
+    ],
+    "staticBranches": []
+  },
+  "/branches/agro": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/branches/chemie-en-farmacie": {
+    "reverseArticles": [
+      1,
+      4
+    ],
+    "staticBranches": []
+  },
+  "/branches/energie-en-utiliteit": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/branches/machinebouw": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/branches/voedingsindustrie": {
+    "reverseArticles": [
+      2
+    ],
+    "staticBranches": []
+  },
+  "/branches/watertechnologie": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/certificering": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/cookie-instellingen": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/de-mensen-achter-de-techniek": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/expertises/bekabeling-en-installatie": {
+    "reverseArticles": [
+      1,
+      3
+    ],
+    "staticBranches": [
+      4
+    ]
+  },
+  "/expertises/cybersecurity": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/expertises/elektrocomponenten": {
+    "reverseArticles": [
+      1,
+      3
+    ],
+    "staticBranches": []
+  },
+  "/expertises/hardware-engineering": {
+    "reverseArticles": [
+      0,
+      3
+    ],
+    "staticBranches": []
+  },
+  "/expertises/inbedrijfstelling": {
+    "reverseArticles": [
+      1,
+      3
+    ],
+    "staticBranches": []
+  },
+  "/expertises/industriele-automatisering": {
+    "reverseArticles": [
+      1,
+      3
+    ],
+    "staticBranches": []
+  },
+  "/expertises/machineveiligheid": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/expertises/software-engineering": {
+    "reverseArticles": [
+      1,
+      5
+    ],
+    "staticBranches": []
+  },
+  "/locaties": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur": {
+    "reverseArticles": [
+      0,
+      2
+    ],
+    "staticBranches": []
+  },
+  "/locaties/oisterwijk": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/locaties/paneelbouwer-in-de-regio-dongen": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/locaties/raamsdonksveer": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/locaties/s-hertogenbosch": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/locaties/waalwijk": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/nieuws": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/over-ons": {
+    "reverseArticles": [
+      0
+    ],
+    "staticBranches": []
+  },
+  "/paneelbouw-automatisering-tilburg": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/paneelbouw-automatisering-voor-machineparken-in-tilburg": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/paneelbouw-oosterhout": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/paneelbouwer-dongen": {
+    "reverseArticles": [
+      1,
+      3,
+      5
+    ],
+    "staticBranches": []
+  },
+  "/paneelbrouwer-breda": {
+    "reverseArticles": [
+      1
+    ],
+    "staticBranches": []
+  },
+  "/referentie": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/sitemap": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/test": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/vacature": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/vacature/junior-e-plan-engineer": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/vacature/monteur-paneelbouw": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/veelgestelde-vragen": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/voor-machinebouwers": {
+    "reverseArticles": [],
+    "staticBranches": []
+  },
+  "/zoeken": {
+    "reverseArticles": [],
+    "staticBranches": []
+  }
+}

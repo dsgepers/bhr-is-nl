@@ -1,0 +1,8 @@
+{
+  "name": "bhr-static-recreation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node build.mjs", "test": "node --test tests/*.test.mjs", "verify": "node verify.mjs", "verify:likeness": "node tools/check-subpage-likeness.mjs"},
+  "engines": {"node": ">=20"}
+}

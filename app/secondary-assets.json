@@ -1,0 +1,68 @@
+{
+  "/assets/images/secondary-project-arrow.svg": {
+    "source": "https://www.bhr-is.nl/projecten",
+    "role": "gallery arrow",
+    "bytes": 203,
+    "sha256": "0c454813180ad6649d8177a94ac62b7b6af887667a7910f5d4ad8af474e76cef"
+  },
+  "/assets/images/secondary-job-summary-0.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "vacancy summary icon",
+    "bytes": 531,
+    "sha256": "cbf4a1f19172f50da08d011b323c40d668738b4bac8ad91cd3a520feee58df35"
+  },
+  "/assets/images/secondary-job-summary-1.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "vacancy summary icon",
+    "bytes": 552,
+    "sha256": "1ae3e6fe1471f9a34cee470c10aad063adeeb018bcb2771ecbd7e2903c133932"
+  },
+  "/assets/images/secondary-job-summary-2.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "vacancy summary icon",
+    "bytes": 468,
+    "sha256": "57e0ca6614818301ac7d913f215cce21a6c4a87e38b4e25651df998672cfe077"
+  },
+  "/assets/images/secondary-checkmark.svg": {
+    "source": "https://www.bhr-is.nl/public/themes/www/_compiled/icon/plain/checkmark.svg",
+    "role": "source prose list marker",
+    "bytes": 869,
+    "sha256": "22869a58cb7b28abb4e3168d02bfa6185404038476b107b4e03b4d39261e23fb"
+  },
+  "/assets/images/secondary-share-share.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "share icon share",
+    "bytes": 911,
+    "sha256": "59fa7d32928a2387f700cd779458bed63e408dba96e77f5de11fd76a12299adc"
+  },
+  "/assets/images/secondary-share-twitter.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "share icon twitter",
+    "bytes": 381,
+    "sha256": "755ff113317c49e855117a466250a9f8dfc5434a412bc379b86cab83eb107966"
+  },
+  "/assets/images/secondary-share-facebook.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "share icon facebook",
+    "bytes": 352,
+    "sha256": "ad1d13c092d47623104602be2e7dad7a840671caaefa5fc49a46bf703ddcd2db"
+  },
+  "/assets/images/secondary-share-linkedin.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "share icon linkedin",
+    "bytes": 529,
+    "sha256": "315da575f1f3d182b982e286dd9f92c94d2e452447b84bdc012a4ee84a2f6633"
+  },
+  "/assets/images/secondary-share-pinterest.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "share icon pinterest",
+    "bytes": 714,
+    "sha256": "7d7df4df42fc362f166513a9fed78598968387ace40f551550421e342eda2dd0"
+  },
+  "/assets/images/secondary-share-email.svg": {
+    "source": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "role": "share icon email",
+    "bytes": 687,
+    "sha256": "a44379f4ae4ad3089242db4b6c4e8e0ba7a5b30f73868aa0ebf1040d31a3607f"
+  }
+}

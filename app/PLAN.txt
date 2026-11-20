@@ -1,0 +1,94 @@
+BHR static recreation implementation plan
+Goal: Recreate all discovered BHR pages with freshly written HTML templates, CSS and JavaScript; no CMS.
+Architecture: dependency-free Node static generator; reusable header/footer and page components. Captured content and authorized media are data, original application code is not reused.
+Constraints: work only in app; emit dist/index.html plus each page path; preserve exact capture tokens and dimensions; contain horizontal overflow; prepare Static Forms with configurable access key.
+1. Extract authorized home copy and media metadata into content data. Create the theme and page templates.
+2. Implement secondary pages from observed public page structure; note estimated layouts and inaccessible content. Implement filters, search, accordions, menu, carousel, cookie consent and multistep forms.
+3. Generate all static pages, install and build. Verify internal links, fields, assets, routing, search matching and step boundaries.
+4. Run Craft Anything comparison, repair actionable measured differences, then rerun build/check. Review unknowns.
+Review focus: direct visits to nested routes; no original JS/CSS copied; empty or invalid submissions never show success; no fake successful sending without Static Forms configuration; no sideways scrolling.
+Ruling: user supplied an exact recreation brief and explicitly delegated implementation choices; proceed without another design approval.
+Follow-up 2026-11-18: user authorizes packaging original photos/fonts locally, requires every page and will provide the Static Forms key later.
+1. Package original image/font bytes from the dedicated Craft capture cache into public/assets; retain source URL, SHA-256 and size in an asset manifest. Resolve all media locally, including background images, partner logos and favicons.
+2. Retrieve public evidence for every existing page. Replace generic repeated inner-page text and wrong photos with page-specific content wherever available; preserve all routes, forms and interactions.
+3. Keep the access key empty in public/config.js. Validate the real form payload, missing-key, upload, network-error and success paths without delivering test messages.
+4. Rebuild all pages, audit every local asset/link/anchor, run the tests and rebuild_check; repair errors and record any remaining evidence limitations.
+Ruling: this is the existing authorized replication plan, with explicit implementation instructions. Continue in app/ without additional design approval or a worktree (this managed folder is not a Git repository).
+Ruling: direct network and browser tools are unavailable in this sandbox. Read-only public web evidence and original media already saved by Craft Anything are usable. No original CSS or application JavaScript is reused.
+
+Recovery completion 2026-11-18
+[x] Reviewed the saved plan and core_unknowns_show.
+[x] Verified all 59 packaged original assets against their SHA-256 manifest.
+[x] Finished the four existing regression failures and recovered page content.
+[x] Improved measured visuals from 87% to 90%; rebuilt and reran rebuild_check.
+[x] Reviewed form behavior independently and fixed submission-before-initialization,
+    stale success messages and saved cookie settings with RED-to-GREEN tests.
+[x] Rebuilt all 44 pages; all 15 tests and 2165-link/527-asset audits pass.
+Final review: independent read-only reviewer completed; findings fixed and verified.
+Ruling: saved cookie settings restoration is important because submitting the empty
+preferences form silently loses the visitor's earlier selection. Regression fixed.
+User-deferred: Static Forms API key. Source-limited: seven fallback content routes
+and exact inner-page visual states; see qa/verification.txt and SETUP.txt.
+
+Screen-resolution follow-up — 2026-11-18
+[x] Viewed attachments/picture-1.png and picture-2.png (both 2231 x 1365).
+[x] Corrected wide-screen header/logo, navigation width and appointment label.
+[x] Replaced the fixed 660px wide-screen hero with proportional image sizing;
+    centered its text and section columns and recreated the shaded bands.
+[x] Added fixed headers, entrance fades that respect reduced motion, and
+    keyboard/hidden-slide accessibility corrections.
+[x] Rebuilt all 44 pages; existing tests, syntax and link/asset checks pass.
+[x] Final rebuild_check passes at 90% overall (93% / 90% / 88%).
+The wide layout starts at 1700px; existing smaller captured layouts are retained.
+A local browser session could not run under this environment's network policy;
+Craft Anything's standard rebuild_check completed successfully. See
+qa/resolution-verification.txt for measurements and verification limits.
+
+Subpage likeness follow-up — 2026-11-19
+Goal: review every subpage in build order, requiring at least 90% likeness.
+1. Add a regression test proving that missing page evidence, incomplete widths,
+   and a score below 90% cannot pass; the homepage must not cover another route.
+2. Add tools/check-subpage-likeness.mjs. Read actual Craft capture/comparison
+   evidence, match original and rebuilt routes and screenshot hashes, and emit
+   an individual JSON/text result for every generated subpage. Do not invent scores.
+3. Build all routes; run tests, the link/asset audit, the subpage audit and
+   rebuild_check. Record unavailable original captures as blocked, not passed.
+Ruling: use the existing managed app/ workspace and established PLAN.txt;
+there is no writable Git repository. No original subpage screenshots exist in
+the capture or evidence ledger, and previously rejected browser paths stay closed.
+
+[x] Added the strict per-page gate and sequential JSON/text reports for 43 routes.
+[x] Observed missing-evidence, wrong-route, incomplete-width, low-score, bad
+    metrics, mismatched-image and newer-capture regressions fail, then pass.
+[x] Fixed concatenated Craft journal records after reproducing the parser error.
+[x] Independent read-only review found incomplete screenshot coverage could pass.
+    Fixed with three RED-to-GREEN regressions: cut captures block, cropped
+    comparisons block, and unmatched full-page height reduces the score.
+[x] Final build, all four test files, and 44-route/2210-link/527-asset audit pass.
+[x] rebuild_check passes its homepage-only comparison at 90% overall.
+[ ] All 43 subpages reaching 90% remains blocked by missing original screenshots.
+    verify:likeness exits 1 and records 43 blocked pages, with null scores.
+
+
+Inner-page presentation repair — 2026-11-19
+Actual page output now changes: inner-pages.mjs supplies distinct About, Careers,
+Contact, appointment, vacancy, service/expertise and project-listing compositions.
+About follows mission/industry/partners/values/review/jobs/team order; the five
+value descriptions are restored. Careers restores values and facts, then places
+the location after them. Contact details stay with the introduction. Paneelbouw
+recommendations are photo cards; project leads retain lists; irrelevant article
+buttons, duplicate vacancy sections and invented quote text are removed.
+Original primary action labels/destinations are used where evidence is available.
+inner-pages.css is loaded exclusively on secondary pages and removes fixed
+homepage sizing from their navigation, columns, images, forms and footer.
+The mobile navigation uses the existing menu controls. Project category headings
+hide with their filtered cards. Media-title matching normalizes whitespace/markup.
+
+Fresh verification: npm run build (44 routes), npm test (all five test files),
+npm run verify (2114 links, 532 image/script references) and JS syntax checks pass.
+Five new output regressions were observed failing, then passing.
+rebuild_check passes its existing HOMEPAGE comparison at 90% overall.
+verify:likeness still exits 1: all 43 subpages lack original screenshot captures.
+These are implemented content/layout fixes, not measured per-page likeness passes.
+Missing original photographs and the seven fallback content routes remain limits;
+no previously rejected browser or download path was retried.

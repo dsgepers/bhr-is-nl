@@ -1,0 +1,59 @@
+BHR static website
+
+Run npm install and npm run build. Upload the contents of dist/ to a static host.
+All 44 routes are individual HTML files and work on direct visits. Images,
+backgrounds, partner logos, the favicon and fonts are packaged under assets/.
+Building does not require the original website or a network connection.
+
+STATIC FORMS
+The key has deliberately been left empty. Add the supplied form API key to
+staticFormsKey in public/config.js, then rebuild. For different keys per form,
+add a form's subject and key to formKeys in the same file. These are public form
+identifiers intended for browser submissions, not account-management secrets.
+
+Until a key is supplied, submitting displays contact alternatives and makes no
+submission request. Form validation, quote steps, attachments, delivery errors
+and successful responses are handled. Attachments are limited to 4 MB combined;
+enable file uploads in the chosen Static Forms plan for job applications.
+
+VERIFICATION
+npm test
+npm run verify
+npm run verify:likeness
+
+SUBPAGE LIKENESS REQUIREMENT
+verify:likeness checks each generated subpage separately, in build order, against
+Craft Anything's saved screenshot comparison evidence. Every page must reach 90%
+at 1440, 768 and 390px; scores are never rounded up or borrowed from other pages.
+The check exits with failure if any page is below 90% or lacks original/rebuilt
+screenshots or measured comparison evidence. Its individual results are saved in
+qa/subpage-likeness.json and qa/subpage-likeness.txt. Run it after building and
+capturing the current build. It checks screenshot hashes and rejects stale images.
+Truncated captures cannot pass. If full screenshots have different heights, the
+score counts the unmatched area as different instead of comparing only overlap.
+
+The current evidence contains only homepage captures. All 43 subpages are blocked
+for likeness verification until their originals can be captured and compared.
+The homepage's rebuild_check pass does not satisfy this per-page requirement.
+
+ORIGINAL MEDIA AND CONTENT
+assets-manifest.json records original source URLs, sizes and SHA-256 hashes.
+page-content.json contains individual public copy recovered for 28 pages;
+reference/ retains the public text evidence and original image URLs.
+Original HTML, CSS and application JavaScript are not reused.
+Some original pages and inner-page photos could not be retrieved in this
+environment. Those routes retain the existing recreation and available original
+photographs. Their exact appearance/content still needs original-page evidence.
+
+RECOVERY CHECK
+The interrupted fixes are finished. All tests and link/asset audits pass.
+The final rebuild_check passes at 90% overall similarity (desktop 93%, tablet 90%,
+phone 88%). Remaining original-page evidence limits are listed in
+qa/verification.txt. Form controls are enabled only after their sending handlers
+are ready, and visitors without JavaScript see an email alternative.
+
+INNER-PAGE PRESENTATION
+Secondary routes now use their own responsive stylesheet and page compositions
+in inner-pages.mjs. This includes the restored About/Careers blocks and original
+section order, project recommendations, contact layout and service actions.
+The 90% per-subpage visual requirement remains unverified; see qa/verification.txt.

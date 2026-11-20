@@ -1,0 +1,45 @@
+# Dependencies and generated site
+node_modules/
+/app/dist/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local execution archives and session metadata
+/.superpowers/
+/craft.json
+/feed.json
+/usage.json
+/inbox/
+/investigation.cany/
+/attachments/
+*.log
+
+# Captured reference pages and generated visual evidence stay local.
+/capture/
+/reference/
+/app/reference/
+/app/qa/
+/checks/*
+!/checks/visual-planning-2026-11-19/
+!/checks/visual-planning-2026-11-20/
+/checks/visual-planning-2026-11-19/*
+/checks/visual-planning-2026-11-20/*
+!/checks/visual-planning-2026-11-19/*.py
+!/checks/visual-planning-2026-11-19/*.json
+!/checks/visual-planning-2026-11-19/*.md
+!/checks/visual-planning-2026-11-20/*.py
+!/checks/visual-planning-2026-11-20/*.json
+!/checks/visual-planning-2026-11-20/*.md
+
+# Editor and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/

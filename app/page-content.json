@@ -1,0 +1,1269 @@
+{
+  "/expertises/software-engineering": {
+    "source": "https://www.bhr-is.nl/expertises/software-engineering",
+    "sections": [
+      {
+        "title": "Software die begint bij het complete proces",
+        "content": [
+          "We starten niet in de code, maar bij jouw proces. Wat moet de machine precies doen? Welke stappen zijn kritisch? Hoe ziet de operator het proces voor zich? Vanuit die logica ontwerpen we de PLC-besturing, de HMI-visualisaties en de benodigde SCADA-koppelingen. We zorgen dat alarmen logisch zijn, storingen snel te vinden zijn en bediening intuïtief is. Daardoor blijft de installatie efficiënt en veilig in dagelijks gebruik, ook wanneer er wisselingen zijn in personeel of productie."
+        ]
+      },
+      {
+        "title": "Naadloze samenwerking tussen hardware en software",
+        "content": [
+          "Doordat software en paneelbouw bij ons onder één dak plaatsvinden, ontwerpen we direct voor:",
+          "* Strakke kasten met logische signaalstructuur",
+          "* Duidelijke I/O-indeling en labeling",
+          "* Veiligheidsketens volgens SIL/PL-normering",
+          "* Efficiënte diagnose en onderhoud",
+          "Het resultaat is een efficiënt en veilig systeem dat duidelijk werkt voor operators en onderhoudsteams. Geen losse disciplines, maar één besturing die klopt"
+        ]
+      },
+      {
+        "title": "Veiligheid geïntegreerd vanaf het begin",
+        "content": [
+          "Machineveiligheid is geen extra laag, maar een onderdeel van de besturingsarchitectuur. Tijdens het ontwerpen zorgen we dat noodstoplogica, zonebewaking, opstartprocedures en alarmprioriteiten logisch met elkaar samenhangen. Dat maakt de installatie veilig zonder dat deze onnodig wordt beperkt. Operators houden controle en overzicht,  precies zoals het hoort in een professionele productieomgeving."
+        ]
+      },
+      {
+        "title": "Samen oplossingen vinden binnen het proces",
+        "content": [
+          "In industriële projecten loopt het nooit precies zoals gepland. Dat weten we, en daar handelen we naar. Wij zien geen problemen, maar uitdagingen die we samen oplossen. Met korte lijnen, direct overleg en een team dat elkaars werk begrijpt, houden we snelheid in het project en rust in de uitvoering. Onze werkwijze draait om precisie, vakmanschap en keuzes die kloppen op de lange termijn."
+        ]
+      },
+      {
+        "title": "Software engineering in vele sectoren",
+        "content": [
+          "We werken in sectoren waar stilstand directe impact heeft: machinebouw, food & beverage, agro, verpakkingslijnen, chemie, farmacie en water- en procestechnologie. Overal waar continuïteit en veiligheid belangrijk zijn, moet software logisch, overzichtelijk en onderhoudsvriendelijk blijven. En dat is precies waar wij voor bouwen."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Wat doet een software engineer in industriële automatisering?",
+        "Een software engineer vertaalt proceslogica naar PLC-code, HMI/SCADA-interfaces en data-logging. Ze zorgen dat besturingen, operatorbediening en machineveiligheid samenwerken binnen de automatisering."
+      ],
+      [
+        "Hoe verloopt de samenwerking tussen software ontwikkelaar en paneelbouwer?",
+        "De software ontwikkelaar, hardware engineer en panelenbouwer werken samen vanaf ontwerp. Zo weet je zeker dat de kast, kabels en software direct op elkaar zijn afgestemd — geen surprises bij commissioning."
+      ],
+      [
+        "Welke voordelen biedt maatwerk software engineering voor productiebedrijven?",
+        "Maatwerk zorgt voor betere machines, hogere efficiëntie, minder stilstand en eenvoudiger onderhoud. De software sluit exact aan op jouw proces — geen overbodige functies, geen onnodige complexiteit."
+      ],
+      [
+        "Hoe wordt machineveiligheid geïntegreerd in software engineering?",
+        "In het ontwerp worden veiligheidsketens (zoals noodstop, veiligheidsrelais) en logica geïntegreerd in de software. Zo is de automatisering bouwkundig en elektrisch afgestemd op veilige werking en naleving van normen."
+      ],
+      [
+        "Hoe lang duurt een traject software engineering bij BHR?",
+        "De doorlooptijd varieert per project, maar door onze integratie van software engineering, paneelbouw en hardware engineering kunnen we vaak binnen enkele weken opleveren. Kwaliteit en betrouwbaarheid blijven voorop staan."
+      ]
+    ],
+    "heading": "Software engineering op maat",
+    "intro": "Software bepaalt hoe een machine reageert, beweegt en samenwerkt met de rest van het proces. Bij BHR Industrial Solutions ontwikkelen we besturingssoftware die logisch voelt, veilig werkt en jarenlang betrouwbaar blijft.",
+    "branchAt": 2,
+    "branchTitle": "In welke branches bieden we bij BHR Software Engineering?",
+    "branchIntro": "Wij werken voor bedrijven die hun processen willen automatiseren, moderniseren of beveiligen. BHR is gespecialiseerd in regel- en besturingspanelen voor onder andere:",
+    "faqTitle": "Veelgestelde vragen over paneelbouw",
+    "lead": [
+      "Omdat onze software engineers en hardware engineers samenwerken in één hecht team, sluit de software direct aan op de schakelkast, sensors en operatorbediening. Zo ontstaat een besturing waarin techniek samenwerkt en machines kunnen excelleren."
+    ]
+  },
+  "/expertises/hardware-engineering": {
+    "source": "https://www.bhr-is.nl/expertises/hardware-engineering",
+    "sections": [
+      {
+        "title": "Het beste ontwerp met het proces als vertrekpunt",
+        "content": [
+          "We beginnen altijd bij de vraag: wat moet de installatie doen?",
+          "Van daaruit kijken we naar signalen, sensoren, veiligheid en de interactie tussen operator en machine. Op basis daarvan maken we:",
+          "* Strakke kastindelingen (met ruimte om in te werken)",
+          "* Juiste componentkeuzes (voor prestaties én levensduur)",
+          "* Kabel- en interface-specificaties die overzicht houden",
+          "* Thermische en EMC-afwegingen om storingen te voorkomen",
+          "En natuurlijk ontwerpen we volgens normen zoals NEN 1010 en NEN-EN-IEC 61439.",
+          "Zo ontstaat een ontwerp dat klopt op papier én in de praktijk."
+        ]
+      },
+      {
+        "title": "Van ontwerp naar paneelbouw zonder ruis",
+        "content": [
+          "Ontwerp en paneelbouw vinden bij ons plaats in één hecht team.",
+          "Daardoor sluiten schema’s, kasten en bedrading direct op elkaar aan zonder vertaalfouten of verrassingen. Je herkent onze panelen aan:",
+          "* Logische bedrading",
+          "* Heldere labeling",
+          "* Net kabelbeheer",
+          "* Overzicht in één oogopslag",
+          "Het resultaat is een besturing die efficiënt en veilig draait en onderhoudsvriendelijk is, ook na jaren intensief gebruik."
+        ]
+      },
+      {
+        "title": "Hardware, software en veiligheid als één geheel",
+        "content": [
+          "Hardware engineering staat bij ons nooit op zichzelf.",
+          "We stemmen alles af met:",
+          "* PLC- en SCADA-besturing",
+          "* Veiligheidsketens",
+          "* Industriële netwerken",
+          "Zo werkt de besturing niet alleen technisch goed, maar logisch voor de mens die ermee werkt.",
+          "Geen losse onderdelen, maar één systeem dat als geheel functioneert."
+        ]
+      },
+      {
+        "title": "Wij denken in oplossingen, niet in problemen",
+        "content": [
+          "In industriële projecten zijn oplossingen vaak complex. Dat zien wij niet als probleem, maar als uitdaging die we samen oplossen. Met korte lijnen, direct contact en heldere keuzes. Onze mentaliteit is simpel: Groot denken in functie. Bouwen met precisie in uitvoering. We zorgen dat we opleveren werkt en blijft werken."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Wat is de doorlooptijd voor hardware engineering en paneelbouw?",
+        "Gemiddeld ligt de doorlooptijd tussen 4 en 8 weken, afhankelijk van complexiteit en materiaalbeschikbaarheid. Omdat wij engineering, paneelbouw en inbedrijfstelling zelf uitvoeren, kunnen we snel schakelen."
+      ],
+      [
+        "Werkt BHR met specifieke merken of componentleveranciers?",
+        "Ja, wij werken voornamelijk met A-merken zoals Siemens, Phoenix Contact en Rittal. Dit zorgt voor lange beschikbaarheid, betrouwbare prestaties en eenvoudige vervanging in onderhoudssituaties."
+      ],
+      [
+        "Hoe wordt machineveiligheid meegenomen in hardware engineering?",
+        "In het ontwerp verwerken we veiligheidsfuncties zoals noodstopcircuits, SIL/PL-niveaus en beveiligde I/O-zones. We stemmen veiligheid af met software engineering en operatorgebruik, zodat functionaliteit en veiligheid in balans zijn."
+      ],
+      [
+        "Kan BHR bestaande besturingskasten of installaties moderniseren (retrofit)?",
+        "Ja, we doen regelmatig retrofit-trajecten waarbij we bestaande kasten vervangen, uitbreiden of ombouwen zonder onnodige stilstand. Hierbij houden we rekening met bestaande machine-logica en bekabeling."
+      ],
+      [
+        "Voor welke sectoren levert BHR hardware engineering?",
+        "Wij werken onder andere voor bedrijven in voeding, agro, chemie & farmacie, machinebouw, verpakkingsindustrie, watertechnologie en energie & utilities. Branches waar continuïteit en veiligheid essentieel zijn."
+      ]
+    ],
+    "heading": "Hardware engineering als basis voor betrouwbare productie",
+    "intro": "Een goede machine valt of staat met een sterk elektrotechnisch ontwerp. Bij BHR Industrial Solutions zorgen we ervoor dat hardware, besturing en processen naadloos samenwerken. We ontwerpen besturingsoplossingen die duidelijk, veilig en logisch zijn opgebouwd, zodat jouw machines kunnen excelleren en de productie soepel blijft draaien. Dat doen we voor machinebouwers en productiebedrijven in Noord-Brabant.",
+    "branchAt": 1,
+    "branchTitle": "In welke branches bieden we bij BHR Hardware Engineering?",
+    "branchIntro": "Wij werken voor bedrijven die hun processen willen automatiseren, moderniseren of beveiligen. BHR is gespecialiseerd in regel- en besturingspanelen voor onder andere:",
+    "faqTitle": "Veelgestelde vragen over Hard Engineering",
+    "lead": []
+  },
+  "/expertises/paneelbouw": {
+    "source": "https://www.bhr-is.nl/expertises/paneelbouw",
+    "sections": [
+      {
+        "title": "Maatwerk paneelbouw voor industriële toepassingen",
+        "content": [
+          "Voor ons begint paneelbouw nooit bij de kast zelf, maar bij het proces. Techniek die samenwerkt vraagt om een ontwerp dat de logica van de machine volgt. We starten met het functioneel ontwerp:",
+          "* wat moet het systeem doen?",
+          "* welke signalen komen binnen?",
+          "* welke bewegingen moeten worden aangestuurd?",
+          "Vanuit die basis vertalen we naar hardware engineering, waarbij we kiezen voor componenten, kastindelingen, thermisch beheer en EMC-afscherming die de prestaties en betrouwbaarheid verst"
+        ],
+        "actions": [
+          {
+            "text": "Praat met een expert",
+            "url": "/afspraak-maken"
+          }
+        ]
+      },
+      {
+        "title": "Compleet traject van ontwerp tot inbedrijfstelling",
+        "content": [
+          "Ons hechte team neemt het volledige traject uit handen: ontwerp, assemblage, FAT-testen in onze werkplaats en SAT op locatie. Tijdens de bouw zorgen we voor precisie in elk detail: geordende bedrading, duidelijke markeringen, nette klemmenstroken en kabelbeheer dat monteurs en operators overzicht geeft. Daarna zorgen we dat het systeem naadloos aansluit op jouw besturingssoftware.",
+          "Omdat we automatisering, hardware en machineveiligheid zien als één geheel en omdat installaties bij ons gebouwd worden om jarenlang mee te draaien."
+        ]
+      },
+      {
+        "title": "Efficiëntie en betrouwbaarheid als uitgangspunt van paneelbouw",
+        "content": [
+          "We geloven in oplossingen die vandaag kloppen én morgen nog steeds logisch voelen. Daarom werken we met korte lijnen, één aanspreekpunt en een mentaliteit waarbij we geen problemen maar uitdagingen zien. We streven naar systemen die compact, overzichtelijk en toekomstbestendig zijn en leveren die met de trots. Ons team weet dat een strakke kast het hart van een betrouwbare installatie is."
+        ]
+      },
+      {
+        "title": "Onze paneelbouw",
+        "content": [
+          "in de praktijk",
+          "* ### Bouwen afdelingsinstallatie",
+          "* ### Cummins",
+          "* ### Retrofit oplossingen in bestaande machineframe"
+        ]
+      },
+      {
+        "title": "Waarom kiezen voor BHR Industrial Solutions?",
+        "content": [
+          "Onze paneelbouw richt zich op bedrijven die geen concessies willen doen aan kwaliteit, veiligheid en betrouwbaarheid. Of het nu gaat om nieuwbouw of een retrofit van bestaande installaties: wij denken mee, ontwerpen doordacht, bouwen nauwkeurig en testen grondig.",
+          "Bij BHR gaat het niet om snel klaar zijn, maar om klaar blijven. Want een productieproces moet draaien vandaag, morgen en over tien jaar."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Hoe bepaal ik de juiste componenten bij panelenbouw voor mijn machinebouwproject?",
+        "Wij selecteren componenten op basis van jouw productieproces, omgevingscondities en lange termijn onderhoud. Denk aan PLC’s, relais, bekabeling en bescherming — zo past de kast precies bij jouw installatie."
+      ],
+      [
+        "Wat is de gemiddelde doorlooptijd bij paneelbouw bedrijven voor kasten en panelenbouw op maat?",
+        "Afhankelijk van complexiteit en integratie ligt de doorlooptijd vaak tussen 4 en 8 weken. In regio Breda kunnen we flexibel schakelen, wat tijdwinst geeft zonder in te boeten op kwaliteit."
+      ],
+      [
+        "Hoe zorgt BHR ervoor dat panelen bouw ook onderhoudsvriendelijk is?",
+        "We ontwerpen met logische bedrading, gekleurde markeringen, reserve-I/O en servicevriendelijke indeling. Hierdoor is de besturingskast later gemakkelijk te bewaken, bij te regelen of uit te breiden."
+      ],
+      [
+        "Welke veiligheidsnormen gelden voor paneelbouw in de proces- en machineindustrie?",
+        "Bij paneelbouw volgen we normen zoals NEN-EN-IEC 60204-1, CE- en EMC-richtlijnen en integreren we veiligheidsketens voor noodstop en machineveiligheid — voor veilige en betrouwbare installaties."
+      ],
+      [
+        "Waarom kiezen productiebedrijven voor een specialist in paneelbouw bedrijven in de regio Breda?",
+        "Een regionale partner betekent korte lijnen, snelle levering en bouw van panelen die correct ingepast zijn in jouw automatisering en machineveiligheid. Betrouwbaarheid en continuïteit staan voorop."
+      ]
+    ],
+    "heading": "Paneelbouw op maat",
+    "intro": "Techniek werkt pas écht goed wanneer alles samenkomt: de machine, de besturing en het proces. Bij BHR Industrial Solutions bouwen we besturingspanelen die zorgen dat machines excelleren en productieprocessen efficiënt en veilig functioneren.",
+    "branchAt": 3,
+    "branchTitle": "Panelenbouw die voldoet aan de eisen van de industrie",
+    "branchIntro": "Bovendien voor de verpakkingssector en voor bedrijven in de watertechnologie. In deze sectoren gelden strikte eisen rondom continuïteit, veiligheid, reinigbaarheid en traceerbaarheid en die eisen vertalen we door in elk ontwerp, elke kast en elke aansluiting. Door onze ervaring herkennen we procesuitdagingen vroeg en bouwen we systemen die vanaf dag één logisch, betrouwbaar en toekomstbestendig zijn.",
+    "faqTitle": "Veelgestelde vragen over paneelbouw",
+    "lead": [
+      "Onze kasten zijn strak opgebouwd, logisch ontworpen en technisch doordacht, zodat jouw installatie een leven lang meegaat, zonder onnodige stilstand. Dat doen we voor machinebouwers en productiebedrijven in Breda, Oosterhout, Tilburg en een groot deel van Brabant."
+    ]
+  },
+  "/expertises/retrofit": {
+    "source": "https://www.bhr-is.nl/expertises/retrofit",
+    "sections": [
+      {
+        "title": "Engineering en paneelbouw voor naadloze retrofit",
+        "content": [
+          "Ons hechte team voert retrofitprojecten uit met aandacht voor techniek die samenwerkt:",
+          "* Migratie van PLC/HMI-platformen en veiligheidslogica",
+          "* Strakke kasten met logische kabelrouting en duidelijke labeling",
+          "* Efficiënte, veilige werking onder productiedruk en variërende omstandigheden",
+          "We bouwen niet alleen opnieuw op, maar verbeteren het ontwerp zodat het systeem in één keer goed functioneert, nu én straks. Met onze retrofit ben je verzekerd van een optimaal duurzaam proces."
+        ]
+      },
+      {
+        "title": "Retrofitten zorgt voor continuïteit zonder onnodige stilstand",
+        "content": [
+          "De kracht van retrofit ligt in integratie. Hardware, software en bekabeling worden opnieuw op elkaar afgestemd zodat de installatie als één geheel werkt. We testen, simuleren en plannen gefaseerd, waardoor stilstand beperkt blijft. Zo lossen we uitdagingen met precisie op en houden we de productie draaiend. Geen losse aanpassingen, maar duurzame verbetering, efficiënt en veilig voor operators en onderhoud."
+        ]
+      },
+      {
+        "title": "Investeren in prestaties die blijven werken bij BHR industrial Solutions",
+        "content": [
+          "Een retrofit door BHR betekent:",
+          "* Verlengde levensduur zonder volledige vervanging",
+          "* Hogere betrouwbaarheid en beschikbaarheid",
+          "* Documentatie en elektrocomponenten die klaar zijn voor uitbreiding",
+          "Je kiest niet voor een tijdelijke oplossing, maar voor duurzame prestaties. Techniek die samenwerkt, zodat jouw installatie weer jaren rendement levert. Met BHR Industrial Solutions kies je een betrouwbare en duurzame partner."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Retrofitten voor machinebouw",
+    "intro": "In een installatie die jaren meegaat, komt vroeg of laat de vraag: kan de besturing nog meegroeien? Bij BHR Industrial Solutions retrofitten we industriële systemen: we moderniseren de hardware voor de besturing, de bekabeling en de software zonder onnodige vervanging van de volledige machine. Zo blijft de mechanische basis behouden, terwijl de besturing efficiënter, sneller en betrouwbaarder wordt.",
+    "branchAt": 3,
+    "branchTitle": "In welke branches bieden we bij BHR Retrofitten?",
+    "branchIntro": "Wij werken voor bedrijven die hun processen willen automatiseren, moderniseren of beveiligen. BHR is gespecialiseerd in regel- en besturingspanelen voor onder andere:",
+    "lead": []
+  },
+  "/expertises/bekabeling-en-installatie": {
+    "source": "https://www.bhr-is.nl/expertises/bekabeling-en-installatie",
+    "sections": [
+      {
+        "title": "Bekabeling van kast tot veldniveau",
+        "content": [
+          "Onze technici bouwen installaties waarin overzicht, onderhoudsgemak en precisie centraal staan. De routing is logisch, de codering helder en de opbouw geeft ruimte voor toekomstige uitbreidingen. We leggen bekabeling voor sensoren, actuatoren, aandrijftechniek, industriële netwerken en complete productielijnen.",
+          "Daarbij hanteren we de geldende normeringen en controleren we alle verbindingen en signaalpaden. Het resultaat is bekabeling die continuïteit ondersteunt, storingen voorkomt en het werk van operators en onderhoudsteams eenvoudiger maakt."
+        ]
+      },
+      {
+        "title": "De beste connectie tussen hardware en software",
+        "content": [
+          "Doordat we strakke kasten zelf bouwen én de besturing ontwikkelen, begrijpen onze installatiemonteurs precies welke logica achter het systeem zit. Dat betekent:",
+          "* correcte I/O-indeling en labeling",
+          "* noodstop- en veiligheidsketens die direct functioneren",
+          "* PLC-adressering zonder interpretatieverschillen",
+          "* efficiënte diagnose en onderhoud",
+          "Hierdoor werken kast, kabel en veld als één geheel. Geen ruis, geen dubbel werk, geen verrassingen bij inbedrijfstelling."
+        ]
+      },
+      {
+        "title": "Techniek die samenwerkt",
+        "content": [
+          "Bouwen voor veiligheid en toekomstbestendigheid Machineveiligheid is geen toevoeging achteraf, maar wordt vanaf de eerste tekenlijn meegenomen.",
+          "We zorgen dat:",
+          "* kabeltrajecten logisch en veilig zijn opgebouwd",
+          "* documentatie volledig en duidelijk is",
+          "* alle componenten correct zijn getest en gevalideerd",
+          "Dat zorgt voor installaties die efficiënt en veilig werken, ook wanneer het productieproces groeit of verandert."
+        ]
+      },
+      {
+        "title": "Wij zien geen problemen maar uitdagingen tijdens de installatie en bekabeling",
+        "content": [
+          "Elke productieomgeving is anders. Wij kennen de praktijk en schakelen mee.",
+          "Korte lijnen, direct overleg en verantwoordelijkheid nemen horen bij onze manier van werken.",
+          "We bouwen installaties voor bedrijven die moeten kunnen vertrouwen op hun techniek, niet alleen vandaag, maar langdurig. Kies daarom voor BHR Industrial Solutions al betrouwbaar partners voor uw industrië"
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Bekabeling en installatie van industriële besturingssystemen",
+    "intro": "In een industriële installatie is bekabeling het fundament waarop de besturing steunt. Het vormt de verbinding tussen schakelkast, veldapparatuur en operatorbediening. Als die basis niet klopt, kan een systeem nooit betrouwbaar en veilig draaien. Bij BHR Industrial Solutions verzorgen we complete bekabeling en installatie voor machinebouwers, productiebedrijven en procesindustrie.",
+    "branchAt": 4,
+    "branchTitle": "In welke branches bieden we",
+    "branchIntro": "bij BHR Bekabeling en Installatie ? Wij werken voor bedrijven die hun processen willen automatiseren, moderniseren of beveiligen. BHR is gespecialiseerd in regel- en besturingspanelen voor onder andere: * ### Machinebouw * ### Voedingsindustrie * ### Watertechnologie * ### Agro * ### Verpakkingsindustrie * ### Chemie en farmacie * ### Energie en Utiliteit",
+    "lead": [
+      "Omdat paneelbouw, hardware engineering en software engineering bij ons onder één dak plaatsvinden, sluiten ontwerp, kast en bekabeling direct op elkaar aan, in één keer goed."
+    ]
+  },
+  "/expertises/machineveiligheid": {
+    "source": "https://www.bhr-is.nl/expertises/machineveiligheid",
+    "sections": [
+      {
+        "title": "Veiligheid vanaf de tekentafel tot de werkvloer",
+        "content": [
+          "Ons hechte team van hardware-, software- en veiligheidsengineers werkt vanaf het eerste schetsmoment samen. We denken na over hoe de operator werkt, waar risico’s kunnen ontstaan, hoe signalen lopen en waar nood- of vrijgavefuncties getimed moeten worden.",
+          "In de montagefase komt dit tot leven in strakke kasten met:",
+          "* overzichtelijke logica",
+          "* heldere labeling",
+          "* fysieke scheiding van veiligheids- en besturingscircuits",
+          "De integratie van machineveiligheid betekent dus geen aparte module, maar een systeem waarin veiligheid en techniek elkaar versterken."
+        ]
+      },
+      {
+        "title": "Naadloze precisie in besturing en bescherming",
+        "content": [
+          "Het hart van een veilige machine is een logica die klopt, met onder andere:",
+          "* reset- en vrijgaveprocessen",
+          "* veiligheidsketens",
+          "* sensor- en actuatorenstructuur",
+          "We zorgen dat iedere verbinding, iedere sensor en iedere functie is ingericht met precisie, zodat opschaling en onderhoud eenvoudig zijn. Dankzij onze opbouw werken kast, kabels, software en proces als één geheel. Geen losse onderdelen die later alsnog moeten worden aangepast geen interpretatieverschillen tussen ontwerp en praktijk. Een systeem dat direct werkt en blijft werken, efficiënt en veilig."
+        ]
+      },
+      {
+        "title": "Continue veiligheid, geen tijdelijke oplossing",
+        "content": [
+          "In de praktijk betekent machineveiligheid meer dan een audit of een certificering. Het gaat om installaties die dag in dag uit presteren: zonder stilstand, zonder verborgen risico’s. Bij BHR Industrial Solutions denken we vooruit en lossen we uitdagingen op voordat ze zichtbaar zijn.",
+          "Wij upgraden bestaande lijnen en integreren nieuwe modules volgens de installatiecondities van vandaag en morgen, zodat jouw machines weer klaar en veilig zijn voor de toekomst."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Machineveiligheid geïntegreerd in installatieontwerp",
+    "intro": "Veiligheid is niet een extra laag die achteraf wordt toegevoegd, maar de basis waarop technische installaties staan. Bij BHR Industrial Solutions integreren we machineveiligheid vanaf het eerste moment: in het ontwerp van kasten, de bedrading, de besturingslogica en de operatorinterface. Zo ontstaat een installatie waarin techniek samenwerkt om het proces veilig te laten draaien, zonder concessies. Want wanneer machines excelleren, is veiligheid vanzelfsprekend.",
+    "branchAt": 3,
+    "branchTitle": "In welke branches bieden we bij BHR Machineveilighed?",
+    "branchIntro": "Wij werken voor bedrijven die hun processen willen automatiseren, moderniseren of beveiligen. BHR is gespecialiseerd in regel- en besturingspanelen voor onder andere:",
+    "lead": []
+  },
+  "/expertises/cybersecurity": {
+    "source": "https://www.bhr-is.nl/expertises/cybersecurity",
+    "sections": [
+      {
+        "title": "Beveiliging in besturing, netwerk én kast",
+        "content": [
+          "Een veilig systeem vraagt om overzicht en structuur. Onze engineers ontwerpen netwerkzones en functionele segmentatie zodat alleen de juiste data op de juiste plek komt. Toegang tot PLC’s, HMI-systemen en remote verbindingen wordt beheerd op basis van rollen, niet gemak. In de paneelbouw betekent dit strakke kasten met duidelijke scheiding tussen:",
+          "* Procesbesturing",
+          "* Netwerkcommunicatie",
+          "* Veiligheidslogica",
+          "Iedere verbinding is traceerbaar en logisch gedocumenteerd. Zo wordt cybersecurity geen losse “laag”, maar een onderdeel van de technische precisie waarmee we bouwen. Efficiënt en veilig, zonder onnodige complexiteit. Wij zien geen problemen, maar maken juist oplossing, die veilige werken met onze cybersecurity."
+        ]
+      },
+      {
+        "title": "Praktische beveiliging in het dagelijks gebruik",
+        "content": [
+          "Cybersecurity staat of valt met hoe een installatie gebruikt wordt. Daarom richten we systemen zo in dat operators en onderhoudsteams veilig kunnen werken zonder obstakels: beveiligde remote-toegang, veilige updatepaden, gestandaardiseerde gebruikersrechten en logging die inzicht geeft in afwijkend gedrag.",
+          "We denken vooruit:",
+          "* Hoe groeit het systeem mee?",
+          "* Welke componenten zijn vervangbaar?",
+          "* Hoe blijft het beheersbaar tijdens onderhoud of uitbreiding?",
+          "Waar anderen problemen zien, zien wij technische uitdagingen die we samen oplossen. Dat is het voordeel van een hecht team dat hardware, software en beveiliging begrijpt. Alles draait om samen werken voor het perfecte proces."
+        ]
+      },
+      {
+        "title": "Een toekomstbestendige installatie met de juiste cybersecurity",
+        "content": [
+          "Cyberdreigingen veranderen, processen evolueren en productielijnen worden aangepast. Daarom zien wij cybersecurity niet als een eenmalige audit, maar als onderdeel van de levensloop van een installatie. Wij evalueren systemen periodiek, passen configuraties aan, voeren updates gecontroleerd door en testen beveiligingsketens alsof het proces ervan afhangt, omdat dat ook zo is.",
+          "Je krijgt een installatie die stabiel presteert, veilig blijft en schaalbaar is. Techniek die samenwerkt. Machines die blijven excelleren. Niet omdat we regels volgen, maar omdat we systemen bouwen die in de praktijk werken."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Cybersecurity in industriële automatisering",
+    "intro": "Cybersecurity toevoegen ná oplevering levert zelden een stabiel systeem op. Daarom integreert BHR beveiliging vanaf het eerste ontwerpmoment: in de besturingslogica, netwerkstructuur, panelen en de manier waarop operators werken. We kijken naar hoe data stroomt, waar risico’s ontstaan en waar kritieke functies beschermd moeten worden. Zo ontstaat een installatie waarin hardware, software en beveiliging als één systeem samenwerken.",
+    "branchAt": 3,
+    "branchTitle": "In welke branches bieden we bij BHR Cybersecurity?",
+    "branchIntro": "Wij werken voor bedrijven die hun processen willen automatiseren, moderniseren of beveiligen. BHR is gespecialiseerd in regel- en besturingspanelen voor onder andere:",
+    "lead": [
+      "Dit levert machines die excelleren, omdat ze niet alleen sterk zijn gebouwd, maar ook beschermd zijn tegen ongewenste ingrepen, zowel lokaal als op afstand. Naadloze precisie, vanaf dag één, dat is wat je van een betrouwbare partner verwacht."
+    ]
+  },
+  "/expertises/elektrocomponenten": {
+    "source": "https://www.bhr-is.nl/expertises/elektrocomponenten",
+    "sections": [
+      {
+        "title": "Componentkeuze die begint bij het proces",
+        "content": [
+          "Onze hardware-engineers analyseren eerst de functie van de machine en de belasting op het systeem. Daarbij houden we rekening met:",
+          "* schakelfrequentie en vermogen",
+          "* thermische belasting en warmteafvoer",
+          "* EMC- en IP-eisen voor voedsel-, water- of outdoor-omgevingen",
+          "* mechanische belasting door trillingen en cyclische bewegingen",
+          "We selecteren niet alleen wat werkt, maar wat blijft werken, onder meer houden we rekening met reiniging, productieritme en slijtage. Het gaat niet alleen om het component, maar hoe componenten samenwerken in het systeem."
+        ]
+      },
+      {
+        "title": "Strakke kasten met precisie in opbouw",
+        "content": [
+          "Doordat we onze besturingskasten zelf bouwen, vormen componentkeuze en opbouw één logisch geheel. Dat betekent:",
+          "* overzichtelijke indeling met functionele blokken",
+          "* duidelijke scheiding tussen signaal, vermogen en veiligheid",
+          "* correcte labeling en documentatie met volledige traceerbaarheid",
+          "* thermische balans die levensduur verlengt",
+          "Zo wordt een besturingskast niet alleen compact en netjes, maar leesbaar, logisch en onderhoudsvriendelijk. Een strakke kast waarin precisie zichtbaar en voelbaar is."
+        ]
+      },
+      {
+        "title": "Efficiënt en veilig in dagelijks gebruik",
+        "content": [
+          "In industriële automatisering draait betrouwbaarheid om voorspelbaarheid. Een noodstop moet altijd aanspreken. Een motor moet starten wanneer het proces dat vraagt. En een signaal moet exact daar binnenkomen waar het hoort. Daarvoor is een betrouwbare partner nodig.  BHR Industrial Solution zorgt ervoor dat meetinstrumentatie, beveiliging en besturing als één geheel functioneren. Dat levert installaties op met elektrocomponenten die efficiënt en veilig werken, zonder onnodige complexiteit voor operators of onderhoud."
+        ]
+      },
+      {
+        "title": "Hecht team, één lijn van ontwerp tot montage",
+        "content": [
+          "Onze hardware-engineers en installatiemonteurs werken in één hecht team. Geen overdracht waarin kennis verloren gaat. Geen interpretatieverschillen tussen schema en kast. Geen terugkerende revisies. Dezelfde mensen die het ontwerp maken, begrijpen de praktijk. Waar anderen problemen zien, zien wij technische uitdagingen die we samen oplossen."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Voor welke toepassingen bouwt BHR besturingskasten?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is paneelbouw precies?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is het verschil tussen een regelkast en een schakelkast?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Welke normen en richtlijnen hanteert BHR bij paneelbouw?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Hoe verloopt het proces van ontwerp tot oplevering?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ]
+    ],
+    "heading": "Elektrocomponenten zorgen een betrouwbare basis",
+    "intro": "Elektrocomponenten vormen het fundament van een industriële installatie. De betrouwbaarheid waarmee een machine, lijn of proces draait, begint bij de kwaliteit van de componenten die signalen verwerken, bewegingen sturen en veiligheid borgen.",
+    "branchAt": 4,
+    "branchTitle": "In welke branches bieden we bij BHR Soft Engineering?",
+    "branchIntro": "",
+    "faqTitle": "Veelgestelde vragen",
+    "lead": [
+      "Bij BHR Industrial Solutions selecteren, leveren en integreren we elektrocomponenten die zijn afgestemd op het proces, de omgeving én de manier waarop de installatie gebruikt wordt in productie, niet alleen op papier. Wij bouwen oplossingen die dagelijks duurzaam presteren, niet alleen op de eerste dag."
+    ]
+  },
+  "/expertises/industriele-automatisering": {
+    "source": "https://www.bhr-is.nl/expertises/industriele-automatisering",
+    "sections": [
+      {
+        "title": "Systeemarchitectuur afgestemd op jouw productieproces",
+        "content": [
+          "Onze aanpak begint met het begrijpen van jouw proces: welke bewegingen moeten plaatsvinden, welke data moet worden geregistreerd en hoe verloopt de interactie tussen mens en machine? Vanuit die proceslogica ontwerpen we strakke kasten, kiezen we de juiste componenten en verzorgen we de bekabeling en EMC-afscherming op detailniveau. Ons hechte team van engineers werkt met één doel voor ogen: een installatie die niet alleen werkt, maar onderhoudsvriendelijk, duurzaam, overzichtelijk en betrouwbaar is."
+        ]
+      },
+      {
+        "title": "Industriële automatisering is een cruciale stap in het proces",
+        "content": [
+          "Bij BHR neem je niet alleen een leverancier in huis, maar een partner die het totale traject beheerst. Van ontwerp, montage, FAT-test tot implementatie en inbedrijfstelling: wij begeleiden het hele proces. Dankzij onze oplossing wordt jouw automatisering efficiënt en veilig geïntegreerd in de bestaande infrastructuur en klaar gemaakt voor toekomstig gebruik. Wij zíen geen problemen maar uitdagingen, en lossen ze op voordat ze zichtbaar worden."
+        ]
+      },
+      {
+        "title": "Optimale continuïteit in kritische omgevingen",
+        "content": [
+          "In de industrie gelden hoge eisen: continuïteit, traceerbaarheid en veiligheid zijn geen luxe, maar noodzaak. Wij leveren automatiseringsoplossingen die voldoen aan de strengste normen en directe inzetbaarheid garanderen. BHR Industrial Solutions werkt voor verschillende sectoren, zoals: food- & beverage, chemie, machinebouw en in de agro: wij bouwen systemen waarin jouw assets optimaal presteren, zonder compromissen."
+        ]
+      },
+      {
+        "title": "Waarom kiezen voor BHR Industrial Solutions?",
+        "content": [
+          "Wanneer je kiest voor BHR, kies je voor een partner die technisch goed onderlegd is én oog heeft voor resultaat. In onze projecten komen automatisering, hardware engineering en machineveiligheid samen, alles onder één dak. Dankzij onze heldere communicatie, korte lijnen en vaste aanspreekpunten werken we snel én doelgericht. Het is niet “zomaar klaar”, maar het blijft altijd werken."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Voor welke toepassingen bouwt BHR besturingskasten?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is paneelbouw precies?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is het verschil tussen een regelkast en een schakelkast?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Welke normen en richtlijnen hanteert BHR bij paneelbouw?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Hoe verloopt het proces van ontwerp tot oplevering?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat doet een software engineer in industriële automatisering?",
+        "Een software engineer vertaalt proceslogica naar PLC-code, HMI/SCADA-interfaces en data-logging. Ze zorgen dat besturingen, operatorbediening en machineveiligheid samenwerken binnen de automatisering."
+      ],
+      [
+        "Hoe verloopt de samenwerking tussen software ontwikkelaar en paneelbouwer?",
+        "De software ontwikkelaar, hardware engineer en panelenbouwer werken samen vanaf ontwerp. Zo weet je zeker dat de kast, kabels en software direct op elkaar zijn afgestemd — geen surprises bij commissioning."
+      ],
+      [
+        "Welke voordelen biedt maatwerk software engineering voor productiebedrijven?",
+        "Maatwerk zorgt voor betere machines, hogere efficiëntie, minder stilstand en eenvoudiger onderhoud. De software sluit exact aan op jouw proces — geen overbodige functies, geen onnodige complexiteit."
+      ],
+      [
+        "Hoe wordt machineveiligheid geïntegreerd in software engineering?",
+        "In het ontwerp worden veiligheidsketens (zoals noodstop, veiligheidsrelais) en logica geïntegreerd in de software. Zo is de automatisering bouwkundig en elektrisch afgestemd op veilige werking en naleving van normen."
+      ],
+      [
+        "Hoe lang duurt een traject software engineering bij BHR?",
+        "De doorlooptijd varieert per project, maar door onze integratie van software engineering, paneelbouw en hardware engineering kunnen we vaak binnen enkele weken opleveren. Kwaliteit en betrouwbaarheid blijven voorop staan."
+      ],
+      [
+        "Wat is de doorlooptijd voor hardware engineering en paneelbouw?",
+        "Gemiddeld ligt de doorlooptijd tussen 4 en 8 weken, afhankelijk van complexiteit en materiaalbeschikbaarheid. Omdat wij engineering, paneelbouw en inbedrijfstelling zelf uitvoeren, kunnen we snel schakelen."
+      ],
+      [
+        "Werkt BHR met specifieke merken of componentleveranciers?",
+        "Ja, wij werken voornamelijk met A-merken zoals Siemens, Phoenix Contact en Rittal. Dit zorgt voor lange beschikbaarheid, betrouwbare prestaties en eenvoudige vervanging in onderhoudssituaties."
+      ],
+      [
+        "Hoe wordt machineveiligheid meegenomen in hardware engineering?",
+        "In het ontwerp verwerken we veiligheidsfuncties zoals noodstopcircuits, SIL/PL-niveaus en beveiligde I/O-zones. We stemmen veiligheid af met software engineering en operatorgebruik, zodat functionaliteit en veiligheid in balans zijn."
+      ],
+      [
+        "Kan BHR bestaande besturingskasten of installaties moderniseren (retrofit)?",
+        "Ja, we doen regelmatig retrofit-trajecten waarbij we bestaande kasten vervangen, uitbreiden of ombouwen zonder onnodige stilstand. Hierbij houden we rekening met bestaande machine-logica en bekabeling."
+      ],
+      [
+        "Voor welke sectoren levert BHR hardware engineering?",
+        "Wij werken onder andere voor bedrijven in voeding, agro, chemie & farmacie, machinebouw, verpakkingsindustrie, watertechnologie en energie & utilities. Branches waar continuïteit en veiligheid essentieel zijn."
+      ],
+      [
+        "Hoe bepaal ik de juiste componenten bij panelenbouw voor mijn machinebouwproject?",
+        "Wij selecteren componenten op basis van jouw productieproces, omgevingscondities en lange termijn onderhoud. Denk aan PLC’s, relais, bekabeling en bescherming — zo past de kast precies bij jouw installatie."
+      ],
+      [
+        "Wat is de gemiddelde doorlooptijd bij paneelbouw bedrijven voor kasten en panelenbouw op maat?",
+        "Afhankelijk van complexiteit en integratie ligt de doorlooptijd vaak tussen 4 en 8 weken. In regio Breda kunnen we flexibel schakelen, wat tijdwinst geeft zonder in te boeten op kwaliteit."
+      ],
+      [
+        "Hoe zorgt BHR ervoor dat panelen bouw ook onderhoudsvriendelijk is?",
+        "We ontwerpen met logische bedrading, gekleurde markeringen, reserve-I/O en servicevriendelijke indeling. Hierdoor is de besturingskast later gemakkelijk te bewaken, bij te regelen of uit te breiden."
+      ],
+      [
+        "Welke veiligheidsnormen gelden voor paneelbouw in de proces- en machineindustrie?",
+        "Bij paneelbouw volgen we normen zoals NEN-EN-IEC 60204-1, CE- en EMC-richtlijnen en integreren we veiligheidsketens voor noodstop en machineveiligheid — voor veilige en betrouwbare installaties."
+      ],
+      [
+        "Waarom kiezen productiebedrijven voor een specialist in paneelbouw bedrijven in de regio Breda?",
+        "Een regionale partner betekent korte lijnen, snelle levering en bouw van panelen die correct ingepast zijn in jouw automatisering en machineveiligheid. Betrouwbaarheid en continuïteit staan voorop."
+      ]
+    ],
+    "heading": "Industriële automatisering zorgt voor efficiënte productieprocessen",
+    "intro": "In een wereld waarin productie-installaties continu moeten draaien, gaat het om meer dan alleen componenten: het gaat om techniek die samenwerkt. Bij BHR Industrial Solutions zetten we in op automatiseringsoplossingen waar machines excelleren, processen feilloos op elkaar aansluiten en de besturingsomgeving optimaal functioneert.",
+    "branchAt": 4,
+    "branchTitle": "In welke branches bieden we bij BHR Industriële automatisering",
+    "branchIntro": "",
+    "faqTitle": "Veelgestelde vragen",
+    "lead": [
+      "Met onze kennis van hardware, software en veiligheid maken we van een installatie geen losstaand systeem, maar zorgen we het productieproces in zijn geheel werkt en blijft werken."
+    ]
+  },
+  "/voor-machinebouwers": {
+    "source": "https://www.bhr-is.nl/voor-machinebouwers",
+    "sections": [
+      {
+        "title": "Seriematige paneelbouw voor maximale efficiëntie",
+        "content": [
+          "Ons technische expert richten zichop snelheid, herhaalbaarheid en constante kwaliteit. Door gestroomlijnde processen, geavanceerde draadverwerkingstools en een modulaire aanpak produceren wij besturingskasten en submodules die tot op detailniveau identiek en betrouwbaar zijn. Dit levert u lagere faalkosten, voorspelbare levertijden en een efficiënt productieproces op. De voordelen van onze seriematige bouw:",
+          "* Constante kwaliteit en hoge reproduceerbaarheid",
+          "* Geoptimaliseerde assemblagestappen en efficiënte bekabeling",
+          "* Schaalvoordeel bij herhaalde productie van besturingsmodules",
+          "* Perfect passend binnen OEM-series, machinevarianten en retrofitprojecten"
+        ]
+      },
+      {
+        "title": "Efficiënte techniek die ontworpen is om te presteren",
+        "content": [
+          "Wij geloven dat techniek pas echt waarde toevoegt wanneer componenten, besturing en paneelbouw perfect samenwerken. Daarom ondersteunen wij u met deskundig componentadvies en een logische, schaalbare opbouw van uw besturingsarchitectuur. Iedere module wordt gebouwd met aandacht voor onderhoudsgemak, veiligheid en integratie in uw eigen engineeringstandaarden.",
+          "Wat u van ons als partner voor machinebouwers verwachten:",
+          "* Componentselectie met focus op lifecycle, veiligheid en beschikbaarheid",
+          "* PLC-, HMI- en veiligheidsintegratie in één geheel",
+          "* Robuuste paneelbouw voor continu industrieel gebruik",
+          "* Documentatie en codering volgens professionele standaarden"
+        ]
+      },
+      {
+        "title": "De kwaliteit van het proces gewaarborgd door testen en controle",
+        "content": [
+          "Elke kast, module of besturingsunit doorloopt een volledig testproces in onze testruimte. Met gestructureerde FAT-procedures, traceerbaarheid en kwaliteitsdocumentatie zorgen wij dat uw producten direct klaar zijn voor integratie op de werkvloer. U ontvangt een oplossing die werkt, past en presteert zonder extra test- of herstelwerk."
+        ]
+      },
+      {
+        "title": "BHR Industrial Solutions: een partner die uw machinebouw versterkt",
+        "content": [
+          "Wij bouwen langdurige samenwerkingen met bedrijven die behoefte hebben aan zekerheid en technische betrouwbaarheid. BHR is een partner die meedenkt, doorvraagt en uw machinebouwproces versterkt met pragmatische oplossingen. Kies BHR Industrial Solutions voor:",
+          "* Seriematige paneelbouw en besturingsmodules",
+          "* Volledig geteste, direct integreerbare submodules",
+          "* Upgrades, redesigns en revisies voor hogere uptime",
+          "* Continue ondersteuning door de volledige lifecycle"
+        ]
+      },
+      {
+        "title": "Samen bouwen aan voorspelbare, efficiënte machinebouw",
+        "content": [
+          "BHR Industrial Solutions helpt OEM’s en machinebouwers hun productieproces te optimaliseren met modulaire seriebouw, hoogwaardige paneelbouw en zekerheid in elke stap van het proces. Zo creëren we oplossingen die niet alleen functioneren, maar bijdragen aan structurele procesverbetering"
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Machinebouw-ondersteuning voor OEM’s en professionele machinebouwers",
+    "intro": "BHR Industrial Solutions ondersteunt machinebouwers en OEM’s met seriematige paneelbouw, besturingsmodules en elektrotechnische deeloplossingen die direct te integreren zijn in uw machineconcept.",
+    "lead": [
+      "Wij bouwen geen complete machines, maar versterken uw eigen machinebouwproces met slimme, schaalbare en reproduceerbare systemen. Wij zorgen voor zekerheid, consistentie en technische diepgang. Kwaliteiten die bij seriebouw het verschil maken."
+    ]
+  },
+  "/voor-machinebouwers/proces-productie": {
+    "source": "https://www.bhr-is.nl/voor-machinebouwers/proces-productie",
+    "sections": [
+      {
+        "title": "Industriële automatisering die processen versterkt",
+        "content": [
+          "Waar veel bedrijven alleen installaties leveren, gaat wij verder. Wij koppelen paneelbouw en industriële automatisering tot één samenhangend systeem, zodat sensoren, actuatoren en besturing samenwerken voor optimale prestaties. Onze procesautomatisering maakt productie voorspelbaar, inzichtelijk en efficiënt. Van procesdata tot realtime dashboards: operators en engineers krijgen grip op prestaties, energieverbruik en productkwaliteit.",
+          "Zo creëren wij productie automatisering die niet alleen vandaag werkt, maar ook voorbereid is op toekomstige uitbreiding, digitalisering en smart manufacturing toepassingen."
+        ]
+      },
+      {
+        "title": "Waarom kiezen voor BHR in proces & productie",
+        "content": [
+          "Bedrijven kiezen ons voor zekerheid, overzicht en onderhoudsgemak. Onze oplossingen zijn modulair, schaalbaar en voldoen aan industriële normen. We onderscheiden ons door:",
+          "* Volledig geïntegreerde procesautomatisering inclusief PLC, HMI en datalogging",
+          "* Paneelbouw die overzichtelijk, onderhoudsvriendelijk en robuust is",
+          "* Modulaire opbouw voor snelle aanpassingen en uitbreidingen in productielijnen",
+          "* Continue monitoring en preventief onderhoud voor maximale uptime en betrouwbaarheid",
+          "Wij zorgen dat alle processen werken en blijven werken. Geen problemen, maar uitdagingen die we dagelijks aanpakken en verbeteren."
+        ]
+      },
+      {
+        "title": "BHR Industrial Solutions: partner voor uw proces en productiviteit",
+        "content": [
+          "Wij zijn meer dan leverancier; wij zijn partner van bedrijven die het proces en de productie continu willen optimaliseren. Onze expertise in paneelbouw en automatisering zorgt voor betrouwbare, veilige en onderhoudsvriendelijke oplossingen. Wij ondersteunen bij ontwerp, installatie en onderhoud, en zorgen dat jouw productie optimaal presteert. Onze meerwaarde komt tot uiting in:",
+          "* Modulaire en op maat gemaakte procesautomatisering",
+          "* Duurzame, onderhoudsvriendelijke paneelbouw",
+          "* Integratie van software, besturing en data-analyse",
+          "* Continue ondersteuning van concept tot operationeel beheer"
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Proces & Productie: betrouwbare automatisering en paneelbouw",
+    "intro": "Bij BHR Industrial Solutions combineren we kennis van mechanica, software en paneelbouw tot één betrouwbaar systeem voor het proces en de hoogste productiviteit.",
+    "lead": [
+      "Voor bedrijven in de industrie ontwerpen en bouwen wij oplossingen die processen continu laten draaien, efficiënt en veilig. Onze paneelbouw vormt de ruggengraat van productieomgevingen, terwijl industriële automatisering zorgt voor inzicht, controle en data gedreven optimalisatie. Onze technische maakt dat systemen niet alleen functioneren, maar samenwerken met jouw processen en medewerkers, zodat jouw productie duurzaam en toekomstbestendig is."
+    ]
+  },
+  "/branches/machinebouw": {
+    "source": "https://www.bhr-is.nl/branches/machinebouw",
+    "sections": [
+      {
+        "title": "Geïntegreerde besturing en automatisering voor optimale machinebouwprestaties",
+        "content": [
+          "Een machine is zo sterk als de samenwerking tussen zijn componenten. Daarom ontwerpen wij besturingskasten die perfect zijn afgestemd op de mechanische en softwarematige opbouw van de machine. Onze oplossingen zijn geschikt voor uiteenlopende toepassingen, van hoge-snelheidsproductielijnen tot zware industriële aandrijvingen. Door integratie van sensoren, actuatoren, servo-aandrijvingen en geavanceerde PLC- of motioncontrol-systemen ontstaat één coherent systeem waarin alles naadloos samenwerkt.",
+          "Het resultaat: machines die soepeler draaien, sneller reageren en minder onderhoud vragen, zelfs onder hoge belasting of continue bedrijfsomstandigheden."
+        ]
+      },
+      {
+        "title": "Paneelbouw en besturingskasten die betrouwbaarheid in machinebouw garanderen",
+        "content": [
+          "Onze paneelbouw vormt het fundament van elke betrouwbare machine. We bouwen met hoogwaardige componenten, een logische indeling en een afwerking die onderhoud en inspectie eenvoudig maakt. Onze besturingskasten zijn bestand tegen trillingen, stof, vocht en temperatuurschommelingen, zoals vaak voorkomen in productiehallen of werkplaatsen. Strakke kasten, doordachte ventilatie- en veiligheidsoplossingen, en duidelijke labeling zorgen voor optimale bedrijfszekerheid.",
+          "Dit maakt onze panelen ideaal voor machines die 24/7 draaien en precisiewerk leveren, zoals CNC-machines, verpakkingslijnen en assemblagerobots."
+        ]
+      },
+      {
+        "title": "Slimme machinebouwautomatisering die efficiëntie verhoogt",
+        "content": [
+          "Wij geloven in automatisering die functioneel versterkt, niet compliceert. BHR Industrial Solutions brengt hardware- en software-engineering samen tot één slimme structuur. Onze systemen ondersteunen functies zoals realtime monitoring, voorspellend onderhoud, productie-optimalisatie en dataverzameling voor Industry 4.0. Zo kunnen operators en onderhoudsteams snel ingrijpen, en blijft de machine presteren zoals bedoeld.",
+          "Onze oplossingen zijn eenvoudig te bedienen, modulair uitbreidbaar en voorbereid op toekomstige technologieën."
+        ]
+      },
+      {
+        "title": "De betrouwbare partner voor machinebouw",
+        "content": [
+          "De machinebouw vraagt om technische precisie én pragmatische oplossingen. Wij kennen de sector, van hightech-fabricage tot zware industrie, en weten wat nodig is om machines beter te laten presteren. BHR Industrial Solutions denkt mee vanaf ontwerp tot installatie en onderhoud. Geen problemen, maar uitdagingen — die we samen vertalen naar techniek die samenwerkt, presteert en jouw machines laat excelleren, nu en in de toekomst."
+        ]
+      },
+      {
+        "title": "‘Hier leer je pas écht de kneepjes van het vak’",
+        "content": [
+          "Om de beste technische resultaten te leveren, heb je vakmensen nodig die blijven leren. Bij BHR krijg je de ruimte om te groeien in kennis, in ervaring en in samenwerking. Zo bouwen we samen aan vooruitgang, vandaag én morgen."
+        ],
+        "eyebrow": "Ruimte om te groeien",
+        "actions": [
+          {
+            "text": "Solliciteer nu",
+            "url": "/over-ons/werken-bij"
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Betrouwbare paneelbouw en automatisering voor machinebouw",
+    "intro": "In de machinebouw draait alles om precisie, efficiëntie en samenwerking tussen disciplines. Producten variëren van complexe productielijnen en verpakkingsmachines tot CNC-machines en industriële robots. Besturing, paneelbouw en software moeten feilloos op elkaar aansluiten om machines optimaal te laten presteren en te voldoen aan moderne eisen zoals Industrie 4.0, predictive maintenance en data gedreven optimalisatie.",
+    "lead": [
+      "BHR Industrial Solutions levert paneelbouw en automatisering waarin hardware en software elkaar versterken. Wij bouwen intelligente systemen die machines betrouwbaar laten draaien veilig, overzichtelijk en klaar voor de toekomst."
+    ]
+  },
+  "/branches/watertechnologie": {
+    "source": "https://www.bhr-is.nl/branches/watertechnologie",
+    "sections": [
+      {
+        "title": "Robuustheid, continuïteit en veiligheid in elk onderdeel van het proces",
+        "content": [
+          "Watermanagement betekent omgaan met vochtige omstandigheden, wisselende belastingen, onderhoud op afstand en hoge eisen aan beschikbaarheid. Onze besturingskasten zijn ontworpen voor intensief gebruik en voldoen aan strikte normen zoals NEN-EN-IEC en ATEX waar nodig.",
+          "Met sluitende behuizing, optimale ventilatie, duidelijke bekabeling en componenten die bestand zijn tegen vocht, corrosie en temperatuurschommelingen, garanderen we dat installaties zoals waterzuiveringsinstallaties, gemalen en pompstations blijven draaien. Geen problemen, maar uitdagingen die wij omzetten in zekerheid."
+        ]
+      },
+      {
+        "title": "Integratie en dashboarding voor slimme besturing binnen het waterbeheer",
+        "content": [
+          "Efficiënt waterbeheer vraagt meer dan alleen hardware: het vraagt techniek die systemen, sensoren, kleppen en pompen laat samenwerken. Onze automatiseringsoplossingen combineren paneelbouw met software-engineering zodat realtime data inzichtelijk wordt. Met slimme dashboards kunnen operators prestaties volgen, storingen direct signaleren en onderhoud plannen voordat het kritisch wordt.",
+          "Zo ondersteunen wij SCADA-systemen, telemetrie en datalogging die de waterkwaliteit waarborgen en de beschikbaarheid van drink- en proceswater optimaliseren."
+        ]
+      },
+      {
+        "title": "Duurzame partner voor een toekomstbestendig watersysteem",
+        "content": [
+          "In een wereld waarin water onze grootste bron én grootste uitdaging is, leveren wij maatwerk dat meegaat in de tijd. BHR Industrial Solutions is een betrouwbare partner voor de watertechnologiebranche, van drinkwaterbedrijven en waterschappen tot industriële waterbeheerders. Van advies en engineering tot bouw, integratie en onderhoud, zorgen wij dat techniek geen rem is maar een versneller.",
+          "Met strakke kasten, geïntegreerde besturing en een visie op de lange termijn, bouwen we systemen die duurzaam, efficiënt en toekomstbestendig zijn, zodat jouw installatie altijd excelleert."
+        ]
+      },
+      {
+        "title": "‘Hier leer je pas écht de kneepjes van het vak’",
+        "content": [
+          "Om de beste technische resultaten te leveren, heb je vakmensen nodig die blijven leren. Bij BHR krijg je de ruimte om te groeien in kennis, in ervaring en in samenwerking. Zo bouwen we samen aan vooruitgang, vandaag én morgen."
+        ],
+        "eyebrow": "Ruimte om te groeien",
+        "actions": [
+          {
+            "text": "Solliciteer nu",
+            "url": "/over-ons/werken-bij"
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Paneelbouw en besturing voor continu waterbeheer",
+    "intro": "In de watersector is betrouwbaarheid noodzaak. Installaties voor waterzuivering, pompstations, rioolgemalen, drukverhogingsstations en distributiesystemen moeten te allen tijde functioneren zonder compromis op veiligheid, kwaliteit of efficiëntie. Storingen kunnen leiden tot verlies van drinkwaterkwaliteit, uitval van industriële processen of overstorten van rioolwater.",
+    "lead": [
+      "BHR Industrial Solutions brengt paneelbouw en industriële automatisering samen in één solide basis: hardware, software en engineering verweven tot techniek die samenwerkt. Wij zijn jouw partner die de dynamiek van de watersector kent en zorgt dat jouw processen continu blijven draaien."
+    ]
+  },
+  "/branches/agro": {
+    "source": "https://www.bhr-is.nl/branches/agro",
+    "sections": [
+      {
+        "title": "Paneelbouw en besturingskasten voor betrouwbare agroprocessen",
+        "content": [
+          "Onze panelen zijn gebouwd om te blijven draaien, ook in vochtige, stoffige of corrosieve omgevingen zoals kassen, melkveestallen of verwerkingsruimtes. Elk detail telt: van componentkeuze tot kabelrouting en ventilatie. We gebruiken uitsluitend hoogwaardige materialen en ontwerpen kasten die bestand zijn tegen de intensieve eisen van agrarische productie, waaronder hoge piekbelastingen en variabele klimaatcondities. Dankzij onze kennis van agro-installaties bieden we zekerheid waar je op kunt vertrouwen:",
+          "* Consistente prestaties, 24/7",
+          "* Lange levensduur en eenvoudig onderhoud",
+          "* Veilige, overzichtelijke opbouw volgens de strengste normen"
+        ]
+      },
+      {
+        "title": "Engineering en automatisering voor continuïteit in agrarische productie",
+        "content": [
+          "Elke cyclus, elk seizoen en elke dag vraagt om techniek die blijft werken. Daarom ontwerpen wij paneelbouwoplossingen die onderhoudsvriendelijk, schaalbaar en optimaal te monitoren zijn, passend bij de steeds verder automatiserende sector. Van voersystemen en beregeningsinstallaties tot warmtekrachtkoppeling en oogststraten: wij zorgen dat alle schakels naadloos samenwerken.",
+          "BHR Industrial Solutions denkt verder dan het heden. We houden rekening met veranderende teeltmethoden, energiemanagement en datagedreven systemen. Zo creëren we continuïteit die voelbaar is in elke draaiende motor en elk soepel verlopend proces."
+        ]
+      },
+      {
+        "title": "Duurzame paneelbouw en slimme automatisering voor de agrosector van morgen",
+        "content": [
+          "Wij geloven in efficiëntie met een duurzaam karakter. De agrarische sector beweegt richting minder verspilling, lagere energielasten en toekomstbestendige productie. Onze panelen worden daarom ontworpen met oog voor:",
+          "* Energieverbruik",
+          "* Materiaalkeuze",
+          "* Uitbreidbaarheid",
+          "Met slimme aansturingen en energiezuinige componenten ondersteunen we bedrijven die willen groeien richting een circulaire, emissiearme en data gedreven sector. Zo bouwt BHR Industrial Solutions techniek die samenwerkt met jou, je machines en je ambities."
+        ]
+      },
+      {
+        "title": "Een partner die jouw wereld kent",
+        "content": [
+          "De agrosector vraagt om praktische oplossingen, niet om beloftes. Wij spreken jouw taal en begrijpen de dagelijkse realiteit op het erf, in de kas of in de verwerkingshal. Van hygiëne-eisen tot seizoensdrukte en van stalautomatisering tot teeltplanning: we weten wat er speelt. Met onze paneelbouw zorgen we dat jouw installatie betrouwbaar presteert, elke dag opnieuw. Geen problemen, maar uitdagingen en die lossen we samen op, met techniek waar je op kunt vertrouwen én trots op kunt zijn."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Voor welke toepassingen bouwt BHR besturingskasten?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is paneelbouw precies?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is het verschil tussen een regelkast en een schakelkast?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Hoe verloopt het proces van ontwerp tot oplevering?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ]
+    ],
+    "heading": "Paneelbouw voor de agrosector – betrouwbare techniek met toekomstvisie",
+    "intro": "In de agrosector is efficiëntie en continuïteit noodzaak. Productieprocessen draaien vaak 24/7 en zijn sterk afhankelijk van nauwkeurige aansturing.",
+    "faqTitle": "Veelgestelde vragen over Voedingsmiddelen-industrie",
+    "lead": [
+      "Een storing betekent direct verlies in opbrengst, energie of productkwaliteit. Denk aan klimaatbeheersing in kassen, de aansturing van ventilatiesystemen in stallen, of de precieze dosering van water en nutriënten in teeltinstallaties. BHR Industrial Solutions levert paneelbouw die onder alle omstandigheden presteert: robuuste, veilige en strakke besturingskasten met slimme techniek die processen in beweging houdt.",
+      "Wij begrijpen de dynamiek van jouw sector – van teeltoptimalisatie tot energie-efficiëntie en zorgen dat alle techniek feilloos samenwerkt."
+    ],
+    "processSteps": [
+      {
+        "title": "Advies en Concept",
+        "text": "Wij denken mee vanaf het begin. Met onze ervaring in industriële automatisering vertalen we uw wensen naar slimme, haalbare oplossingen.",
+        "img": "https://www.bhr-is.nl/media/images/step/4/3/437_dsc02673.webp"
+      },
+      {
+        "title": "Uw sollicitatie",
+        "text": "Onze recruiters bekijken uw sollicitatie zorgvuldig. U ontvangt binnen vijf werkdagen een reactie van ons.",
+        "img": "https://www.bhr-is.nl/media/images/step/6/2/620_dsc01525.webp"
+      },
+      {
+        "title": "Telefonisch contact",
+        "text": "Zien we een mogelijke match? Dan bellen we u om elkaar beter te leren kennen.",
+        "img": "https://www.bhr-is.nl/media/images/step/6/2/621_dsc02261.webp"
+      },
+      {
+        "title": "Kennismakingsgesprek",
+        "text": "Zijn we allebei enthousiast? Dan plannen we een eerste, tweede en eventueel derde gesprek in.",
+        "img": "https://www.bhr-is.nl/media/images/step/6/2/622_dsc02475.webp"
+      },
+      {
+        "title": "Aan de slag",
+        "text": "Is het een match? Dan ontvangt u een aanbod en verwelkomen we u als nieuwe collega bij BHR.",
+        "img": "https://www.bhr-is.nl/media/images/step/6/2/623_dsc01187.webp"
+      },
+      {
+        "title": "Ontwerp",
+        "text": "Onze engineers werken elk detail uit met precisie. Van elektrische schema’s tot softwarelogica, alles wordt afgestemd op uw proces.",
+        "img": "https://www.bhr-is.nl/media/images/step/4/3/438_dsc02665.webp"
+      },
+      {
+        "title": "Nog een stap",
+        "text": "Onze engineers werken elk detail uit met precisie. Van elektrische schema’s tot softwarelogica, alles wordt afgestemd op uw proces.",
+        "img": "https://www.bhr-is.nl/media/images/step/6/2/624_dsc01086.webp"
+      }
+    ]
+  },
+  "/service-en-onderhoud": {
+    "source": "https://www.bhr-is.nl/service-en-onderhoud",
+    "sections": [
+      {
+        "title": "Service die past bij uw installatie en uw team",
+        "content": [
+          "Wanneer u met BHR werkt, werkt u met een partner die begrijpt dat productiecontinuïteit essentieel is. Onze engineers kennen elke machine tot in detail en adviseren niet alleen wanneer onderhoud nodig is, maar vooral waarom. BHR Service & Onderhoud is meer dan een interventie op locatie. Het is een samenwerking tussen uw technische dienst en onze specialisten. We ondersteunen met duidelijke rapportages, inzichtelijke onderhoudshistorie en een vaste aanspreekpunt binnen ons team."
+        ],
+        "actions": [
+          {
+            "text": "Plan uw serviceafspraak",
+            "url": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "‘Hier leer je pas écht de kneepjes van het vak’",
+        "content": [
+          "Om de beste technische resultaten te leveren, heb je vakmensen nodig die blijven leren. Bij BHR krijg je de ruimte om te groeien in kennis, in ervaring en in samenwerking. Zo bouwen we samen aan vooruitgang, vandaag én morgen."
+        ],
+        "eyebrow": "Ruimte om te groeien",
+        "actions": [
+          {
+            "text": "Solliciteer nu",
+            "url": "/over-ons/werken-bij"
+          }
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Voor welke toepassingen bouwt BHR besturingskasten?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is paneelbouw precies?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is het verschil tussen een regelkast en een schakelkast?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Welke normen en richtlijnen hanteert BHR bij paneelbouw?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Hoe verloopt het proces van ontwerp tot oplevering?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ]
+    ],
+    "heading": "Service, onderhoud en optimalisatie",
+    "intro": "Bij BHR Industrial Solutions geloven we dat industriële processen alleen waarde creëren als de techniek feilloos meedraait. Onze machines zijn ontworpen voor maximale bedrijfszekerheid. Uitgevoerd met hoogwaardige componenten, efficiënte besturingen en slimme monitoringssystemen.",
+    "faqTitle": "Veelgestelde vragen over Service en onderhoud",
+    "lead": [
+      "Toch blijft één principe onveranderd: predictief en preventief onderhoud is de sleutel tot een storingsvrije lijn. Daarom ondersteunen we technische teams met voorspelbare en goed gedocumenteerde onderhoudsprogramma’s die aansluiten op uw productieplanning. Onze engineers denken mee op systeemniveau, signaleren slijtage vroegtijdig en zorgen dat uw installatie onder alle omstandigheden blijft presteren."
+    ]
+  },
+  "/projecten/bierskid-besturing-zonder-plc": {
+    "source": "https://www.bhr-is.nl/projecten/bierskid-besturing-zonder-plc",
+    "sections": [
+      {
+        "title": "Betrouwbaarheid en veiligheid centraal",
+        "content": [
+          "Bij het ontwerp van de nieuwe besturing lag de focus op het verhogen van de betrouwbaarheid en het voldoen aan actuele veiligheidsnormen. Door het optimaliseren van beveiligingscircuits en het overzichtelijk opbouwen van de hardware is de installatie beter bestand tegen storingen en eenvoudiger te controleren. Dit verhoogt niet alleen de veiligheid van het proces, maar ook de continuïteit van de productie."
+        ]
+      },
+      {
+        "title": "Toekomstbestendig zonder PLC",
+        "content": [
+          "Door bewust te kiezen voor een PLC-loze oplossing blijft de installatie herkenbaar en transparant voor operators en onderhoudspersoneel. Tegelijkertijd is de besturing toekomstbestendig gemaakt door duidelijke documentatie, traceerbare bedrading en onderhoudsvriendelijke componenten. Zo combineert Beyer het beste van traditionele techniek met de voordelen van een moderne aanpak."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Bierskid besturing zonder PLC",
+    "intro": "In de brouwerij van Beyer word gebruikgemaakt van een conventionele procesbesturing zonder PLC’s. De installatie draaide op een combinatie van relaislogica, analoge regelaars, druksensoren en mechanische beveiligingen. Hoewel de installatie bekend stond om haar ongekende degelijkheid en robuustheid, begon de leeftijd van de onderdelen een steeds groter risico te vormen. Wanneer er een storing optraden, kostten ze steeds meer tijd en expertise om dit te verhelpen.",
+    "lead": [
+      "Op basis hiervan werd een ontwerp gemaakt voor een nieuwe procesbesturing die nog steeds volledig hardware matig werkte.",
+      "Na afronding beschikte Beyer over een volledig vernieuwde en betrouwbaardere procesbesturing, nog altijd zonder PLC-technologie, maar wel met:",
+      "* hogere bedrijfszekerheid,",
+      "* volledige traceerbaarheid van bedrading en functies,",
+      "* betere beveiligingscircuits conform actuele veiligheidsnormen,",
+      "* eenvoud in onderhoud,",
+      "De organisatie behield daarmee het karakter van de oorspronkelijke installatie: eenvoudig, robuust en transparant, maar mét de veiligheid en betrouwbaarheid van moderne techniek."
+    ]
+  },
+  "/projecten/sc100": {
+    "source": "https://www.bhr-is.nl/projecten/sc100",
+    "sections": [
+      {
+        "title": "Efficiëntie door slimme besturing",
+        "content": [
+          "Door slimme keuzes in hardware en software is de machine niet alleen betrouwbaar, maar ook efficiënt in gebruik. Operators profiteren van overzichtelijke bediening en stabiele prestaties, terwijl onderhoud en storingsanalyse eenvoudig blijven. Dit draagt direct bij aan een hogere productiviteit."
+        ]
+      },
+      {
+        "title": "Toekomstgericht en schaalbaar",
+        "content": [
+          "De automatisering is ontworpen met het oog op de toekomst. Integratie in bestaande of nieuwe productielijnen verloopt soepel en uitbreiding is eenvoudig mogelijk. Daarmee is de machine klaar voor verdere groei en technologische ontwikkelingen."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Slimme automatisering voor innovatieve machinebouw",
+    "intro": "BHR heeft recent voor een toonaangevende machinebouwer de volledige elektrische automatisering verzorgd van een nieuw, geavanceerd machineontwerp. Vanaf het eerste concept tot de inbedrijfstelling heeft BHR gezorgd voor een betrouwbare, efficiënte en toekomstbestendige oplossing.",
+    "lead": [
+      "Met onze expertise in besturingstechniek, paneelbouw en softwareontwikkeling vertaalden we de technische eisen van de klant naar een perfect werkend systeem, volledig afgestemd op hun productieproces."
+    ]
+  },
+  "/projecten/bouwen-daf-installatie-waterzuivering": {
+    "source": "https://www.bhr-is.nl/projecten/bouwen-daf-installatie-waterzuivering",
+    "sections": [
+      {
+        "title": "Betrouwbare procesautomatisering",
+        "content": [
+          "De DAF-installatie is voorzien van een robuuste automatiseringsoplossing die zorgt voor stabiele procesvoering en minimale stilstand. Door duidelijke signalering en logische opbouw van de besturing is het systeem betrouwbaar in dagelijks gebruik en eenvoudig te beheren."
+        ]
+      },
+      {
+        "title": "Inzicht en controle voor de operator",
+        "content": [
+          "Dankzij de WinCC-visualisatie beschikt de operator over helder inzicht in het volledige waterzuiveringsproces. Proceswaarden, alarmen en statusinformatie zijn overzichtelijk weergegeven, wat snelle besluitvorming en veilig werken ondersteunt."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Bouwen DAF installatie waterzuivering",
+    "intro": "Het DAF-waterzuiveringsproject heeft geleid tot een volledig geautomatiseerde installatie met een betrouwbare en overzichtelijke besturing.",
+    "lead": [
+      "Door een gestructureerde aanpak, van P&ID-analyse tot WinCC-visualisatie, is een systeem gerealiseerd dat voldoet aan de functionele en veiligheidsvereisten. De installatie draagt bij aan een efficiënte waterzuivering."
+    ]
+  },
+  "/projecten/cummins": {
+    "source": "https://www.bhr-is.nl/projecten/cummins",
+    "sections": [
+      {
+        "title": "Duurzaam en efficiënt aandrijven",
+        "content": [
+          "Door het toepassen van frequentieregelaars draaien motoren alleen op het vermogen dat op dat moment nodig is. Dit verlaagt niet alleen het energieverbruik, maar vermindert ook mechanische belasting en slijtage, wat de levensduur van de installatie verlengt."
+        ]
+      },
+      {
+        "title": "Predictief onderhoud voor maximale beschikbaarheid",
+        "content": [
+          "Met behulp van trillingsmonitoring ontstaat continu inzicht in de conditie van de aandrijfmotoren. Afwijkingen worden tijdig gesignaleerd, zodat onderhoud gericht kan worden ingepland. Dit verhoogt de bedrijfszekerheid en minimaliseert het risico op ongeplande stilstand."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Energiebesparing door frequentieregelaars.",
+    "intro": "Door de oude ster driehoek schakelingen te vervangen door Danfoss HVAC drive hebben wij een energiebesparing van 80% gerealiseerd!",
+    "lead": [
+      "De investering was al in 1,5jaar terug verdient. Daarnaast hebben wij de aandrijf motoren voorzien van trilling sensoren. Deze nemen weer wanneer er een afwijking ontstaat. Zo wordt onderhoud planbaar en onverwachte productiestilstand voorkomen."
+    ]
+  },
+  "/projecten/retrofit-oplossingen-in-bestaande-machineframe": {
+    "source": "https://www.bhr-is.nl/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "sections": [
+      {
+        "title": "Zekerheid vooraf door virtueel ontwerp",
+        "content": [
+          "Door gebruik te maken van 3D-engineering wordt al in een vroeg stadium inzicht verkregen in de nieuwe configuratie. Dit voorkomt verrassingen tijdens montage, verkort de installatietijd en minimaliseert aanpassingen op locatie."
+        ]
+      },
+      {
+        "title": "Efficiënte retrofit met behoud van machineframe",
+        "content": [
+          "De retrofitoplossing maakt het mogelijk om bestaande machines te moderniseren zonder ingrijpende mechanische wijzigingen. Zo blijft het originele machineframe behouden, terwijl de installatie technisch wordt voorbereid op toekomstige uitbreidingen en nieuwe functionaliteiten."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Retrofit oplossingen in bestaande machineframe",
+    "intro": "Bij retrofitprojecten in bestaande machineframes is een veelgestelde vraag: past de nieuwe situatie straks wel? Zeker wanneer extra functionaliteiten worden toegevoegd, is ruimte en inpassing een cruciale factor.",
+    "lead": [
+      "Door de vele extra toepassingen die nodig waren is er gekozen voor een nieuwe besturingskast. Om deze kast in de huidige machine te laten passen is deze geheel in 3D uitgewerkt."
+    ]
+  },
+  "/projecten/kleine-verdelerbouw-tot-630-a": {
+    "source": "https://www.bhr-is.nl/projecten/kleine-verdelerbouw-tot-630-a",
+    "sections": [
+      {
+        "title": "Kleine verdelerbouw tot 630 A",
+        "content": [
+          "Onze kleine verdelers tot 630 A worden volledig op maat ontworpen en gebouwd. Dankzij een compacte opbouw zijn ze ideaal voor situaties met beperkte ruimte, zonder in te leveren op betrouwbaarheid of veiligheid. De verdelers worden opgebouwd volgens NEN-EN-IEC 61439 en zijn geschikt voor uiteenlopende toepassingen in zowel utiliteit als industrie. Wij zorgen voor een efficiënte indeling en een hoogwaardige afwerking, passend bij uw installatie."
+        ]
+      },
+      {
+        "title": "Verdelerbouw Dutso en Trobas",
+        "content": [
+          "Naast standaard verdelerbouw verzorgen wij ook de integratie van Dutso- en Trobas-systemen. Deze oplossingen bieden extra flexibiliteit en uitbreidingsmogelijkheden binnen uw elektrische infrastructuur. Door slimme integratie ontstaat een overzichtelijke, veilige en duurzame verdeler die eenvoudig kan meegroeien met toekomstige aanpassingen of uitbreidingen. Zo leveren wij een totaaloplossing die klaar is voor elke toepassing."
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Verdelerbouw 630 A",
+    "intro": "Wij ontwerpen en bouwen compacte en betrouwbare elektrische verdelers tot 630 ampère, volledig afgestemd op uw installatie en toepassing. Of het nu gaat om een onderverdeler of een hoofdverdeler, onze oplossingen combineren veiligheid, flexibiliteit en duurzaamheid en voldoen aan de geldende normen. Zo bent u verzekerd van een toekomstbestendige verdeler die direct inzetbaar is.",
+    "lead": []
+  },
+  "/over-ons": {
+    "source": "https://www.bhr-is.nl/over-ons",
+    "sections": [
+      {
+        "title": "Gedreven door techniek en teamwork",
+        "content": [
+          "Bij BHR geloven we dat techniek pas echt waardevol is wanneer alles samenwerk; soepel, slim en betrouwbaar. Vanuit Dongen bouwen we met passie aan industriële automatisering die verder gaat dan het laten draaien van machines. Samen zorgen we dat techniek presteert, vandaag én morgen.",
+          "* ### Voor machinebouwers",
+          "* ### Voor proces & productie"
+        ]
+      },
+      {
+        "title": "Industriële automatisering die alles verbindt",
+        "content": [
+          "BHR ontwerpt, bouwt en integreert besturingen die machines en processen soepel laten samenwerken. Of u nu bouwt, uitbreidt of optimaliseert wij zorgen dat alles slimmer, veiliger en toekomstbestendig draait.",
+          "* Korte doorlooptijden en flexibele service",
+          "* Van engineering tot paneelbouw en inbedrijfstelling",
+          "* Specialist in retrofit en procesintegratie"
+        ]
+      },
+      {
+        "title": "''Het bedrijf is goed bereikbaar, reageert snel en professioneel bij storingen en beschikt over deskundig en betrokken personeel''",
+        "content": [
+          "Bij Aqualab Zuid werken wij inmiddels meer dan drie jaar samen met BHR Industrial Solutions B.V.",
+          "Binnen ons microbiologisch laboratorium maken wij gebruik van zes machines die de analisten ondersteunen bij hun dagelijkse werkzaamheden. Deze machines bevatten diverse technieken, waaronder verwarmings- en koeltechniek, zwaaiarmen, sensoren, transportbanden en labelprinters. Hoewel BHR deze machines niet zelf heeft ontwikkeld, hebben zij de service en verdere optimalisatie overgenomen van de oorspronkelijke fabrikant, die deze werkzaamheden niet langer kon uitvoeren.",
+          "Wij zijn zeer tevreden over de samenwerking met BHR Industrial Solutions B.V. Het bedrijf is goed bereikbaar, reageert snel en professioneel bij storingen en beschikt over deskundig en betrokken personeel. Daarnaast denken zij proactief mee over toekomstige verbeteringen, zoals het beschikbaar houden van kritische onderdelen en het optimaliseren van apparatuur.",
+          "Kortom: BHR Industrial Solutions B.V. is een betrouwbare en kundige partner waarmee wij met veel vertrouwen samenwerken en dat in de toekomst graag blijven doen."
+        ]
+      },
+      {
+        "title": "‘Je blaast nieuw leven in oude machines’",
+        "content": [
+          "Bij BHR werk je aan slimme industriële automatisering binnen een hecht team van vakspecialisten. We combineren techniek, teamwork en trots om systemen te bouwen die echt presteren.",
+          "* Momenteel zijn er geen items aanwezig."
+        ]
+      }
+    ],
+    "faq": []
+  },
+  "/over-ons/partners": {
+    "source": "https://www.bhr-is.nl/over-ons/partners",
+    "sections": [],
+    "faq": [],
+    "heading": "Partners van BHR Industrial Solutions",
+    "intro": "Soms heb je van die klanten en leveranciers, partijen die je eigenlijk meer als samenwerkingspartner ziet, waarmee je iedere keer weer naar een hoger niveau toe werkt en waar je echt positieve energie van krijgt. Onderstaand ziet u de partners van BHR Industrial Solutions:",
+    "lead": []
+  },
+  "/over-ons/werken-bij": {
+    "source": "https://www.bhr-is.nl/over-ons/werken-bij",
+    "sections": [
+      {
+        "title": "Werken bij de paneelbouwer van Dongen en omgeving",
+        "content": [
+          "We zijn technische partner voor gerenommeerde bedrijven, onderzoeksinstellingen en overheden en dat lukt alleen als je samenwerkt. Engineers, paneelbouwers, testers en projectleiders trekken hier zij aan zij op. We schakelen met A-technologieleveranciers en specialisten in de keten, waardoor je altijd werkt volgens de hoogste normen van kwaliteit en veiligheid. Ons motto ‘we doen het samen’ zit diep in het DNA van BHR: je staat er niet alleen voor, je bouwt mee aan oplossingen die er écht toe doen."
+        ]
+      },
+      {
+        "title": "Een team waarin iedereen samen werkt en op zijn plek is",
+        "content": [
+          "Bij BHR draait het om vakmanschap, plezier en verbondenheid. Successen vieren we gezamenlijk of dat nu in de werkplaats is, tijdens een projectoplevering of op één van de vele uitjes van onze personeelsvereniging. Het jubileumfeest van ons 50-jarig bestaan in 2024 zegt alles: twee dagen vol inspiratie, trots en samen genieten met collega’s, klanten, partners én familie. Als jij onderdeel wilt zijn van een hecht technisch team dat ambities waarmaakt, dan voel je je hier direct thuis."
+        ]
+      },
+      {
+        "title": "Maak vandaag nog kennis met BHR",
+        "content": [
+          "Bij BHR draait alles om precisie, samenwerking en vooruitgang. Vanuit ons hoofdkantoor in Oosterhout werken we aan installaties die bedrijven laten draaien en gebouwen laten leven. Hier komen kennis, techniek en teamkracht samen elke dag opnieuw.",
+          "*  Zandeweg 5F, 5107 NM Dongen",
+          "* +31(0)640236948"
+        ]
+      }
+    ],
+    "faq": [],
+    "heading": "Zo werkt het bij BHR",
+    "intro": "Bij BHR Industrial Solution werk je aan high-end projecten die de samenleving draaiende houden. Van infrastructuur tot industrie en utiliteit: onze oplossingen zorgen voor beweging, continuïteit en verduurzaming. Dat vraagt om vakmensen met inzicht, lef en liefde voor techniek. In onze moderne locatie in Dongen krijg je de ruimte om écht goed werk te leveren. Je werkt met de nieuwste engineeringpakketten, slimme tools en een werkplaats die is ingericht op kwaliteit en innovatie. Hier kun je je specialisme verdiepen én verbreden.",
+    "lead": []
+  },
+  "/contact": {
+    "source": "https://www.bhr-is.nl/contact",
+    "sections": [],
+    "faq": [],
+    "heading": "Contact met BHR Industrial Solutions",
+    "intro": "Neem direct contact op BHR Industrial Solutions voor een oplossing op maat voor uw bedrijf. Wij zorgen voor paneelbouw, automatisering en engineering binnen uw proces.",
+    "lead": []
+  },
+  "/afspraak-maken": {
+    "source": "https://www.bhr-is.nl/afspraak-maken",
+    "sections": [],
+    "faq": [],
+    "heading": "Maak een afspraak",
+    "intro": "We maken graag kennis met u tijdens een vrijblijvend adviesgesprek. Tijdens deze kennismaking:",
+    "lead": []
+  },
+  "/veelgestelde-vragen": {
+    "source": "https://www.bhr-is.nl/veelgestelde-vragen",
+    "sections": [],
+    "faq": [
+      [
+        "Voor welke toepassingen bouwt BHR besturingskasten?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is paneelbouw precies?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat is het verschil tussen een regelkast en een schakelkast?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Welke normen en richtlijnen hanteert BHR bij paneelbouw?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Hoe verloopt het proces van ontwerp tot oplevering?",
+        "Paneelbouw is het ontwerpen en bouwen van elektrische besturingskasten die machines en processen aansturen. In zo’n kast worden componenten als schakelaars, PLC’s en beveiligingen samengebracht om installaties veilig, efficiënt en betrouwbaar te laten werken."
+      ],
+      [
+        "Wat doet een software engineer in industriële automatisering?",
+        "Een software engineer vertaalt proceslogica naar PLC-code, HMI/SCADA-interfaces en data-logging. Ze zorgen dat besturingen, operatorbediening en machineveiligheid samenwerken binnen de automatisering."
+      ],
+      [
+        "Hoe verloopt de samenwerking tussen software ontwikkelaar en paneelbouwer?",
+        "De software ontwikkelaar, hardware engineer en panelenbouwer werken samen vanaf ontwerp. Zo weet je zeker dat de kast, kabels en software direct op elkaar zijn afgestemd — geen surprises bij commissioning."
+      ],
+      [
+        "Welke voordelen biedt maatwerk software engineering voor productiebedrijven?",
+        "Maatwerk zorgt voor betere machines, hogere efficiëntie, minder stilstand en eenvoudiger onderhoud. De software sluit exact aan op jouw proces — geen overbodige functies, geen onnodige complexiteit."
+      ],
+      [
+        "Hoe wordt machineveiligheid geïntegreerd in software engineering?",
+        "In het ontwerp worden veiligheidsketens (zoals noodstop, veiligheidsrelais) en logica geïntegreerd in de software. Zo is de automatisering bouwkundig en elektrisch afgestemd op veilige werking en naleving van normen."
+      ],
+      [
+        "Hoe lang duurt een traject software engineering bij BHR?",
+        "De doorlooptijd varieert per project, maar door onze integratie van software engineering, paneelbouw en hardware engineering kunnen we vaak binnen enkele weken opleveren. Kwaliteit en betrouwbaarheid blijven voorop staan."
+      ],
+      [
+        "Wat is de doorlooptijd voor hardware engineering en paneelbouw?",
+        "Gemiddeld ligt de doorlooptijd tussen 4 en 8 weken, afhankelijk van complexiteit en materiaalbeschikbaarheid. Omdat wij engineering, paneelbouw en inbedrijfstelling zelf uitvoeren, kunnen we snel schakelen."
+      ],
+      [
+        "Werkt BHR met specifieke merken of componentleveranciers?",
+        "Ja, wij werken voornamelijk met A-merken zoals Siemens, Phoenix Contact en Rittal. Dit zorgt voor lange beschikbaarheid, betrouwbare prestaties en eenvoudige vervanging in onderhoudssituaties."
+      ],
+      [
+        "Hoe wordt machineveiligheid meegenomen in hardware engineering?",
+        "In het ontwerp verwerken we veiligheidsfuncties zoals noodstopcircuits, SIL/PL-niveaus en beveiligde I/O-zones. We stemmen veiligheid af met software engineering en operatorgebruik, zodat functionaliteit en veiligheid in balans zijn."
+      ],
+      [
+        "Kan BHR bestaande besturingskasten of installaties moderniseren (retrofit)?",
+        "Ja, we doen regelmatig retrofit-trajecten waarbij we bestaande kasten vervangen, uitbreiden of ombouwen zonder onnodige stilstand. Hierbij houden we rekening met bestaande machine-logica en bekabeling."
+      ],
+      [
+        "Voor welke sectoren levert BHR hardware engineering?",
+        "Wij werken onder andere voor bedrijven in voeding, agro, chemie & farmacie, machinebouw, verpakkingsindustrie, watertechnologie en energie & utilities. Branches waar continuïteit en veiligheid essentieel zijn."
+      ],
+      [
+        "Hoe bepaal ik de juiste componenten bij panelenbouw voor mijn machinebouwproject?",
+        "Wij selecteren componenten op basis van jouw productieproces, omgevingscondities en lange termijn onderhoud. Denk aan PLC’s, relais, bekabeling en bescherming — zo past de kast precies bij jouw installatie."
+      ],
+      [
+        "Wat is de gemiddelde doorlooptijd bij paneelbouw bedrijven voor kasten en panelenbouw op maat?",
+        "Afhankelijk van complexiteit en integratie ligt de doorlooptijd vaak tussen 4 en 8 weken. In regio Breda kunnen we flexibel schakelen, wat tijdwinst geeft zonder in te boeten op kwaliteit."
+      ],
+      [
+        "Hoe zorgt BHR ervoor dat panelen bouw ook onderhoudsvriendelijk is?",
+        "We ontwerpen met logische bedrading, gekleurde markeringen, reserve-I/O en servicevriendelijke indeling. Hierdoor is de besturingskast later gemakkelijk te bewaken, bij te regelen of uit te breiden."
+      ],
+      [
+        "Welke veiligheidsnormen gelden voor paneelbouw in de proces- en machineindustrie?",
+        "Bij paneelbouw volgen we normen zoals NEN-EN-IEC 60204-1, CE- en EMC-richtlijnen en integreren we veiligheidsketens voor noodstop en machineveiligheid — voor veilige en betrouwbare installaties."
+      ],
+      [
+        "Waarom kiezen productiebedrijven voor een specialist in paneelbouw bedrijven in de regio Breda?",
+        "Een regionale partner betekent korte lijnen, snelle levering en bouw van panelen die correct ingepast zijn in jouw automatisering en machineveiligheid. Betrouwbaarheid en continuïteit staan voorop."
+      ]
+    ],
+    "heading": "Veelgestelde vragen",
+    "faqTitle": "Vind je antwoorden",
+    "lead": []
+  },
+  "/vacature": {
+    "source": "https://www.bhr-is.nl/vacature",
+    "sections": [],
+    "faq": [],
+    "heading": "Bouw mee aan jouw toekomst in de techniek",
+    "intro": "Bij BHR werk je aan slimme industriele automatisering binnen een hecht team van vakspecialisten. We combineren techniek, teamwork en trots om systemen te bouwen die echt presteren.",
+    "lead": []
+  }
+}

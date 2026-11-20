@@ -1,0 +1,739 @@
+[
+  {
+    "key": "projecten",
+    "route": "/projecten",
+    "reference": "https://www.bhr-is.nl/projecten",
+    "candidate": "http://127.0.0.1:4173/projecten",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--bierskid-besturing-zonder-plc",
+    "route": "/projecten/bierskid-besturing-zonder-plc",
+    "reference": "https://www.bhr-is.nl/projecten/bierskid-besturing-zonder-plc",
+    "candidate": "http://127.0.0.1:4173/projecten/bierskid-besturing-zonder-plc",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--bouwen-afdelingsinstallatie",
+    "route": "/projecten/bouwen-afdelingsinstallatie",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-afdelingsinstallatie",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-afdelingsinstallatie",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--bouwen-daf-installatie-waterzuivering",
+    "route": "/projecten/bouwen-daf-installatie-waterzuivering",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-daf-installatie-waterzuivering",
+    "candidate": "http://127.0.0.1:4173/projecten/bouwen-daf-installatie-waterzuivering",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--cummins",
+    "route": "/projecten/cummins",
+    "reference": "https://www.bhr-is.nl/projecten/cummins",
+    "candidate": "http://127.0.0.1:4173/projecten/cummins",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--energiebesparing-door-frequentieregelaars",
+    "route": "/projecten/energiebesparing-door-frequentieregelaars",
+    "reference": "https://www.bhr-is.nl/projecten/energiebesparing-door-frequentieregelaars",
+    "candidate": "http://127.0.0.1:4173/projecten/energiebesparing-door-frequentieregelaars",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--kleine-verdelerbouw-tot-630-a",
+    "route": "/projecten/kleine-verdelerbouw-tot-630-a",
+    "reference": "https://www.bhr-is.nl/projecten/kleine-verdelerbouw-tot-630-a",
+    "candidate": "http://127.0.0.1:4173/projecten/kleine-verdelerbouw-tot-630-a",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--retrofit-oplossingen-in-bestaande-machineframe",
+    "route": "/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "reference": "https://www.bhr-is.nl/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "candidate": "http://127.0.0.1:4173/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "projecten--sc100",
+    "route": "/projecten/sc100",
+    "reference": "https://www.bhr-is.nl/projecten/sc100",
+    "candidate": "http://127.0.0.1:4173/projecten/sc100",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "contact",
+    "route": "/contact",
+    "reference": "https://www.bhr-is.nl/contact",
+    "candidate": "http://127.0.0.1:4173/contact",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "afspraak-maken",
+    "route": "/afspraak-maken",
+    "reference": "https://www.bhr-is.nl/afspraak-maken",
+    "candidate": "http://127.0.0.1:4173/afspraak-maken",
+    "localExists": true,
+    "priority": true,
+    "widths": [
+      "wide",
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  {
+    "key": "algemene-voorwaarden",
+    "route": "/algemene-voorwaarden",
+    "reference": "https://www.bhr-is.nl/algemene-voorwaarden",
+    "candidate": "http://127.0.0.1:4173/algemene-voorwaarden",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "betrouwbare-paneelbouw-etten-leur",
+    "route": "/betrouwbare-paneelbouw-etten-leur",
+    "reference": "https://www.bhr-is.nl/betrouwbare-paneelbouw-etten-leur",
+    "candidate": "http://127.0.0.1:4173/betrouwbare-paneelbouw-etten-leur",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "bordenbouw-op-maat",
+    "route": "/bordenbouw-op-maat",
+    "reference": "https://www.bhr-is.nl/bordenbouw-op-maat",
+    "candidate": "http://127.0.0.1:4173/bordenbouw-op-maat",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "bordenbouwer",
+    "route": "/bordenbouwer",
+    "reference": "https://www.bhr-is.nl/bordenbouwer",
+    "candidate": "http://127.0.0.1:4173/bordenbouwer",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "branches--agro",
+    "route": "/branches/agro",
+    "reference": "https://www.bhr-is.nl/branches/agro",
+    "candidate": "http://127.0.0.1:4173/branches/agro",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "branches--chemie-en-farmacie",
+    "route": "/branches/chemie-en-farmacie",
+    "reference": "https://www.bhr-is.nl/branches/chemie-en-farmacie",
+    "candidate": "http://127.0.0.1:4173/branches/chemie-en-farmacie",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "branches--energie-en-utiliteit",
+    "route": "/branches/energie-en-utiliteit",
+    "reference": "https://www.bhr-is.nl/branches/energie-en-utiliteit",
+    "candidate": "http://127.0.0.1:4173/branches/energie-en-utiliteit",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "branches--machinebouw",
+    "route": "/branches/machinebouw",
+    "reference": "https://www.bhr-is.nl/branches/machinebouw",
+    "candidate": "http://127.0.0.1:4173/branches/machinebouw",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "branches--productie-industrie",
+    "route": "/branches/productie-industrie",
+    "reference": "https://www.bhr-is.nl/branches/productie-industrie",
+    "candidate": "http://127.0.0.1:4173/branches/productie-industrie",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "branches--voedingsindustrie",
+    "route": "/branches/voedingsindustrie",
+    "reference": "https://www.bhr-is.nl/branches/voedingsindustrie",
+    "candidate": "http://127.0.0.1:4173/branches/voedingsindustrie",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "branches--watertechnologie",
+    "route": "/branches/watertechnologie",
+    "reference": "https://www.bhr-is.nl/branches/watertechnologie",
+    "candidate": "http://127.0.0.1:4173/branches/watertechnologie",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "certificering",
+    "route": "/certificering",
+    "reference": "https://www.bhr-is.nl/certificering",
+    "candidate": "http://127.0.0.1:4173/certificering",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "cookie-instellingen",
+    "route": "/cookie-instellingen",
+    "reference": "https://www.bhr-is.nl/cookie-instellingen",
+    "candidate": "http://127.0.0.1:4173/cookie-instellingen",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "de-mensen-achter-de-techniek",
+    "route": "/de-mensen-achter-de-techniek",
+    "reference": "https://www.bhr-is.nl/de-mensen-achter-de-techniek",
+    "candidate": "http://127.0.0.1:4173/de-mensen-achter-de-techniek",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--bekabeling-en-installatie",
+    "route": "/expertises/bekabeling-en-installatie",
+    "reference": "https://www.bhr-is.nl/expertises/bekabeling-en-installatie",
+    "candidate": "http://127.0.0.1:4173/expertises/bekabeling-en-installatie",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--cybersecurity",
+    "route": "/expertises/cybersecurity",
+    "reference": "https://www.bhr-is.nl/expertises/cybersecurity",
+    "candidate": "http://127.0.0.1:4173/expertises/cybersecurity",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--elektrocomponenten",
+    "route": "/expertises/elektrocomponenten",
+    "reference": "https://www.bhr-is.nl/expertises/elektrocomponenten",
+    "candidate": "http://127.0.0.1:4173/expertises/elektrocomponenten",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--hardware-engineering",
+    "route": "/expertises/hardware-engineering",
+    "reference": "https://www.bhr-is.nl/expertises/hardware-engineering",
+    "candidate": "http://127.0.0.1:4173/expertises/hardware-engineering",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--inbedrijfstelling",
+    "route": "/expertises/inbedrijfstelling",
+    "reference": "https://www.bhr-is.nl/expertises/inbedrijfstelling",
+    "candidate": "http://127.0.0.1:4173/expertises/inbedrijfstelling",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--industriele-automatisering",
+    "route": "/expertises/industriele-automatisering",
+    "reference": "https://www.bhr-is.nl/expertises/industriele-automatisering",
+    "candidate": "http://127.0.0.1:4173/expertises/industriele-automatisering",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--machineveiligheid",
+    "route": "/expertises/machineveiligheid",
+    "reference": "https://www.bhr-is.nl/expertises/machineveiligheid",
+    "candidate": "http://127.0.0.1:4173/expertises/machineveiligheid",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "expertises--software-engineering",
+    "route": "/expertises/software-engineering",
+    "reference": "https://www.bhr-is.nl/expertises/software-engineering",
+    "candidate": "http://127.0.0.1:4173/expertises/software-engineering",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "industriele-bordenbouw",
+    "route": "/industriele-bordenbouw",
+    "reference": "https://www.bhr-is.nl/industriele-bordenbouw",
+    "candidate": "http://127.0.0.1:4173/industriele-bordenbouw",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties",
+    "route": "/locaties",
+    "reference": "https://www.bhr-is.nl/locaties",
+    "candidate": "http://127.0.0.1:4173/locaties",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "route": "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "reference": "https://www.bhr-is.nl/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "candidate": "http://127.0.0.1:4173/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--oisterwijk",
+    "route": "/locaties/oisterwijk",
+    "reference": "https://www.bhr-is.nl/locaties/oisterwijk",
+    "candidate": "http://127.0.0.1:4173/locaties/oisterwijk",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "route": "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "candidate": "http://127.0.0.1:4173/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "route": "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "candidate": "http://127.0.0.1:4173/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "route": "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "candidate": "http://127.0.0.1:4173/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--paneelbouwer-in-de-regio-dongen",
+    "route": "/locaties/paneelbouwer-in-de-regio-dongen",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouwer-in-de-regio-dongen",
+    "candidate": "http://127.0.0.1:4173/locaties/paneelbouwer-in-de-regio-dongen",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--raamsdonksveer",
+    "route": "/locaties/raamsdonksveer",
+    "reference": "https://www.bhr-is.nl/locaties/raamsdonksveer",
+    "candidate": "http://127.0.0.1:4173/locaties/raamsdonksveer",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--s-hertogenbosch",
+    "route": "/locaties/s-hertogenbosch",
+    "reference": "https://www.bhr-is.nl/locaties/s-hertogenbosch",
+    "candidate": "http://127.0.0.1:4173/locaties/s-hertogenbosch",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "locaties--waalwijk",
+    "route": "/locaties/waalwijk",
+    "reference": "https://www.bhr-is.nl/locaties/waalwijk",
+    "candidate": "http://127.0.0.1:4173/locaties/waalwijk",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "nieuws",
+    "route": "/nieuws",
+    "reference": "https://www.bhr-is.nl/nieuws",
+    "candidate": "http://127.0.0.1:4173/nieuws",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "offerteaanvraag",
+    "route": "/offerteaanvraag",
+    "reference": "https://www.bhr-is.nl/offerteaanvraag",
+    "candidate": "http://127.0.0.1:4173/offerteaanvraag",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "over-ons",
+    "route": "/over-ons",
+    "reference": "https://www.bhr-is.nl/over-ons",
+    "candidate": "http://127.0.0.1:4173/over-ons",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "pagina-niet-gevonden",
+    "route": "/pagina-niet-gevonden",
+    "reference": "https://www.bhr-is.nl/pagina-niet-gevonden",
+    "candidate": "http://127.0.0.1:4173/pagina-niet-gevonden",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "paneelbouw-automatisering-tilburg",
+    "route": "/paneelbouw-automatisering-tilburg",
+    "reference": "https://www.bhr-is.nl/paneelbouw-automatisering-tilburg",
+    "candidate": "http://127.0.0.1:4173/paneelbouw-automatisering-tilburg",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "route": "/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "reference": "https://www.bhr-is.nl/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "candidate": "http://127.0.0.1:4173/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "paneelbouw-oosterhout",
+    "route": "/paneelbouw-oosterhout",
+    "reference": "https://www.bhr-is.nl/paneelbouw-oosterhout",
+    "candidate": "http://127.0.0.1:4173/paneelbouw-oosterhout",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "paneelbouwer-dongen",
+    "route": "/paneelbouwer-dongen",
+    "reference": "https://www.bhr-is.nl/paneelbouwer-dongen",
+    "candidate": "http://127.0.0.1:4173/paneelbouwer-dongen",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "paneelbrouwer-breda",
+    "route": "/paneelbrouwer-breda",
+    "reference": "https://www.bhr-is.nl/paneelbrouwer-breda",
+    "candidate": "http://127.0.0.1:4173/paneelbrouwer-breda",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "privacy",
+    "route": "/privacy",
+    "reference": "https://www.bhr-is.nl/privacy",
+    "candidate": "http://127.0.0.1:4173/privacy",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "referentie",
+    "route": "/referentie",
+    "reference": "https://www.bhr-is.nl/referentie",
+    "candidate": "http://127.0.0.1:4173/referentie",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "sitemap",
+    "route": "/sitemap",
+    "reference": "https://www.bhr-is.nl/sitemap",
+    "candidate": "http://127.0.0.1:4173/sitemap",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "test",
+    "route": "/test",
+    "reference": "https://www.bhr-is.nl/test",
+    "candidate": "http://127.0.0.1:4173/test",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "vacature",
+    "route": "/vacature",
+    "reference": "https://www.bhr-is.nl/vacature",
+    "candidate": "http://127.0.0.1:4173/vacature",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "vacature--junior-e-plan-engineer",
+    "route": "/vacature/junior-e-plan-engineer",
+    "reference": "https://www.bhr-is.nl/vacature/junior-e-plan-engineer",
+    "candidate": "http://127.0.0.1:4173/vacature/junior-e-plan-engineer",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "vacature--monteur-paneelbouw",
+    "route": "/vacature/monteur-paneelbouw",
+    "reference": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "candidate": "http://127.0.0.1:4173/vacature/monteur-paneelbouw",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "veelgestelde-vragen",
+    "route": "/veelgestelde-vragen",
+    "reference": "https://www.bhr-is.nl/veelgestelde-vragen",
+    "candidate": "http://127.0.0.1:4173/veelgestelde-vragen",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "voor-machinebouwers",
+    "route": "/voor-machinebouwers",
+    "reference": "https://www.bhr-is.nl/voor-machinebouwers",
+    "candidate": "http://127.0.0.1:4173/voor-machinebouwers",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "werken-bij",
+    "route": "/werken-bij",
+    "reference": "https://www.bhr-is.nl/werken-bij",
+    "candidate": "http://127.0.0.1:4173/werken-bij",
+    "localExists": false,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  },
+  {
+    "key": "zoeken",
+    "route": "/zoeken",
+    "reference": "https://www.bhr-is.nl/zoeken",
+    "candidate": "http://127.0.0.1:4173/zoeken",
+    "localExists": true,
+    "priority": false,
+    "widths": [
+      "wide"
+    ]
+  }
+]

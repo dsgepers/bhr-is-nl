@@ -1,0 +1,17 @@
+{
+  "pagePlans": 64,
+  "sharedPlans": 1,
+  "referenceCaptures": 97,
+  "candidateComparisons": 65,
+  "missingLocalRoutes": 32,
+  "applicationSourceFilesUnchanged": 180,
+  "protectedRoutesUnchanged": 12,
+  "brokenDocumentLinks": [],
+  "cachedCaptureZoomGatePassed": true,
+  "allReferenceImagesDecoded": true,
+  "galleryPages": 64,
+  "galleryPanels": 97,
+  "galleryViewportOptions": 4,
+  "baselineOverwriteGuardPassed": true,
+  "invalidRouteGuardPassed": true
+}

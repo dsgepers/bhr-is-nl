@@ -1,0 +1,338 @@
+[
+  {
+    "key": "expertises",
+    "label": "Expertises",
+    "reference": "https://www.bhr-is.nl/expertises",
+    "candidate": "http://127.0.0.1:4173/expertises",
+    "viewports": [
+      {
+        "label": "desktop",
+        "width": 1440,
+        "height": 900,
+        "mismatchPercent": 88.9684300456547,
+        "ssimEstimate": -0.1328251864889204,
+        "referenceSize": {
+          "width": 1440,
+          "height": 8226
+        },
+        "candidateSize": {
+          "width": 1440,
+          "height": 7391
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "tablet",
+        "width": 768,
+        "height": 1024,
+        "mismatchPercent": 87.10559201577802,
+        "ssimEstimate": 0.11017976263878597,
+        "referenceSize": {
+          "width": 768,
+          "height": 8659
+        },
+        "candidateSize": {
+          "width": 768,
+          "height": 9190
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "mobile",
+        "width": 390,
+        "height": 844,
+        "mismatchPercent": 89.69740561275994,
+        "ssimEstimate": -0.10394019965075078,
+        "referenceSize": {
+          "width": 390,
+          "height": 11176
+        },
+        "candidateSize": {
+          "width": 390,
+          "height": 9306
+        },
+        "sameZoom": true
+      }
+    ]
+  },
+  {
+    "key": "machinebouwers",
+    "label": "Machinebouwers",
+    "reference": "https://www.bhr-is.nl/voor-machinebouwers/voor-machinebouwers",
+    "candidate": "http://127.0.0.1:4173/voor-machinebouwers/voor-machinebouwers",
+    "viewports": [
+      {
+        "label": "desktop",
+        "width": 1440,
+        "height": 900,
+        "mismatchPercent": 76.35164133020136,
+        "ssimEstimate": 0.4168084607084486,
+        "referenceSize": {
+          "width": 1440,
+          "height": 7292
+        },
+        "candidateSize": {
+          "width": 1440,
+          "height": 7521
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "tablet",
+        "width": 768,
+        "height": 1024,
+        "mismatchPercent": 77.00318718905473,
+        "ssimEstimate": 0.0646736474003128,
+        "referenceSize": {
+          "width": 768,
+          "height": 10050
+        },
+        "candidateSize": {
+          "width": 768,
+          "height": 9552
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "mobile",
+        "width": 390,
+        "height": 844,
+        "mismatchPercent": 82.24961307101943,
+        "ssimEstimate": -0.08944802224502596,
+        "referenceSize": {
+          "width": 390,
+          "height": 16070
+        },
+        "candidateSize": {
+          "width": 390,
+          "height": 9885
+        },
+        "sameZoom": true
+      }
+    ]
+  },
+  {
+    "key": "proces-productie",
+    "label": "Proces & productie",
+    "reference": "https://www.bhr-is.nl/voor-machinebouwers/proces-productie",
+    "candidate": "http://127.0.0.1:4173/voor-machinebouwers/proces-productie",
+    "viewports": [
+      {
+        "label": "desktop",
+        "width": 1440,
+        "height": 900,
+        "mismatchPercent": 82.83350257243434,
+        "ssimEstimate": 0.44314600190602976,
+        "referenceSize": {
+          "width": 1440,
+          "height": 5956
+        },
+        "candidateSize": {
+          "width": 1440,
+          "height": 6155
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "tablet",
+        "width": 768,
+        "height": 1024,
+        "mismatchPercent": 84.78072873688554,
+        "ssimEstimate": -0.18255676417362016,
+        "referenceSize": {
+          "width": 768,
+          "height": 8483
+        },
+        "candidateSize": {
+          "width": 768,
+          "height": 7473
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "mobile",
+        "width": 390,
+        "height": 844,
+        "mismatchPercent": 79.57604811902355,
+        "ssimEstimate": 0.019503234430466698,
+        "referenceSize": {
+          "width": 390,
+          "height": 14008
+        },
+        "candidateSize": {
+          "width": 390,
+          "height": 8265
+        },
+        "sameZoom": true
+      }
+    ]
+  },
+  {
+    "key": "service-en-onderhoud",
+    "label": "Service & onderhoud",
+    "reference": "https://www.bhr-is.nl/service-en-onderhoud",
+    "candidate": "http://127.0.0.1:4173/service-en-onderhoud",
+    "viewports": [
+      {
+        "label": "desktop",
+        "width": 1440,
+        "height": 900,
+        "mismatchPercent": 81.25250475904218,
+        "ssimEstimate": 0.3067635874404169,
+        "referenceSize": {
+          "width": 1440,
+          "height": 5280
+        },
+        "candidateSize": {
+          "width": 1440,
+          "height": 5545
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "tablet",
+        "width": 768,
+        "height": 1024,
+        "mismatchPercent": 90.35344590287437,
+        "ssimEstimate": -0.22158699942597943,
+        "referenceSize": {
+          "width": 768,
+          "height": 7190
+        },
+        "candidateSize": {
+          "width": 768,
+          "height": 6315
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "mobile",
+        "width": 390,
+        "height": 844,
+        "mismatchPercent": 88.79153197781541,
+        "ssimEstimate": 0.16943930484437775,
+        "referenceSize": {
+          "width": 390,
+          "height": 10994
+        },
+        "candidateSize": {
+          "width": 390,
+          "height": 6425
+        },
+        "sameZoom": true
+      }
+    ]
+  },
+  {
+    "key": "partners",
+    "label": "Partners",
+    "reference": "https://www.bhr-is.nl/over-ons/partners",
+    "candidate": "http://127.0.0.1:4173/over-ons/partners",
+    "viewports": [
+      {
+        "label": "desktop",
+        "width": 1440,
+        "height": 900,
+        "mismatchPercent": 87.36405351933686,
+        "ssimEstimate": -0.11310697580546927,
+        "referenceSize": {
+          "width": 1440,
+          "height": 3256
+        },
+        "candidateSize": {
+          "width": 1440,
+          "height": 3847
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "tablet",
+        "width": 768,
+        "height": 1024,
+        "mismatchPercent": 90.2983702715644,
+        "ssimEstimate": -0.3031395995935725,
+        "referenceSize": {
+          "width": 768,
+          "height": 3935
+        },
+        "candidateSize": {
+          "width": 768,
+          "height": 4873
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "mobile",
+        "width": 390,
+        "height": 844,
+        "mismatchPercent": 84.97854198830078,
+        "ssimEstimate": -0.08260662318299529,
+        "referenceSize": {
+          "width": 390,
+          "height": 5431
+        },
+        "candidateSize": {
+          "width": 390,
+          "height": 4603
+        },
+        "sameZoom": true
+      }
+    ]
+  },
+  {
+    "key": "werken-bij",
+    "label": "Werken bij",
+    "reference": "https://www.bhr-is.nl/over-ons/werken-bij",
+    "candidate": "http://127.0.0.1:4173/over-ons/werken-bij",
+    "viewports": [
+      {
+        "label": "desktop",
+        "width": 1440,
+        "height": 900,
+        "mismatchPercent": 85.27715970359533,
+        "ssimEstimate": -0.19097683295341916,
+        "referenceSize": {
+          "width": 1440,
+          "height": 8202
+        },
+        "candidateSize": {
+          "width": 1440,
+          "height": 7242
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "tablet",
+        "width": 768,
+        "height": 1024,
+        "mismatchPercent": 83.77648492907801,
+        "ssimEstimate": -0.2174390531958454,
+        "referenceSize": {
+          "width": 768,
+          "height": 9501
+        },
+        "candidateSize": {
+          "width": 768,
+          "height": 10575
+        },
+        "sameZoom": true
+      },
+      {
+        "label": "mobile",
+        "width": 390,
+        "height": 844,
+        "mismatchPercent": 78.83116928138222,
+        "ssimEstimate": -0.11770833240907555,
+        "referenceSize": {
+          "width": 390,
+          "height": 14793
+        },
+        "candidateSize": {
+          "width": 390,
+          "height": 9782
+        },
+        "sameZoom": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,885 @@
+[
+  {
+    "page": "expertises",
+    "alt": "Expertises",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/document/9/1/917_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/banner/8/7/874_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp",
+        "path": "/assets/images/874_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "expertises",
+    "alt": "Software engineering",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/5/8/585_dsc02701.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/585_dsc02701.webp",
+      "bytes": 168032,
+      "sha256": "88848271a7e1ed82cf302face92710e08eb47eb5ded35e8e5dc0095c4c18723a"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/5/8/585_dsc02701.webp",
+        "path": "/assets/images/585_dsc02701.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Hardware engineering",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/5/8/588_dsc02665.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/588_dsc02665.webp",
+      "bytes": 185982,
+      "sha256": "6039af9264869bbbe9514d63ad5db3812edffe13f22a7644801ce51723f90c75"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/5/8/588_dsc02665.webp",
+        "path": "/assets/images/588_dsc02665.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Paneelbouw",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/8/9/895_dsc01075.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/895_dsc01075.webp",
+      "bytes": 175338,
+      "sha256": "fbabc2b4bb2b00d0004cbbf900a0a7c3391163273447738713327a2c06b0b3db"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/8/9/895_dsc01075.webp",
+        "path": "/assets/images/895_dsc01075.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Retrofit",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/5/9/596_dsc01103.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/596_dsc01103.webp",
+      "bytes": 202486,
+      "sha256": "1d80f62008d2a96e7ea6fe63b5da67ccc6389de82ee3f5ec245979af3435661d"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/5/9/596_dsc01103.webp",
+        "path": "/assets/images/596_dsc01103.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Bekabeling en installatie",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/6/0/600_dsc01226.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/600_dsc01226.webp",
+      "bytes": 203904,
+      "sha256": "88b398fa2883ae0da242fac7c2d81c6a7ca935f6dcaa677674cafc977431d159"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/6/0/600_dsc01226.webp",
+        "path": "/assets/images/600_dsc01226.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Machineveiligheid",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/6/0/604_dsc01010.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/604_dsc01010.webp",
+      "bytes": 217182,
+      "sha256": "65eb276111c12e6d8e74ac245db74379b0f6ca82669c770840c63d6e4a9a2219"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/6/0/604_dsc01010.webp",
+        "path": "/assets/images/604_dsc01010.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Cybersecurity",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/6/0/609_dsc02603.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/609_dsc02603.webp",
+      "bytes": 175566,
+      "sha256": "e9338cde4929780e835b876dcd2e1b4eeeb1ac675572ad3b9e0f81b35cdf6d43"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/6/0/609_dsc02603.webp",
+        "path": "/assets/images/609_dsc02603.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Elektrocomponenten",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/6/1/613_dsc01030.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/613_dsc01030.webp",
+      "bytes": 234382,
+      "sha256": "88e392a1a75ea6e403900b666ae8e7329c0f6cf316bee56d43157707b534f90c"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/6/1/613_dsc01030.webp",
+        "path": "/assets/images/613_dsc01030.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Inbedrijfstelling",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/6/1/616_dsc00987.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/7/7/777_dsc00987.webp",
+        "path": "/assets/images/777_dsc00987.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "expertises",
+    "alt": "Industriële automatisering",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/service/5/4/549_nieuwe-map-slimme-automatisering.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/project/5/6/564_nieuwe-map-slimme-automatisering.webp",
+        "path": "/assets/images/564_nieuwe-map-slimme-automatisering.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "expertises",
+    "alt": "",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/step/4/3/437_dsc02673.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "expertises",
+    "alt": "Complete oplossingen voor elke installatie",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/4/4/440_dsc01350.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "expertises",
+    "alt": "Bierskid besturing zonder PLC",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/project/1/1/1123_bierskid.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1123_bierskid.webp",
+      "bytes": 255422,
+      "sha256": "06a8ed3de9a633ff9219a3e41c91cbd16a2489e8bdc907d74ab6c554edfab75f"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/project/1/1/1123_bierskid.webp",
+        "path": "/assets/images/1123_bierskid.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Seal automatisering",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/project/5/6/564_nieuwe-map-slimme-automatisering.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/564_nieuwe-map-slimme-automatisering.webp",
+      "bytes": 273590,
+      "sha256": "0a0154319f9a8f95404dbde733eff55ed6ea12ce6d2c2fd90b5957618cd0d7cf"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/project/5/6/564_nieuwe-map-slimme-automatisering.webp",
+        "path": "/assets/images/564_nieuwe-map-slimme-automatisering.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Bouwen DAF installatie waterzuivering",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/project/5/6/568_dsc01712.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/568_dsc01712.webp",
+      "bytes": 239306,
+      "sha256": "c7bbe20a7605d9a903f8ca5a521a1680ef451e181910f0d89b79b7f7edf9a82e"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/project/5/6/568_dsc01712.webp",
+        "path": "/assets/images/568_dsc01712.webp"
+      },
+      {
+        "url": "https://www.bhr-is.nl/media/images/document/8/5/851_dsc01712.webp",
+        "path": "/assets/images/851_dsc01712.webp"
+      },
+      {
+        "url": "https://www.bhr-is.nl/media/images/document/8/9/892_dsc01712.webp",
+        "path": "/assets/images/892_dsc01712.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Rittal",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/0/1002_rittal.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1002_rittal.webp",
+      "bytes": 3248,
+      "sha256": "7e22ca0a5efab5188c0bb865795d4ee9267ae91d39588954e063fe73a8accfe7"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/0/1002_rittal.webp",
+        "path": "/assets/images/1002_rittal.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Lappkabel",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/0/1003_lappkabel-logo.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1003_lappkabel-logo.webp",
+      "bytes": 2482,
+      "sha256": "086b745fd3df24b8fb1b0a557d0d98c25b90fb4ee788d9f186f765c7fc272a52"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/0/1003_lappkabel-logo.webp",
+        "path": "/assets/images/1003_lappkabel-logo.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "ABB",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1194_abb.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1194_abb.webp",
+      "bytes": 3600,
+      "sha256": "e11a934137a73b6086c451c15f08bb27f5fd1df34ea606a72534c0861228a01a"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1194_abb.webp",
+        "path": "/assets/images/1194_abb.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Allen Bradley",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1195_allen-bradley.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1195_allen-bradley.webp",
+      "bytes": 12840,
+      "sha256": "11869d9aa947cab03bc2c67c814e5af7ce4c13ce1da6f9a12ba42028864337b7"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1195_allen-bradley.webp",
+        "path": "/assets/images/1195_allen-bradley.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Phoenix Contact",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1196_phoenix-contacts.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1196_phoenix-contacts.webp",
+      "bytes": 3594,
+      "sha256": "639ef1c4b6b4427413c09ac6973fe0e700994ba4ebc631d47b90b156ac70b8f9"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1196_phoenix-contacts.webp",
+        "path": "/assets/images/1196_phoenix-contacts.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Wago",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1197_wago.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1197_wago.webp",
+      "bytes": 3586,
+      "sha256": "c50259a552d92a7bf66d02042e75b50b1091b8dfdc6b909991462d1af598ade5"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1197_wago.webp",
+        "path": "/assets/images/1197_wago.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Siemens",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/4/4/44_partner2.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/44_partner2.webp",
+      "bytes": 7858,
+      "sha256": "f2d33a275fb1572d853b5791be90b7af9f3b92a52544adfbc3ce497373588547"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/4/4/44_partner2.webp",
+        "path": "/assets/images/44_partner2.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "expertises",
+    "alt": "Eplan",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/4/5/45_partner3.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/45_partner3.webp",
+      "bytes": 13990,
+      "sha256": "b09f14520082f0465b0c415c60682f19427ba781ddb76dda3dab3c4a08b7e148"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/4/5/45_partner3.webp",
+        "path": "/assets/images/45_partner3.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "machinebouwers",
+    "alt": "Voor machinebouwers",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/document/8/5/851_dsc01712.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/851_dsc01712.webp",
+      "bytes": 1450884,
+      "sha256": "8f62ab50fc82b799971f84be4bc6af20aad73af17a10843537492c6cc00e3e69"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/project/5/6/568_dsc01712.webp",
+        "path": "/assets/images/568_dsc01712.webp"
+      },
+      {
+        "url": "https://www.bhr-is.nl/media/images/document/8/5/851_dsc01712.webp",
+        "path": "/assets/images/851_dsc01712.webp"
+      },
+      {
+        "url": "https://www.bhr-is.nl/media/images/document/8/9/892_dsc01712.webp",
+        "path": "/assets/images/892_dsc01712.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "machinebouwers",
+    "alt": "Seriematige paneelbouw voor maximale efficiëntie",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/8/783_dsc01720.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/783_dsc01720.webp",
+      "bytes": 768012,
+      "sha256": "96b861cca9e549e1438181cd12a7566e2ac8a18f5ac70e8ee5fcc71d1deebc46"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/7/8/783_dsc01720.webp",
+        "path": "/assets/images/783_dsc01720.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "machinebouwers",
+    "alt": "Efficiënte techniek die ontworpen is om te presteren",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/7/779_dsc02362.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/779_dsc02362.webp",
+      "bytes": 782458,
+      "sha256": "53569c92b956fd12f942f6094bbc3bb7fc9b76b76100b281bd4b68281cc0f153"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/4/5/452_dsc02362.webp",
+        "path": "/assets/images/452_dsc02362.webp"
+      },
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/7/7/779_dsc02362.webp",
+        "path": "/assets/images/779_dsc02362.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "machinebouwers",
+    "alt": "De kwaliteit van het proces gewaarborgd door testen en controle",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/7/777_dsc00987.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/777_dsc00987.webp",
+      "bytes": 881028,
+      "sha256": "3c64589b3fa09ee05fe37abe83c120b1d31e406a99c9d5d13f1f2949b3192ed2"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/7/7/777_dsc00987.webp",
+        "path": "/assets/images/777_dsc00987.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "machinebouwers",
+    "alt": "BHR Industrial Solutions: een partner die uw machinebouw versterkt",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/7/775_dsc02204.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/775_dsc02204.webp",
+      "bytes": 924926,
+      "sha256": "d9a839ad22d6d4aa37722dca66101bf4b4d0c4a3f2d8570a4307f72281b82a3b"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/7/7/775_dsc02204.webp",
+        "path": "/assets/images/775_dsc02204.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "machinebouwers",
+    "alt": "Samen bouwen aan voorspelbare, efficiënte machinebouw ",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/8/781_dsc02826.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/781_dsc02826.webp",
+      "bytes": 719170,
+      "sha256": "517dc380ecc21fe177e01f7d76d5f54424030133f5255974d1999a3c5effa46c"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/4/3/433_dsc02826.webp",
+        "path": "/assets/images/433_dsc02826.webp"
+      },
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/7/8/781_dsc02826.webp",
+        "path": "/assets/images/781_dsc02826.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "machinebouwers",
+    "alt": "Henk Rutten",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1147_dsc02542.webp",
+      "bytes": 162856,
+      "sha256": "7da19a96f5e804030733ea9e14aa16aaa734b5193d43bcd26a6e5083cd17023d"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+        "path": "/assets/images/1147_dsc02542.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "proces-productie",
+    "alt": "Voor proces & productie",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/document/8/4/848_dsc01159.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/document/8/9/893_dsc01159.webp",
+        "path": "/assets/images/893_dsc01159.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "proces-productie",
+    "alt": "Industriële automatisering die processen versterkt",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/7/771_dsc01350.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "proces-productie",
+    "alt": "Waarom kiezen voor BHR in proces & productie",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/7/773_dsc02153.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "proces-productie",
+    "alt": "BHR Industrial Solutions: partner voor uw proces en productiviteit",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/6/769_dsc02091.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "proces-productie",
+    "alt": "Henk Rutten",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1147_dsc02542.webp",
+      "bytes": 162856,
+      "sha256": "7da19a96f5e804030733ea9e14aa16aaa734b5193d43bcd26a6e5083cd17023d"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+        "path": "/assets/images/1147_dsc02542.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "service-en-onderhoud",
+    "alt": "Service en onderhoud",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/document/4/2/421_dsc01159.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/document/8/9/893_dsc01159.webp",
+        "path": "/assets/images/893_dsc01159.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "service-en-onderhoud",
+    "alt": "Service die past bij uw installatie en uw team",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/4/4/444_dsc01886.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "service-en-onderhoud",
+    "alt": "‘Hier leer je pas <span>écht</span> de kneepjes van het vak’",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/4/5/451_dsc02462.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "partners",
+    "alt": "Partners van BHR Industrial Solutions",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/document/8/6/866_dsc02204.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/7/7/775_dsc02204.webp",
+        "path": "/assets/images/775_dsc02204.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "partners",
+    "alt": "Rittal",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/0/1002_rittal.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1002_rittal.webp",
+      "bytes": 3248,
+      "sha256": "7e22ca0a5efab5188c0bb865795d4ee9267ae91d39588954e063fe73a8accfe7"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/0/1002_rittal.webp",
+        "path": "/assets/images/1002_rittal.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "Lappkabel",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/0/1003_lappkabel-logo.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1003_lappkabel-logo.webp",
+      "bytes": 2482,
+      "sha256": "086b745fd3df24b8fb1b0a557d0d98c25b90fb4ee788d9f186f765c7fc272a52"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/0/1003_lappkabel-logo.webp",
+        "path": "/assets/images/1003_lappkabel-logo.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "ABB",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1194_abb.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1194_abb.webp",
+      "bytes": 3600,
+      "sha256": "e11a934137a73b6086c451c15f08bb27f5fd1df34ea606a72534c0861228a01a"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1194_abb.webp",
+        "path": "/assets/images/1194_abb.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "Allen Bradley",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1195_allen-bradley.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1195_allen-bradley.webp",
+      "bytes": 12840,
+      "sha256": "11869d9aa947cab03bc2c67c814e5af7ce4c13ce1da6f9a12ba42028864337b7"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1195_allen-bradley.webp",
+        "path": "/assets/images/1195_allen-bradley.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "Phoenix Contact",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1196_phoenix-contacts.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1196_phoenix-contacts.webp",
+      "bytes": 3594,
+      "sha256": "639ef1c4b6b4427413c09ac6973fe0e700994ba4ebc631d47b90b156ac70b8f9"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1196_phoenix-contacts.webp",
+        "path": "/assets/images/1196_phoenix-contacts.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "Wago",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/1/1/1197_wago.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1197_wago.webp",
+      "bytes": 3586,
+      "sha256": "c50259a552d92a7bf66d02042e75b50b1091b8dfdc6b909991462d1af598ade5"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/1/1/1197_wago.webp",
+        "path": "/assets/images/1197_wago.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "Siemens",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/4/4/44_partner2.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/44_partner2.webp",
+      "bytes": 7858,
+      "sha256": "f2d33a275fb1572d853b5791be90b7af9f3b92a52544adfbc3ce497373588547"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/4/4/44_partner2.webp",
+        "path": "/assets/images/44_partner2.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "Eplan",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/partner/4/5/45_partner3.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/45_partner3.webp",
+      "bytes": 13990,
+      "sha256": "b09f14520082f0465b0c415c60682f19427ba781ddb76dda3dab3c4a08b7e148"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/partner/4/5/45_partner3.webp",
+        "path": "/assets/images/45_partner3.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "partners",
+    "alt": "Henk Rutten",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1147_dsc02542.webp",
+      "bytes": 162856,
+      "sha256": "7da19a96f5e804030733ea9e14aa16aaa734b5193d43bcd26a6e5083cd17023d"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+        "path": "/assets/images/1147_dsc02542.webp"
+      }
+    ],
+    "status": "exact"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Werken bij",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/document/8/5/857_dsc02261.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/banner/1/1/1113_dsc02261.webp",
+        "path": "/assets/images/1113_dsc02261.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Werken bij de paneelbouwer van Dongen en omgeving",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/8/787_dsc02462.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Een team waarin iedereen samen werkt en op zijn plek is",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/7/8/785_dsc00930.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/timeline/8/3/831_dsc00930.webp",
+        "path": "/assets/images/831_dsc00930.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Betrokken vakspecialisten",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/fact/8/1/816_dsc01886.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Jaren ervaring",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/fact/8/1/819_dsc02091.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Projecten per jaar",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/fact/8/2/820_dsc02701.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/service/5/8/585_dsc02701.webp",
+        "path": "/assets/images/585_dsc02701.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Doel: systemen die excelleren",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/fact/8/2/822_dsc02552.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Focus op kwaliteit en veiligheid",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/fact/8/2/824_dsc01048.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/textblock/4/3/435_dsc01048.webp",
+        "path": "/assets/images/435_dsc01048.webp"
+      },
+      {
+        "url": "https://www.bhr-is.nl/media/images/timeline/8/3/833_dsc01048.webp",
+        "path": "/assets/images/833_dsc01048.webp"
+      }
+    ],
+    "status": "different-derivative"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Maak vandaag nog kennis met BHR",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/textblock/1/1/1120_dsc02091.webp",
+    "exactManifestEntry": null,
+    "samePhotoAlternatives": [],
+    "status": "missing"
+  },
+  {
+    "page": "werken-bij",
+    "alt": "Henk Rutten",
+    "referenceUrl": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+    "exactManifestEntry": {
+      "path": "/assets/images/1147_dsc02542.webp",
+      "bytes": 162856,
+      "sha256": "7da19a96f5e804030733ea9e14aa16aaa734b5193d43bcd26a6e5083cd17023d"
+    },
+    "samePhotoAlternatives": [
+      {
+        "url": "https://www.bhr-is.nl/media/images/employee/1/1/1147_dsc02542.webp",
+        "path": "/assets/images/1147_dsc02542.webp"
+      }
+    ],
+    "status": "exact"
+  }
+]

@@ -1,0 +1,776 @@
+{
+  "expertises": {
+    "title": "Uw partner in besturingstechniek en automatisering",
+    "heading": [
+      {
+        "text": "Uw partner in besturingstechniek "
+      },
+      {
+        "text": "en",
+        "accent": true
+      },
+      {
+        "text": " automatisering"
+      }
+    ],
+    "heroImage": "https://www.bhr-is.nl/media/images/document/9/1/917_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp",
+    "intro": [
+      {
+        "type": "p",
+        "text": "Onze experts combineren kennis, ervaring en passie om elk proces slimmer te laten draaien."
+      }
+    ],
+    "actions": [
+      {
+        "text": "Bekijk onze expertises",
+        "url": ".Overview.Service",
+        "outline": false
+      },
+      {
+        "text": "Ontdek hoe wij werken",
+        "url": "/over-ons",
+        "outline": true
+      }
+    ],
+    "articles": [
+      {
+        "title": "Complete oplossingen voor elke installatie",
+        "heading": [
+          {
+            "text": "Complete oplossingen voor elke installatie"
+          }
+        ],
+        "eyebrow": "Altijd de juiste schakeling",
+        "content": [
+          {
+            "type": "p",
+            "text": "Bij BHR realiseren we complete oplossingen voor industriële automatisering en elektrotechniek. Van ontwerp tot installatie leveren wij veilige, efficiënte en toekomstbestendige systemen die processen slimmer maken. Alles wordt in eigen huis ontworpen, gebouwd en getest voor maximale betrouwbaarheid."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Eén partner voor ontwerp, bouw en service",
+              "Korte lijnen en eigen productie",
+              "A-merk componenten en moderne technieken",
+              "Getest volgens NEN EN IEC 60204-1 en 61439-2",
+              "Oplossingen op maat voor elke sector"
+            ]
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/4/4/440_dsc01350.webp",
+        "imageRight": true,
+        "photoPanel": false,
+        "actions": [
+          {
+            "text": "Spreek met een specialist",
+            "url": "/afspraak-maken",
+            "outline": false
+          }
+        ],
+        "pale": true
+      }
+    ],
+    "ctas": [
+      {
+        "title": "Wat kunnen wij voor jouw proces betekenen?",
+        "heading": [
+          {
+            "text": "Wat kunnen wij voor "
+          },
+          {
+            "text": "jouw proces",
+            "accent": true
+          },
+          {
+            "text": " betekenen?"
+          }
+        ],
+        "eyebrow": "Ontdek jouw mogelijkheden",
+        "actions": [
+          {
+            "text": "Praat met een expert",
+            "url": "/afspraak-maken",
+            "outline": false
+          },
+          {
+            "text": "Onze expertises",
+            "url": "/expertises",
+            "outline": true
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "title": "Advies en Concept",
+        "text": "Wij denken mee vanaf het begin. Met onze ervaring in industriële automatisering vertalen we uw wensen naar slimme, haalbare oplossingen.",
+        "label": "Stap 1"
+      },
+      {
+        "title": "Ontwerp",
+        "text": "Onze engineers werken elk detail uit met precisie. Van elektrische schema’s tot softwarelogica, alles wordt afgestemd op uw proces.",
+        "label": "Stap 2"
+      },
+      {
+        "title": "Nog een stap",
+        "text": "Onze engineers werken elk detail uit met precisie. Van elektrische schema’s tot softwarelogica, alles wordt afgestemd op uw proces.",
+        "label": "Stap 3"
+      }
+    ],
+    "stepsImage": "https://www.bhr-is.nl/media/images/step/4/3/437_dsc02673.webp",
+    "serviceImages": [
+      "https://www.bhr-is.nl/media/images/service/5/8/585_dsc02701.webp",
+      "https://www.bhr-is.nl/media/images/service/5/8/588_dsc02665.webp",
+      "https://www.bhr-is.nl/media/images/service/8/9/895_dsc01075.webp",
+      "https://www.bhr-is.nl/media/images/service/5/9/596_dsc01103.webp",
+      "https://www.bhr-is.nl/media/images/service/6/0/600_dsc01226.webp",
+      "https://www.bhr-is.nl/media/images/service/6/0/604_dsc01010.webp",
+      "https://www.bhr-is.nl/media/images/service/6/0/609_dsc02603.webp",
+      "https://www.bhr-is.nl/media/images/service/6/1/613_dsc01030.webp",
+      "https://www.bhr-is.nl/media/images/service/6/1/616_dsc00987.webp",
+      "https://www.bhr-is.nl/media/images/service/5/4/549_nieuwe-map-slimme-automatisering.webp"
+    ]
+  },
+  "machinebouwers": {
+    "title": "Machinebouw- ondersteuning voor OEM’s en professionele machinebouwers",
+    "heading": [
+      {
+        "text": "Machinebouw-"
+      },
+      {
+        "break": true
+      },
+      {
+        "text": "ondersteuning "
+      },
+      {
+        "break": true
+      },
+      {
+        "text": "voor OEM’s en professionele machinebouwers"
+      }
+    ],
+    "heroImage": "https://www.bhr-is.nl/media/images/document/8/5/851_dsc01712.webp",
+    "intro": [
+      {
+        "type": "p",
+        "text": "BHR Industrial Solutions ondersteunt machinebouwers en OEM’s met seriematige paneelbouw, besturingsmodules en elektrotechnische deeloplossingen die direct te integreren zijn in uw machineconcept."
+      }
+    ],
+    "actions": [],
+    "articles": [
+      {
+        "title": "Seriematige paneelbouw voor maximale efficiëntie",
+        "heading": [
+          {
+            "text": "Seriematige paneelbouw voor maximale efficiëntie"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Ons technische expert richten zichop snelheid, herhaalbaarheid en constante kwaliteit. Door gestroomlijnde processen, geavanceerde draadverwerkingstools en een modulaire aanpak produceren wij besturingskasten en submodules die tot op detailniveau identiek en betrouwbaar zijn. Dit levert u lagere faalkosten, voorspelbare levertijden en een efficiënt productieproces op. De voordelen van onze seriematige bouw: "
+          },
+          {
+            "type": "list",
+            "items": [
+              "Constante kwaliteit en hoge reproduceerbaarheid ",
+              "Geoptimaliseerde assemblagestappen en efficiënte bekabeling ",
+              "Schaalvoordeel bij herhaalde productie van besturingsmodules ",
+              "Perfect passend binnen OEM-series, machinevarianten en retrofitprojecten "
+            ]
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/8/783_dsc01720.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [],
+        "pale": true
+      },
+      {
+        "title": "Efficiënte techniek die ontworpen is om te presteren",
+        "heading": [
+          {
+            "text": "Efficiënte techniek die ontworpen is om te presteren"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Wij geloven dat techniek pas echt waarde toevoegt wanneer componenten, besturing en paneelbouw perfect samenwerken. Daarom ondersteunen wij u met deskundig componentadvies en een logische, schaalbare opbouw van uw besturingsarchitectuur. Iedere module wordt gebouwd met aandacht voor onderhoudsgemak, veiligheid en integratie in uw eigen engineeringstandaarden. "
+          },
+          {
+            "type": "p",
+            "text": "Wat u van ons als partner voor machinebouwers verwachten: "
+          },
+          {
+            "type": "list",
+            "items": [
+              "Componentselectie met focus op lifecycle, veiligheid en beschikbaarheid ",
+              "PLC-, HMI- en veiligheidsintegratie in één geheel ",
+              "Robuuste paneelbouw voor continu industrieel gebruik ",
+              "Documentatie en codering volgens professionele standaarden "
+            ]
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/7/779_dsc02362.webp",
+        "imageRight": true,
+        "photoPanel": false,
+        "actions": [],
+        "pale": false
+      },
+      {
+        "title": "De kwaliteit van het proces gewaarborgd door testen en controle",
+        "heading": [
+          {
+            "text": "De kwaliteit van het proces gewaarborgd door testen en controle"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Elke kast, module of besturingsunit doorloopt een volledig testproces in onze testruimte. Met gestructureerde FAT-procedures, traceerbaarheid en kwaliteitsdocumentatie zorgen wij dat uw producten direct klaar zijn voor integratie op de werkvloer. U ontvangt een oplossing die werkt, past en presteert zonder extra test- of herstelwerk. "
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/7/777_dsc00987.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [],
+        "pale": true
+      },
+      {
+        "title": "BHR Industrial Solutions: een partner die uw machinebouw versterkt",
+        "heading": [
+          {
+            "text": "BHR Industrial Solutions: een partner die uw machinebouw versterkt"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Wij bouwen langdurige samenwerkingen met bedrijven die behoefte hebben aan zekerheid en technische betrouwbaarheid. BHR is een partner die meedenkt, doorvraagt en uw machinebouwproces versterkt met pragmatische oplossingen. Kies BHR Industrial Solutions voor: "
+          },
+          {
+            "type": "list",
+            "items": [
+              "Seriematige paneelbouw en besturingsmodules ",
+              "Volledig geteste, direct integreerbare submodules ",
+              "Upgrades, redesigns en revisies voor hogere uptime ",
+              "Continue ondersteuning door de volledige lifecycle "
+            ]
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/7/775_dsc02204.webp",
+        "imageRight": true,
+        "photoPanel": false,
+        "actions": [],
+        "pale": true
+      },
+      {
+        "title": "Samen bouwen aan voorspelbare, efficiënte machinebouw",
+        "heading": [
+          {
+            "text": "Samen bouwen aan voorspelbare, efficiënte machinebouw "
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "BHR Industrial Solutions helpt OEM’s en machinebouwers hun productieproces te optimaliseren met modulaire seriebouw, hoogwaardige paneelbouw en zekerheid in elke stap van het proces. Zo creëren we oplossingen die niet alleen functioneren, maar bijdragen aan structurele procesverbetering "
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/8/781_dsc02826.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [],
+        "pale": true
+      }
+    ],
+    "lead": {
+      "title": "Voor machinebouwers",
+      "content": [
+        {
+          "type": "p",
+          "text": "Wij bouwen geen complete machines, maar versterken uw eigen machinebouwproces met slimme, schaalbare en reproduceerbare systemen. Wij zorgen voor zekerheid, consistentie en technische diepgang. Kwaliteiten die bij seriebouw het verschil maken. "
+        }
+      ]
+    },
+    "ctas": [
+      {
+        "title": "Wat kunnen wij voor jouw proces betekenen?",
+        "heading": [
+          {
+            "text": "Wat kunnen wij voor "
+          },
+          {
+            "text": "jouw proces",
+            "accent": true
+          },
+          {
+            "text": " betekenen?"
+          }
+        ],
+        "eyebrow": "Ontdek jouw mogelijkheden",
+        "actions": [
+          {
+            "text": "Praat met een expert",
+            "url": "/afspraak-maken",
+            "outline": false
+          },
+          {
+            "text": "Onze expertises",
+            "url": "/expertises",
+            "outline": true
+          }
+        ]
+      }
+    ]
+  },
+  "proces-productie": {
+    "title": "Proces & Productie: betrouwbare automatisering en paneelbouw",
+    "heading": [
+      {
+        "text": "Proces & Productie: betrouwbare automatisering en paneelbouw"
+      }
+    ],
+    "heroImage": "https://www.bhr-is.nl/media/images/document/8/4/848_dsc01159.webp",
+    "intro": [
+      {
+        "type": "p",
+        "text": "Bij BHR Industrial Solutions combineren we kennis van mechanica, software en paneelbouw tot één betrouwbaar systeem voor het proces en de hoogste productiviteit."
+      }
+    ],
+    "actions": [
+      {
+        "text": "Offerte aanvraag",
+        "url": "/offerteaanvraag",
+        "outline": false
+      },
+      {
+        "text": "Praat met een expert",
+        "url": "/afspraak-maken",
+        "outline": true
+      }
+    ],
+    "articles": [
+      {
+        "title": "Industriële automatisering die processen versterkt",
+        "heading": [
+          {
+            "text": "Industriële automatisering die processen versterkt"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Waar veel bedrijven alleen installaties leveren, gaat wij verder. Wij koppelen paneelbouw en industriële automatisering tot één samenhangend systeem, zodat sensoren, actuatoren en besturing samenwerken voor optimale prestaties. Onze procesautomatisering maakt productie voorspelbaar, inzichtelijk en efficiënt. Van procesdata tot realtime dashboards: operators en engineers krijgen grip op prestaties, energieverbruik en productkwaliteit. Zo creëren wij productie automatisering die niet alleen vandaag werkt, maar ook voorbereid is op toekomstige uitbreiding, digitalisering en smart manufacturing toepassingen. "
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/7/771_dsc01350.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [],
+        "pale": true
+      },
+      {
+        "title": "Waarom kiezen voor BHR in proces & productie",
+        "heading": [
+          {
+            "text": "Waarom kiezen voor BHR in proces & productie"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Bedrijven kiezen ons voor zekerheid, overzicht en onderhoudsgemak. Onze oplossingen zijn modulair, schaalbaar en voldoen aan industriële normen. We onderscheiden ons door: "
+          },
+          {
+            "type": "list",
+            "items": [
+              "Volledig geïntegreerde procesautomatisering inclusief PLC, HMI en datalogging ",
+              "Paneelbouw die overzichtelijk, onderhoudsvriendelijk en robuust is ",
+              "Modulaire opbouw voor snelle aanpassingen en uitbreidingen in productielijnen ",
+              "Continue monitoring en preventief onderhoud voor maximale uptime en betrouwbaarheid "
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wij zorgen dat alle processen werken en blijven werken. Geen problemen, maar uitdagingen die we dagelijks aanpakken en verbeteren. "
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/7/773_dsc02153.webp",
+        "imageRight": true,
+        "photoPanel": false,
+        "actions": [],
+        "pale": false
+      },
+      {
+        "title": "BHR Industrial Solutions: partner voor uw proces en productiviteit",
+        "heading": [
+          {
+            "text": "BHR Industrial Solutions: partner voor uw proces en productiviteit"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Wij zijn meer dan leverancier; wij zijn partner van bedrijven die het proces en de productie continu willen optimaliseren. Onze expertise in paneelbouw en automatisering zorgt voor betrouwbare, veilige en onderhoudsvriendelijke oplossingen. Wij ondersteunen bij ontwerp, installatie en onderhoud, en zorgen dat jouw productie optimaal presteert. Onze meerwaarde komt tot uiting in: "
+          },
+          {
+            "type": "list",
+            "items": [
+              "Modulaire en op maat gemaakte procesautomatisering ",
+              "Duurzame, onderhoudsvriendelijke paneelbouw ",
+              "Integratie van software, besturing en data-analyse ",
+              "Continue ondersteuning van concept tot operationeel beheer "
+            ]
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/6/769_dsc02091.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [],
+        "pale": true
+      }
+    ],
+    "lead": {
+      "title": "Voor proces & productie",
+      "content": [
+        {
+          "type": "p",
+          "text": "Voor bedrijven in de industrie ontwerpen en bouwen wij oplossingen die processen continu laten draaien, efficiënt en veilig. Onze paneelbouw vormt de ruggengraat van productieomgevingen, terwijl industriële automatisering zorgt voor inzicht, controle en data gedreven optimalisatie. Onze technische maakt dat systemen niet alleen functioneren, maar samenwerken met jouw processen en medewerkers, zodat jouw productie duurzaam en toekomstbestendig is.  "
+        }
+      ]
+    },
+    "ctas": [
+      {
+        "title": "Wat kunnen wij voor jouw proces betekenen?",
+        "heading": [
+          {
+            "text": "Wat kunnen wij voor "
+          },
+          {
+            "text": "jouw proces",
+            "accent": true
+          },
+          {
+            "text": " betekenen?"
+          }
+        ],
+        "eyebrow": "Ontdek jouw mogelijkheden",
+        "actions": [
+          {
+            "text": "Praat met een expert",
+            "url": "/afspraak-maken",
+            "outline": false
+          },
+          {
+            "text": "Onze expertises",
+            "url": "/expertises",
+            "outline": true
+          }
+        ]
+      }
+    ]
+  },
+  "service-en-onderhoud": {
+    "title": "Service, onderhoud en optimalisatie",
+    "heading": [
+      {
+        "text": "Service, onderhoud en optimalisatie"
+      }
+    ],
+    "heroImage": "https://www.bhr-is.nl/media/images/document/4/2/421_dsc01159.webp",
+    "intro": [
+      {
+        "type": "p",
+        "text": "Bij BHR Industrial Solutions geloven we dat industriële processen alleen waarde creëren als de techniek feilloos meedraait. Onze machines zijn ontworpen voor maximale bedrijfszekerheid. Uitgevoerd met hoogwaardige componenten, efficiënte besturingen en slimme monitoringssystemen."
+      }
+    ],
+    "actions": [
+      {
+        "text": "Plan uw serviceafspraak",
+        "url": "/afspraak-maken",
+        "outline": false
+      }
+    ],
+    "articles": [
+      {
+        "title": "Service die past bij uw installatie en uw team",
+        "heading": [
+          {
+            "text": "Service die past bij uw installatie en uw team"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Wanneer u met BHR werkt, werkt u met een partner die begrijpt dat productiecontinuïteit essentieel is. Onze engineers kennen elke machine tot in detail en adviseren niet alleen wanneer onderhoud nodig is, maar vooral waarom. BHR Service & Onderhoud is meer dan een interventie op locatie. Het is een samenwerking tussen uw technische dienst en onze specialisten. We ondersteunen met duidelijke rapportages, inzichtelijke onderhoudshistorie en een vaste aanspreekpunt binnen ons team. "
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/4/4/444_dsc01886.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [
+          {
+            "text": "Plan uw serviceafspraak",
+            "url": "/contact",
+            "outline": false
+          }
+        ],
+        "pale": true
+      },
+      {
+        "title": "‘Hier leer je pas écht de kneepjes van het vak’",
+        "heading": [
+          {
+            "text": "‘Hier leer je pas "
+          },
+          {
+            "text": "écht",
+            "accent": true
+          },
+          {
+            "text": " de kneepjes van het vak’"
+          }
+        ],
+        "eyebrow": "Ruimte om te groeien",
+        "content": [
+          {
+            "type": "p",
+            "text": "Om de beste technische resultaten te leveren, heb je vakmensen nodig die blijven leren. Bij BHR krijg je de ruimte om te groeien in kennis, in ervaring en in samenwerking. Zo bouwen we samen aan vooruitgang, vandaag én morgen."
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/4/5/451_dsc02462.webp",
+        "imageRight": false,
+        "photoPanel": true,
+        "actions": [
+          {
+            "text": "Solliciteer nu",
+            "url": "/over-ons/werken-bij",
+            "outline": false
+          }
+        ],
+        "pale": true
+      }
+    ],
+    "lead": {
+      "title": "Service en onderhoud",
+      "content": [
+        {
+          "type": "p",
+          "text": "Toch blijft één principe onveranderd: predictief en preventief onderhoud is de sleutel tot een storingsvrije lijn. Daarom ondersteunen we technische teams met voorspelbare en goed gedocumenteerde onderhoudsprogramma’s die aansluiten op uw productieplanning. Onze engineers denken mee op systeemniveau, signaleren slijtage vroegtijdig en zorgen dat uw installatie onder alle omstandigheden blijft presteren. "
+        }
+      ]
+    },
+    "ctas": [
+      {
+        "title": "Wat kunnen wij voor jouw proces betekenen?",
+        "heading": [
+          {
+            "text": "Wat kunnen wij voor "
+          },
+          {
+            "text": "jouw proces",
+            "accent": true
+          },
+          {
+            "text": " betekenen?"
+          }
+        ],
+        "eyebrow": "Ontdek jouw mogelijkheden",
+        "actions": [
+          {
+            "text": "Praat met een expert",
+            "url": "/afspraak-maken",
+            "outline": false
+          },
+          {
+            "text": "Onze expertises",
+            "url": "/expertises",
+            "outline": true
+          }
+        ]
+      }
+    ]
+  },
+  "partners": {
+    "title": "Partners van BHR Industrial Solutions",
+    "heading": [
+      {
+        "text": "Partners van BHR Industrial Solutions"
+      }
+    ],
+    "heroImage": "https://www.bhr-is.nl/media/images/document/8/6/866_dsc02204.webp",
+    "intro": [
+      {
+        "type": "p",
+        "text": "Soms heb je van die klanten en leveranciers, partijen die je eigenlijk meer als samenwerkingspartner ziet, waarmee je iedere keer weer naar een hoger niveau toe werkt en waar je echt positieve energie van krijgt. Onderstaand ziet u de partners van BHR Industrial Solutions:  "
+      }
+    ],
+    "actions": [],
+    "articles": [],
+    "ctas": [
+      {
+        "title": "Klaar om uw project te bespreken?",
+        "heading": [
+          {
+            "text": "Klaar om uw project te bespreken?"
+          }
+        ],
+        "eyebrow": "",
+        "actions": [
+          {
+            "text": "Neem contact op",
+            "url": "/contact",
+            "outline": false
+          }
+        ]
+      }
+    ]
+  },
+  "werken-bij": {
+    "title": "Zo werkt het bij BHR",
+    "heading": [
+      {
+        "text": "Zo werkt "
+      },
+      {
+        "break": true
+      },
+      {
+        "text": "het "
+      },
+      {
+        "text": "bij BHR",
+        "accent": true
+      }
+    ],
+    "heroImage": "https://www.bhr-is.nl/media/images/document/8/5/857_dsc02261.webp",
+    "intro": [
+      {
+        "type": "p",
+        "text": "Bij BHR Industrial Solution werk je aan high-end projecten die de samenleving draaiende houden. Van infrastructuur tot industrie en utiliteit: onze oplossingen zorgen voor beweging, continuïteit en verduurzaming. Dat vraagt om vakmensen met inzicht, lef en liefde voor techniek. In onze moderne locatie in Dongen krijg je de ruimte om écht goed werk te leveren. Je werkt met de nieuwste engineeringpakketten, slimme tools en een werkplaats die is ingericht op kwaliteit en innovatie. Hier kun je je specialisme verdiepen én verbreden. "
+      }
+    ],
+    "actions": [
+      {
+        "text": "Bekijk onze vacatures",
+        "url": "/vacature",
+        "outline": false
+      },
+      {
+        "text": "Lees verder",
+        "url": "#werken-bij",
+        "outline": true
+      }
+    ],
+    "articles": [
+      {
+        "title": "Werken bij de paneelbouwer van Dongen en omgeving",
+        "heading": [
+          {
+            "text": "Werken bij de paneelbouwer van Dongen en omgeving"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "We zijn technische partner voor gerenommeerde bedrijven, onderzoeksinstellingen en overheden en dat lukt alleen als je samenwerkt. Engineers, paneelbouwers, testers en projectleiders trekken hier zij aan zij op. We schakelen met A-technologieleveranciers en specialisten in de keten, waardoor je altijd werkt volgens de hoogste normen van kwaliteit en veiligheid. Ons motto ‘we doen het samen’ zit diep in het DNA van BHR: je staat er niet alleen voor, je bouwt mee aan oplossingen die er écht toe doen. "
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/8/787_dsc02462.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [],
+        "pale": false
+      },
+      {
+        "title": "Een team waarin iedereen samen werkt en op zijn plek is",
+        "heading": [
+          {
+            "text": "Een team waarin iedereen samen werkt en op zijn plek is"
+          }
+        ],
+        "eyebrow": "",
+        "content": [
+          {
+            "type": "p",
+            "text": "Bij BHR draait het om vakmanschap, plezier en verbondenheid. Successen vieren we gezamenlijk of dat nu in de werkplaats is, tijdens een projectoplevering of op één van de vele uitjes van onze personeelsvereniging. Het jubileumfeest van ons 50-jarig bestaan in 2024 zegt alles: twee dagen vol inspiratie, trots en samen genieten met collega’s, klanten, partners én familie. Als jij onderdeel wilt zijn van een hecht technisch team dat ambities waarmaakt, dan voel je je hier direct thuis. "
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/7/8/785_dsc00930.webp",
+        "imageRight": true,
+        "photoPanel": false,
+        "actions": [],
+        "pale": false
+      },
+      {
+        "title": "Maak vandaag nog kennis met BHR",
+        "heading": [
+          {
+            "text": "Maak vandaag nog kennis met BHR"
+          }
+        ],
+        "eyebrow": "Onze locatie",
+        "content": [
+          {
+            "type": "p",
+            "text": "Bij BHR draait alles om precisie, samenwerking en vooruitgang. Vanuit ons hoofdkantoor in Oosterhout werken we aan installaties die bedrijven laten draaien en gebouwen laten leven. Hier komen kennis, techniek en teamkracht samen elke dag opnieuw. "
+          },
+          {
+            "type": "list",
+            "items": [
+              " Zandeweg 5F, 5107 NM Dongen",
+              "+31(0)640236948"
+            ]
+          }
+        ],
+        "image": "https://www.bhr-is.nl/media/images/textblock/1/1/1120_dsc02091.webp",
+        "imageRight": false,
+        "photoPanel": false,
+        "actions": [
+          {
+            "text": "Plan je route",
+            "url": "https://maps.app.goo.gl/SZFvYJCiVWEKA1Kt6",
+            "outline": false
+          }
+        ],
+        "pale": false
+      }
+    ],
+    "ctas": [
+      {
+        "title": "Bouw mee aan jouw toekomst in de techniek",
+        "heading": [
+          {
+            "text": "Bouw mee aan jouw toekomst in de techniek"
+          }
+        ],
+        "eyebrow": "Werken bij BHR",
+        "actions": [
+          {
+            "text": "Neem contact op",
+            "url": "/contact",
+            "outline": false
+          },
+          {
+            "text": "Solliciteer nu",
+            "url": "#contactformulier",
+            "outline": true
+          }
+        ]
+      }
+    ]
+  }
+}

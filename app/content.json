@@ -1,0 +1,202 @@
+{
+  "assets": [
+    {
+      "alt": "Homepage",
+      "h": 900,
+      "src": "https://www.bhr-is.nl/media/images/banner/8/6/868_c22991b5faaf0b9d9fd0cee04b059c2a98d25ff4.webp",
+      "w": 1920
+    },
+    {
+      "alt": "Homepage",
+      "h": 900,
+      "src": "https://www.bhr-is.nl/media/images/banner/8/7/872_1493618a8e8e77f6d88bb54501e6ea1d35a356b9.webp",
+      "w": 1920
+    },
+    {
+      "alt": "Homepage",
+      "h": 900,
+      "src": "https://www.bhr-is.nl/media/images/banner/8/7/873_e626cecb65bde7bd9dcb34f3bf30566f14e364cf.webp",
+      "w": 1920
+    },
+    {
+      "alt": "Homepage",
+      "h": 900,
+      "src": "https://www.bhr-is.nl/media/images/banner/1/1/1131_banner-1920x900.webp",
+      "w": 1920
+    },
+    {
+      "alt": "Homepage",
+      "h": 900,
+      "src": "https://www.bhr-is.nl/media/images/banner/8/7/874_ecec51a39e5616038f86b048c77d7c2eec6b96f7.webp",
+      "w": 1920
+    },
+    {
+      "alt": "Homepage",
+      "h": 900,
+      "src": "https://www.bhr-is.nl/media/images/banner/8/6/868_c22991b5faaf0b9d9fd0cee04b059c2a98d25ff4.webp",
+      "w": 1920
+    },
+    {
+      "alt": "Voor machinebouwers",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/document/8/9/892_dsc01712.webp",
+      "w": 352
+    },
+    {
+      "alt": "Voor proces & productie",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/document/8/9/893_dsc01159.webp",
+      "w": 352
+    },
+    {
+      "alt": "Software engineering",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/5/8/585_dsc02701.webp",
+      "w": 352
+    },
+    {
+      "alt": "Hardware engineering",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/5/8/588_dsc02665.webp",
+      "w": 352
+    },
+    {
+      "alt": "Paneelbouw",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/8/9/895_dsc01075.webp",
+      "w": 352
+    },
+    {
+      "alt": "Retrofit",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/5/9/596_dsc01103.webp",
+      "w": 352
+    },
+    {
+      "alt": "Bekabeling en installatie",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/6/0/600_dsc01226.webp",
+      "w": 352
+    },
+    {
+      "alt": "Machineveiligheid",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/6/0/604_dsc01010.webp",
+      "w": 352
+    },
+    {
+      "alt": "Cybersecurity",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/6/0/609_dsc02603.webp",
+      "w": 352
+    },
+    {
+      "alt": "Elektrocomponenten",
+      "h": 427,
+      "src": "https://www.bhr-is.nl/media/images/service/6/1/613_dsc01030.webp",
+      "w": 352
+    },
+    {
+      "alt": "Slimme oplossingen <br><span>en</span> first- time-right",
+      "h": 740,
+      "src": "https://www.bhr-is.nl/media/images/textblock/4/3/433_dsc02826.webp",
+      "w": 940
+    },
+    {
+      "alt": "Van engineering tot installatie <span>en</span> service",
+      "h": 740,
+      "src": "https://www.bhr-is.nl/media/images/textblock/4/3/435_dsc01048.webp",
+      "w": 940
+    },
+    {
+      "alt": "Naadloos geïntegreerd <br><span>en</span> nul downtime",
+      "h": 740,
+      "src": "https://www.bhr-is.nl/media/images/textblock/9/0/909_dsc01187.webp",
+      "w": 940
+    },
+    {
+      "alt": "Bierskid besturing zonder PLC",
+      "h": 452,
+      "src": "https://www.bhr-is.nl/media/images/project/1/1/1123_bierskid.webp",
+      "w": 416
+    },
+    {
+      "alt": "Seal automatisering",
+      "h": 452,
+      "src": "https://www.bhr-is.nl/media/images/project/5/6/564_nieuwe-map-slimme-automatisering.webp",
+      "w": 416
+    },
+    {
+      "alt": "Bouwen DAF installatie waterzuivering",
+      "h": 452,
+      "src": "https://www.bhr-is.nl/media/images/project/5/6/568_dsc01712.webp",
+      "w": 416
+    },
+    {
+      "alt": "Vacatures",
+      "h": 890,
+      "src": "https://www.bhr-is.nl/public/themes/www/_compiled/images/vacancybg.png",
+      "w": 1700
+    }
+  ],
+  "textblocks": [
+    {
+      "heading": "Voor machinebouwers",
+      "eyebrow": "Schakel in elk proces",
+      "paragraphs": [
+        "BHR ontwerpt, bouwt en integreert besturingen die machines en processen soepel laten samenwerken. Of u nu bouwt, uitbreidt of optimaliseert wij zorgen dat alles slimmer, veiliger en toekomstbestendig draait."
+      ],
+      "bullets": [
+        "Korte doorlooptijden en flexibele service",
+        "Van engineering tot paneelbouw en inbedrijfstelling",
+        "Specialist in retrofit en procesintegratie"
+      ],
+      "image": "https://www.bhr-is.nl/media/images/document/8/9/892_dsc01712.webp"
+    },
+    {
+      "heading": "Slimme oplossingen en first- time-right",
+      "eyebrow": "",
+      "paragraphs": [
+        "Wij zorgen voor slimme automatisering in de productie- en procesindustrie. Efficiënt, veilig en betrouwbaar. Van ontwerp tot inbedrijfstelling leveren we oplossingen die direct werken en blijven presteren."
+      ],
+      "bullets": [],
+      "image": "https://www.bhr-is.nl/media/images/textblock/4/3/433_dsc02826.webp"
+    },
+    {
+      "heading": "Van engineering  tot installatie en service",
+      "eyebrow": "",
+      "paragraphs": [
+        "Wij realiseren automatisering die draait én blijft draaien. Van ontwerp tot oplevering zorgen we voor betrouwbare systemen die processen slimmer, veiliger en efficiënter maken. Geen stilstand, alleen vooruitgang."
+      ],
+      "bullets": [],
+      "image": "https://www.bhr-is.nl/media/images/textblock/4/3/435_dsc01048.webp"
+    },
+    {
+      "heading": "Naadloos geïntegreerd en nul downtime",
+      "eyebrow": "",
+      "paragraphs": [
+        "Van engineering en paneelbouw tot installatie, inbedrijfstelling en retrofit zorgen wij dat alles soepel draait. Met één aanspreekpunt maken we complexe processen eenvoudig zodat klanten zich volledig kunnen richten op waar zij echt goed in zijn."
+      ],
+      "bullets": [],
+      "image": "https://www.bhr-is.nl/media/images/textblock/9/0/909_dsc01187.webp"
+    },
+    {
+      "heading": "BHR zorgt ervoor dat jouw productie draait en blijft draaien. Deze flow is waar wij het allemaal voor doen!",
+      "eyebrow": "BHR regelt het hele proces: van engineering tot installatie en alles daarna",
+      "paragraphs": [],
+      "bullets": [],
+      "image": ""
+    },
+    {
+      "heading": "Samen maken we het great",
+      "eyebrow": "Over BHR",
+      "paragraphs": [
+        "We zijn trots op ons vak. Op onze strakke kasten, georganiseerde installaties en die typisch BHR-precisie waarmee we elk detail kloppend maken. Problemen zien wij niet, wél uitdagingen. Want in elk project schuilt een kans om iets slimmer, netter of beter te doen. Dat drijft ons. Bij BHR werken we efficiënt en veilig, met een nuchtere mentaliteit en een drive voor verbetering. We leren elke dag, samen. Binnen ons hechte team en samen met onze klanten, die we zien als partners in vooruitgang."
+      ],
+      "bullets": [],
+      "image": ""
+    }
+  ],
+  "intro": "Bij BHR geloven we dat techniek pas echt waardevol is wanneer alles soepel, slim en betrouwbaar samenwerkt. Vanuit Dongen bouwen we met passie aan industriële automatisering die verder gaat dan het laten draaien van machines. Wij brengen alles samen tot één geheel zodat processen moeiteloos lopen en onze klanten zich kunnen richten op hun eigen kracht.",
+  "title": "Industrial automation specialist, van engineering tot installatie"
+}

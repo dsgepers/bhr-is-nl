@@ -1,0 +1,87 @@
+{
+  "assets/images/footer-mail.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 534,
+    "sha256": "89ad6f03cb7a5198e62d7118c789af6df16c2d0b9a1b3336cd96d5bba48539b9"
+  },
+  "assets/images/footer-phone.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 591,
+    "sha256": "878e885e45e081618eb6afa89be3f6983e92f530d9fe0c2990bda58d1cf12f13"
+  },
+  "assets/images/footer-malfunction.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 671,
+    "sha256": "20ece3ecb94587fec11925f84334c75ca057223a9c269bc7c09cebd89ad2c416"
+  },
+  "assets/images/facebook.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 441,
+    "sha256": "b5482fa504f926c640f6c419fd80cd89320a90ffd30f056220c5f7e40fe40797"
+  },
+  "assets/images/linkedin.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 652,
+    "sha256": "36a63a3aa3cd9f22d990166ba45f70d94b19b3a863d35788e858724912ab93fb"
+  },
+  "assets/images/instagram.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 1738,
+    "sha256": "10b4d5f1d365e48cab9e0c2c883b0ab5efe57564abb556b78112f37b3df62657"
+  },
+  "assets/images/whatsapp.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 1306,
+    "sha256": "e01f409fc884d2f756f7713d5d9b3a15df2f7ef7d0d5ce6dd00e5ef4a18dd985"
+  },
+  "assets/images/career-value-0.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/werken-bij (inline vector media)",
+    "bytes": 2691,
+    "sha256": "acdda15ee66f4bb6bfc229dd607becc6605820901a0089e2e2a673493bc7246b"
+  },
+  "assets/images/career-value-1.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/werken-bij (inline vector media)",
+    "bytes": 3886,
+    "sha256": "681aa3f711746ca910394a875fee38c25a27280bc29e2bc7345300b5c1a0593b"
+  },
+  "assets/images/career-value-2.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/werken-bij (inline vector media)",
+    "bytes": 2059,
+    "sha256": "9bea894c34ea0115c60b0f3402eed2ef25e9615c4b94034d672441ea32bf4faf"
+  },
+  "assets/images/career-value-3.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/werken-bij (inline vector media)",
+    "bytes": 2324,
+    "sha256": "9b5720fc49c79a44cbdd9d306a1f7a91369b70709c0e265a36bbc7a44eae7b8f"
+  },
+  "assets/images/career-upload.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/werken-bij (inline vector media)",
+    "bytes": 605,
+    "sha256": "ee15b6332c8d03a63f83aa58493f9bfee18f2d91814a11dbc9fc0696bcd95c10"
+  },
+  "assets/images/bhr-brand.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/werken-bij (inline vector media)",
+    "bytes": 1837,
+    "sha256": "5703b963543287911999665e071cc67f43370ab7a85666d59db7bdeccde62e7f"
+  },
+  "assets/images/bhr-brand-white.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media, footer fill)",
+    "bytes": 1837,
+    "sha256": "6653af8ef24ae6a742d2f6211ac2c0617c8bb1c7b2706312d11d7411381c8ad0"
+  },
+  "assets/fonts/bhr-oxanium-semibold.woff2": {
+    "source": "https://use.typekit.net/af/b28595/000000000000000077502826/31/l?subset_id=2&fvd=n6&v=3",
+    "bytes": 10280,
+    "sha256": "c68ce89f352a04473d2d8a0152c65fae33eb4f295422deef8b4c4cae67e8b08e"
+  },
+  "assets/images/header-search.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 409,
+    "sha256": "04c256acee2fb8ab33cb5a9d2e2fae08f0561b8fbcd69881f75e673ea95b59c8"
+  },
+  "assets/images/header-phone.svg": {
+    "source": "https://www.bhr-is.nl/over-ons/partners (inline vector media)",
+    "bytes": 592,
+    "sha256": "7c1f84c4d594b5b72c437bfc00cd2edc1f10ff7a3e02cb781e0825efa3121e3d"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "dependencies": {
+    "/projecten": [
+      "/privacy"
+    ],
+    "/projecten/bierskid-besturing-zonder-plc": [
+      "/privacy"
+    ],
+    "/projecten/bouwen-afdelingsinstallatie": [
+      "/privacy"
+    ],
+    "/projecten/bouwen-daf-installatie-waterzuivering": [
+      "/privacy"
+    ],
+    "/projecten/cummins": [
+      "/privacy"
+    ],
+    "/projecten/energiebesparing-door-frequentieregelaars": [
+      "/privacy"
+    ],
+    "/projecten/kleine-verdelerbouw-tot-630-a": [
+      "/privacy"
+    ],
+    "/projecten/retrofit-oplossingen-in-bestaande-machineframe": [
+      "/privacy"
+    ],
+    "/projecten/sc100": [
+      "/privacy"
+    ],
+    "/contact": [
+      "/privacy"
+    ],
+    "/afspraak-maken": [
+      "/pagina-niet-gevonden",
+      "/privacy"
+    ],
+    "/algemene-voorwaarden": [
+      "/privacy"
+    ],
+    "/betrouwbare-paneelbouw-etten-leur": [
+      "/privacy"
+    ],
+    "/bordenbouw-op-maat": [
+      "/privacy"
+    ],
+    "/bordenbouwer": [
+      "/bordenbouw-op-maat",
+      "/industriele-bordenbouw",
+      "/privacy"
+    ],
+    "/branches/agro": [
+      "/privacy"
+    ],
+    "/branches/chemie-en-farmacie": [
+      "/privacy"
+    ],
+    "/branches/energie-en-utiliteit": [
+      "/privacy"
+    ],
+    "/branches/machinebouw": [
+      "/privacy"
+    ],
+    "/branches/productie-industrie": [
+      "/privacy"
+    ],
+    "/branches/voedingsindustrie": [
+      "/privacy"
+    ],
+    "/branches/watertechnologie": [
+      "/privacy"
+    ],
+    "/certificering": [
+      "/privacy"
+    ],
+    "/cookie-instellingen": [
+      "/privacy"
+    ],
+    "/de-mensen-achter-de-techniek": [
+      "/privacy"
+    ],
+    "/expertises/bekabeling-en-installatie": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/expertises/cybersecurity": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/expertises/elektrocomponenten": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/expertises/hardware-engineering": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/expertises/inbedrijfstelling": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/expertises/industriele-automatisering": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/expertises/machineveiligheid": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/expertises/software-engineering": [
+      "/branches/productie-industrie",
+      "/offerteaanvraag",
+      "/privacy"
+    ],
+    "/industriele-bordenbouw": [
+      "/privacy"
+    ],
+    "/locaties": [
+      "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+      "/locaties/oisterwijk",
+      "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+      "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+      "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+      "/locaties/paneelbouwer-in-de-regio-dongen",
+      "/locaties/raamsdonksveer",
+      "/locaties/s-hertogenbosch",
+      "/locaties/waalwijk",
+      "/privacy"
+    ],
+    "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/oisterwijk": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/paneelbouwer-in-de-regio-dongen": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/raamsdonksveer": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/s-hertogenbosch": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/locaties/waalwijk": [
+      "/locaties",
+      "/privacy"
+    ],
+    "/nieuws": [
+      "/privacy"
+    ],
+    "/offerteaanvraag": [
+      "/privacy"
+    ],
+    "/over-ons": [
+      "/privacy"
+    ],
+    "/pagina-niet-gevonden": [
+      "/privacy"
+    ],
+    "/paneelbouw-automatisering-tilburg": [
+      "/privacy"
+    ],
+    "/paneelbouw-automatisering-voor-machineparken-in-tilburg": [
+      "/privacy"
+    ],
+    "/paneelbouw-oosterhout": [
+      "/privacy"
+    ],
+    "/paneelbouwer-dongen": [
+      "/privacy"
+    ],
+    "/paneelbrouwer-breda": [
+      "/privacy"
+    ],
+    "/privacy": [],
+    "/referentie": [
+      "/privacy"
+    ],
+    "/sitemap": [
+      "/privacy",
+      "/werken-bij"
+    ],
+    "/test": [
+      "/privacy"
+    ],
+    "/vacature": [
+      "/privacy"
+    ],
+    "/vacature/junior-e-plan-engineer": [
+      "/privacy"
+    ],
+    "/vacature/monteur-paneelbouw": [
+      "/privacy"
+    ],
+    "/veelgestelde-vragen": [
+      "/privacy"
+    ],
+    "/voor-machinebouwers": [
+      "/privacy"
+    ],
+    "/werken-bij": [
+      "/privacy"
+    ],
+    "/zoeken": [
+      "/privacy"
+    ]
+  },
+  "deliveryGroups": [
+    [
+      "/privacy"
+    ],
+    [
+      "/projecten"
+    ],
+    [
+      "/projecten/bierskid-besturing-zonder-plc"
+    ],
+    [
+      "/projecten/bouwen-afdelingsinstallatie"
+    ],
+    [
+      "/projecten/bouwen-daf-installatie-waterzuivering"
+    ],
+    [
+      "/projecten/cummins"
+    ],
+    [
+      "/projecten/energiebesparing-door-frequentieregelaars"
+    ],
+    [
+      "/projecten/kleine-verdelerbouw-tot-630-a"
+    ],
+    [
+      "/projecten/retrofit-oplossingen-in-bestaande-machineframe"
+    ],
+    [
+      "/projecten/sc100"
+    ],
+    [
+      "/contact"
+    ],
+    [
+      "/afspraak-maken"
+    ],
+    [
+      "/algemene-voorwaarden"
+    ],
+    [
+      "/betrouwbare-paneelbouw-etten-leur"
+    ],
+    [
+      "/bordenbouw-op-maat"
+    ],
+    [
+      "/industriele-bordenbouw"
+    ],
+    [
+      "/bordenbouwer"
+    ],
+    [
+      "/branches/agro"
+    ],
+    [
+      "/branches/chemie-en-farmacie"
+    ],
+    [
+      "/branches/energie-en-utiliteit"
+    ],
+    [
+      "/branches/machinebouw"
+    ],
+    [
+      "/branches/productie-industrie"
+    ],
+    [
+      "/branches/voedingsindustrie"
+    ],
+    [
+      "/branches/watertechnologie"
+    ],
+    [
+      "/certificering"
+    ],
+    [
+      "/cookie-instellingen"
+    ],
+    [
+      "/de-mensen-achter-de-techniek"
+    ],
+    [
+      "/offerteaanvraag"
+    ],
+    [
+      "/expertises/bekabeling-en-installatie"
+    ],
+    [
+      "/expertises/cybersecurity"
+    ],
+    [
+      "/expertises/elektrocomponenten"
+    ],
+    [
+      "/expertises/hardware-engineering"
+    ],
+    [
+      "/expertises/inbedrijfstelling"
+    ],
+    [
+      "/expertises/industriele-automatisering"
+    ],
+    [
+      "/expertises/machineveiligheid"
+    ],
+    [
+      "/expertises/software-engineering"
+    ],
+    [
+      "/locaties/raamsdonksveer",
+      "/locaties/waalwijk",
+      "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+      "/locaties/s-hertogenbosch",
+      "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+      "/locaties/oisterwijk",
+      "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+      "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+      "/locaties/paneelbouwer-in-de-regio-dongen",
+      "/locaties"
+    ],
+    [
+      "/nieuws"
+    ],
+    [
+      "/over-ons"
+    ],
+    [
+      "/pagina-niet-gevonden"
+    ],
+    [
+      "/paneelbouw-automatisering-tilburg"
+    ],
+    [
+      "/paneelbouw-automatisering-voor-machineparken-in-tilburg"
+    ],
+    [
+      "/paneelbouw-oosterhout"
+    ],
+    [
+      "/paneelbouwer-dongen"
+    ],
+    [
+      "/paneelbrouwer-breda"
+    ],
+    [
+      "/referentie"
+    ],
+    [
+      "/werken-bij"
+    ],
+    [
+      "/sitemap"
+    ],
+    [
+      "/test"
+    ],
+    [
+      "/vacature"
+    ],
+    [
+      "/vacature/junior-e-plan-engineer"
+    ],
+    [
+      "/vacature/monteur-paneelbouw"
+    ],
+    [
+      "/veelgestelde-vragen"
+    ],
+    [
+      "/voor-machinebouwers"
+    ],
+    [
+      "/zoeken"
+    ]
+  ]
+}

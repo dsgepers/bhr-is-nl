@@ -1,0 +1,450 @@
+[
+  {
+    "number": 1,
+    "route": "/projecten",
+    "plan": "2026-11-20-bhr-page-01-projecten.md",
+    "key": "projecten",
+    "family": "project-listing"
+  },
+  {
+    "number": 2,
+    "route": "/projecten/bierskid-besturing-zonder-plc",
+    "plan": "2026-11-20-bhr-page-02-projecten--bierskid-besturing-zonder-plc.md",
+    "key": "projecten--bierskid-besturing-zonder-plc",
+    "family": "project-detail"
+  },
+  {
+    "number": 3,
+    "route": "/projecten/bouwen-afdelingsinstallatie",
+    "plan": "2026-11-20-bhr-page-03-projecten--bouwen-afdelingsinstallatie.md",
+    "key": "projecten--bouwen-afdelingsinstallatie",
+    "family": "project-detail"
+  },
+  {
+    "number": 4,
+    "route": "/projecten/bouwen-daf-installatie-waterzuivering",
+    "plan": "2026-11-20-bhr-page-04-projecten--bouwen-daf-installatie-waterzuivering.md",
+    "key": "projecten--bouwen-daf-installatie-waterzuivering",
+    "family": "project-detail"
+  },
+  {
+    "number": 5,
+    "route": "/projecten/cummins",
+    "plan": "2026-11-20-bhr-page-05-projecten--cummins.md",
+    "key": "projecten--cummins",
+    "family": "project-detail"
+  },
+  {
+    "number": 6,
+    "route": "/projecten/energiebesparing-door-frequentieregelaars",
+    "plan": "2026-11-20-bhr-page-06-projecten--energiebesparing-door-frequentieregelaars.md",
+    "key": "projecten--energiebesparing-door-frequentieregelaars",
+    "family": "project-detail"
+  },
+  {
+    "number": 7,
+    "route": "/projecten/kleine-verdelerbouw-tot-630-a",
+    "plan": "2026-11-20-bhr-page-07-projecten--kleine-verdelerbouw-tot-630-a.md",
+    "key": "projecten--kleine-verdelerbouw-tot-630-a",
+    "family": "project-detail"
+  },
+  {
+    "number": 8,
+    "route": "/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "plan": "2026-11-20-bhr-page-08-projecten--retrofit-oplossingen-in-bestaande-machineframe.md",
+    "key": "projecten--retrofit-oplossingen-in-bestaande-machineframe",
+    "family": "project-detail"
+  },
+  {
+    "number": 9,
+    "route": "/projecten/sc100",
+    "plan": "2026-11-20-bhr-page-09-projecten--sc100.md",
+    "key": "projecten--sc100",
+    "family": "project-detail"
+  },
+  {
+    "number": 10,
+    "route": "/contact",
+    "plan": "2026-11-20-bhr-page-10-contact.md",
+    "key": "contact",
+    "family": "contact"
+  },
+  {
+    "number": 11,
+    "route": "/afspraak-maken",
+    "plan": "2026-11-20-bhr-page-11-afspraak-maken.md",
+    "key": "afspraak-maken",
+    "family": "appointment"
+  },
+  {
+    "number": 12,
+    "route": "/algemene-voorwaarden",
+    "plan": "2026-11-20-bhr-page-12-algemene-voorwaarden.md",
+    "key": "algemene-voorwaarden",
+    "family": "utility"
+  },
+  {
+    "number": 13,
+    "route": "/betrouwbare-paneelbouw-etten-leur",
+    "plan": "2026-11-20-bhr-page-13-betrouwbare-paneelbouw-etten-leur.md",
+    "key": "betrouwbare-paneelbouw-etten-leur",
+    "family": "seo"
+  },
+  {
+    "number": 14,
+    "route": "/bordenbouw-op-maat",
+    "plan": "2026-11-20-bhr-page-14-bordenbouw-op-maat.md",
+    "key": "bordenbouw-op-maat",
+    "family": "seo"
+  },
+  {
+    "number": 15,
+    "route": "/bordenbouwer",
+    "plan": "2026-11-20-bhr-page-15-bordenbouwer.md",
+    "key": "bordenbouwer",
+    "family": "seo"
+  },
+  {
+    "number": 16,
+    "route": "/branches/agro",
+    "plan": "2026-11-20-bhr-page-16-branches--agro.md",
+    "key": "branches--agro",
+    "family": "branch"
+  },
+  {
+    "number": 17,
+    "route": "/branches/chemie-en-farmacie",
+    "plan": "2026-11-20-bhr-page-17-branches--chemie-en-farmacie.md",
+    "key": "branches--chemie-en-farmacie",
+    "family": "branch"
+  },
+  {
+    "number": 18,
+    "route": "/branches/energie-en-utiliteit",
+    "plan": "2026-11-20-bhr-page-18-branches--energie-en-utiliteit.md",
+    "key": "branches--energie-en-utiliteit",
+    "family": "branch"
+  },
+  {
+    "number": 19,
+    "route": "/branches/machinebouw",
+    "plan": "2026-11-20-bhr-page-19-branches--machinebouw.md",
+    "key": "branches--machinebouw",
+    "family": "branch"
+  },
+  {
+    "number": 20,
+    "route": "/branches/productie-industrie",
+    "plan": "2026-11-20-bhr-page-20-branches--productie-industrie.md",
+    "key": "branches--productie-industrie",
+    "family": "branch"
+  },
+  {
+    "number": 21,
+    "route": "/branches/voedingsindustrie",
+    "plan": "2026-11-20-bhr-page-21-branches--voedingsindustrie.md",
+    "key": "branches--voedingsindustrie",
+    "family": "branch"
+  },
+  {
+    "number": 22,
+    "route": "/branches/watertechnologie",
+    "plan": "2026-11-20-bhr-page-22-branches--watertechnologie.md",
+    "key": "branches--watertechnologie",
+    "family": "branch"
+  },
+  {
+    "number": 23,
+    "route": "/certificering",
+    "plan": "2026-11-20-bhr-page-23-certificering.md",
+    "key": "certificering",
+    "family": "company"
+  },
+  {
+    "number": 24,
+    "route": "/cookie-instellingen",
+    "plan": "2026-11-20-bhr-page-24-cookie-instellingen.md",
+    "key": "cookie-instellingen",
+    "family": "utility"
+  },
+  {
+    "number": 25,
+    "route": "/de-mensen-achter-de-techniek",
+    "plan": "2026-11-20-bhr-page-25-de-mensen-achter-de-techniek.md",
+    "key": "de-mensen-achter-de-techniek",
+    "family": "company"
+  },
+  {
+    "number": 26,
+    "route": "/expertises/bekabeling-en-installatie",
+    "plan": "2026-11-20-bhr-page-26-expertises--bekabeling-en-installatie.md",
+    "key": "expertises--bekabeling-en-installatie",
+    "family": "expertise"
+  },
+  {
+    "number": 27,
+    "route": "/expertises/cybersecurity",
+    "plan": "2026-11-20-bhr-page-27-expertises--cybersecurity.md",
+    "key": "expertises--cybersecurity",
+    "family": "expertise"
+  },
+  {
+    "number": 28,
+    "route": "/expertises/elektrocomponenten",
+    "plan": "2026-11-20-bhr-page-28-expertises--elektrocomponenten.md",
+    "key": "expertises--elektrocomponenten",
+    "family": "expertise"
+  },
+  {
+    "number": 29,
+    "route": "/expertises/hardware-engineering",
+    "plan": "2026-11-20-bhr-page-29-expertises--hardware-engineering.md",
+    "key": "expertises--hardware-engineering",
+    "family": "expertise"
+  },
+  {
+    "number": 30,
+    "route": "/expertises/inbedrijfstelling",
+    "plan": "2026-11-20-bhr-page-30-expertises--inbedrijfstelling.md",
+    "key": "expertises--inbedrijfstelling",
+    "family": "expertise"
+  },
+  {
+    "number": 31,
+    "route": "/expertises/industriele-automatisering",
+    "plan": "2026-11-20-bhr-page-31-expertises--industriele-automatisering.md",
+    "key": "expertises--industriele-automatisering",
+    "family": "expertise"
+  },
+  {
+    "number": 32,
+    "route": "/expertises/machineveiligheid",
+    "plan": "2026-11-20-bhr-page-32-expertises--machineveiligheid.md",
+    "key": "expertises--machineveiligheid",
+    "family": "expertise"
+  },
+  {
+    "number": 33,
+    "route": "/expertises/software-engineering",
+    "plan": "2026-11-20-bhr-page-33-expertises--software-engineering.md",
+    "key": "expertises--software-engineering",
+    "family": "expertise"
+  },
+  {
+    "number": 34,
+    "route": "/industriele-bordenbouw",
+    "plan": "2026-11-20-bhr-page-34-industriele-bordenbouw.md",
+    "key": "industriele-bordenbouw",
+    "family": "seo"
+  },
+  {
+    "number": 35,
+    "route": "/locaties",
+    "plan": "2026-11-20-bhr-page-35-locaties.md",
+    "key": "locaties",
+    "family": "location-listing"
+  },
+  {
+    "number": 36,
+    "route": "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "plan": "2026-11-20-bhr-page-36-locaties--betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur.md",
+    "key": "locaties--betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "family": "location-detail"
+  },
+  {
+    "number": 37,
+    "route": "/locaties/oisterwijk",
+    "plan": "2026-11-20-bhr-page-37-locaties--oisterwijk.md",
+    "key": "locaties--oisterwijk",
+    "family": "location-detail"
+  },
+  {
+    "number": 38,
+    "route": "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "plan": "2026-11-20-bhr-page-38-locaties--paneelbouw-automatisering-voor-industriele-installaties-in-breda.md",
+    "key": "locaties--paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "family": "location-detail"
+  },
+  {
+    "number": 39,
+    "route": "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "plan": "2026-11-20-bhr-page-39-locaties--paneelbouw-automatisering-voor-machineparken-in-tilburg.md",
+    "key": "locaties--paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "family": "location-detail"
+  },
+  {
+    "number": 40,
+    "route": "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "plan": "2026-11-20-bhr-page-40-locaties--paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout.md",
+    "key": "locaties--paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "family": "location-detail"
+  },
+  {
+    "number": 41,
+    "route": "/locaties/paneelbouwer-in-de-regio-dongen",
+    "plan": "2026-11-20-bhr-page-41-locaties--paneelbouwer-in-de-regio-dongen.md",
+    "key": "locaties--paneelbouwer-in-de-regio-dongen",
+    "family": "location-detail"
+  },
+  {
+    "number": 42,
+    "route": "/locaties/raamsdonksveer",
+    "plan": "2026-11-20-bhr-page-42-locaties--raamsdonksveer.md",
+    "key": "locaties--raamsdonksveer",
+    "family": "location-detail"
+  },
+  {
+    "number": 43,
+    "route": "/locaties/s-hertogenbosch",
+    "plan": "2026-11-20-bhr-page-43-locaties--s-hertogenbosch.md",
+    "key": "locaties--s-hertogenbosch",
+    "family": "location-detail"
+  },
+  {
+    "number": 44,
+    "route": "/locaties/waalwijk",
+    "plan": "2026-11-20-bhr-page-44-locaties--waalwijk.md",
+    "key": "locaties--waalwijk",
+    "family": "location-detail"
+  },
+  {
+    "number": 45,
+    "route": "/nieuws",
+    "plan": "2026-11-20-bhr-page-45-nieuws.md",
+    "key": "nieuws",
+    "family": "news"
+  },
+  {
+    "number": 46,
+    "route": "/offerteaanvraag",
+    "plan": "2026-11-20-bhr-page-46-offerteaanvraag.md",
+    "key": "offerteaanvraag",
+    "family": "quote"
+  },
+  {
+    "number": 47,
+    "route": "/over-ons",
+    "plan": "2026-11-20-bhr-page-47-over-ons.md",
+    "key": "over-ons",
+    "family": "company"
+  },
+  {
+    "number": 48,
+    "route": "/pagina-niet-gevonden",
+    "plan": "2026-11-20-bhr-page-48-pagina-niet-gevonden.md",
+    "key": "pagina-niet-gevonden",
+    "family": "utility"
+  },
+  {
+    "number": 49,
+    "route": "/paneelbouw-automatisering-tilburg",
+    "plan": "2026-11-20-bhr-page-49-paneelbouw-automatisering-tilburg.md",
+    "key": "paneelbouw-automatisering-tilburg",
+    "family": "seo"
+  },
+  {
+    "number": 50,
+    "route": "/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "plan": "2026-11-20-bhr-page-50-paneelbouw-automatisering-voor-machineparken-in-tilburg.md",
+    "key": "paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "family": "seo"
+  },
+  {
+    "number": 51,
+    "route": "/paneelbouw-oosterhout",
+    "plan": "2026-11-20-bhr-page-51-paneelbouw-oosterhout.md",
+    "key": "paneelbouw-oosterhout",
+    "family": "seo"
+  },
+  {
+    "number": 52,
+    "route": "/paneelbouwer-dongen",
+    "plan": "2026-11-20-bhr-page-52-paneelbouwer-dongen.md",
+    "key": "paneelbouwer-dongen",
+    "family": "seo"
+  },
+  {
+    "number": 53,
+    "route": "/paneelbrouwer-breda",
+    "plan": "2026-11-20-bhr-page-53-paneelbrouwer-breda.md",
+    "key": "paneelbrouwer-breda",
+    "family": "seo"
+  },
+  {
+    "number": 54,
+    "route": "/privacy",
+    "plan": "2026-11-20-bhr-page-54-privacy.md",
+    "key": "privacy",
+    "family": "utility"
+  },
+  {
+    "number": 55,
+    "route": "/referentie",
+    "plan": "2026-11-20-bhr-page-55-referentie.md",
+    "key": "referentie",
+    "family": "company"
+  },
+  {
+    "number": 56,
+    "route": "/sitemap",
+    "plan": "2026-11-20-bhr-page-56-sitemap.md",
+    "key": "sitemap",
+    "family": "utility"
+  },
+  {
+    "number": 57,
+    "route": "/test",
+    "plan": "2026-11-20-bhr-page-57-test.md",
+    "key": "test",
+    "family": "quote"
+  },
+  {
+    "number": 58,
+    "route": "/vacature",
+    "plan": "2026-11-20-bhr-page-58-vacature.md",
+    "key": "vacature",
+    "family": "vacancy-listing"
+  },
+  {
+    "number": 59,
+    "route": "/vacature/junior-e-plan-engineer",
+    "plan": "2026-11-20-bhr-page-59-vacature--junior-e-plan-engineer.md",
+    "key": "vacature--junior-e-plan-engineer",
+    "family": "vacancy-detail"
+  },
+  {
+    "number": 60,
+    "route": "/vacature/monteur-paneelbouw",
+    "plan": "2026-11-20-bhr-page-60-vacature--monteur-paneelbouw.md",
+    "key": "vacature--monteur-paneelbouw",
+    "family": "vacancy-detail"
+  },
+  {
+    "number": 61,
+    "route": "/veelgestelde-vragen",
+    "plan": "2026-11-20-bhr-page-61-veelgestelde-vragen.md",
+    "key": "veelgestelde-vragen",
+    "family": "utility"
+  },
+  {
+    "number": 62,
+    "route": "/voor-machinebouwers",
+    "plan": "2026-11-20-bhr-page-62-voor-machinebouwers.md",
+    "key": "voor-machinebouwers",
+    "family": "alias"
+  },
+  {
+    "number": 63,
+    "route": "/werken-bij",
+    "plan": "2026-11-20-bhr-page-63-werken-bij.md",
+    "key": "werken-bij",
+    "family": "alias"
+  },
+  {
+    "number": 64,
+    "route": "/zoeken",
+    "plan": "2026-11-20-bhr-page-64-zoeken.md",
+    "key": "zoeken",
+    "family": "utility"
+  }
+]
