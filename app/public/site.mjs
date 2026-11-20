@@ -85,6 +85,8 @@ $$('[data-carousel]').forEach(root=>{
   const wrapped=loop&&((direction>0&&previous===items.length-1&&position===0)||(direction<0&&previous===0&&position===items.length-1));
   if(wrapped)visual=direction>0?2*items.length:items.length-1;
   paint(visual,step,animate&&!motion.matches);
+  const photo=$('.parity-step-photo,.secondary-steps-layout>.secondary-photo',root),photoSource=items[position].dataset.stepImage;
+  if(photo&&photoSource){photo.src=photoSource;photo.alt=$('h3',items[position])?.textContent||photo.alt;}
   if(wrapped)wrapTimer=setTimeout(()=>{paint(items.length+position,step,false);wrapTimer=null;},motion.matches?0:360);
   const status=$('[data-carousel-status]',root);
   if(status){

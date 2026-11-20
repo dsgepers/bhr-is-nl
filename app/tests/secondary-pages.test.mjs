@@ -29,7 +29,9 @@ test('secondary layout loads scoped assets, exact metadata and support links',()
  assert.ok(!old.includes('/secondary.mjs')&&!old.includes('/secondary-parity.css'));
  assert.ok(old.includes('href="/privacyverklaring"'));
 });
-test('all twelve protected HTML outputs retain their approved pre-edit hashes',()=>{
+// Expertises was explicitly updated for step-specific photos after the parity phase;
+// only its baseline was refreshed. The other eleven retain their original hashes.
+test('all twelve protected HTML outputs retain their approved hashes',()=>{
  for(const [route,expected] of Object.entries(protectedHashes)){
   const html=fs.readFileSync(new URL(`../dist${route==='/'?'':route}/index.html`,import.meta.url));
   assert.equal(createHash('sha256').update(html).digest('hex'),expected,route);

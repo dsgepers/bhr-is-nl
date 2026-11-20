@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
 import {home,services,projects,branches,standard,faq,image,origin,media,pageContent,observedPage,pageImage} from './data.mjs';
 import {esc,link,img,eyebrow,inline,layout,homepage,titleSection,articleSections,serviceCards,projectCards,industry,about,vacancy,cta,branchCards,partners,faqSection,contactForm,quoteForm,processSection} from './components.mjs';
 import {expertiseIndex,servicePage,standardPage,aboutPage,careersPage,contactPage,appointmentPage,vacancyPage,projectListing,pageCta,partnersPage} from './inner-pages.mjs';
@@ -9,7 +10,14 @@ import {secondaryPage,secondaryOptions} from './secondary-pages.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url)),dist=path.join(root,'dist');
 fs.mkdirSync(dist,{recursive:true});fs.cpSync(path.join(root,'public'),dist,{recursive:true});
 const pages=[],emitted=new Set();
-function add(url,title,body,cls='secondary',simple=false){if(emitted.has(url))throw new Error(`Duplicate route: ${url}`);emitted.add(url);let meta={};if(Object.hasOwn(secondaryContent,url)){const o=secondaryOptions(url);title=o.title;body=secondaryPage(url);cls=o.classes;simple=o.simple;meta={documentTitle:o.documentTitle,canonical:o.canonical};}pages.push({url,title,text:body.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').slice(0,12000)});const folder=path.join(dist,url);fs.mkdirSync(folder,{recursive:true});fs.writeFileSync(path.join(folder,'index.html'),layout(title,body,cls,simple,meta));}
+const assetVersions=new Map();
+function versionSliderAssets(html){
+ return html.replace(/\b(href|src)="(\/[^"?]+\.(?:css|mjs))"/g,(_,attribute,url)=>{
+  if(!assetVersions.has(url))assetVersions.set(url,createHash('sha256').update(fs.readFileSync(path.join(root,'public',url))).digest('hex').slice(0,12));
+  return `${attribute}="${url}?v=${assetVersions.get(url)}"`;
+ });
+}
+function add(url,title,body,cls='secondary',simple=false){if(emitted.has(url))throw new Error(`Duplicate route: ${url}`);emitted.add(url);let meta={};if(Object.hasOwn(secondaryContent,url)){const o=secondaryOptions(url);title=o.title;body=secondaryPage(url);cls=o.classes;simple=o.simple;meta={documentTitle:o.documentTitle,canonical:o.canonical};}pages.push({url,title,text:body.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').slice(0,12000)});const folder=path.join(dist,url);fs.mkdirSync(folder,{recursive:true});let html=layout(title,body,cls,simple,meta);if(body.includes('data-step-image='))html=versionSliderAssets(html);fs.writeFileSync(path.join(folder,'index.html'),html);}
 add('/','BHR Industrial Automations & Paneelbouw',homepage(),'home');
 add('/expertises','Onze expertises',expertiseIndex(),'secondary reference-page expertise-index parity-page parity-expertises');
 for(const p of services)add(p.url,p.title,servicePage(p));

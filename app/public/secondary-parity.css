@@ -119,6 +119,8 @@
 .secondary-parity .secondary-steps-layout{display:flex;gap:38px;align-items:center;margin-top:50px}
 .secondary-parity .secondary-steps-layout>.secondary-photo{width:50%;aspect-ratio:940/762}
 .secondary-parity .secondary-step-slider{width:calc(50% - 38px);min-width:0}
+.secondary-parity.secondary-appointment .secondary-steps-layout>.secondary-photo{position:relative;z-index:2}
+.secondary-parity.secondary-appointment .secondary-step-slider{position:relative;z-index:1}
 .secondary-parity .secondary-step-window{overflow:visible}
 .secondary-parity .secondary-step-track{display:flex;gap:38px;transition:transform .3s}
 .secondary-parity .secondary-step{flex:0 0 468.65625px;background:#0a5da8;color:white;padding:21px;min-width:0}

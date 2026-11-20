@@ -82,8 +82,9 @@
 .parity-page .parity-steps{padding:120px 0;position:relative;isolation:isolate;background:#2e518e;color:white}
 .parity-page .parity-steps h2,.parity-page .parity-steps>.parity-container>.eyebrow{text-align:center}
 .parity-page .parity-steps-layout{display:flex;align-items:center;gap:38px;margin-top:80px}
-.parity-page .parity-step-photo{width:50%;aspect-ratio:940/740;object-fit:cover;clip-path:polygon(12% 0,100% 0,100% 88%,88% 100%,0 100%,0 12%)}
-.parity-page .parity-step-window{width:45%;min-width:0}
+/* Keep translated steps behind the photograph, as on the reference slider. */
+.parity-page .parity-step-photo{position:relative;z-index:2;width:50%;aspect-ratio:940/740;object-fit:cover;clip-path:polygon(12% 0,100% 0,100% 88%,88% 100%,0 100%,0 12%)}
+.parity-page .parity-step-window{position:relative;z-index:1;width:45%;min-width:0}
 .parity-page .parity-step-track{display:flex;gap:38px;transition:transform .3s}
 .parity-page .parity-step{flex:0 0 333.33px;border:1px solid #83d0f5;background:#0664a9;padding:30px;box-sizing:content-box}
 .parity-page .parity-step .eyebrow{font-size:14px;line-height:1.2;margin-bottom:10px;color:#83d0f5}
