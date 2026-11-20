@@ -1,0 +1,1277 @@
+{
+  "date": "2026-11-20",
+  "mode": "built-in image_gen",
+  "request": "Replace the light grey polo/spiky-haired man with the same slimmer fictional adult apprentice in all photos. For the two outdoor Over BHR header scenes, remove him and slightly centre the remaining colleague.",
+  "identity": "Fictional adult apprentice, approximately 22, slim, short brown hair, clean-shaven; same light grey BHR polo. Original outdoor jacket retained where worn.",
+  "prompts": {
+    "common": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, an existing website photograph reconstructed from its responsive crops. Image 2 is an IDENTITY REFERENCE ONLY: use the SAME fictional young adult apprentice shown on its LEFT in a light grey BHR polo, approximately 22, slim build, short tousled brown hair, clean-shaven. Replace only the older stockier man with thinning spiky hair and light grey BHR polo in Image 1 with that same apprentice. Use his face, hair, slim neck, torso, arms and hands consistently. Preserve Image 1's original pose, actions, gaze, clothing, light grey BHR-logo polo, trousers and location in the frame. If a jacket is worn, retain that jacket over the same polo. Keep the dark-haired colleague with glasses and dark grey sweatshirt or jacket EXACTLY unchanged. Keep all objects, wiring, text, logos, machines, furniture, architecture, background, camera angle, perspective, lighting, exposure and photographic texture unchanged. No added people or objects. Natural candid documentary photography, no glamour retouching. Preserve EXACT full canvas framing and aspect ratio; do not zoom or recompose. Small blank grey corner wedges are crop assembly padding; retain canvas geometry, seamlessly fill only those wedges from adjacent background. Render a single edited version of Image 1, never a collage or reference image.",
+    "hints": {
+      "dsc00930": "The replacement target is the LIGHT GREY POLO man on the RIGHT, standing with his arms folded beside shelves of blue storage bins. Retain his folded-arm stance; the glasses colleague on the LEFT is unchanged.",
+      "dsc00962": "The only man is the replacement target, a torso-up portrait in a light grey BHR polo in front of blue storage bins. Use the apprentice's face, hair and noticeably slimmer body, same stance and gaze.",
+      "dsc01187": "The replacement target is the partially visible light grey polo technician on the LEFT leaning into an electrical cabinet, head cropped at top. Give him the apprentice's slimmer shoulders, youthful neck/partial profile and slimmer arms in exactly the same working pose. Preserve depth of field and focus.",
+      "dsc01226": "Only the target technician's hands and forearms are visible, holding black and red electrical test probes. Replace ONLY these with natural slimmer young adult hands and forearms matching the apprentice. Keep exact grip, finger positions and both probes/wires/electrical cabinet unchanged. Do not add a face or body.",
+      "dsc01293": "Overhead workshop. Replace light grey polo man on LEFT looking down at electrical enclosure. Same apprentice, original pose and probe grips. Keep dark grey glasses colleague on RIGHT unchanged.",
+      "dsc01350": "Workshop bench. Replace light grey polo man in LEFT foreground leaning over enclosure with apprentice. Keep exact working posture and hands. Keep glasses colleague farther back on RIGHT unchanged.",
+      "dsc01689": "Close-up, both heads outside frame. Target is light grey polo torso and bare forearms on RIGHT handling blue clipboard. Slimmer young torso/arms only, exact grip/actions. Preserve clipboard, tools and dark grey colleague. Do not add heads.",
+      "dsc01712": "Workshop workbench duo. Replace light grey polo man in RIGHT foreground with apprentice looking down and pointing to drawing binder. Keep exact pose, gestures, tools and LAPP boxes. Dark grey glasses colleague on LEFT unchanged.",
+      "dsc01720": "Workshop conversation. Replace light grey polo man on RIGHT in profile looking toward glasses colleague on LEFT with apprentice. Same stance, hand on bench, gaze. Glasses colleague unchanged.",
+      "dsc01760": "Workshop. Replace light grey polo man on RIGHT looking down at orange crimping tool with apprentice. Keep tool grip, pose and placement. Glasses colleague on LEFT unchanged.",
+      "dsc01886": "Workshop portrait. Replace light grey polo man on RIGHT with arms folded with apprentice in same stance. Keep glasses colleague LEFT and blurred yellow multimeter unchanged.",
+      "dsc02091": "Wide exterior building/van. Two small men near lower centre: replace ONLY RIGHT man, spiky hair, bright blue jeans, folded arms. Same apprentice in original dark BHR jacket over grey polo and blue jeans, same scale and ground position. Glasses colleague LEFT, van and building unchanged.",
+      "dsc02153": "Outdoor portrait by silver BHR van. Replace ONLY RIGHT man, blue jeans and folded arms, with apprentice in same original dark BHR jacket over grey polo. Preserve jeans, shoes, stance and ground position. Glasses colleague LEFT, van and architecture unchanged.",
+      "dsc02362": "Single light grey polo technician in workshop reaching RIGHT over workbench. Replace with apprentice in same leaning pose, gaze, tool interaction and hand positions. Machinery and background unchanged.",
+      "dsc02396": "Single light grey polo technician side-on at workshop bench reaching RIGHT. Replace with apprentice, identical pose, gaze, hand positions and equipment.",
+      "dsc02475": "Kitchen/table conversation. Replace light grey polo man on LEFT with apprentice in same seated/leaning pose. Dark grey glasses colleague RIGHT, chairs, table and kitchen unchanged.",
+      "dsc02499": "Closer kitchen/table conversation. Replace light grey polo man on LEFT with apprentice, same seated pose, arms on table, gaze toward colleague. Glasses colleague unchanged.",
+      "dsc02603": "Office standing workstation duo. Replace light grey polo man on RIGHT with apprentice, same STANDING pose, hands on keyboard/mouse and gaze at screens. Keep original polo logo, trousers and body location. Glasses colleague LEFT, monitors, desks unchanged.",
+      "dsc02619": "Single light grey polo man STANDING at an office computer. Replace with apprentice, same STANDING pose, gaze and hands on keyboard/mouse. Keep desk, monitors, background and framing unchanged.",
+      "dsc02665": "Close computer view. Target is partially visible blurred light grey polo man in foreground. Replace visible head/neck/shoulder/arms with same slimmer apprentice, matching original crop/depth of field. Preserve sharp screens and software exactly. Do not add face/body areas outside crop.",
+      "dsc02673": "Meeting table with large blueprints. Replace light grey polo man on LEFT with apprentice in same leaning pose and hand placement. Dark grey glasses colleague RIGHT unchanged.",
+      "dsc02701": "Meeting table blueprints/laptop. Replace light grey polo man on LEFT with apprentice matching identity reference exactly, same leaning pose and forearms/hands on table. Dark grey glasses colleague RIGHT unchanged.",
+      "dsc02710": "Closer meeting table. Replace light grey polo man LEFT foreground with apprentice, same leaning pose, gaze, arms/hands. Dark grey glasses colleague RIGHT unchanged.",
+      "dsc02756": "Meeting table side view. Replace light grey polo man LEFT with apprentice, same pose and arms on blueprints. Dark grey glasses colleague RIGHT unchanged.",
+      "dsc02772": "Meeting table front view. Replace light grey polo man LEFT facing camera with apprentice, same seated leaning pose and hands. Glasses colleague RIGHT background unchanged.",
+      "dsc02826": "Rear/overhead meeting with laptop/blueprints. Replace ONLY light grey polo man RIGHT seen from behind with apprentice, youthful narrow shoulders/neck, same short brown hair seen from behind. Same seated lean and arms/hands. Glasses colleague LEFT pointing at laptop unchanged.",
+      "dsc02204": "Two silver vans outside factory. REMOVE the blue jeans man with folded arms just LEFT of the pair near image centre. KEEP only the glasses man in dark trousers on the RIGHT, shift him slightly LEFT to image centre (about 50% of image width), same scale/pose. Preserve the vans and INDUSTRIAL SOLUTIONS sign exactly.",
+      "dsc02261": "Factory exterior without vans. REMOVE blue jeans man on LEFT of pair. KEEP glasses man with folded arms and dark trousers on RIGHT, shifting him slightly LEFT to the centre (about 52% of image width), same physical scale and standing height. Continue garage-door windows, brickwork and paving seamlessly."
+    },
+    "removalCommon": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: an existing website outdoor header photograph reconstructed from responsive crops. REMOVE COMPLETELY the stockier man with spiky/thinning hair wearing bright blue jeans and a dark BHR jacket. There must be exactly ONE person in the result: preserve the other existing dark-haired man with glasses, dark BHR jacket and DARK GREY trousers, same face, age, clothes, pose and physical scale. Move this remaining man slightly horizontally toward the centre of the former pair, occupying the visual centre naturally, keeping his feet on the same ground plane and his original scale and height. Fill both the removed man's area and any vacated area with accurate continuous building/van/door/paving background. Keep all architecture, vehicles, text, BHR logos, windows, shadows, lighting, exposure, camera angle and full framing unchanged. Natural seamless documentary photo edit. Do not insert an apprentice or another person. Do not zoom/reframe. Preserve the full canvas aspect ratio and dimensions, including very small assembled corner padding; seamlessly continue adjacent background into padding."
+  },
+  "scenes": [
+    {
+      "id": "dsc00930",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/703_dsc00930.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "4813f73129aa488e42279270aaa10f07b2ebade8d9987c31d645970bbe1aab86",
+          "sha256": "4c1d512cdf3442491a71a830678e6cb1926a488422a4b326e99315ee62c6ddc3",
+          "bytes": 115732
+        },
+        {
+          "path": "app/public/assets/images/785_dsc00930.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "cb076c03a7d7c54b2665c7bfee716815bf4303be7ea4935a2efc2fb255eeee9c",
+          "sha256": "5e60a40729fdb7eed0d38f10f010b04c24e18b2ce14ea0505f783966909d1122",
+          "bytes": 117294
+        },
+        {
+          "path": "app/public/assets/images/797_dsc00930.webp",
+          "width": 1920,
+          "height": 900,
+          "originalSha256": "160b445df15009d6ddd926ebd2b0364daa8c4e0bc0a7dadd0f9c1f40cc37de92",
+          "sha256": "9bfbfd7e6f2f5f19e7ac3cca7eb43ba3610b838ed7219fa92b643a416fbb3a80",
+          "bytes": 180024
+        },
+        {
+          "path": "app/public/assets/images/831_dsc00930.webp",
+          "width": 606,
+          "height": 399,
+          "originalSha256": "f5712da8a046f9c384bde99b83122b7f43ca8d052d4a7eeb459883deeee3fdc7",
+          "sha256": "55b231e9d47d89db5d3b77e4973a30bf34f442a80254030f78e578e0b6565be6",
+          "bytes": 57668
+        }
+      ]
+    },
+    {
+      "id": "dsc00962",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/899_dsc00962.webp",
+          "width": 606,
+          "height": 399,
+          "originalSha256": "56addb035ce2d9e609bf16460b436f8fc9fdada1591faf9155279cd50a27051b",
+          "sha256": "a41b01087e74d2d0747fd3acda95871040cd1b168572613dcb3f1ecc6570c6b1",
+          "bytes": 43548
+        }
+      ]
+    },
+    {
+      "id": "dsc01187",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/623_dsc01187.webp",
+          "width": 740,
+          "height": 600,
+          "originalSha256": "5ab266249a35fefdc7001293bee286c6146d5e62802b2b3034c76af7be78de84",
+          "sha256": "6c5431e50f588fd2427883a4e83df0e8e0a2405853bb392959ccbaaee4a764cf",
+          "bytes": 64148
+        },
+        {
+          "path": "app/public/assets/images/657_dsc01187.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "a619bbad448ba4a5000ea3201de4f849d0e8546e31b2a92ac9c00d7c1e7b8ab2",
+          "sha256": "6f598f301c8cff7a38f4d5cc08252a968259b3280a525841b8718cbfe9026b53",
+          "bytes": 81546
+        },
+        {
+          "path": "app/public/assets/images/909_dsc01187.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "4c9fad0f83ede6e95f5d9a0439a2c1eb59fd8a700a6457d5171107b57ae48398",
+          "sha256": "eb5ab2729dc411100653e6917bd24174725bf25f07d77838aa38707911c1f060",
+          "bytes": 100820
+        }
+      ]
+    },
+    {
+      "id": "dsc01226",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1000_dsc01226.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "7e6af0bde4f20ca7ebf5641f52154b9e97642b172368d933ac4eb21549462a8a",
+          "sha256": "533e404d182ed1218ea6b491c2932bd1a088ba59058eac9e400ff6ef5c8eecc2",
+          "bytes": 98232
+        },
+        {
+          "path": "app/public/assets/images/1018_dsc01226.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "4d3da595b8102b80860f4d3b7b96fafd1e74be78af6f7bc945134dd209552740",
+          "sha256": "6ea62608e73d33ac5adab7b8d348aae46dfc160bb1b4aea317cb52f2c5b3a94c",
+          "bytes": 96424
+        },
+        {
+          "path": "app/public/assets/images/600_dsc01226.webp",
+          "width": 352,
+          "height": 427,
+          "originalSha256": "88b398fa2883ae0da242fac7c2d81c6a7ca935f6dcaa677674cafc977431d159",
+          "sha256": "3f11c1ce5665fc6b1bce0047df63bee9e1db8803b2b7ea37d378b7f20b9181e1",
+          "bytes": 41930
+        }
+      ]
+    },
+    {
+      "id": "dsc01293",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1048_dsc01293.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "4d674a2c032e73bbf9cf05e1512922d8c78a6cb5cb167e33856bfb692dbf1e64",
+          "sha256": "185e2a003681a4a43c58e528a383377e7a71abc485ecc8cff8268cee505cddc1",
+          "bytes": 146646
+        },
+        {
+          "path": "app/public/assets/images/1139_dsc01293.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "812122458cfe7a296fa0be0773e56f60127617d98328eda635a28351a4d12d0e",
+          "sha256": "b9127471cb5f2de257f3eeb29d304e3e76e54035ccc7f34a85f9c76bc92df3aa",
+          "bytes": 144474
+        },
+        {
+          "path": "app/public/assets/images/1255_dsc01293.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "80df736c7997b8192026e9f08cc9924fac99dae391a6451c0589d503313a8f80",
+          "sha256": "8a0394ad2a78ca5792c306c0cf8c563037300174eb4a87df062bb9ca064459ba",
+          "bytes": 201898
+        },
+        {
+          "path": "app/public/assets/images/625_dsc01293.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "fff72e2e2222c3d2bc06f9ae4667032cefcf542453cba840051fa45ba6b5ba03",
+          "sha256": "7c95f0619d9769865040d7b3b617dbffbd9e78395ba7ecd4d154b5dc1d57daf1",
+          "bytes": 142066
+        },
+        {
+          "path": "app/public/assets/images/709_dsc01293.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "05d1dca5e09c52c60b903856844eecf8761345d20498405f171754df61cb27bb",
+          "sha256": "e4d95578cdf60ff4c9c5c13c28c41ccbdb280048be09b2b4ba40cf2250485cee",
+          "bytes": 145966
+        },
+        {
+          "path": "app/public/assets/images/829_dsc01293.webp",
+          "width": 606,
+          "height": 399,
+          "originalSha256": "7bd7f8e340ae29dea2f4489f9f5dac7c6fb72ee164d3ad8dffe931f6894354d5",
+          "sha256": "0cd47c8eb0051d79cc001117341ca83f96d97915f7da69e1d1c15f87ba7b0106",
+          "bytes": 68396
+        },
+        {
+          "path": "app/public/assets/images/863_dsc01293.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "4d4d23b7653ca78a5169d9ca168c1309e0ea3fe99fd4e79aa2f99ea656a4a5c9",
+          "sha256": "4af124e22b462175aa7811574b785e248010ffe4ea7d155ff5bb2a64295eda0e",
+          "bytes": 186828
+        },
+        {
+          "path": "app/public/assets/images/972_dsc01293.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "91eee5ed850c63c5a718e6f966a4519923e869889425ced3a9ffea6180063f83",
+          "sha256": "26600441e583da313a6f196afbbc03a2c9a3c3aab9f594fa1753bdb8a94c4cf0",
+          "bytes": 139714
+        }
+      ]
+    },
+    {
+      "id": "dsc01350",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1237_dsc01350.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "003617aa7d55f7893c1e00de4b0389b5a92959cf4d2de9f59ebfb12e6dd2c08d",
+          "sha256": "0a0da017503626a24e543820384cdd6099d8e3e314837e7468baefee055eaa8c",
+          "bytes": 122458
+        },
+        {
+          "path": "app/public/assets/images/440_dsc01350.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "2ad89d1fdbbde7a79072d6f70ca69917b079519e7487500783186665cf6647ea",
+          "sha256": "7524254c59456025fffd4c621fb4d8116a55c6375ffce5dad4150fcb592dfa83",
+          "bytes": 87110
+        },
+        {
+          "path": "app/public/assets/images/637_dsc01350.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "b86f0552b40646587d0be8c652c776558a9d7de732732fddcbe792e3fde48a91",
+          "sha256": "e0896cd131ac7e470b3011138b84b5b421b45859a486caf7443fbcd9b9e5a261",
+          "bytes": 87916
+        },
+        {
+          "path": "app/public/assets/images/689_dsc01350.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "d1701814b02fdfd98e9771537df0114762df7827c361b5b3e4863d974f904170",
+          "sha256": "65cbb39ee2ab7c5962a7b430d25e33fad12784455a60d0236281e135b3cec88f",
+          "bytes": 87164
+        },
+        {
+          "path": "app/public/assets/images/771_dsc01350.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "dbb34f59ca8adebde56b8cd86e821f6d1daef4932f0df29301789076b03f67c4",
+          "sha256": "1799b87856926bb4b404ea77878128a7eade6a53aa6565f1cb3660ac650c931c",
+          "bytes": 88264
+        },
+        {
+          "path": "app/public/assets/images/984_dsc01350.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "f44b29c99c164423e3c31f2b2e5ec295d4b80c9d13d12b574edeacae2f41799b",
+          "sha256": "14541ffe9513382d65550f477a48bba6bcb7047997fdd373675501552cf9ca83",
+          "bytes": 87700
+        }
+      ]
+    },
+    {
+      "id": "dsc01689",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/mobile-ffe045c5ad-731_dsc01689.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "e4f5b9a4ec33fdc4417cf2820f2d030db6df5b296a512010147d70c9c6da5d28",
+          "sha256": "50078d2fffd7690c828a937b18566efafb4e18d7f3daf267628c0d26e8b9a94b",
+          "bytes": 109338
+        }
+      ]
+    },
+    {
+      "id": "dsc01712",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/568_dsc01712.webp",
+          "width": 416,
+          "height": 452,
+          "originalSha256": "c7bbe20a7605d9a903f8ca5a521a1680ef451e181910f0d89b79b7f7edf9a82e",
+          "sha256": "8e40d5702ee6f6f15894f227f65c3b5b6b83ba9232856487607099d336b070eb",
+          "bytes": 39010
+        },
+        {
+          "path": "app/public/assets/images/570_dsc01712.webp",
+          "width": 742,
+          "height": 546,
+          "originalSha256": "feb5ae72d77bd6a557492024f30cd663b01ee6697e0ea86a2d92c59d7468a5b7",
+          "sha256": "1c23b25b1ef3f353a36653238a1aa23fd5ae163f97b0e5bea24a0d58ea957e68",
+          "bytes": 69348
+        },
+        {
+          "path": "app/public/assets/images/571_dsc01712.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "131b8a37e2430081c6e8dd12de6d7ff9914dbd3d0bd33124c48abeba3f5ff77a",
+          "sha256": "f157447618d83e535bfe683395b7c87ac442d1d121615df9950efc7cf58f3d03",
+          "bytes": 131184
+        },
+        {
+          "path": "app/public/assets/images/745_dsc01712.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "7efadae073b6b67c63e529b96db907fdf4d2cb47dc52d2507d064680c9daac97",
+          "sha256": "f05bcc2f3731477754bca92fb13bd566751257fd250c2436b5c13a4f99d370ac",
+          "bytes": 99742
+        },
+        {
+          "path": "app/public/assets/images/808_dsc01712.webp",
+          "width": 351,
+          "height": 427,
+          "originalSha256": "b9d0fb9fe9cccf90c6e2452fb859be43df4f3a1437c4972a0e114b2308e1d39a",
+          "sha256": "756bbd9c0b52cb2dd6f7e0a9245f5dc03d7133942fe5603d34f5b0c8fd8530ed",
+          "bytes": 34786
+        },
+        {
+          "path": "app/public/assets/images/809_dsc01712.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "d70d35f5183968dd5dae6bc2214969cb58073a9091420aa5d3db36346ec9e009",
+          "sha256": "5e14bf08deed62721ce83b1e0f1ded7f6b27d1ae8b87038b16a67106adffbb36",
+          "bytes": 95010
+        },
+        {
+          "path": "app/public/assets/images/851_dsc01712.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "8f62ab50fc82b799971f84be4bc6af20aad73af17a10843537492c6cc00e3e69",
+          "sha256": "7f4a1018d2f677b37a0d112abaae9aa068acfcbfcb550543c7ab7b3636e4121e",
+          "bytes": 125836
+        },
+        {
+          "path": "app/public/assets/images/892_dsc01712.webp",
+          "width": 352,
+          "height": 427,
+          "originalSha256": "fac231a3087c135483869368e421784c9811490a13184e76bfc7ae8dfa634bac",
+          "sha256": "d5e356085f96666bf0aeab45f7555c757636691d888f6cdb15d082e0169084c2",
+          "bytes": 34894
+        }
+      ]
+    },
+    {
+      "id": "dsc01720",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/783_dsc01720.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "96b861cca9e549e1438181cd12a7566e2ac8a18f5ac70e8ee5fcc71d1deebc46",
+          "sha256": "854f0d3a00dc72c9bca115857d4a7874084ef57bd76147e3f1fefb85954c7b37",
+          "bytes": 108378
+        }
+      ]
+    },
+    {
+      "id": "dsc01760",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1233_dsc01760.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "56ef00a4eca1575bfa6887d97d12f8c5e7734e304d07c5725ef556cdc9583da3",
+          "sha256": "83e62ee45ea045395275b0340ab8b7aa6dc00f1e076300d98a3db2eea03832c7",
+          "bytes": 139268
+        },
+        {
+          "path": "app/public/assets/images/725_dsc01760.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "2f7c525675a52bcffb6583e4a90cdbc8c7d8110ba5568d7949c83bfc82f517b5",
+          "sha256": "5805542b0c717dbc0f6b60dd5e4167813a72d9f8cef59e4c03307b872b2a1501",
+          "bytes": 106302
+        }
+      ]
+    },
+    {
+      "id": "dsc01886",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1068_dsc01886.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "f69327ba450f4814b6b21b8d394b371276eda5371bf856b3c968eda0ebca7c82",
+          "sha256": "c4deb46926a234e775e56617752faf8bebcab5180718fad2c8bcfb8d3342bb4c",
+          "bytes": 105086
+        },
+        {
+          "path": "app/public/assets/images/444_dsc01886.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "821b1d0f72e49eda791479972bdb9dcb9ee5cb7bddb2963892ad663f192e5ec5",
+          "sha256": "121357ce7dfc8a66147a169e3f0fe16a0a1bf6106a7b77086d8544df820bb81f",
+          "bytes": 103174
+        },
+        {
+          "path": "app/public/assets/images/723_dsc01886.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "63e63447b2d609f17652804d9eee0fb6fe2cc9a600a4210a06f58ff501c689a6",
+          "sha256": "85dd81cb3d98b16c1e96634cf710b0a9462165a7d90e926f22515324acb64831",
+          "bytes": 105240
+        },
+        {
+          "path": "app/public/assets/images/816_dsc01886.webp",
+          "width": 870,
+          "height": 663,
+          "originalSha256": "71bdad69f77d3c68bddb7e3aae5609d88f4866a01b4538508b037b0e29343767",
+          "sha256": "b650850e04302952670c146911e0224c88bc8d1dec7d90cc62b14c29554df825",
+          "bytes": 91332
+        }
+      ]
+    },
+    {
+      "id": "dsc02091",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1120_dsc02091.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "6c1e419d09ba3b3b919292e7050bffcb1da5e771aeda30cd34ce2ab5c4fc0687",
+          "sha256": "99241a2adc9a804e68919d2b10c0fb50b3a70de73277eb77193f27f5210f8e1e",
+          "bytes": 173458
+        },
+        {
+          "path": "app/public/assets/images/1141_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "53298198fa0c216e9ea039ea81260727647ef761479304ce15f1b010032e5812",
+          "sha256": "657249d8702f5a98c9dcc65cae53916d394247b491de120eb56701eebe4fd382",
+          "bytes": 172898
+        },
+        {
+          "path": "app/public/assets/images/1142_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "14fedb8207b0fa3f73c94ac2485e87e88cbb8ade1b11c566adf9e0848bba1c07",
+          "sha256": "e9036377768c2ea76c45466032b8be0ada3a9313aaf86c0e73cf8347afc4d3e4",
+          "bytes": 258468
+        },
+        {
+          "path": "app/public/assets/images/1145_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "d5a51f2cd6f6ce3f88ad0e7c9be12149df2b560fc36282e0d69a1103df109779",
+          "sha256": "0483d4eb0c930f1fb7b90305c03bdf9b5955cbcfd49fb34b1c5b9c8d6510435f",
+          "bytes": 173700
+        },
+        {
+          "path": "app/public/assets/images/1146_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "83c8c1368c95cb46f6aa09e7eab5910b94494a1aaaf9ac77095a11c7fc9d1f81",
+          "sha256": "027009c3a2f5d04be3af924e145a150fd7b7d75cfd1e2635dbc45e98b5adaa56",
+          "bytes": 214876
+        },
+        {
+          "path": "app/public/assets/images/1170_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "5cc9081b9b512f42f29c4b8b5274d247934cc3621600fd9abc9c2b7bbab60436",
+          "sha256": "e75c94ea1df96956c8646db6b28c6e272790d80aa8fde445254d328419c72106",
+          "bytes": 173404
+        },
+        {
+          "path": "app/public/assets/images/1173_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "e42cfb299a151a462affa3a6a4f871816ad0887c01482c986df851eac0e49c22",
+          "sha256": "17faadb7595dc4baf641e7a96e8e1284383d561d4f2508c8ae4b70bc7796206a",
+          "bytes": 256652
+        },
+        {
+          "path": "app/public/assets/images/1186_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "8a31991f9451c467da4d9aeaa4307713995232582596fedd282a7769d51baea9",
+          "sha256": "1c7b45f69eb2b8a2670de045b4c74ab91a573fd54f11009fe1bbc74aa52b6d61",
+          "bytes": 174592
+        },
+        {
+          "path": "app/public/assets/images/1187_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "8bc8a7fb3e3ddbc351cacd348da654cdb1e0777f73f5923a3ba8dfbb5eb89933",
+          "sha256": "9774b3d989dd9fa27a49ebbb8f6dbbbdaf244031ca70fc9d3f4ec5c7eab6ae1e",
+          "bytes": 258234
+        },
+        {
+          "path": "app/public/assets/images/1188_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "09207a6acc30cf899472f3f6eb9bf840d642ffb5db692f46fd021d5bec04a448",
+          "sha256": "cad4f2261496864f772d103efc9d66d3086a1a5d2ec61e8073f5f8714302c9b1",
+          "bytes": 178128
+        },
+        {
+          "path": "app/public/assets/images/1189_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "8d11d228a095784fbfed88879cd98e3e4a614adae18d58c390ac55e734d49c31",
+          "sha256": "1a6fbca9e30342f3577535579575275e83a36a76b3e3a666c0eaaa3882609b2a",
+          "bytes": 203536
+        },
+        {
+          "path": "app/public/assets/images/1190_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "1d9b358e7787c43038f9719a4a72895e37852d9c5cf9811023297168a6f8d2ce",
+          "sha256": "8fbde9e11e38986bf8c56b8b0742e318550d820fe72a8e68552629fdf78f0585",
+          "bytes": 175418
+        },
+        {
+          "path": "app/public/assets/images/1191_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "7a3937fcffde4186eed6c8b0f087e759e0b8d746462a47a771d463ebe12ed324",
+          "sha256": "fe043eefbd4caec2453bf1116f57d34cfe2009eab084c16630f4093f8783d6dc",
+          "bytes": 204824
+        },
+        {
+          "path": "app/public/assets/images/1192_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "2a2b56fb14886ace4e7b5c31cb3a6cdaed8bd663d34138003a9689aeece95f17",
+          "sha256": "858f9fb6a528e6851f61884ab850520d48739b6a0056ad4c11790153d47593a7",
+          "bytes": 173878
+        },
+        {
+          "path": "app/public/assets/images/1193_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "139d0ba83b59dd89af7c6540d024fce1c12c287a1dc86cb3dc022a2526fd9cd6",
+          "sha256": "daa2abcdb9ed7c5468fc050f8b29802a5cb630ab40d0033a59c4b1a7d18801ef",
+          "bytes": 204466
+        },
+        {
+          "path": "app/public/assets/images/554_dsc02091.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "49f06160441e5a70b74f70c54909feddf44c795a2808934bcf2dddca86ac9f5f",
+          "sha256": "b11a1db59680bcd4ebc15ee0d8470984515b8ca409d953db401c664cb9877cc8",
+          "bytes": 171304
+        },
+        {
+          "path": "app/public/assets/images/557_dsc02091.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "69a97a991ad6d7a4042b4c30247182ee612f932c2bfd5ea75a02f77eff81cdbe",
+          "sha256": "8719cfa32133952a518e193b9d01e4fd3e6f04a6ce6aa3601a4a204745abd3d3",
+          "bytes": 164624
+        },
+        {
+          "path": "app/public/assets/images/643_dsc02091.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "bde4e46628036d12ef7ed8a026caaceffee2b48861a3b36e0f6c68f95c15095d",
+          "sha256": "9cdb8e44698bce7bbd8e274af6359f5d5a23aa4261da1ab6174fbdb9233a07ae",
+          "bytes": 169214
+        },
+        {
+          "path": "app/public/assets/images/661_dsc02091.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "7ac963e7b6528b666f2a50a8af8d1772b61e8bd8e73ec9b5a7706ae77b8a51dd",
+          "sha256": "b2f12e8af3dfcbff14f6698ddf3c03c526d31307155d17ee02c447ba3bb9d2f2",
+          "bytes": 171990
+        },
+        {
+          "path": "app/public/assets/images/721_dsc02091.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "9200caec75e4adf740f60d86f52eea5a7639a85fb86abe16f2a73a70064c2e69",
+          "sha256": "4d595819f8e07c77f90d90a5e29d192a311b5adf76ec91755c6e1fb2b402bfd4",
+          "bytes": 168106
+        },
+        {
+          "path": "app/public/assets/images/769_dsc02091.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "f98a6e0713acb66d3d4a543f405277e288287cbcb036cf1a5517bb3d2be8493e",
+          "sha256": "8a4ecb3241b54885073ed842210cc5aa401b120b2070195c2dcb051ed2fc3f34",
+          "bytes": 171984
+        },
+        {
+          "path": "app/public/assets/images/819_dsc02091.webp",
+          "width": 483,
+          "height": 553,
+          "originalSha256": "76e772cfcd2ff1020ff100ce1eab944e94ce304ef1e80a47b69e1b486bd87495",
+          "sha256": "258e5f7ef183f34a5e6e75b095e1c93e610792fd30d6c52701227aea240561ba",
+          "bytes": 90326
+        },
+        {
+          "path": "app/public/assets/images/mobile-1439e61958-818_dsc02091.webp",
+          "width": 870,
+          "height": 663,
+          "originalSha256": "ae05b1671c8762dbd0145c391a7a3f138a584c67141fb46552ee082b9add91b9",
+          "sha256": "6f40d6a5c162fa76359ce4ee57991d3781af00c1703f62659bc1565d3699f2fc",
+          "bytes": 181110
+        }
+      ]
+    },
+    {
+      "id": "dsc02153",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1062_dsc02153.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "0b3efd7270ca86cd944ee6d6e7d0f1079ca4e280767963845784280b5a6f5249",
+          "sha256": "55c2b94219d5a4bb0cc7be3fe77e8de190d20a3f095f1f4014ad98c1646d0259",
+          "bytes": 149760
+        },
+        {
+          "path": "app/public/assets/images/635_dsc02153.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "5192bd8484d69fa335ac8cd20ae393d16c643544cb12a7c98fbf1c92cc669152",
+          "sha256": "0f3147005ecce047a544422d3f7d1531863a0d1759133ba545fe26705fe6011b",
+          "bytes": 148814
+        },
+        {
+          "path": "app/public/assets/images/679_dsc02153.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "e98187966df7791b17f50c38a6cc78a1e1c0639ba84bb728ab04044efb6a86d8",
+          "sha256": "7bf9f82d2246525cbe6b35d680cf2f066a5d47169053a892d8a94098e1beb590",
+          "bytes": 152340
+        },
+        {
+          "path": "app/public/assets/images/773_dsc02153.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "97fafb58a86f2fa23adc51d0b7006eca9f83dcd0336cd85df92d2f53cb2f7be0",
+          "sha256": "3dc5dedca019dc8b705b502011bad32ab3369fe82a7d0cfe689e2909fcc3b6a8",
+          "bytes": 153330
+        }
+      ]
+    },
+    {
+      "id": "dsc02204",
+      "operation": "remove-and-centre",
+      "files": [
+        {
+          "path": "app/public/assets/images/1143_dsc02204.webp",
+          "width": 943,
+          "height": 743,
+          "originalSha256": "45d5e9b81ff1f5c1d582c76b9051398b74d2992fab118e7333a1f80348cef088",
+          "sha256": "a36c845748887a5b5bff1daf6e72a1f755957e2f20512817af7fe29412ae0aeb",
+          "bytes": 151952
+        },
+        {
+          "path": "app/public/assets/images/1144_dsc02204.webp",
+          "width": 1260,
+          "height": 670,
+          "originalSha256": "11a5254ef23c33abf782241853c78393040fdedf399e9257dc3d5d1a7fe5758b",
+          "sha256": "884a6c1e55b0cb02b7bac9989a1f982808480d0825410ac506cada7764f14c71",
+          "bytes": 193480
+        },
+        {
+          "path": "app/public/assets/images/459_dsc02204.webp",
+          "width": 853,
+          "height": 691,
+          "originalSha256": "89739d63cdb9b92c713f0b1ddb3323d958d36db3cd2bc6bc765e174b7bca9185",
+          "sha256": "931961f8dc1d7e04531b49c9acbc086314c6b60717a6a4c96be2c2e9fd161b0c",
+          "bytes": 132964
+        },
+        {
+          "path": "app/public/assets/images/627_dsc02204.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "12f9757d57b76e8b541d93316eb1daa1300950d0682ee2217d83a86bddbf39bb",
+          "sha256": "a86890147912c76a1f392e97d22dbd433c975681b7a8c613ab20a5391da643d6",
+          "bytes": 150824
+        },
+        {
+          "path": "app/public/assets/images/775_dsc02204.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "d9a839ad22d6d4aa37722dca66101bf4b4d0c4a3f2d8570a4307f72281b82a3b",
+          "sha256": "e88b6a13ef33b66ecceabfe701be88753c3f488817265f49fdec34886aa64d92",
+          "bytes": 133378
+        },
+        {
+          "path": "app/public/assets/images/866_dsc02204.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "8ab98f72972388531550ee4e4c67a97bfdef888dd160643e9519208ebdaf603a",
+          "sha256": "60fc6af40821e6f26ca3bf7aa81183416c2ed42d87f62a3d1b232b5b338954e7",
+          "bytes": 219864
+        },
+        {
+          "path": "app/public/assets/images/913_dsc02204.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "90f824366089d78c48c3ce04b0f664d09dbec4ca8a4182dd938f6ac8c620c65a",
+          "sha256": "0cb49590c93401a122441b711f957c11127289b4a0bbec1c63e9a224ee0b7711",
+          "bytes": 236570
+        }
+      ]
+    },
+    {
+      "id": "dsc02261",
+      "operation": "remove-and-centre",
+      "files": [
+        {
+          "path": "app/public/assets/images/1032_dsc02261.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "976606de414f0a8bb4876892c48dc83527ebd4d5a88d06d1f5a21024539987ef",
+          "sha256": "bb3ae435107eb9c6ce40ecebbf81ed4cb849c6cd955d81710c660abff3278734",
+          "bytes": 171754
+        },
+        {
+          "path": "app/public/assets/images/1082_dsc02261.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "bc6b66719bddaf1f23b985a18baa81a90f017ac3be1233dc3592d2a1836c33e7",
+          "sha256": "08e191d2d22bd440c29805cce8799481418891abd59459b7e17674cc33f34065",
+          "bytes": 171202
+        },
+        {
+          "path": "app/public/assets/images/1113_dsc02261.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "f6ee68d4d8874068afa884cfb4aff40bbb40c7a64597b2de8d62f9ddad980748",
+          "sha256": "60c93d70fb74ca57fd9c7076ae2bac6b7c9ce3a9b08f32097d3c45694db59fa7",
+          "bytes": 274608
+        },
+        {
+          "path": "app/public/assets/images/621_dsc02261.webp",
+          "width": 740,
+          "height": 600,
+          "originalSha256": "fd41d97fad6a0e5fd37aa6183e9c699c4a79916b9421023f479759226747c964",
+          "sha256": "b1ddb2742d7aaf5414e1b7ee04b9d595b1ea94ceb4d24c81d3bc5e4241acb6d5",
+          "bytes": 130644
+        },
+        {
+          "path": "app/public/assets/images/713_dsc02261.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "b1545ea2fe9867a8ebdae1d1a4854a3f9a631c025cc18184e18b8aaf5cc4f296",
+          "sha256": "b9e5fd9b52c41b32468ba93ae1e79f7f73f852d87d5f3b7265398714b2aae22b",
+          "bytes": 172112
+        },
+        {
+          "path": "app/public/assets/images/857_dsc02261.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "0859cb87e4c72da28bc86a21fff5ac05d68dbadf2b88f561aff2921dbdce0df8",
+          "sha256": "d86102d6e9e89cc8a7691b3f94460e5784ce2144beb8968d35be79f937ba8162",
+          "bytes": 247882
+        },
+        {
+          "path": "app/public/assets/images/929_dsc02261.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "4638774db62d7b8a278cd4737b23555b527fd1ccf60b0716d51879ca5d49712d",
+          "sha256": "a37261d11de3a849eb05714d5e3b1324ab5c5b6120c39d29f003a23f972a6260",
+          "bytes": 289284
+        },
+        {
+          "path": "app/public/assets/images/947_dsc02261.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "25ed457e198e50b4bef052c87cc4a9fb7cb8f9f3819a48f34f3df935f5e537fe",
+          "sha256": "e59b2b9c652a41a219aed1a5af061766af6dd06c9a2b0dcf96fdd268be65150a",
+          "bytes": 238350
+        },
+        {
+          "path": "app/public/assets/images/mobile-3073c18dea-735_dsc02261.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "f83d0a99b0ce775bc47b70f7979419ce014d629725e85e6ad4a5110eb5273fd8",
+          "sha256": "4f0a8353eddeb2d97790f60a166b0363a1ab1e9920e8a7225029acae132fe0d8",
+          "bytes": 172386
+        },
+        {
+          "path": "app/public/assets/images/mobile-3c27f7a80a-1114_dsc02261.webp",
+          "width": 430,
+          "height": 650,
+          "originalSha256": "146e951a6bbc2794c3b114ae266124a709630df29e752871d8f39d632f6d78a2",
+          "sha256": "5e807784614a8ab6c67b060949b7b5630458ec81c2d84b8b79a68560e7db4352",
+          "bytes": 73956
+        },
+        {
+          "path": "app/public/assets/images/tablet-399adad59b-1115_dsc02261.webp",
+          "width": 1024,
+          "height": 650,
+          "originalSha256": "be033f6ccebf28c44971eae28c2370a3638a9e247027e969b5aea4e6c8e8d9bd",
+          "sha256": "5a8c5f06918a4b9e51df0855ae51a0b12271477830020ea6784fd202e0576c65",
+          "bytes": 182544
+        }
+      ]
+    },
+    {
+      "id": "dsc02362",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1058_dsc02362.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "f8270b85c03fc85eb3d2f80729ef0b59ad145ff697c7dd126b8ecffdb6b5a0e2",
+          "sha256": "64c6acbee18d4018180b65c9d2aa3c09cd4d44f77346409c41157344d19862dd",
+          "bytes": 85404
+        },
+        {
+          "path": "app/public/assets/images/1137_dsc02362.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "798c74d1954c76f6f99cd8f951ae17dc8541bc0b7477f9daec6aeffed4395085",
+          "sha256": "b451f00d7bab221d4a2ead64383270606908b832d721ead9d4076f0a4823eac7",
+          "bytes": 91550
+        },
+        {
+          "path": "app/public/assets/images/452_dsc02362.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "b3103dcd3bdd36230063011cdf4b9e8fd7058bfd11a95f658ca2d4ea157e7278",
+          "sha256": "b8602f7a7fd3a6a5c0c3b66b8e43fb61dd9cc0533c2420384c3b66569ac00f90",
+          "bytes": 92652
+        },
+        {
+          "path": "app/public/assets/images/779_dsc02362.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "53569c92b956fd12f942f6094bbc3bb7fc9b76b76100b281bd4b68281cc0f153",
+          "sha256": "b11991ddff85ea73bd38d6babba3c0625ea860dff503c7ebd623785f9e548b6d",
+          "bytes": 88734
+        }
+      ]
+    },
+    {
+      "id": "dsc02396",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/655_dsc02396.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "708e9598d8df4e87f99b5efaaa41dfb2f6bcc9261c0babf68ce86f4f23f1d4f2",
+          "sha256": "3eb3330cb4a71a36b89d8697cd9ecd2c8e331f1069935c07a2da5ae49149c77d",
+          "bytes": 102660
+        },
+        {
+          "path": "app/public/assets/images/951_dsc02396.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "4f2f5601177e6d33a4c5978dade1e07649c0c4d652ac747e5064179bd09d37f1",
+          "sha256": "44de2fad43e761d3056bcf679fb61099614bc056758518703a70f0a0950faae2",
+          "bytes": 102526
+        }
+      ]
+    },
+    {
+      "id": "dsc02475",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/622_dsc02475.webp",
+          "width": 740,
+          "height": 600,
+          "originalSha256": "69737b3e17127b5d35cb86678e8fdc007fa684fb3e70d49f6dc44658843de53f",
+          "sha256": "695540d7e4937e856b7dc159a516c2b940880aee59124d0295aeed641713c1e7",
+          "bytes": 72076
+        },
+        {
+          "path": "app/public/assets/images/898_dsc02475.webp",
+          "width": 606,
+          "height": 399,
+          "originalSha256": "53e42667d979743265dea6429ea4cfe3a103826604d82d3bf52b1159d70339c1",
+          "sha256": "35975c9a0f9550e2685f6aecd40cce7524c80efbae315347127181727dc41cb7",
+          "bytes": 44376
+        },
+        {
+          "path": "app/public/assets/images/949_dsc02475.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "dc0c76ef411ae331191eaeb0cee2fd5cca6f0e440f1accbadd37ea6a1659b412",
+          "sha256": "7ba53c99676e2996d8a394574f78dc4da9adfcda50c9dc56cacbcd02cd95dd5d",
+          "bytes": 97692
+        },
+        {
+          "path": "app/public/assets/images/967_dsc02475.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "ba3e601cda7451cf104feb961d8992babf527190510df5feecba4fdd55c18360",
+          "sha256": "78af8ef0a165d9808b6e477cf3a01dea7b358d640497c0b3c76fbfb91f3e4530",
+          "bytes": 99520
+        }
+      ]
+    },
+    {
+      "id": "dsc02499",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/693_dsc02499.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "01baec8663f0500d7df7bfd2aa3a5116bd348624adb45fce9ea73ebbe9b26d64",
+          "sha256": "c22bfd75d797b82908217df09e47172847400a1fcd8526c1ab08fe1447cc5514",
+          "bytes": 76318
+        },
+        {
+          "path": "app/public/assets/images/925_dsc02499.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "7b8ff572b875ccac32d19cd0e2edb340f9b90dd6baa0530379e3f62e7350f276",
+          "sha256": "e309218b84b98807a2d987df793d125a95fabb936deca134373e66c5d12050e0",
+          "bytes": 77038
+        },
+        {
+          "path": "app/public/assets/images/957_dsc02499.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "d436a9cf55547edd290b31510ab6a2c06c00eaaccbca7ed8cca82dd73fa4d86f",
+          "sha256": "088ec723fa1b05dadca2f6e841524f3c2a165dd3285e1dafb09ead27c5ba6b84",
+          "bytes": 100756
+        }
+      ]
+    },
+    {
+      "id": "dsc02603",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1050_dsc02603.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "7796efdf705009fda97e1191765aa4f273ffef1ebc0f6d4ae2873bbf82cac2a3",
+          "sha256": "f4be2833a02b97c95510648072ac55a74d889ad101b9eabee090dec36297a414",
+          "bytes": 116460
+        },
+        {
+          "path": "app/public/assets/images/609_dsc02603.webp",
+          "width": 352,
+          "height": 427,
+          "originalSha256": "e9338cde4929780e835b876dcd2e1b4eeeb1ac675572ad3b9e0f81b35cdf6d43",
+          "sha256": "a851ce710a6bfdf3526e247cf5a81e43f3c0a322fb0c58b72952e0cc4941587a",
+          "bytes": 32948
+        }
+      ]
+    },
+    {
+      "id": "dsc02619",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1070_dsc02619.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "594da0022c552520744907e4dc5bcfa94257442e4391ecb5a2dbb0c84744669e",
+          "sha256": "01ef5edd44bf054da13e25cf06eedd5eee06c8be8c42072d7bc587f66a172083",
+          "bytes": 102508
+        },
+        {
+          "path": "app/public/assets/images/685_dsc02619.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "c6df31567e148b10af25c39f21debecc8b9841742200b1ce0a3afff017010572",
+          "sha256": "93bc6341d00462f64b6c6aa7a1234869bc872b3c73ea141668d4838cccdc81f4",
+          "bytes": 103834
+        }
+      ]
+    },
+    {
+      "id": "dsc02665",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1078_dsc02665.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "1d65b6dd763ee9369b79127088037c12e970487001b419e35ec892440c204c8b",
+          "sha256": "2161020dcc2063cef72856b2fd9a3fefbd80cc62726384a4c0faf202448d8791",
+          "bytes": 72646
+        },
+        {
+          "path": "app/public/assets/images/438_dsc02665.webp",
+          "width": 740,
+          "height": 600,
+          "originalSha256": "ecac17a30d21dda3046e6c1b49e22a598c7270f1fff7fd34b4f5ffee4180d20d",
+          "sha256": "8cec1896eec75a9afbf823318f5b35e5bc9cc995cc31cce0ddcfde957f14c232",
+          "bytes": 52718
+        },
+        {
+          "path": "app/public/assets/images/588_dsc02665.webp",
+          "width": 352,
+          "height": 427,
+          "originalSha256": "6039af9264869bbbe9514d63ad5db3812edffe13f22a7644801ce51723f90c75",
+          "sha256": "1003f2d8f130ac446d1978572cfec4aca00e2844440e155ca18e664faa47b5d7",
+          "bytes": 25440
+        },
+        {
+          "path": "app/public/assets/images/743_dsc02665.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "ef4ba2b89e295bc93fb6751088e0f2c0e50ad192ba375f73b6e271ed8d3872a9",
+          "sha256": "5e2dd0e79a91827b5c1e4eb9e9dab99054bb8b275430f1dd0947aebc8f25a832",
+          "bytes": 71344
+        },
+        {
+          "path": "app/public/assets/images/810_dsc02665.webp",
+          "width": 351,
+          "height": 427,
+          "originalSha256": "76982ffd534f73599e79a6640f3644fe1445fae9eea3197b3e59808f9a454b44",
+          "sha256": "f6c9b229ee23c7b3b3460d04df10cf893ae5945ecd8b969117c5d06f92be2de0",
+          "bytes": 25410
+        },
+        {
+          "path": "app/public/assets/images/811_dsc02665.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "990c50e748e7dd2ee6ce31232b1eb7e3d541d614d7dd28735ed32c6e1cae8570",
+          "sha256": "199bb8e89abf0f9a1f5d8e5e2b66cee725a866803b0c2dba648436684c997b3c",
+          "bytes": 77104
+        }
+      ]
+    },
+    {
+      "id": "dsc02673",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1219_dsc02673.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "d988346c2ec3a2f9c9fbcef8e835146e3c0ac08ae31a1f5fbcad724f0e968b63",
+          "sha256": "d4261fb77e2cf7cc605916f675252d689db93954b1d80138ea5be767bd1169f6",
+          "bytes": 84110
+        },
+        {
+          "path": "app/public/assets/images/437_dsc02673.webp",
+          "width": 740,
+          "height": 600,
+          "originalSha256": "473711c6dbc6e8d39c83bf7610587c3df7bd9fb8340a5aa63e04ca25ffb8f034",
+          "sha256": "ca6e7d9f3467a6da61e13f63b6e77e7b100dc452638cd488a51fdd8fe80df5ab",
+          "bytes": 59918
+        }
+      ]
+    },
+    {
+      "id": "dsc02701",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1080_dsc02701.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "bed524b4b530cb5482471a36610d0b0cd60a096dfdc5aa63d181990276c55b9a",
+          "sha256": "9637771b5d79616e42252d3ee64bc1b542c648dc1c4479499cfba0c8d8573bef",
+          "bytes": 76514
+        },
+        {
+          "path": "app/public/assets/images/1201_dsc02701.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "e4150a48f891adefebd4dc410a75b09950a6d442066961eb041acc800bd12157",
+          "sha256": "c6641d9e1d576a658db9135a494bd1d6a029e42d2fcc04db1bea7858226a0f4f",
+          "bytes": 69970
+        },
+        {
+          "path": "app/public/assets/images/585_dsc02701.webp",
+          "width": 352,
+          "height": 427,
+          "originalSha256": "88848271a7e1ed82cf302face92710e08eb47eb5ded35e8e5dc0095c4c18723a",
+          "sha256": "a44ca97db2a8b4cdfcb843d9a28d15d255858cb3b596deefacf1df50290ac6ae",
+          "bytes": 24062
+        },
+        {
+          "path": "app/public/assets/images/697_dsc02701.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "213c6ef1fe131f465f5d6d65e64899310f20d13e78f5cfe899c2db0ac3c62bf8",
+          "sha256": "fe66a252f464dbe1ba0c4ff0f5ed0cb76e7d4865da7eb583db00eb61aac0a4fd",
+          "bytes": 75376
+        },
+        {
+          "path": "app/public/assets/images/747_dsc02701.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "07c17029dbed3ae8c9f3f0a8843cc93aa5d68fffac15bf81ecd4356dafe448df",
+          "sha256": "f7d391edb8cd71d5112feafc21aa2ea02cd642188447f015ce76b5453ef2ea2d",
+          "bytes": 72930
+        },
+        {
+          "path": "app/public/assets/images/820_dsc02701.webp",
+          "width": 870,
+          "height": 663,
+          "originalSha256": "64b7405bde3e532103483096c399b903ebf98260ad98d637855e5dcff35e1bc6",
+          "sha256": "f18a0c07d3bb40bd0d15a375fa2c3b759030ed5f72fbb47437b050c7490516c2",
+          "bytes": 63678
+        }
+      ]
+    },
+    {
+      "id": "dsc02710",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/727_dsc02710.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "b8fef3e17660c1ec18f3e0d9b7c39d9e88c922e626d8eb3ea653a32d77a42a31",
+          "sha256": "187b41a20bbc8350349dbc254870c0d0cb5ae9e1e44c9dd14d5b713162ef31fa",
+          "bytes": 77764
+        },
+        {
+          "path": "app/public/assets/images/800_dsc02710.webp",
+          "width": 351,
+          "height": 427,
+          "originalSha256": "814f86444a42ccaec615a77f8349cf01a389df535acce3d6fc9040e0d19e2565",
+          "sha256": "0eba4606c9dca4bba4b6e8604530a2eb730e717bcfe13f92cb20967e63a6deeb",
+          "bytes": 25610
+        },
+        {
+          "path": "app/public/assets/images/801_dsc02710.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "52b7927aa5c02fae7f9816503ef6315777c3be8469f4adbb7e38100d85f0ab91",
+          "sha256": "18e47aaf4b5b40d843fb334c186494f46009367fd0fb3c7b185074d9264ba3ef",
+          "bytes": 116244
+        },
+        {
+          "path": "app/public/assets/images/828_dsc02710.webp",
+          "width": 606,
+          "height": 399,
+          "originalSha256": "becc0e71a58a5437850b9c7fa79a5ec7eb3b162258d825ea8ef286a5696490b2",
+          "sha256": "724d85bd72941e9b776a4070353183b3786f400adcdb0cd3b3130ca1aefde86c",
+          "bytes": 36344
+        }
+      ]
+    },
+    {
+      "id": "dsc02756",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/629_dsc02756.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "65a9b2735459a64da8856839833dab84ec0cb3682b03c46a2c67eeaf9a55fc3c",
+          "sha256": "9bd88ce92f67b6625147657d041b5d7c27855b5d47f3e803962a630dd22af253",
+          "bytes": 95132
+        }
+      ]
+    },
+    {
+      "id": "dsc02772",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/990_dsc02772.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "f8554f0cb5303ad8caa00656cfc043049eaa78e0e78661da46949e7bd702cbba",
+          "sha256": "4457e22bb1a472f36979a03109f8e73284f6dea09d2cf80a02724233755e3d56",
+          "bytes": 80556
+        }
+      ]
+    },
+    {
+      "id": "dsc02826",
+      "operation": "replace-with-apprentice",
+      "files": [
+        {
+          "path": "app/public/assets/images/1180_dsc02826.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "b70742e2c235aebb2dd2f05e28f86de6f05418e8e5036083b1363a547230cf44",
+          "sha256": "2c1506b9fc985d2271053e7272178994ee93bc6a7f1f065fc4619c75fb0f4219",
+          "bytes": 89772
+        },
+        {
+          "path": "app/public/assets/images/1229_dsc02826.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "dd1ba2f8c73c6fa01569e2135d533cd037a4886e5a30ab65cfee9b15aeee9b18",
+          "sha256": "5b8b5f1fd078b213ab25df879d826e59aa82c0d801d8f2273acbcc0c32e71a4d",
+          "bytes": 90074
+        },
+        {
+          "path": "app/public/assets/images/433_dsc02826.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "f8669f1e2e6b86725821576c3fc4b1c969b0359344fa73b7a353c4461fad4170",
+          "sha256": "6e832690da0cdc836793e0d7daca2a8127f21392bee00d4f99b9ab590bfbe8dc",
+          "bytes": 94214
+        },
+        {
+          "path": "app/public/assets/images/591_dsc02826.webp",
+          "width": 1920,
+          "height": 700,
+          "originalSha256": "08cca43da3a46221be4cc739a23ff689dec37e44dd3f4b5819473d3b4b05b7b4",
+          "sha256": "d4672015697122218ae9ba36cd3bb585cd6586dc5724e0e0512883c474e34625",
+          "bytes": 124282
+        },
+        {
+          "path": "app/public/assets/images/653_dsc02826.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "3a4ac52ab83e7e5b0ddb4080544a2e17467fbe066286c6ac1a3becbbcac1a770",
+          "sha256": "779a60f504f70b0eb0a871ab986f497e73297cd77d4f531f1cc25b618d330cba",
+          "bytes": 93986
+        },
+        {
+          "path": "app/public/assets/images/687_dsc02826.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "a18a12d143680cf72ad38939a3379b9969b72cac3c1a9e26b90f575a51e799e6",
+          "sha256": "6be1246dd630fd2a85bc11c5fb55fb518fef42e053586cf52909a334df9ceb5b",
+          "bytes": 90594
+        },
+        {
+          "path": "app/public/assets/images/751_dsc02826.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "29b72f489354629fbafb23b42306f3ad52388eb296b91ef23d8fc5a9d816fdc1",
+          "sha256": "114afbce60c8a65cf913da1b4f6bb67dfdf551d0ab7ee1f0bfde58a77baeecb8",
+          "bytes": 88476
+        },
+        {
+          "path": "app/public/assets/images/781_dsc02826.webp",
+          "width": 940,
+          "height": 740,
+          "originalSha256": "517dc380ecc21fe177e01f7d76d5f54424030133f5255974d1999a3c5effa46c",
+          "sha256": "bd824c3bf9c01a00a39999b6dc956e705ecac5221606f192309a7ef05dd07836",
+          "bytes": 94070
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "generatedScenes": 28,
+    "replacedAssetFiles": 131,
+    "httpImagesChecked": 131,
+    "originalDimensionsRetained": true,
+    "unchangedHtmlFiles": 77,
+    "unchangedOtherRasterAssets": 203,
+    "tests": {
+      "pass": 136,
+      "fail": 0
+    },
+    "siteVerification": {
+      "routes": 76,
+      "links": 3542,
+      "assetReferences": 1655
+    },
+    "originalBackups": "checks/person-replacement-2026-11-20/originals/",
+    "layoutSourcesChangedByThisTask": false
+  }
+}

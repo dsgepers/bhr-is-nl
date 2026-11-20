@@ -16,7 +16,7 @@ export const media=p=>{
 };
 export const image=t=>media(home.assets.find(a=>a.alt===t)?.src||home.assets[0].src);
 export const pageContent=JSON.parse(fs.readFileSync(new URL('./page-content.json',import.meta.url)));
-const imageReferences=JSON.parse(fs.readFileSync(new URL('./reference/image-map.json',import.meta.url)));
+const imageReferences=JSON.parse(fs.readFileSync(new URL('./image-map.json',import.meta.url)));
 export function pageImage(url,title,fallback){
  const normalize=t=>t.replace(/<[^>]+>/g,'').normalize('NFKC').replace(/[‘’'“”]/g,'').replace(/\s+/g,' ').trim().toLowerCase();
  const found=imageReferences.find(i=>i.page===url&&normalize(i.alt)===normalize(title));

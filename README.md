@@ -1,6 +1,6 @@
 # BHR website recreation
 
-Static recreation of bhr-is.nl, originally created with Craft Anywhere. Built with Node.js ES modules, HTML, CSS and vanilla browser JavaScript. Original image and font assets are packaged locally.
+Static recreation of bhr-is.nl, originally created with Craft Anywhere. Built with Node.js ES modules, HTML, CSS and vanilla browser JavaScript. Original image and font assets are packaged locally. The build uses the tracked `app/image-map.json` for page image selection; local reference captures are not required.
 
 Requires Node.js 20 or newer. No runtime dependencies or package installation are needed.
 
