@@ -4,6 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {home,services,projects,branches,standard,faq,image,origin,media,pageContent,observedPage,pageImage} from './data.mjs';
 import {esc,link,img,eyebrow,inline,layout,homepage,titleSection,articleSections,serviceCards,projectCards,industry,about,vacancy,cta,branchCards,partners,faqSection,contactForm,quoteForm,processSection} from './components.mjs';
 import {expertiseIndex,servicePage,standardPage,aboutPage,careersPage,contactPage,appointmentPage,vacancyPage,projectListing,pageCta,partnersPage} from './inner-pages.mjs';
+import {styleGuide} from './style-guide.mjs';
 import {secondaryContent} from './secondary-data.mjs';
 import {secondaryPage,secondaryOptions} from './secondary-pages.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url)),dist=path.join(root,'dist');
@@ -33,6 +34,7 @@ add('/cookie-instellingen','Cookie-instellingen',titleSection({title:'Cookie-ins
 for(const [url,title] of [['/privacyverklaring','Privacyverklaring'],['/algemene-voorwaarden','Algemene voorwaarden']])add(url,title,titleSection({title},false)+`<section class="text-section"><div class="container"><p>Voor informatie over ${title.toLowerCase()} kunt u contact opnemen met BHR Industrial Solutions.</p>${link('Stuur een e-mail','mailto:info@bhr-is.nl')}</div></section>`);
 add('/bedankt','Bedankt',titleSection({title:'Bedankt voor uw bericht',intro:'Uw bericht is verzonden. Wij nemen zo spoedig mogelijk contact met u op.'},false));
 for(const [route,p] of Object.entries(secondaryContent))if(!emitted.has(route))add(route,p.title,'');
+add('/style-guide','Style guide',styleGuide(),'secondary style-guide');
 fs.writeFileSync(path.join(dist,'search-index.json'),JSON.stringify(pages));
 fs.writeFileSync(path.join(dist,'404.html'),layout('Pagina niet gevonden',titleSection({title:'Pagina niet gevonden',intro:'Deze pagina is niet beschikbaar.'},false)+`<section class="text-section"><div class="container">${link('Naar de homepage','/')}</div></section>`,'secondary'));
 fs.writeFileSync(path.join(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.map(p=>`<url><loc>${origin}${p.url}</loc></url>`).join('')}</urlset>`);
