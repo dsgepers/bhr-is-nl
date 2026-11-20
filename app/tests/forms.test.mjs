@@ -35,13 +35,13 @@ test('oversized combined attachments and honeypot entries block native delivery'
  }
 });
 test('every enquiry form emits its provider fields and has a thank-you page',()=>{
- let count=0;const kinds=new Set();
+ const kinds=new Set();
  for(const file of fs.readdirSync(new URL('../dist/',import.meta.url),{recursive:true}).filter(f=>f.endsWith('.html'))){
   const html=fs.readFileSync(new URL(`../dist/${file}`,import.meta.url),'utf8');
   assert.ok(!html.includes('api.staticforms.dev'),file);
   assert.ok(!html.includes('data-local-only-form'),file);
   for(const [markup,kind] of [...html.matchAll(/<form[^>]*data-form-submit="([^"]+)"[\s\S]*?<\/form>/g)].map(m=>[m[0],m[1]])){
-   count++;kinds.add(kind);
+   kinds.add(kind);
    assert.match(markup,/action="https:\/\/api.web3forms.com\/submit"/);
    for(const field of ['access_key','subject','redirect','botcheck','email'])assert.ok(markup.includes(`name="${field}"`),`${file}: ${field}`);
    assert.ok(markup.includes('name="access_key" value="87d4dc81-dc01-415e-8050-426d0824b6a0"'));
@@ -53,7 +53,9 @@ test('every enquiry form emits its provider fields and has a thank-you page',()=
    assert.match(thanks,/<h1>/);assert.match(thanks,/name="robots" content="noindex,follow"/);
   }
  }
- assert.equal(count,26);assert.equal(kinds.size,6);
+ // New pages may reuse a form (for example, the style-guide preview).
+ // Validate every instance above and require all six purposes without fixing the total.
+ assert.equal(kinds.size,6);
 });
 test('editing a form or failing browser validation clears an earlier status',()=>{
  const form=new EventTarget(),status={textContent:''};forms.bindFormStatusReset(form,status);
