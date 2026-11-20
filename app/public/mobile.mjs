@@ -13,14 +13,14 @@ function enhanceMobile(){
  const phone=`<a class="mobile-circle mobile-phone" href="tel:+31162238834" aria-label="Bel BHR">${phoneIcon}</a>`;
  const toggle='<button type="button" class="mobile-circle mobile-menu-icon" data-mobile-open aria-label="Menu openen" aria-controls="mobile-navigation" aria-expanded="false"><span></span><span class="visually-hidden">Menu</span></button>';
  header.innerHTML=`<div class="mobile-header-inner">${simple?`<a data-mobile-back-link class="mobile-back-link" href="${original.querySelector('.back')?.getAttribute('href')||'/'}" aria-label="Terug">${arrowIcon}<span>Terug</span></a>`:''}${brandMarkup()}<div class="mobile-header-actions">${phone}${simple?'':'<a class="mobile-circle mobile-search" href="/zoeken" aria-label="Zoeken"><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="m18 18 9 9"/></svg></a>'+toggle+'<a class="mobile-tablet-appointment" href="/afspraak-maken">Afspraak maken</a>'}</div></div>`;
- let drawer,opener,isOpen=false,storedY=0,savedBody;
+ let drawer,opener,isOpen=false,storedY=0,savedBody,active=true;
  const phoneViewport=matchMedia('(max-width: 767px)'),changedImages=new Map();
  const restoreImages=()=>{for(const [image,src]of changedImages)image.setAttribute('src',src);changedImages.clear()};
  const applyPhoneMedia=async()=>{
   if(!phoneViewport.matches){restoreImages();return;}
   try{
    mediaData??=fetch('/mobile-data.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()}).catch(()=>{mediaData=null;return {}});
-   const data=await mediaData;if(!phoneViewport.matches||!body.classList.contains('mobile-ready'))return;
+   const data=await mediaData;if(!active||!phoneViewport.matches||!body.classList.contains('mobile-ready'))return;
    const rows=data[location.pathname.replace(/\/+$/,'')||'/']||[];
    for(const image of document.images){
     const src=image.getAttribute('src');const row=rows.find(r=>r.from===src&&r.alt===image.alt);
@@ -84,7 +84,7 @@ function enhanceMobile(){
   header.querySelector('.mobile-brand img').src=`/assets/images/bhr-brand${dark?'':'-white'}.svg`;
  };
  addEventListener('scroll',updateHeader,{passive:true});addEventListener('resize',updateHeader);updateHeader();
- return()=>{close();restoreScroll();restoreImages();phoneViewport.removeEventListener('change',applyPhoneMedia);removeEventListener('scroll',updateHeader);removeEventListener('resize',updateHeader);footerSocial?.remove();header.remove();drawer?.remove();body.classList.remove('mobile-ready')};
+ return()=>{active=false;close();restoreScroll();restoreImages();phoneViewport.removeEventListener('change',applyPhoneMedia);removeEventListener('scroll',updateHeader);removeEventListener('resize',updateHeader);footerSocial?.remove();header.remove();drawer?.remove();body.classList.remove('mobile-ready')};
 }
 function syncMobile(){if(mobileViewport.matches){if(!teardown)teardown=enhanceMobile()}else if(teardown){teardown();teardown=null;}}
 mobileViewport.addEventListener('change',syncMobile);syncMobile();

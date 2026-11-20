@@ -3,7 +3,7 @@ import argparse,json,unittest
 from pathlib import Path
 from playwright.sync_api import sync_playwright,expect
 ROOT=Path(__file__).resolve().parents[2]
-P=argparse.ArgumentParser();P.add_argument('--case',choices=['nav','layout','all'],default='all');P.add_argument('--route',action='append');args=P.parse_args()
+P=argparse.ArgumentParser();P.add_argument('--case',choices=['nav','layout','all'],default='all');P.add_argument('--route',action='append');P.add_argument('--mode',choices=['phone','tablet'],default='phone');P.add_argument('--width',type=int);args=P.parse_args()
 
 class MobileTests(unittest.TestCase):
  @classmethod
@@ -11,7 +11,8 @@ class MobileTests(unittest.TestCase):
  @classmethod
  def tearDownClass(cls):cls.browser.close();cls.p.stop()
  def setUp(self):
-  self.context=self.browser.new_context(viewport={'width':390,'height':844},screen={'width':390,'height':844},device_scale_factor=1,is_mobile=True,has_touch=True,reduced_motion='reduce')
+  self.width=args.width or (768 if args.mode=='tablet'else 390)
+  self.context=self.browser.new_context(viewport={'width':self.width,'height':1024 if args.mode=='tablet'else 844},screen={'width':self.width,'height':1024 if args.mode=='tablet'else 844},device_scale_factor=1,is_mobile=args.mode!='tablet',has_touch=True,reduced_motion='reduce')
   self.context.add_init_script("localStorage.setItem('bhr-cookie-consent','denied')")
   self.deliveries=[]
   def guard(r):
@@ -45,16 +46,36 @@ class MobileTests(unittest.TestCase):
   self.go('/afspraak-maken/');p=self.page;expect(p.locator('.mobile-header a[href="tel:+31162238834"]')).to_be_visible();expect(p.locator('.mobile-header [data-mobile-back-link]')).to_be_visible();self.assertEqual(p.locator('[data-mobile-open]').count(),0)
  def test_nav_failed_mobile_module_retains_original_navigation(self):
   self.context.route('**/mobile.mjs*',lambda r:r.abort());self.go('/contact/');expect(self.page.locator('.site-header')).to_be_visible()
+ def test_nav_async_phone_media_restores_desktop(self):
+  media=json.loads((ROOT/'app/public/mobile-data.json').read_text())
+  self.context.add_init_script("const normalFetch=window.fetch.bind(window);window.fetch=(url,...args)=>String(url)==='/mobile-data.json'?new Promise(resolve=>{window.resolveMobileMedia=()=>resolve(new Response(JSON.stringify("+json.dumps(media)+"),{headers:{'content-type':'application/json'}}))}):normalFetch(url,...args)")
+  self.go();p=self.page;original=p.locator('.slide[data-slide="0"] img').get_attribute('src')
+  p.set_viewport_size({'width':1200,'height':900});p.wait_for_timeout(100)
+  p.set_viewport_size({'width':390,'height':844});p.wait_for_timeout(100)
+  p.evaluate('resolveMobileMedia()');p.wait_for_timeout(100)
+  p.set_viewport_size({'width':1200,'height':900});p.wait_for_timeout(100)
+  self.assertEqual(p.locator('.slide[data-slide="0"] img').get_attribute('src'),original)
+ def test_nav_touch_and_breakpoint_cleanup(self):
+  self.go();p=self.page;p.tap('[data-mobile-open]');expect(p.locator('.mobile-drawer')).to_be_visible();p.keyboard.press('Escape')
+  for width in [767,768,1199,1200]:
+   p.set_viewport_size({'width':width,'height':900});p.wait_for_timeout(100)
+   self.assertEqual(p.locator('.mobile-header').count(),int(width<1200))
+  self.assertEqual(p.locator('.mobile-footer-socials').count(),0)
+ def test_layout_tablet_uses_actual_theme_metrics(self):
+  if args.mode!='tablet':return
+  self.go('/expertises/');p=self.page
+  self.assertAlmostEqual(p.locator('h1').evaluate('(e)=>parseFloat(getComputedStyle(e).fontSize)'),48.3333,delta=.02)
+  self.assertAlmostEqual(p.locator('.parity-container').first.bounding_box()['width'],668,delta=1)
  def test_layout_phone_families(self):
   routes=args.route or ['/','/expertises','/voor-machinebouwers/voor-machinebouwers','/voor-machinebouwers/proces-productie','/service-en-onderhoud','/over-ons/partners','/over-ons/werken-bij','/expertises/software-engineering','/projecten','/projecten/sc100','/contact','/afspraak-maken','/over-ons','/vacature/monteur-paneelbouw','/branches/agro','/locaties','/offerteaanvraag','/veelgestelde-vragen']
   for route in routes:
    with self.subTest(route=route):
     self.go(route);p=self.page
-    size=p.evaluate('({width:innerWidth,scroll:document.documentElement.scrollWidth})');self.assertEqual(size['width'],390,size);self.assertLessEqual(size['scroll'],390,size)
+    size=p.evaluate('({width:innerWidth,scroll:document.documentElement.scrollWidth})');self.assertEqual(size['width'],self.width,size);self.assertLessEqual(size['scroll'],self.width,size)
     self.assertEqual(p.locator('h1').count(),1)
     for field in p.locator('form input:not([name=honeypot]):not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=file]),form textarea,form select').all():
      if not field.is_visible():continue
-     box=field.bounding_box();self.assertGreaterEqual(box['width'],50 if (field.get_attribute('name')or'').startswith('birth_')else 180,(route,field.get_attribute('name'),box));self.assertLessEqual(box['x']+box['width'],391,(route,field.get_attribute('name'),box))
+     box=field.bounding_box();self.assertGreaterEqual(box['width'],50 if (field.get_attribute('name')or'').startswith('birth_')else 180,(route,field.get_attribute('name'),box));self.assertLessEqual(box['x']+box['width'],self.width+1,(route,field.get_attribute('name'),box))
 
 suite=unittest.TestSuite()
 for name in unittest.defaultTestLoader.getTestCaseNames(MobileTests):
