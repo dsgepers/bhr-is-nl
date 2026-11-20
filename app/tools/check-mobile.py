@@ -29,9 +29,9 @@ class MobileTests(unittest.TestCase):
   self.assertEqual(page.evaluate('getComputedStyle(document.body).overflowY'),'hidden')
   page.locator('[data-mobile-submenu="about"]').click();expect(page.locator('[data-mobile-panel="about"]')).to_be_visible()
   expect(page.locator('[data-mobile-panel="about"] a[href="/over-ons/partners"]')).to_be_visible()
-  page.locator('[data-mobile-back]').click();expect(page.locator('[data-mobile-panel="root"]')).to_be_visible()
+  page.locator('[data-mobile-submenu="about"]'if args.mode=='tablet'else'[data-mobile-back]').click();expect(page.locator('[data-mobile-panel="root"]')).to_be_visible()
   page.locator('[data-mobile-submenu="industries"]').click();expect(page.locator('[data-mobile-panel="industries"]')).to_be_visible()
-  page.locator('[data-mobile-back]').click()
+  page.locator('[data-mobile-submenu="industries"]'if args.mode=='tablet'else'[data-mobile-back]').click()
   for _ in range(12):
    page.keyboard.press('Tab');self.assertTrue(page.evaluate("document.querySelector('.mobile-drawer').contains(document.activeElement)"))
   page.keyboard.press('Escape');expect(page.locator('.mobile-drawer')).not_to_be_visible()
@@ -42,25 +42,73 @@ class MobileTests(unittest.TestCase):
   self.assertEqual(p.locator('.mobile-header').count(),0);self.assertEqual(p.locator('.mobile-drawer').count(),0)
   self.assertNotEqual(p.evaluate('getComputedStyle(document.body).overflowY'),'hidden');expect(p.locator('.site-header')).to_be_visible()
   p.set_viewport_size({'width':390,'height':844});expect(p.locator('[data-mobile-open]')).to_be_visible()
+ def test_nav_tablet_original_media_restores_desktop(self):
+  if args.mode!='tablet':return
+  record=json.loads((ROOT/'app/public/tablet-data.json').read_text())['/'][0]
+  self.go();p=self.page
+  self.assertEqual(p.locator('.slide[data-slide="0"] img').get_attribute('src'),record['to'])
+  p.set_viewport_size({'width':1920,'height':1080});p.wait_for_timeout(150)
+  self.assertEqual(p.locator('.slide[data-slide="0"] img').get_attribute('src'),record['from'])
+ def test_nav_tablet_half_panel_inline_submenus(self):
+  if args.mode!='tablet':return
+  self.go();p=self.page;p.locator('[data-mobile-open]').click();box=p.locator('.mobile-drawer').bounding_box()
+  self.assertAlmostEqual(box['x'],384,delta=1);self.assertAlmostEqual(box['width'],384,delta=1)
+  p.locator('[data-mobile-submenu="about"]').click();expect(p.locator('[data-mobile-panel="root"]')).to_be_visible();expect(p.locator('[data-mobile-panel="about"]')).to_be_visible()
+  expect(p.locator('.mobile-drawer-aux a[href="/nieuws"]')).to_be_visible()
+  p.mouse.click(50,300);expect(p.locator('.mobile-drawer')).not_to_be_visible()
  def test_nav_simple_appointment_header(self):
   self.go('/afspraak-maken/');p=self.page;expect(p.locator('.mobile-header a[href="tel:+31162238834"]')).to_be_visible();expect(p.locator('.mobile-header [data-mobile-back-link]')).to_be_visible();self.assertEqual(p.locator('[data-mobile-open]').count(),0)
  def test_nav_failed_mobile_module_retains_original_navigation(self):
   self.context.route('**/mobile.mjs*',lambda r:r.abort());self.go('/contact/');expect(self.page.locator('.site-header')).to_be_visible()
  def test_nav_async_phone_media_restores_desktop(self):
+  if args.mode=='tablet':return
   media=json.loads((ROOT/'app/public/mobile-data.json').read_text())
   self.context.add_init_script("const normalFetch=window.fetch.bind(window);window.fetch=(url,...args)=>String(url)==='/mobile-data.json'?new Promise(resolve=>{window.resolveMobileMedia=()=>resolve(new Response(JSON.stringify("+json.dumps(media)+"),{headers:{'content-type':'application/json'}}))}):normalFetch(url,...args)")
-  self.go();p=self.page;original=p.locator('.slide[data-slide="0"] img').get_attribute('src')
+  self.go();p=self.page;original=p.locator('.slide[data-slide="0"] img').get_attribute('src');originalHeading=p.locator('.how-copy h3').first.inner_html()
   p.set_viewport_size({'width':1200,'height':900});p.wait_for_timeout(100)
   p.set_viewport_size({'width':390,'height':844});p.wait_for_timeout(100)
   p.evaluate('resolveMobileMedia()');p.wait_for_timeout(100)
   p.set_viewport_size({'width':1200,'height':900});p.wait_for_timeout(100)
   self.assertEqual(p.locator('.slide[data-slide="0"] img').get_attribute('src'),original)
+  self.assertEqual(p.locator('.how-copy h3').first.inner_html(),originalHeading)
+ def test_nav_delayed_phone_content_has_one_instance(self):
+  if args.mode=='tablet':return
+  content=json.loads((ROOT/'app/public/mobile-content.json').read_text())
+  self.context.add_init_script("const normalContentFetch=window.fetch.bind(window);window.fetch=(url,...args)=>String(url)==='/mobile-content.json'?new Promise(resolve=>{window.resolveMobileContent=()=>resolve(new Response(JSON.stringify("+json.dumps(content)+"),{headers:{'content-type':'application/json'}}))}):normalContentFetch(url,...args)")
+  self.go('/expertises/paneelbouw/');p=self.page;p.wait_for_function('Boolean(window.resolveMobileContent)')
+  p.set_viewport_size({'width':768,'height':1024});p.wait_for_timeout(100)
+  p.set_viewport_size({'width':390,'height':844});p.wait_for_timeout(100)
+  p.evaluate('resolveMobileContent()');p.wait_for_timeout(100)
+  self.assertEqual(p.locator('.mobile-branch-window').count(),1)
+  self.assertEqual(p.locator('.mobile-region').count(),1)
  def test_nav_touch_and_breakpoint_cleanup(self):
   self.go();p=self.page;p.tap('[data-mobile-open]');expect(p.locator('.mobile-drawer')).to_be_visible();p.keyboard.press('Escape')
   for width in [767,768,1199,1200]:
    p.set_viewport_size({'width':width,'height':900});p.wait_for_timeout(100)
    self.assertEqual(p.locator('.mobile-header').count(),int(width<1200))
   self.assertEqual(p.locator('.mobile-footer-socials').count(),0)
+ def test_layout_legacy_phone_media_and_teardown(self):
+  if args.mode=='tablet':return
+  self.go('/expertises/paneelbouw/');p=self.page
+  expect(p.locator('.mobile-branch-window img').first).to_be_visible()
+  expect(p.locator('.mobile-region img')).to_be_visible()
+  self.go('/expertises/retrofit/');expect(p.locator('.mobile-region img')).to_be_visible()
+  p.set_viewport_size({'width':1920,'height':1080});p.wait_for_timeout(150)
+  self.assertEqual(p.locator('.mobile-branch-window,.mobile-region,.mobile-project-more').count(),0)
+ def test_layout_phone_heading_break_restores_desktop(self):
+  if args.mode=='tablet':return
+  self.go('/');p=self.page
+  self.assertEqual(p.locator('.how-copy h3').first.locator('br').count(),1)
+  self.assertEqual(p.locator('.vacancy-section h2 br').count(),0)
+  expect(p.locator('.mobile-expertise-more')).to_be_visible()
+  p.set_viewport_size({'width':1920,'height':1080});p.wait_for_timeout(150)
+  self.assertEqual(p.locator('.how-copy h3').first.locator('br').count(),0)
+  self.assertEqual(p.locator('.mobile-expertise-more').count(),0)
+ def test_layout_birth_controls_share_one_row(self):
+  self.go('/vacature/monteur-paneelbouw/');p=self.page
+  boxes=[p.locator(f'select[name={name}]').bounding_box()for name in ['birth_day','birth_month','birth_year']]
+  self.assertLess(max(b['y']for b in boxes)-min(b['y']for b in boxes),1)
+  self.assertEqual(round(boxes[1]['width']),100)
  def test_layout_tablet_uses_actual_theme_metrics(self):
   if args.mode!='tablet':return
   self.go('/expertises/');p=self.page
