@@ -1,6 +1,6 @@
 import {siteUrl} from './paths.mjs';
 import {selectedProjectGroup,projectGalleryIndex} from './secondary-behavior.mjs';
-import {searchPages,cookiePreferences,stepTarget} from './behavior.mjs';
+import {searchPages,cookiePreferences} from './behavior.mjs';
 const all=(selector,root=document)=>[...root.querySelectorAll(selector)];
 const filters=all('[data-project-filter]');
 function syncProjects(){
@@ -21,15 +21,6 @@ all('[data-project-gallery]').forEach(gallery=>{
  gallery.querySelector('[data-project-prev]')?.addEventListener('click',()=>show(projectGalleryIndex(index,-1,slides.length)));
  gallery.querySelector('[data-project-next]')?.addEventListener('click',()=>show(projectGalleryIndex(index,1,slides.length)));
  thumbs.forEach((thumb,i)=>thumb.addEventListener('click',()=>show(i)));show(0);
-});
-// These forms deliberately never enter site.mjs's .static-form delivery scanner.
-all('[data-local-only-form]').forEach(form=>{
- const steps=all('[data-step]',form),status=form.querySelector('.form-status');let step=0;
- const show=next=>{step=stepTarget(next,0,steps.length);steps.forEach((s,i)=>{s.hidden=i!==step});form.querySelector('.prev-step').hidden=step===0;form.querySelector('.next-step').hidden=step===steps.length-1;form.querySelector('.wizard-submit').hidden=step!==steps.length-1;steps[step].querySelector('input,select,textarea')?.focus()};
- const validStep=()=>{const bad=all('input,select,textarea',steps[step]).find(i=>!i.checkValidity());if(bad){bad.reportValidity();return false}return true};
- if(steps.length){form.noValidate=true;form.querySelector('.next-step').addEventListener('click',()=>{if(validStep())show(step+1)});form.querySelector('.prev-step').addEventListener('click',()=>show(step-1));form.addEventListener('keydown',event=>{if(event.key==='Enter'&&event.target.tagName!=='BUTTON'&&event.target.tagName!=='TEXTAREA'&&step<steps.length-1){event.preventDefault();if(validStep())show(step+1)}})}
- form.addEventListener('submit',event=>{event.preventDefault();status.textContent='';if(steps.length){const invalid=steps.findIndex(s=>all('input,select,textarea',s).some(i=>!i.checkValidity()));if(invalid>=0){show(invalid);validStep();return}}else if(!form.reportValidity())return;status.textContent='Dit formulier is nog niet aangesloten.'});
- form.addEventListener('input',()=>{status.textContent=''});form.querySelector('button[type="submit"]').disabled=false;
 });
 const searchForm=document.querySelector('[data-secondary-search]'),results=document.querySelector('[data-secondary-results]');
 if(searchForm&&results){

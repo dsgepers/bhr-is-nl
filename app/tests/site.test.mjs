@@ -23,7 +23,7 @@ test('Paneelbouw project recommendations retain working links and no markup text
  assert.ok(!page.includes('###'));
  for(const route of ['/projecten/bouwen-afdelingsinstallatie','/projecten/cummins','/projecten/retrofit-oplossingen-in-bestaande-machineframe'])assert.ok(page.includes(`href="${route}"`));
 });
-test('form templates let Static Forms use the visitor email as the reply address',()=>{
+test('form templates let Web3Forms use the visitor email as the reply address',()=>{
  const page=fs.readFileSync(path.join(root,'dist/contact/index.html'),'utf8');
  assert.ok(!page.includes('name="replyTo" value="@"'));
  assert.ok(page.includes('name="email"'));
@@ -65,7 +65,7 @@ test('forms cannot submit before client validation and sending handlers are read
   for(const form of forms){
    const buttons=[...form.matchAll(/<button[^>]*type="submit"[^>]*>/g)].map(m=>m[0]);
    assert.ok(buttons.length);
-   assert.ok(buttons.every(button=>/\sdisabled(?:[\s=>])/.test(button)),`${route} can send a native unconfigured POST`);
+   assert.ok(buttons.every(button=>/\sdisabled(?:[\s=>])/.test(button)),`${route} can send a native POST before redirect configuration`);
    assert.match(form,/<noscript>[\s\S]*href="mailto:info@bhr-is.nl"[\s\S]*<\/noscript>/);
   }
  }

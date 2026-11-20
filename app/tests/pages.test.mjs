@@ -24,13 +24,13 @@ test('Pages preparation prefixes HTML, CSS and JSON values while retaining mobil
  const path=await import('node:path');
  const dir=mkdtempSync(path.join(tmpdir(),'bhr-pages-'));
  try{
-  writeFileSync(path.join(dir,'index.html'),'<a href="/contact"><img src="/assets/a.svg"></a><div style="background:url(/assets/inline.svg)"></div><form action="https://api.staticforms.dev/submit"></form>');
+  writeFileSync(path.join(dir,'index.html'),'<a href="/contact"><img src="/assets/a.svg"></a><div style="background:url(/assets/inline.svg)"></div><form action="https://api.web3forms.com/submit"></form>');
   writeFileSync(path.join(dir,'theme.css'),"a{background:url('/assets/a.svg')}b{mask:url(/assets/b.svg)}");
   writeFileSync(path.join(dir,'mobile-data.json'),JSON.stringify({'/':[{from:'/assets/a.svg',to:'/assets/b.svg'}],'/contact':[]}));
   preparePages(dir,'/bhr-is-nl');
   assert.match(readFileSync(path.join(dir,'index.html'),'utf8'),/href="\/bhr-is-nl\/contact"/);
   assert.match(readFileSync(path.join(dir,'index.html'),'utf8'),/url\(\/bhr-is-nl\/assets\/inline.svg\)/);
-  assert.match(readFileSync(path.join(dir,'index.html'),'utf8'),/https:\/\/api.staticforms.dev\/submit/);
+  assert.match(readFileSync(path.join(dir,'index.html'),'utf8'),/https:\/\/api.web3forms.com\/submit/);
   assert.match(readFileSync(path.join(dir,'theme.css'),'utf8'),/url\('\/bhr-is-nl\/assets\/a.svg'\)/);
   assert.match(readFileSync(path.join(dir,'theme.css'),'utf8'),/url\(\/bhr-is-nl\/assets\/b.svg\)/);
   const data=JSON.parse(readFileSync(path.join(dir,'mobile-data.json'),'utf8'));

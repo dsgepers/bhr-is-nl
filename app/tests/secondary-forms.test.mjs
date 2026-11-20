@@ -16,17 +16,18 @@ test('standalone quote retains every captured option including empty prompts',()
  }
  assert.ok(html.includes('name="subject" value="Offerteaanvraag BHR"'));
 });
-test('unsupported forms cannot bind the configured contact sender',()=>{
- for(const route of ['/nieuws','/test']){
-  const html=read(route),form=html.match(/<form[^>]*data-local-only-form[\s\S]*?<\/form>/)?.[0];assert.ok(form,route);
-  assert.ok(!/class="[^"]*\bstatic-form\b/.test(form));assert.ok(!form.includes('name="subject"')&&!form.includes('name="apiKey"'));
+test('newsletter and alternate quote now use their own Web3Forms purposes',()=>{
+ for(const [route,kind] of [['/nieuws','newsletter'],['/test','quote']]){
+  const html=read(route),form=html.match(new RegExp(`<form[^>]*data-form-submit="${kind}"[\\s\\S]*?<\\/form>`))?.[0];
+  assert.ok(form,route);assert.match(form,/action="https:\/\/api.web3forms.com\/submit"/);
+  assert.ok(!form.includes('data-local-only-form'));
   assert.match(form,/<button[^>]*type="submit"[^>]*disabled/);
  }
 });
 test('vacancy applications keep delivery names, correct job choice and truthful upload limit',()=>{
  for(const [route,title] of [['/vacature/junior-e-plan-engineer','Junior E-Plan Engineer'],['/vacature/monteur-paneelbouw','Monteur Paneelbouw']]){
   const html=read(route);
-  for(const name of ['firstname','lastname','email','phone','birth_day','birth_month','birth_year','birthdate','bewaren','vacature','cv','privacy'])assert.ok(html.includes(`name="${name}"`),name);
+  for(const name of ['firstname','lastname','email','phone','birth_day','birth_month','birth_year','birthdate','bewaren','vacature','attachment','privacy'])assert.ok(html.includes(`name="${name}"`),name);
   assert.ok(html.includes('name="subject" value="Sollicitatieformulier"'));
   assert.ok(html.includes(`name="vacature" value="${title}"`));assert.ok(!html.includes('<select name="vacature"'));assert.ok(html.includes('4MB')&&!html.includes('10MB'));
   assert.equal([...html.matchAll(/<aside class="secondary-employee"/g)].length,1,'the application must not invent a second employee card');

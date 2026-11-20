@@ -16,3 +16,17 @@ test('process-slider pages cannot reuse CSS or modules cached before their lates
   }
  }
 });
+
+test('form delivery modules and recipient settings bypass stale cached versions',()=>{
+ for(const [file,dependency] of [['site.mjs','behavior.mjs'],['behavior.mjs','config.js']]){
+  const source=fs.readFileSync(new URL(`../dist/${file}`,import.meta.url),'utf8');
+  const match=source.match(new RegExp(`from ['"]\\./${dependency.replace('.', '\\.')}\\?v=([a-f0-9]+)['"]`));
+  assert.ok(match,`${file} must version ${dependency}`);
+  const actual=createHash('sha256').update(fs.readFileSync(new URL(`../dist/${dependency}`,import.meta.url))).digest('hex').slice(0,12);
+  assert.equal(match[1],actual);
+ }
+ for(const route of ['contact','nieuws','test','over-ons/werken-bij']){
+  const html=fs.readFileSync(new URL(`../dist/${route}/index.html`,import.meta.url),'utf8');
+  assert.match(html,/src="\/site\.mjs\?v=[a-f0-9]+"/);
+ }
+});

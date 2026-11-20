@@ -10,7 +10,7 @@ npm --prefix app test
 npm --prefix app run verify
 ```
 
-The build generates 76 routes in `app/dist/`. Serve that directory with a static web server, or upload its contents to a static host.
+The build generates 82 routes in `app/dist/`. Serve that directory with a static web server, or upload its contents to a static host.
 
 GitHub Pages deployment is configured in `.github/workflows/pages.yml`. In the GitHub repository, open **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**. Push these changes to the default branch, or run **Deploy GitHub Pages** manually from the Actions tab on that branch. The workflow builds, tests and verifies the site before publishing `app/dist/`. Other branches do not deploy. No deployment secret or package installation is required.
 
@@ -24,7 +24,13 @@ PAGES_BASE_PATH=/bhr-is-nl npm --prefix app run verify
 
 Run the normal build again before running the full test suite, which checks the original root URL output.
 
-Form configuration is in `app/public/config.js`. Without a configured form key, deliverable forms display contact alternatives rather than sending a request. Newsletter and alternate test-quote forms are intentionally local-only.
+All 26 enquiry, service, appointment, quote, job application and newsletter forms use [Web3Forms](https://docs.web3forms.com/getting-started/api-reference). Their shared public access key is `formAccessKey` in `app/public/config.js`; change it and rebuild to replace the destination.
+
+Forms post natively to `https://api.web3forms.com/submit` with `access_key`, a purpose-specific `subject`, an absolute `redirect` and a hidden `botcheck` checkbox. The visitor's `email` supplies the reply address. Existing validation, wizard steps, privacy consent and the 4 MB combined attachment limit are preserved. CV uploads use `attachment` and require Web3Forms PRO. Newsletter requests are emailed for manual processing, with no automatic mailing-list integration.
+
+Each purpose has a styled thank-you page: `/bedankt/contact/`, `/bedankt/service/`, `/bedankt/afspraak/`, `/bedankt/offerte/`, `/bedankt/sollicitatie/` and `/bedankt/nieuwsbrief/`. `redirect` is populated with the absolute URL for the current site, including a repository base path on GitHub Pages. JavaScript supplies that URL before enabling submit; without JavaScript visitors see an email alternative. Edit page copy in `app/thank-you.mjs` and styles in `app/public/thank-you.css`.
+
+For browser verification, serve `app/dist` on port 4173 and run `app/tools/check-forms-browser.py` with a Python environment that has Playwright/Chromium. The tool intercepts every POST locally: it checks the payload and follows a simulated redirect without sending email. It also checks invalid fields, wizard validation, CV uploads, oversized attachments and mobile/desktop thank-you layouts. Actual Web3Forms acceptance and inbox delivery require a separate manual test after publishing; intercepted tests do not verify account entitlements or provider delivery.
 
 Page plans, review decisions and execution notes are in `docs/superpowers/`. Visual parity remains open on some pages and responsive widths; passing the functional tests does not certify visual identity.
 

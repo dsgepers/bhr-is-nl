@@ -24,7 +24,8 @@
  .mobile-header-scrolled{background:white;color:#010e19}
  .mobile-header-scrolled .mobile-circle{border-color:#1a2e5580}
  .mobile-simple-header .mobile-brand{justify-content:center}
- .mobile-back-link{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none;flex:none}
+ .mobile-simple-header.mobile-header-scrolled{color:#1a2e55;box-shadow:0 0 30px #00000026}
+ .mobile-back-link{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none;flex:none;border:0;background:none;padding:0;font:inherit}
  .mobile-back-link>svg{width:44px;height:28px;border:1px solid currentColor;border-radius:20px;padding:5px 12px;box-sizing:border-box;stroke:currentColor;fill:none;transform:rotate(180deg)}
  .mobile-back-link>span{display:none}
  .mobile-simple-header .mobile-brand img{width:82px;height:66px}
@@ -65,6 +66,19 @@
  .mobile-simple-header .mobile-brand img{width:94px}
 }
 @media(prefers-reduced-motion:reduce){.mobile-header,.mobile-drawer[open]{animation:none;transition:none}}
+@media(max-width:767px){
+ .mobile-simple-header,.mobile-simple-header .mobile-header-inner{height:auto}
+ .mobile-simple-header .mobile-header-inner{padding:0 30px;gap:30px;align-items:stretch}
+ .mobile-simple-header .mobile-back-link{width:109px;flex:none;align-self:center;font:500 18px/30px bhr-mobile-roboto,Arial,sans-serif}
+ .mobile-simple-header .mobile-back-link>svg{width:52px;height:30px;padding:5px 15px;flex:none;border-color:#ffffff4d}
+ .mobile-simple-header .mobile-back-link>span{display:inline}
+ .mobile-simple-header .mobile-brand{width:auto;flex:1 1 auto;min-width:0;height:auto;padding:10px 0;align-items:flex-start;justify-content:flex-start}
+ .mobile-simple-header .mobile-brand img{width:187px;height:auto;min-width:0;flex:0 1 auto}
+ .mobile-simple-header .mobile-brand>span{position:relative;top:10px;flex:0 0 84px;min-width:84px;font:600 16px/25.6px bhr-mobile-oxanium,Arial,sans-serif}
+ .mobile-simple-header .mobile-brand-integrator{color:inherit}
+ .mobile-simple-header .mobile-header-actions{flex:none;align-self:center}
+ .mobile-simple-header.mobile-header-scrolled .mobile-back-link>svg{border-color:#1a2e554d}
+}
 /* Phone compositions follow the live corporate-mobile theme. */
 @media(max-width:767px){
  html{overflow-x:clip}
@@ -142,7 +156,7 @@
  body.mobile-ready .parity-form{padding:60px 30px 30px!important}
  body.mobile-ready :is(.parity-form-grid,.static-form:not(.wizard)){display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:30px!important;min-width:0!important;container-type:normal!important}
  body.mobile-ready :is(.parity-form,.static-form) label{min-width:0!important;max-width:100%!important;font:400 14px/17.5px bhr-mobile-roboto,Arial,sans-serif!important;white-space:normal}
- body.mobile-ready :is(.parity-form,.static-form) :where(input:not([name=honeypot]):not([type=checkbox]):not([type=radio]):not([type=hidden]),select,textarea){box-sizing:border-box!important;max-width:100%!important;width:100%!important;min-width:0!important;font:400 14px/17.5px bhr-mobile-roboto,Arial,sans-serif!important;border-radius:5px;height:49.5px;padding:15px;margin-top:15px}
+ body.mobile-ready :is(.parity-form,.static-form) :where(input:not([type=checkbox]):not([type=radio]):not([type=hidden]),select,textarea){box-sizing:border-box!important;max-width:100%!important;width:100%!important;min-width:0!important;font:400 14px/17.5px bhr-mobile-roboto,Arial,sans-serif!important;border-radius:5px;height:49.5px;padding:15px;margin-top:15px}
  body.mobile-ready :is(.parity-form,.static-form) textarea{height:57px}
  body.mobile-ready :is(.parity-form,.static-form) .button{font:500 14px/18.2px bhr-mobile-roboto,Arial,sans-serif!important;min-height:39px;padding:10px 20px}
  body.mobile-ready :is(.parity-form,.static-form) button[type=submit]{width:100%!important}
@@ -485,7 +499,7 @@
  body.mobile-ready :is(.parity-form,.secondary-form){width:100%!important;min-width:0!important;max-width:100%!important;padding:60px 50px!important;box-sizing:border-box}
  body.mobile-ready :is(.parity-form-grid,.secondary-form .parity-form-grid){display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:30px!important;width:100%!important;container-type:normal!important}
  body.mobile-ready .parity-form-grid>label,body.mobile-ready .parity-form-grid>.full{width:100%!important;max-width:100%!important;min-width:0!important;grid-column:1/-1!important}
- body.mobile-ready :is(.parity-form,.secondary-form) :where(input:not([name=honeypot]):not([type=checkbox]):not([type=radio]):not([type=hidden]),select,textarea){width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box}
+ body.mobile-ready :is(.parity-form,.secondary-form) :where(input:not([type=checkbox]):not([type=radio]):not([type=hidden]),select,textarea){width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box}
  body.mobile-ready :is(.parity-person>img,.secondary-employee>img){width:80px!important;height:80px!important;flex:none}
  body.mobile-ready .secondary-employee>div{min-width:0!important;flex:1}
  body.mobile-ready :is(.parity-birthdate>div,.parity-birth>div){display:flex!important;gap:10px!important}

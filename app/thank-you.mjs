@@ -1,0 +1,19 @@
+import {esc,link} from './components.mjs';
+import {formDefinitions} from './public/config.js';
+
+export const thankYouContent={
+ contact:{eyebrow:'Bericht ontvangen',title:'Bedankt voor je <span>bericht.</span>',intro:'Fijn dat je contact met ons opneemt. We hebben je bericht ontvangen en nemen zo spoedig mogelijk contact met je op.',step:'We denken met je mee',detail:'Een van onze specialisten bekijkt je vraag en neemt contact met je op via de gegevens die je hebt achtergelaten.',label:'Bekijk onze projecten',href:'/projecten'},
+ quick:{eyebrow:'Contactverzoek ontvangen',title:'We helpen je <span>graag verder.</span>',intro:'Bedankt voor je contactverzoek. We nemen zo spoedig mogelijk contact met je op om je vraag over service of onderhoud te bespreken.',step:'Samen weer vooruit',detail:'We bespreken wat je nodig hebt en kijken welke ondersteuning past bij jouw installatie.',label:'Service en onderhoud',href:'/service-en-onderhoud'},
+ appointment:{eyebrow:'Afspraak aangevraagd',title:'Een goed gesprek <span>begint hier.</span>',intro:'Bedankt voor je afspraakaanvraag. We nemen contact met je op om een geschikt moment te plannen.',step:'We stemmen de afspraak met je af',detail:'Je afspraak staat nog niet vast. We bespreken eerst je vraag en bevestigen samen een datum en tijd.',label:'Ontdek onze expertises',href:'/expertises'},
+ quote:{eyebrow:'Offerteaanvraag ontvangen',title:'Jouw volgende stap <span>begint hier.</span>',intro:'Bedankt voor je aanvraag. We hebben je gegevens en specificaties ontvangen en bekijken graag de mogelijkheden voor jouw project.',step:'Van aanvraag naar een passende oplossing',detail:'Een specialist bekijkt je wensen. We nemen contact op om de details en eventuele aanvullende vragen met je door te nemen.',label:'Bekijk onze projecten',href:'/projecten'},
+ application:{eyebrow:'Sollicitatie ontvangen',title:'Bedankt voor jouw <span>interesse!</span>',intro:'Leuk dat je bij BHR wilt werken. We hebben je sollicitatie ontvangen en kijken ernaar uit om meer over je te ontdekken.',step:'We bekijken je sollicitatie',detail:'We nemen je gegevens en documenten door. Daarna nemen we contact met je op over een mogelijke volgende stap.',label:'Meer over werken bij BHR',href:'/over-ons/werken-bij'},
+ newsletter:{eyebrow:'Aanmelding ontvangen',title:'Blijf verbonden <span>met BHR.</span>',intro:'Bedankt voor je interesse in onze nieuwsbrief. We hebben je verzoek om je aan te melden ontvangen.',step:'We verwerken je aanmelding',detail:'We verwerken je verzoek en houden je graag op de hoogte van nieuws, projecten en ontwikkelingen bij BHR.',label:'Lees het laatste nieuws',href:'/nieuws'}
+};
+
+export function thankYouPage(kind){
+ const content=thankYouContent[kind];
+ if(!content)throw Error(`Unknown thank-you page: ${kind}`);
+ return `<main class="thank-you-main"><section class="thank-you-hero"><div class="thank-you-stripes" aria-hidden="true"><i></i><i></i><i></i></div><div class="container thank-you-layout"><div class="thank-you-copy"><div class="thank-you-confirmation"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m8 16 5 5 11-12"/></svg><span>${esc(content.eyebrow)}</span></div><h1>${content.title}</h1><p>${esc(content.intro)}</p><nav aria-label="Verder ontdekken">${link(content.label,content.href)}${link('Naar de homepage','/','thank-you-home')}</nav></div><aside class="thank-you-next"><div class="eyebrow">Hoe gaat het verder?</div><span class="thank-you-step" aria-hidden="true">01</span><h2>${esc(content.step)}</h2><p>${esc(content.detail)}</p><div class="thank-you-call"><span>Liever direct contact?</span><a href="tel:+31162238834">+31 (0)162 - 23 88 34 <span aria-hidden="true">↗</span></a></div></aside></div></section></main>`;
+}
+
+export const thankYouRoutes=Object.entries(formDefinitions).map(([kind,definition])=>({kind,url:definition.next.replace(/\/$/,''),title:thankYouContent[kind].eyebrow}));

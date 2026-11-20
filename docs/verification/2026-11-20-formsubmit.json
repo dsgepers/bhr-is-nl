@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-20",
+  "recipient": "dennis@schepe.rs",
+  "provider": "https://formsubmit.co/",
+  "documentation": [
+    "https://formsubmit.co/documentation",
+    "https://formsubmit.co/"
+  ],
+  "forms": {
+    "contact": 14,
+    "quick": 1,
+    "appointment": 1,
+    "quote": 5,
+    "application": 4,
+    "newsletter": 1
+  },
+  "thankYouPages": [
+    "/bedankt/contact/",
+    "/bedankt/service/",
+    "/bedankt/afspraak/",
+    "/bedankt/offerte/",
+    "/bedankt/sollicitatie/",
+    "/bedankt/nieuwsbrief/"
+  ],
+  "verification": {
+    "buildRoutes": 82,
+    "testsPassed": 138,
+    "testsFailed": 0,
+    "localLinks": 3757,
+    "imageScriptReferences": 1650,
+    "rootBrowserSubmissions": 22,
+    "repositoryBrowserSubmissions": 22,
+    "startupCases": 5,
+    "viewports": [
+      [
+        1920,
+        1080
+      ],
+      [
+        430,
+        932
+      ]
+    ],
+    "formRequestsDispatchedToProvider": 0,
+    "checked": [
+      "native multipart payloads",
+      "all six form purposes",
+      "absolute _next redirects",
+      "repository base path",
+      "wizard step validation",
+      "impossible date rejection",
+      "CV attachments",
+      "4 MB combined limit",
+      "honeypot rejection",
+      "mobile header contrast",
+      "thank-you page horizontal overflow",
+      "no browser errors",
+      "HTML preservation outside intended form/config markup and asset versions"
+    ]
+  },
+  "localEvidence": [
+    "checks/formsubmit-2026-11-20/browser/results.json",
+    "checks/formsubmit-2026-11-20/pages-browser/results.json"
+  ],
+  "manualStep": "Submit once on the published site and confirm the activation email sent to the recipient. Real provider/inbox delivery was not exercised.",
+  "publication": "Local source/build only; no commit, push or deployment."
+}

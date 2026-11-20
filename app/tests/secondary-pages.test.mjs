@@ -23,7 +23,8 @@ test('secondary layout loads scoped assets, exact metadata and support links',()
  assert.ok(html.includes('rel="canonical" href="https://www.bhr-is.nl/example"'));
  assert.ok(html.indexOf('/secondary-parity.css')>html.indexOf('/parity.css'));
  assert.ok(html.includes('src="/secondary.mjs"'));
- assert.ok(html.includes('href="/pagina-niet-gevonden"'));
+ assert.ok(html.includes('data-history-back'));
+ assert.ok(!html.includes('href="/pagina-niet-gevonden"'));
  assert.ok(html.includes('href="/privacy"'));
  const old=layout('Old','<h1>Old</h1>','secondary parity-page');
  assert.ok(!old.includes('/secondary.mjs')&&!old.includes('/secondary-parity.css'));
