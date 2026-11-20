@@ -71,6 +71,12 @@ function enhanceMobile(){
    if(e.target.closest('a[href]'))close();
   });
  }
+ const footerSocial=document.querySelector('.site-footer>.container>.social-links')?.cloneNode(true);
+ if(footerSocial){
+  footerSocial.classList.add('mobile-footer-socials');
+  footerSocial.querySelectorAll('a').forEach((a,i)=>a.replaceChildren(Object.assign(document.createElement('img'),{src:`/assets/images/${['facebook','linkedin','instagram'][i]}.svg`,alt:''})));
+  document.querySelector('.footer-info')?.append(footerSocial);
+ }
  body.prepend(header);body.classList.add('mobile-ready');
  phoneViewport.addEventListener('change',applyPhoneMedia);applyPhoneMedia();
  const updateHeader=()=>{
@@ -78,7 +84,7 @@ function enhanceMobile(){
   header.querySelector('.mobile-brand img').src=`/assets/images/bhr-brand${dark?'':'-white'}.svg`;
  };
  addEventListener('scroll',updateHeader,{passive:true});addEventListener('resize',updateHeader);updateHeader();
- return()=>{close();restoreScroll();restoreImages();phoneViewport.removeEventListener('change',applyPhoneMedia);removeEventListener('scroll',updateHeader);removeEventListener('resize',updateHeader);header.remove();drawer?.remove();body.classList.remove('mobile-ready')};
+ return()=>{close();restoreScroll();restoreImages();phoneViewport.removeEventListener('change',applyPhoneMedia);removeEventListener('scroll',updateHeader);removeEventListener('resize',updateHeader);footerSocial?.remove();header.remove();drawer?.remove();body.classList.remove('mobile-ready')};
 }
 function syncMobile(){if(mobileViewport.matches){if(!teardown)teardown=enhanceMobile()}else if(teardown){teardown();teardown=null;}}
 mobileViewport.addEventListener('change',syncMobile);syncMobile();
