@@ -85,9 +85,9 @@
 
 **Files:**execution ledger/review package and relevant tested fixes.
 **Consumes:** full task evidence and spec Review Focus. **Produces:**one fresh whole-change code review,one RED→GREEN Important/Critical fix pass,green suite, final report.
-- [ ] Dispatch the required fresh reviewer on the most capable available model with plan/spec,full range and Review Focus. No per-task reviewers.
-- [ ] Grade findings by user effect;fix Important/Critical once with observed regression tests. Ledger deferred Minors and any rulings.
-- [ ] Repeat affected visual/desktop checks after fixes;run full tests and route/asset verifier. Keep local branch and evidence under the user's preapproved local execution scope;no publish/push/merge.
+- [x] Dispatch the required fresh reviewer on the most capable available model with plan/spec,full range and Review Focus. No per-task reviewers.
+- [x] Grade findings by user effect;fix Important/Critical once with observed regression tests. Ledger deferred Minors and any rulings.
+- [x] Repeat affected visual/desktop checks after fixes;run full tests and route/asset verifier. Keep local branch and evidence under the user's preapproved local execution scope;no publish/push/merge.
 
 ## Per-page plan
 

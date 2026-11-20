@@ -13,11 +13,12 @@ with sync_playwright()as p:
  c.route('**/*',lambda r:r.abort()if r.request.method not in ['GET','HEAD','OPTIONS']else r.continue_())
  if args.role=='reference':c.add_cookies([{'name':'device','value':args.mode,'domain':'www.bhr-is.nl','path':'/'},{'name':'cookieconsent_status','value':'deny','domain':'www.bhr-is.nl','path':'/'}])
  else:c.add_init_script("localStorage.setItem('bhr-cookie-consent','denied')")
- page=c.new_page();served=observe_served(page)if args.role=='candidate'else[];page.goto('https://www.bhr-is.nl/'if args.role=='reference'else'http://localhost:4173/',wait_until='networkidle');page.evaluate('document.fonts.ready');page.add_style_tag(content='#banner_header>.tns-item{opacity:0!important;visibility:hidden!important}#banner_header>#banner_header-item0{opacity:1!important;visibility:visible!important;left:0!important;z-index:2!important}')
+ page=c.new_page();served=observe_served(page)if args.role=='candidate'else[];page.goto('https://www.bhr-is.nl/'if args.role=='reference'else'http://localhost:4173/',wait_until='networkidle');page.evaluate('document.fonts.ready');page.add_style_tag(content='#banner_header>.tns-item{opacity:0!important;visibility:hidden!important}#banner_header>#banner_header-item0{opacity:1!important;visibility:visible!important;left:0!important;z-index:2!important}.home .slide{opacity:0!important;visibility:hidden!important}.home .slide[data-slide="0"]{opacity:1!important;visibility:visible!important;z-index:2!important}')
  def snap(name):
   page.wait_for_timeout(650);page.screenshot(path=str(out/(args.role+'-'+name+'.png')))
   data=page.evaluate("""()=>{const box=e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return{cls:e.className,text:e.innerText,box:r.toJSON(),size:s.fontSize,line:s.lineHeight,padding:s.padding,margin:s.margin,color:s.color,bg:s.backgroundColor}};const r=document.querySelector('#headerFancyNav,.mobile-drawer');return{viewport:{width:innerWidth,height:innerHeight,dpr:devicePixelRatio,scale:visualViewport.scale},items:r?[...r.querySelectorAll('button,a,.Heading,.fancyTop,.fancyMiddle,.fancyBottom')].filter(e=>e.getBoundingClientRect().width).map(box):[]}}""")
   assert data['viewport']['width']==w and data['viewport']['height']==h and data['viewport']['dpr']==1 and data['viewport']['scale']==1,data['viewport']
+  data['normalization']='Native viewport, fixed first hero image on both sides; no full-page tiling or masks'
   data['styles']=page.evaluate('[...document.styleSheets].map(s=>s.href)')
   if args.role=='reference':assert_source_theme(data['styles'],args.mode)
   else:

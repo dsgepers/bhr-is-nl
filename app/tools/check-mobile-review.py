@@ -76,6 +76,11 @@ class ReviewTests(unittest.TestCase):
   for index,expected in enumerate([4908.71875,5829.0625,6735.40625]):
    box=p.locator('.how-image img').nth(index).bounding_box();self.assertAlmostEqual(box['y']+p.evaluate('scrollY'),expected,delta=2)
   self.go('/bordenbouwer');self.assertEqual(p.locator('.secondary-article.secondary-reverse').first.evaluate('e=>getComputedStyle(e).paddingTop'),'60px')
+ def test_08b_service_photo_strip_and_faq_container(self):
+  self.go('/service-en-onderhoud');p=self.page
+  with self.subTest(component='photo strip'):self.assertAlmostEqual(p.locator('.parity-testimonial-image').bounding_box()['height'],390*890/1920,delta=1)
+  with self.subTest(component='FAQ container'):
+   box=p.locator('.parity-faq h2').bounding_box();self.assertAlmostEqual(box['x'],30,delta=1);self.assertAlmostEqual(box['width'],330,delta=1)
  def test_09_tablet_compositions(self):
   p=self.page;p.set_viewport_size({'width':768,'height':1024});self.go('/');self.assertEqual(p.locator('.hero-title').first.evaluate('e=>getComputedStyle(e).fontSize'),'45px');self.go('/over-ons');slide=p.locator('[data-timeline-track]>article').first
   im=slide.locator('img').bounding_box();copy=slide.locator(':scope>div').bounding_box();self.assertAlmostEqual(im['width'],433,delta=2);self.assertGreater(copy['y'],im['y']+im['height']-1);self.assertAlmostEqual(copy['width'],353,delta=2)

@@ -36,16 +36,42 @@ Task6 evidence complete: reviewed is the definitive capture phase. All76 local19
 
 Task7: the sole fresh whole-change reviewer (gpt-6.2-astra/high) requested changes on31188e8..1ffd94d:0 Critical,11 Important,1 Minor. One executor fix pass addresses the concrete issues;11 native review regressions pass after observed RED cases, plus132 node tests and verifier. New source measurements recover div.h1 lead titles, mobile/tablet process composition and per-section geometry. All76 phone routes pass the full14-method browser invocation;native form/control sweep11 routes sends zero deliveries. The original reviewer has not re-reviewed or approved the fixes. Full finding/response record:2026-11-20-mobile-code-review.md. Final stronger-identity review-fixed captures are running;older reviewed captures are superseded.
 
-Ruling: Keep the existing desktop process carousel intact and render the three observed process steps as a separate reversible mobile composition — the old renderer mixes process/job records and a global correction would alter approved desktop pixels — cost: a separate small native-scroll controller needs maintenance.
+Final: Ruling: Keep the existing desktop process carousel intact and render the three observed process steps as a separate reversible mobile composition — the old renderer mixes process/job records and a global correction would alter approved desktop pixels — cost: a separate small native-scroll controller needs maintenance.
 
-Ruling: Keep quote question semantics, payload names and native validation while matching phone presentation — the approved plan explicitly preserves current form contracts — cost: question wording/options and live CMS integration remain visually different and OPEN.
+Final: Ruling: Keep quote question semantics, payload names and native validation while matching phone presentation — the approved plan explicitly preserves current form contracts — cost: question wording/options and live CMS integration remain visually different and OPEN.
 
-Ruling: Preserve local pages for the three source404 counterparts and leave their likeness unscored — no valid live reference exists — cost: their mobile likeness cannot be certified.
+Final: Ruling: Preserve local pages for the three source404 counterparts and leave their likeness unscored — no valid live reference exists — cost: their mobile likeness cannot be certified.
 
-Ruling: Limit desktop acceptance to immutable local before/after pixels — pre-existing public-site desktop gaps are outside this mobile phase — cost: zero regression does not certify live desktop parity.
+Final: Ruling: Limit desktop acceptance to immutable local before/after pixels — pre-existing public-site desktop gaps are outside this mobile phase — cost: zero regression does not certify live desktop parity.
 
-Ruling: Keep form delivery, external-recipient verification and deployment outside this visual task — existing contracts and preapproved local execution are retained — cost: delivery/deployment readiness is unverified.
+Final: Ruling: Keep form delivery, external-recipient verification and deployment outside this visual task — existing contracts and preapproved local execution are retained — cost: delivery/deployment readiness is unverified.
 
-Ruling: Report Chromium device emulation without claiming physical Safari/Android verification — no physical-device evidence is available — cost: hardware/browser-engine-specific behavior remains unverified.
+Final: Ruling: Report Chromium device emulation without claiming physical Safari/Android verification — no physical-device evidence is available — cost: hardware/browser-engine-specific behavior remains unverified.
 
 Final fix verification:11/11 review browser regressions GREEN and132/132 Node tests GREEN;verifier76 routes/3543 links/1655 references. Concrete findings1–11 retained Important and addressed in one fix pass. The inventory-height clarification was a necessary schema change for Important11, so the related Minor observation required no separate polish pass. No deferred code-review minors. New native first-screen inspection exposed the inherited425px homepage paragraph;its width/font regression was RED→GREEN. Measured source32px phone/45px tablet slogan typography and original palette bands now apply. The three homepage work-image starts match independent source coordinates within2px. The stricter evidence checker discovered five inconsistent old supplementary references;they were recaptured with dimensions required to stabilize before inventory is accepted. A wizard-style leak was reproduced RED and narrowed to the intended two legacy quote pages;the full11-case suite is GREEN after that correction. Handoff is the definitive final candidate capture phase;all prior final-mobile/review-fixed/reviewed phases are development evidence.
+
+Final: fixed review finding 1 — back_history_and_direct_entry RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 2 — focus_is_visible_and_survives_rotation RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 3 — first_visit_consent_owns_focus RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 4 — failed_module_retains_destinations RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 5 — touch_swipes_use_existing_carousel_state RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 6 — missing_phone_image_retains_original RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 7 — phone_hero_and_intro_geometry RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 8 — home_cues_and_article_sections + service_photo_strip_and_faq_container RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 9 — tablet_compositions RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 10 — quote_progress_and_compact_search RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: fixed review finding 11 — evidence_rejects_wrong_served_bytes RED→GREEN, suite132/132;review browser suite12/12.
+
+Final: no deferred code-review minors. The duplicate-height observation was resolved as part of the required evidence schema fix. The remaining per-page visual OPEN gates are reported separately and are not represented as passing or reclassified as minors.
+
+Task7 execution complete: final handoff buildf8589742e345a3977a593167018759b27045aed156f1c901e15dac8c61269dc7. All six profile reports use this one build and verified served bytes. Desktop1920:76/76 PASS with zero changed pixels;1440:16/16 PASS;phone→1920 rotation:6/6 PASS. Phone390:73 OPEN,3 source404 unscored;360/430:21 OPEN each;tablet768:8 OPEN. These are unresolved visual acceptance gates, not passing results. All73 primary pairs re-inspected in13 final contact sheets;representative overlays/heatmaps/native states inspected;fresh standalone gallery previewed and rendered inline.12 review regressions,132 node tests,full14-method phone invocation across76 routes,14-method tablet invocation and360/430 family cases pass. No source form delivery. All11 Important concrete review findings have tested fixes;no second reviewer verdict is claimed. Local mobile-parity branch and dev checkout are preserved. Global visual-diff skill unchanged;repo-local helpers carry device/identity/stability normalization and reporting.
