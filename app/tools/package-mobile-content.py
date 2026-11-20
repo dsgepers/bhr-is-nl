@@ -15,7 +15,7 @@ for row in routes:
  path=BASE/row['key']/'mobile/reference.html'
  if not path.exists():continue
  soup=BeautifulSoup(path.read_text(),'html.parser');records=[]
- for heading in soup.select('.maincontainer h1,.maincontainer h2,.maincontainer h3,.maincontainer h4'):
+ for heading in soup.select('.maincontainer h1,.maincontainer h2,.maincontainer h3,.maincontainer h4,.maincontainer div.h1'):
   values=[]
   def walk(node):
    if isinstance(node,NavigableString):values.append(str(node))
@@ -31,7 +31,13 @@ for row in routes:
  if row['route']not in ['/expertises/paneelbouw','/expertises/retrofit']:continue
  record={'branches':[]};seen=set()
  quote=next((r['text']for r in records if r['text'].startswith('Bereken direct de investering')),None)
- if quote:record['quoteTitle']=quote
+ if quote:
+  record['quoteTitle']=quote
+  title=next((h for h in soup.select('h3')if h.get_text(' ',strip=True)==quote),None)
+  intro=title.parent.select_one('.Intro')if title else None
+  if intro:record['quoteIntro']=intro.get_text(' ',strip=True)
+ lead=soup.select_one('.maincolumn>.inner>.Heading')
+ if lead:record['lead']={'title':lead.select_one('.left .h1').get_text(' ',strip=True),'text':lead.select_one('.Content').get_text(' ',strip=True)}
  for article in soup.select('article.Branche'):
   image=article.find('img');anchor=article.find('a',href=True);title=article.find(['h2','h3'])
   if image and anchor and title and anchor['href']not in seen:

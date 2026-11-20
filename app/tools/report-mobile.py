@@ -7,13 +7,14 @@ import argparse,base64,hashlib,html,importlib.util,json,sys
 from pathlib import Path
 from types import SimpleNamespace
 from PIL import Image,ImageChops,ImageDraw
+from mobile_evidence import build_identity
 ROOT=Path(__file__).resolve().parents[2];BASE=ROOT/'checks/mobile-parity-2026-11-20'
 p=argparse.ArgumentParser();p.add_argument('--mode',default='mobile');p.add_argument('--candidate-phase',default='final');p.add_argument('--reference-phase',default='baseline');p.add_argument('--output',default='report');p.add_argument('--route',action='append');args=p.parse_args()
 sp=importlib.util.spec_from_file_location('mobile_diff',Path.home()/'.codex/skills/visual-diff/scripts/compare_page.py');skill=importlib.util.module_from_spec(sp);sys.modules[sp.name]=skill;sp.loader.exec_module(skill)
 out=BASE/args.output/args.mode;out.mkdir(parents=True,exist_ok=True);desktop=args.mode in ['desktop','laptop'];refrole='candidate'if desktop else'reference'
 routes=json.loads((BASE/'routes.json').read_text());routes=[r for r in routes if not args.route or r['route']in args.route]
 if args.mode!='mobile'and not args.route:routes=[r for r in routes if(BASE/args.reference_phase/r['key']/args.mode/(refrole+'.json')).exists()]
-rows=[];sheets=[]
+rows=[];sheets=[];expectedRevision=build_identity(ROOT)
 for r in routes:
  refdir=BASE/args.reference_phase/r['key']/args.mode;canddir=BASE/args.candidate_phase/r['key']/args.mode;ref=refdir/(refrole+'.png');cand=canddir/'candidate.png'
  if not(refdir/(refrole+'.json')).exists()or not(canddir/'candidate.json').exists():
@@ -21,13 +22,22 @@ for r in routes:
  rd=json.loads((refdir/(refrole+'.json')).read_text());cd=json.loads((canddir/'candidate.json').read_text())
  if rd.get('status',200)>=400:
   rows.append({**r,'status':'REFERENCE UNAVAILABLE','httpStatus':rd['status']});continue
- capture=json.loads((canddir/'capture.json').read_text());dest=out/r['key'];dest.mkdir(exist_ok=True)
+ capture=json.loads((canddir/'capture.json').read_text())
+ evidence=capture.get('expectedRevision')==expectedRevision and expectedRevision and capture.get('revisionBefore')==expectedRevision and capture.get('revisionAfter')==expectedRevision and cd.get('buildRevision')==expectedRevision and cd.get('servedResources') and not(canddir/'error.json').exists()
+ if not evidence:
+  rows.append({**r,'status':'INVALID EVIDENCE','failures':['candidate identity incomplete, stale, failed or inconsistent']});continue
+ dest=out/r['key'];dest.mkdir(exist_ok=True)
  ri=Image.open(ref).convert('RGB');ci=Image.open(cand).convert('RGB');equal=ri.size==ci.size and ImageChops.difference(ri,ci).getbbox()is None
  if desktop and equal:
   diff={'mismatchPercent':0,'ssimEstimate':1,'sameSize':True,'referenceSize':{'width':ri.width,'height':ri.height},'candidateSize':{'width':ci.width,'height':ci.height}}
  else:
   diff=skill.compare_images(ref,cand,skill.ViewportSpec(args.mode,rd['viewport']['width'],rd['viewport'].get('viewportHeight',844),1),dest,SimpleNamespace(background='#ffffff',threshold=0 if desktop else 5,zoom_rect=[],color_pick=[],color_pick_rect=[]))
  heightDelta=ci.height-ri.height
+ assert ri.width==rd['viewport']['width'] and ri.height==rd['viewport'].get('documentHeight',rd['viewport'].get('height')),'reference image/inventory size mismatch'
+ assert cd['viewport']['dpr']==rd['viewport']['dpr']==1 and cd['viewport']['scale']==rd['viewport']['scale']==1,'unexpected zoom/DPR'
+ assert ci.width==cd['viewport']['width'] and ci.height==cd['viewport']['documentHeight'],'candidate image/inventory size mismatch'
+ assert cd['viewport']['width']==rd['viewport']['width'],'wrong capture width'
+ if not desktop:assert any('corporate-'+('tablet'if args.mode=='tablet'else'mobile')in(s or'')for s in rd['styles']),'wrong reference theme'
  zoom=all(abs(rd['viewport'][x]-cd['viewport'][x])<.001 for x in ['dpr','scale'])
  failures=[]
  if capture['revisionChanged']:failures.append('candidate revision changed during capture')
@@ -62,3 +72,5 @@ for r in rows:
  if 'diff'in r:body.append(f'<div class="pair"><a href="{r["reference"]}"><img loading="lazy" src="{key}/reference.jpg" alt="Reference"></a><a href="{r["candidate"]}"><img loading="lazy" src="{key}/candidate.jpg" alt="Candidate"></a></div><p>'+html.escape('; '.join(r['failures'])or'All applicable gates pass')+'</p>')
  body.append('</details>')
 (out/'report.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><title>BHR visual comparison</title><style>body{font:16px/1.5 system-ui;max-width:1000px;margin:auto;padding:24px}summary{cursor:pointer;padding:12px;border-bottom:1px solid #ddd}.pair{display:flex;gap:20px;align-items:flex-start}.pair a{width:50%}.pair img{width:100%;height:auto}</style><h1>BHR '+args.mode+' comparison</h1><p>Left: reference. Right: local. Every route has an independent gate; OPEN means the strict target is not met.</p>'+''.join(body)+'</html>')
+
+raise SystemExit(any(r["status"]in["MISSING CAPTURE","INVALID EVIDENCE"]for r in rows))
