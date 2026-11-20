@@ -73,7 +73,7 @@ def screenshot(page, **kwargs):
         if target == 0:
             # A stylesheet survives CMS/Vue scroll handlers rewriting inline
             # visibility/opacity and also catches floating clones created later.
-            page.evaluate("""() => {const style=document.createElement('style');style.id='bhr-tiling-hide-floating';style.textContent='header.site-header,header.Element,.stickycolumn,[data-project-sticky],[data-job-sticky]{visibility:hidden!important;opacity:0!important}';document.head.append(style)}""")
+            page.evaluate("""() => {const style=document.createElement('style');style.id='bhr-tiling-hide-floating';style.textContent='header.site-header,header.mobile-header,header.Element,.stickycolumn,[data-project-sticky],[data-job-sticky]{visibility:hidden!important;opacity:0!important}';document.head.append(style)}""")
         if actual + viewport_height >= height:
             break
     page.evaluate("""() => {document.querySelector('#bhr-tiling-hide-floating')?.remove();scrollTo(0,0)}""")
