@@ -1,19 +1,16 @@
+import {formDefinitions} from './config.js';
 export function searchPages(pages,query){const n=x=>String(x).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const terms=n(query).trim().split(/\s+/).filter(Boolean);return terms.length?pages.filter(p=>terms.every(t=>n(`${p.title} ${p.text||''}`).includes(t))):[];}
 export function stepTarget(current,direction,total){return Math.max(0,Math.min(total-1,current+direction));}
-export async function submitStaticForm(data,config={},fetcher=fetch){
- const key=String(config.formKeys?.[data.get('subject')]||config.staticFormsKey||'').trim();
- if(!key)return {ok:false,reason:'unconfigured'};
- if(String(data.get('honeypot')||'').trim())return {ok:false,reason:'honeypot'};
- const files=[...data.values()].filter(v=>typeof File!=='undefined'&&v instanceof File&&v.size);
+export function formSubmitSettings(kind,siteRoot){
+ if(!Object.hasOwn(formDefinitions,kind))throw Error(`Unknown form: ${kind}`);
+ const definition=formDefinitions[kind];
+ return {action:'https://api.web3forms.com/submit',subject:definition.subject,next:new URL(definition.next.slice(1),siteRoot).href};
+}
+export function validateFormSubmit(data){
+ if(data.get('botcheck'))return {ok:false,reason:'honeypot'};
+ const files=[...data.values()].filter(value=>typeof File!=='undefined'&&value instanceof File&&value.size);
  if(files.reduce((total,file)=>total+file.size,0)>4*1024*1024)return {ok:false,reason:'files'};
- data.set('apiKey',key);
- try{
-  const response=await fetcher(config.staticFormsEndpoint||'https://api.staticforms.dev/submit',{
-   method:'POST',body:data,headers:{Accept:'application/json'},signal:AbortSignal.timeout(20000)
-  });
-  const result=await response.json();
-  return response.ok&&result.success===true?{ok:true}:{ok:false,reason:'delivery'};
- }catch{return {ok:false,reason:'delivery'}}
+ return {ok:true};
 }
 
 export function bindFormStatusReset(form,status){

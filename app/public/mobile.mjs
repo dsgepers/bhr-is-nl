@@ -13,7 +13,7 @@ function enhanceMobile(){
  const header=document.createElement('header');header.className='mobile-header'+(simple?' mobile-simple-header':'');
  const phone=`<a class="mobile-circle mobile-phone" href="tel:+31162238834" aria-label="Bel BHR">${phoneIcon}</a>`;
  const toggle='<button type="button" class="mobile-circle mobile-menu-icon" data-mobile-open aria-label="Menu openen" aria-controls="mobile-navigation" aria-expanded="false"><span></span><span class="visually-hidden">Menu</span></button>';
- header.innerHTML=siteMarkup(`<div class="mobile-header-inner">${simple?`<a data-mobile-back-link class="mobile-back-link" href="/" aria-label="Terug">${arrowIcon}<span>Terug</span></a>`:''}${brandMarkup()}<div class="mobile-header-actions">${phone}${simple?'':'<a class="mobile-circle mobile-search" href="/zoeken" aria-label="Zoeken"><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="m18 18 9 9"/></svg></a>'+toggle+'<a class="mobile-tablet-appointment" href="/afspraak-maken">Afspraak maken</a>'}</div></div>`);
+ header.innerHTML=siteMarkup(`<div class="mobile-header-inner">${simple?`<button type="button" data-mobile-back-link data-history-back class="mobile-back-link" aria-label="Terug">${arrowIcon}<span>Terug</span></button>`:''}${brandMarkup()}<div class="mobile-header-actions">${phone}${simple?'':'<a class="mobile-circle mobile-search" href="/zoeken" aria-label="Zoeken"><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="m18 18 9 9"/></svg></a>'+toggle+'<a class="mobile-tablet-appointment" href="/afspraak-maken">Afspraak maken</a>'}</div></div>`);
  let drawer,opener,arrangePanels,isOpen=false,storedY=0,savedBody,active=true;
  const previousRoute=body.getAttribute('data-mobile-route');body.dataset.mobileRoute=routePath(location.pathname);
  const phoneViewport=matchMedia('(max-width: 767px)'),changedImages=new Map();
@@ -139,11 +139,6 @@ function enhanceMobile(){
   document.querySelector('.footer-info')?.append(footerSocial);
  }
  const skip=body.querySelector(':scope>.skip-link');if(skip)skip.after(header);else body.prepend(header);body.classList.add('mobile-ready');
- const back=header.querySelector('[data-mobile-back-link]');back?.addEventListener('click',event=>{
-  if(event.button||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
-  let previous;try{previous=new URL(document.referrer)}catch{}
-  if(previous?.origin===location.origin&&previous.pathname!==location.pathname&&history.length>1){event.preventDefault();history.back()}
- });
  const revealFocus=()=>{
   const target=document.activeElement;if(!active||!target||header.contains(target)||drawer?.contains(target)||target.closest('#cookie-layer,.skip-link,[data-job-sticky],[data-project-sticky]'))return;
   let top=header.getBoundingClientRect().bottom;
@@ -191,7 +186,7 @@ function enhanceMobile(){
 
  phoneViewport.addEventListener('change',applyDeviceMedia);applyDeviceMedia();
  const updateHeader=()=>{
-  const dark=scrollY>20||innerWidth>=768;header.classList.toggle('mobile-header-scrolled',dark);
+  const dark=body.classList.contains('thank-you-page')||(simple?scrollY>=10:scrollY>20)||innerWidth>=768;header.classList.toggle('mobile-header-scrolled',dark);
   header.querySelector('.mobile-brand img').src=siteUrl(`/assets/images/bhr-brand${dark?'':'-white'}.svg`);
  };
  addEventListener('scroll',updateHeader,{passive:true});addEventListener('resize',updateHeader);updateHeader();

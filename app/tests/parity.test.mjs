@@ -86,7 +86,7 @@ test('parity form requirements match their visible contact and application field
   const textarea=page(route).match(/<textarea[^>]*name="message"[^>]*>/)?.[0];assert.ok(textarea);assert.ok(!textarea.includes('required'),`${route}: message is optional`);
  }
  const job=page('over-ons/werken-bij');
- for(const name of ['cv','bewaren','vacature'])assert.match(job,new RegExp(`<(?:input|select)[^>]*name="${name}"[^>]*\\brequired\\b`),`${name} is required`);
+ for(const name of ['attachment','bewaren','vacature'])assert.match(job,new RegExp(`<(?:input|select)[^>]*name="${name}"[^>]*\\brequired\\b`),`${name} is required`);
 });
 test('a looping carousel wraps both ways without changing bounded step navigation',()=>{
  assert.equal(behavior.carouselTarget?.(7,1,8,true),0);

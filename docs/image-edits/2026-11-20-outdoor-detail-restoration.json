@@ -1,0 +1,708 @@
+{
+  "date": "2026-11-20",
+  "scope": "Four outdoor scenes, 45 responsive WebP variants",
+  "issue": "Whole-frame image generation repainted Henk, vehicles and signage; two wide masters were also generated smaller than the original source. The initial review checked dimensions/layouts but missed the photo detail and appearance drift.",
+  "method": "Original photos retained at their native dimensions. Built-in image_gen generated isolated replacement/removal patches only. ImageMagick performed local alpha composition and lossless WebP packaging. Henk is taken from each native original photo without resampling; headers translate his original pixels toward the centre. The garage-door repair additionally reuses aligned original door texture.",
+  "generationMode": "built-in image_gen",
+  "packaging": "ImageMagick, lossless WebP",
+  "prompts": {
+    "dsc02091": "Use case: precise-object-edit. Image 1 is the edit target, a tight crop of ONE full-length man wearing a dark BHR jacket, blue jeans and black shoes in front of a brick wall. Image 2 is identity reference ONLY: the young slim adult apprentice on the LEFT in the light grey polo. Replace ONLY the spiky-haired man in Image 1 with that exact same fictional adult apprentice (about 22, slim, short tousled brown hair, clean-shaven). Keep the original dark BHR jacket over grey polo, blue jeans, shoes, folded-arm pose, body/head placement, height in frame and feet ground position. Make his build slimmer. Preserve the original brickwork, paving, van edge and any small sliver of the other person at far left exactly. Preserve full framing and aspect ratio; do not zoom, move the figure, or add people. Photorealistic local replacement, matched original natural lighting.",
+    "dsc02153": "Use case: precise-object-edit. Image 1 is the edit target: a tight full-length crop of ONE spiky-haired man wearing a dark BHR jacket and blue jeans beside a silver van. Image 2 is identity reference ONLY: use the exact slim young adult apprentice on the LEFT in its light grey polo, approximately 22, same short tousled brown hair and clean-shaven face. Replace only Image 1's man with that apprentice, slimmer body, keeping his dark BHR jacket over grey polo, blue jeans, black shoes, folded-arm pose, original figure placement/height and feet. Preserve van surfaces, visible van logo fragments, wheel, brickwork, panel edges and paving exactly. Same full composition and aspect ratio, no zoom, no reframing, no added people. Natural documentary photo with original lighting.",
+    "dsc02204": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, a tight crop showing TWO men between two silver BHR vans in front of a brick factory wall. Remove BOTH men completely and remove their local ground shadows, reconstructing ONLY the naturally hidden brickwork, van edges and paving behind them. This is a CLEAN BACKGROUND PATCH for later compositing with the original photograph. Do not leave any person, face, hand, clothing, legs or shoes. Keep all currently visible parts of both vans and logos exactly as photographed, all brick courses/mortar aligned, paving continuous, and same lighting. Preserve the exact full crop and aspect ratio; no zoom or camera movement. Return one seamless photorealistic empty-background photo patch, no collage or text.",
+    "dsc02261": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, a tight crop of TWO men standing against a factory garage door and brick pillar. Remove BOTH men completely and their local ground shadows. Reconstruct the hidden background: continuous original brick/mortar on the LEFT, horizontal black garage-door ribs, the existing band of glazed garage-door windows, the blue/purple graphic at lower right and continuous paving. This is a CLEAN BACKGROUND PATCH for later compositing with the original photo. No people, faces, clothing, limbs or shoes may remain. Preserve all visible background, exact framing/aspect ratio, window heights, brick courses, graphic geometry, camera angle and natural lighting. No zoom/reframe, no added objects, no collage."
+  },
+  "files": [
+    {
+      "path": "app/public/assets/images/1120_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 990502,
+      "sha256": "21f903c5f615e9d7d6f1e8c1e77fa4b8903d897377d1f4bee1d927682d49c3a2",
+      "originalBackgroundPixelsExact": 670455,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1141_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 992082,
+      "sha256": "51910071797115fc785df2d0e21949278e6257a90e33a52056062ee53e9c074a",
+      "originalBackgroundPixelsExact": 675397,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1142_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1187468,
+      "sha256": "11679c21d6068a9bd39a3c3797f869cb2e98126bb5bc890f74872ef89e53c623",
+      "originalBackgroundPixelsExact": 821646,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 460
+    },
+    {
+      "path": "app/public/assets/images/1145_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 994108,
+      "sha256": "2bba34c2eea353b6ac1fd47ad250c5d5c4e13a4051fecf3ea333a433cc963f90",
+      "originalBackgroundPixelsExact": 675163,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1146_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1187398,
+      "sha256": "ca3cb97f11d534052926d24c24ca86c2de218adc9a399aead32406a56e76e5f9",
+      "originalBackgroundPixelsExact": 821221,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 460
+    },
+    {
+      "path": "app/public/assets/images/1170_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 996100,
+      "sha256": "62b4d8b28c293fd0708cebe329dbb0117b4af2da427676c1fa2db5f1538ce344",
+      "originalBackgroundPixelsExact": 675393,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1173_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1185478,
+      "sha256": "fcd0a1e8b50243f2fce756e55926857a215750a97d3f763b299220568390edb1",
+      "originalBackgroundPixelsExact": 821569,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 460
+    },
+    {
+      "path": "app/public/assets/images/1186_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 985814,
+      "sha256": "b5c4dcadcbb900c979da4d40385c25b249cf962f3ed6033ff5f38c894c0dc249",
+      "originalBackgroundPixelsExact": 675165,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1187_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1187812,
+      "sha256": "4b9839bc9691bfa42a75990d8ada3d3f39d22bed3fe4eb9dc55458a9935fb077",
+      "originalBackgroundPixelsExact": 821564,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 460
+    },
+    {
+      "path": "app/public/assets/images/1188_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 995886,
+      "sha256": "90d224504116932df065da6ccc8ef4c93a972a214242a0bea13761ae6ad821e7",
+      "originalBackgroundPixelsExact": 675396,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1189_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1189860,
+      "sha256": "d70136b60ff0ba0bdba951922e4c4ed9c54d3a864bfe00bfbbd6064413a9eb61",
+      "originalBackgroundPixelsExact": 817010,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 550
+    },
+    {
+      "path": "app/public/assets/images/1190_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 986328,
+      "sha256": "fa413d7cca7a563fdff2c799c07bbc5e94f02b97872e4430db9440aa631e4921",
+      "originalBackgroundPixelsExact": 675395,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1191_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1189298,
+      "sha256": "6605a3b78f3bd344fb9ce8c21826ebbfff97b56217f6a3b46ab3d9302d5305f4",
+      "originalBackgroundPixelsExact": 817688,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 550
+    },
+    {
+      "path": "app/public/assets/images/1192_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 996644,
+      "sha256": "bd254135b061660287bb412c9b973504beaa2c67cc6770451cca4ed31e0cbb2b",
+      "originalBackgroundPixelsExact": 675395,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/1193_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1192988,
+      "sha256": "a16816a4c54785a0980a2bd411f9c635accb29f75b8bf4baf87b605bee75e3fe",
+      "originalBackgroundPixelsExact": 817010,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 572
+    },
+    {
+      "path": "app/public/assets/images/554_dsc02091.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 986122,
+      "sha256": "79976753157d1fcb2895afb668a8b8feca2ba63157b3c52eada3333a888ef65e",
+      "originalBackgroundPixelsExact": 675166,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/557_dsc02091.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1187606,
+      "sha256": "1de60d086470a0641e5bcc33298c5fa7c4b795837a26a308d2205277c6869629",
+      "originalBackgroundPixelsExact": 805647,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 1116
+    },
+    {
+      "path": "app/public/assets/images/643_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 969048,
+      "sha256": "da9f68f2dd5df3c27d80d46e08a61ab7050dfef2bbbd680042451378e93f5265",
+      "originalBackgroundPixelsExact": 670456,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/661_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 968920,
+      "sha256": "ce10e73474c8527c4cdec675ae6af2b91b12e6b82fb39e6bb9415f9c49a710a4",
+      "originalBackgroundPixelsExact": 670450,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/721_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 968886,
+      "sha256": "ae527bdc9681600e509b02c5ce43d6a788aaec83a9f891cb581263e849b3ae79",
+      "originalBackgroundPixelsExact": 670458,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/769_dsc02091.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 969190,
+      "sha256": "bfc8bfec967c34bddcc24fc4ab0665f3f0060e0989e1212e3c55b7e7b45bdf8c",
+      "originalBackgroundPixelsExact": 670453,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 504
+    },
+    {
+      "path": "app/public/assets/images/819_dsc02091.webp",
+      "width": 483,
+      "height": 553,
+      "bytes": 387130,
+      "sha256": "e47dbbabd38b515503eb0bf2030d4816cfc080ea177695d251ddd5d2c20b6972",
+      "originalBackgroundPixelsExact": 253181,
+      "pixelCount": 267099,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 240
+    },
+    {
+      "path": "app/public/assets/images/mobile-1439e61958-818_dsc02091.webp",
+      "width": 870,
+      "height": 663,
+      "bytes": 808474,
+      "sha256": "2f85bb1c6655c87186714440d57020472e805a2f647749b8c46ce44c43b87373",
+      "originalBackgroundPixelsExact": 556749,
+      "pixelCount": 576810,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 378
+    },
+    {
+      "path": "app/public/assets/images/1062_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 831082,
+      "sha256": "558510f5f277d1fd85c4a9007cdfadec52f51ee19afe0062d391976e5f414ef9",
+      "originalBackgroundPixelsExact": 543628,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 3050
+    },
+    {
+      "path": "app/public/assets/images/635_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 836512,
+      "sha256": "d3468fe1ceab5d7c013ecdbe7d7dfd4d425f7b3b578dda10b220cba3fd5e145a",
+      "originalBackgroundPixelsExact": 554111,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 2832
+    },
+    {
+      "path": "app/public/assets/images/679_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 851582,
+      "sha256": "fc96663de9a74a646abdb414750ce8b84bf3b2a7bb9d9f4088f7234e12dec211",
+      "originalBackgroundPixelsExact": 573139,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 3050
+    },
+    {
+      "path": "app/public/assets/images/773_dsc02153.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 855420,
+      "sha256": "d21cb144abf3adf0805abf89592297a2819621ff9f88d47ec08b51c637a8aad1",
+      "originalBackgroundPixelsExact": 577321,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        0,
+        0
+      ],
+      "henkFacePixelsChecked": 3000
+    },
+    {
+      "path": "app/public/assets/images/1143_dsc02204.webp",
+      "width": 943,
+      "height": 743,
+      "bytes": 934858,
+      "sha256": "cba9ebb06a2943b9c2adf5ec193e33d0c491a2706abc9e53e60efea161dfb390",
+      "originalBackgroundPixelsExact": 658094,
+      "pixelCount": 700649,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -31,
+        0
+      ],
+      "henkFacePixelsChecked": 117
+    },
+    {
+      "path": "app/public/assets/images/1144_dsc02204.webp",
+      "width": 1260,
+      "height": 670,
+      "bytes": 1151964,
+      "sha256": "cb680bf00e4b9a2d6942806cca3e1fba7be26a205c59e6cf576bccd730a3d985",
+      "originalBackgroundPixelsExact": 805041,
+      "pixelCount": 844200,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -30,
+        0
+      ],
+      "henkFacePixelsChecked": 108
+    },
+    {
+      "path": "app/public/assets/images/459_dsc02204.webp",
+      "width": 853,
+      "height": 691,
+      "bytes": 776740,
+      "sha256": "2c5953ee2f89dcbf68aaa1b2bb9dcdd70faed184f4023a8f8ef32e8116449ac5",
+      "originalBackgroundPixelsExact": 552182,
+      "pixelCount": 589423,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -29,
+        0
+      ],
+      "henkFacePixelsChecked": 96
+    },
+    {
+      "path": "app/public/assets/images/627_dsc02204.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 921618,
+      "sha256": "4e68a00f1057d795152f04c86cf4697f7edd5c9d5687a83742d5846c63ecd213",
+      "originalBackgroundPixelsExact": 653053,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -31,
+        0
+      ],
+      "henkFacePixelsChecked": 117
+    },
+    {
+      "path": "app/public/assets/images/775_dsc02204.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 907112,
+      "sha256": "1b10ed84862136c15e685d5e783ba23ece04fd20b5c944bab0b2a5dd3d309c02",
+      "originalBackgroundPixelsExact": 639017,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -36,
+        0
+      ],
+      "henkFacePixelsChecked": 192
+    },
+    {
+      "path": "app/public/assets/images/866_dsc02204.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1782234,
+      "sha256": "1ab5533d70aa947fa207c6c09a6e241446c36a1c39518acaa7137422b5519b46",
+      "originalBackgroundPixelsExact": 1234056,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -50,
+        0
+      ],
+      "henkFacePixelsChecked": 475
+    },
+    {
+      "path": "app/public/assets/images/913_dsc02204.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1805056,
+      "sha256": "9a67ae7256e1418c7c15ab9b4c98965d1b6cee88a69263d077890c3a51bd6a70",
+      "originalBackgroundPixelsExact": 1253914,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -45,
+        0
+      ],
+      "henkFacePixelsChecked": 368
+    },
+    {
+      "path": "app/public/assets/images/1032_dsc02261.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 968166,
+      "sha256": "436e0d8f3ad7b5721159f9dd88455175c495e510cccf0ec7863a1c7a561400c2",
+      "originalBackgroundPixelsExact": 636262,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -55,
+        0
+      ],
+      "henkFacePixelsChecked": 315
+    },
+    {
+      "path": "app/public/assets/images/1082_dsc02261.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 969032,
+      "sha256": "fed226fc5f41de9741e3b9a081bf870bfc09ee254cd4e63ecbdfd0987e1c8485",
+      "originalBackgroundPixelsExact": 636259,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -55,
+        0
+      ],
+      "henkFacePixelsChecked": 315
+    },
+    {
+      "path": "app/public/assets/images/1113_dsc02261.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1896232,
+      "sha256": "89e0a3c4c0849577d2e159bc663608a084bb94c5a7c6fcfb1677a858724ada75",
+      "originalBackgroundPixelsExact": 1217965,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -80,
+        0
+      ],
+      "henkFacePixelsChecked": 825
+    },
+    {
+      "path": "app/public/assets/images/621_dsc02261.webp",
+      "width": 740,
+      "height": 600,
+      "bytes": 622502,
+      "sha256": "25abb7c4088d5cb594f614e68bca320447789c3115de8ab053dc29351b21c698",
+      "originalBackgroundPixelsExact": 405228,
+      "pixelCount": 444000,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -44,
+        0
+      ],
+      "henkFacePixelsChecked": 176
+    },
+    {
+      "path": "app/public/assets/images/713_dsc02261.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 969638,
+      "sha256": "d19851ee6fee220448743851ade2719c6c50db09f70de0ea45aa2b62c017ac62",
+      "originalBackgroundPixelsExact": 636255,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -55,
+        0
+      ],
+      "henkFacePixelsChecked": 315
+    },
+    {
+      "path": "app/public/assets/images/857_dsc02261.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1924458,
+      "sha256": "d9cb0d31dc2ca423c5e09cc1545537961b7b21bc32e24f6a3e5b7f4d8a4a19a1",
+      "originalBackgroundPixelsExact": 1242619,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -86,
+        0
+      ],
+      "henkFacePixelsChecked": 972
+    },
+    {
+      "path": "app/public/assets/images/929_dsc02261.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1930996,
+      "sha256": "c8ba0e523eddb13fd8e091650570acc95911c725372553702f27f9c835491de2",
+      "originalBackgroundPixelsExact": 1239292,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -80,
+        0
+      ],
+      "henkFacePixelsChecked": 825
+    },
+    {
+      "path": "app/public/assets/images/947_dsc02261.webp",
+      "width": 1920,
+      "height": 700,
+      "bytes": 1874036,
+      "sha256": "3e558c0ac1e7dbf8b2949e8bddd1752b106e004c72876664ec922e09dd5468cb",
+      "originalBackgroundPixelsExact": 1208406,
+      "pixelCount": 1344000,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -83,
+        0
+      ],
+      "henkFacePixelsChecked": 884
+    },
+    {
+      "path": "app/public/assets/images/mobile-3073c18dea-735_dsc02261.webp",
+      "width": 940,
+      "height": 740,
+      "bytes": 969284,
+      "sha256": "549f52864a4a7b43b85e3a48b9f0febd65d02d5fc4ce20c52816dee5b0697634",
+      "originalBackgroundPixelsExact": 635996,
+      "pixelCount": 695600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -55,
+        0
+      ],
+      "henkFacePixelsChecked": 315
+    },
+    {
+      "path": "app/public/assets/images/mobile-3c27f7a80a-1114_dsc02261.webp",
+      "width": 430,
+      "height": 650,
+      "bytes": 391464,
+      "sha256": "aadfa4a7c5c5cc9ed10e3971a8146a8c59aaeacb5d67e340f46f2fc2842d01d9",
+      "originalBackgroundPixelsExact": 233395,
+      "pixelCount": 279500,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -48,
+        0
+      ],
+      "henkFacePixelsChecked": 204
+    },
+    {
+      "path": "app/public/assets/images/tablet-399adad59b-1115_dsc02261.webp",
+      "width": 1024,
+      "height": 650,
+      "bytes": 936466,
+      "sha256": "ea7668e26e73b4b4304442e61e2e42759c4bf97a1f69efce7fff5cea95488cc5",
+      "originalBackgroundPixelsExact": 619494,
+      "pixelCount": 665600,
+      "henkOriginalFacePixelsExact": true,
+      "henkTranslationPixels": [
+        -48,
+        0
+      ],
+      "henkFacePixelsChecked": 204
+    }
+  ],
+  "verification": {
+    "nativeDimensionsRetained": 45,
+    "originalHenkFaceRegionsPixelExact": 45,
+    "outsideLocalEditRegionsPixelExact": 45,
+    "layoutChanges": false,
+    "buildAndTests": {
+      "build": "pass",
+      "testsPassed": 136,
+      "testsFailed": 0,
+      "routes": 76,
+      "localLinks": 3542,
+      "assetReferences": 1655
+    },
+    "unchangedHtmlFiles": 77,
+    "localHttpImagesVerified": 45,
+    "diffCheck": "pass"
+  }
+}

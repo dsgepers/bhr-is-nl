@@ -1,20 +1,39 @@
 BHR static website
 
 Run npm install and npm run build. Upload the contents of dist/ to a static host.
-All 44 routes are individual HTML files and work on direct visits. Images,
+All 82 routes are individual HTML files and work on direct visits. Images,
 backgrounds, partner logos, the favicon and fonts are packaged under assets/.
 Building does not require the original website or a network connection.
 
-STATIC FORMS
-The key has deliberately been left empty. Add the supplied form API key to
-staticFormsKey in public/config.js, then rebuild. For different keys per form,
-add a form's subject and key to formKeys in the same file. These are public form
-identifiers intended for browser submissions, not account-management secrets.
+WEB3FORMS
+All 26 enquiry, service, appointment, quote, job application and newsletter forms
+use https://api.web3forms.com/submit with native multipart POST.
+Their shared public access key is formAccessKey in public/config.js.
+Change this value and rebuild to replace the destination.
+Documentation: https://docs.web3forms.com/getting-started/api-reference
 
-Until a key is supplied, submitting displays contact alternatives and makes no
-submission request. Form validation, quote steps, attachments, delivery errors
-and successful responses are handled. Attachments are limited to 4 MB combined;
-enable file uploads in the chosen Static Forms plan for job applications.
+Each form sends access_key, a purpose-specific subject, an absolute redirect
+and a hidden botcheck checkbox. The email field supplies the reply address.
+CV uploads use attachment and require Web3Forms PRO; the existing 4 MB combined
+upload limit is retained. Newsletter requests are emailed for manual processing,
+not automatically added to a mailing list.
+
+redirect is an absolute URL resolved against the current published site root,
+including the GitHub Pages repository path. Dedicated destinations:
+/bedankt/contact/      Contact enquiries
+/bedankt/service/      Quick service enquiries
+/bedankt/afspraak/     Appointment requests (still need confirmation)
+/bedankt/offerte/      Quote requests, including the alternate wizard
+/bedankt/sollicitatie/ Job applications
+/bedankt/nieuwsbrief/  Newsletter requests
+Edit their content in thank-you.mjs and their styles in public/thank-you.css.
+Submission buttons enable once JavaScript initializes validation and redirects.
+Without JavaScript, visitors see an email alternative. Search, filter and cookie
+preference forms continue to work locally.
+
+Build and serve dist, then run tools/check-forms-browser.py using Python
+with Playwright/Chromium to exercise intercepted requests without sending email.
+Confirm provider acceptance and inbox delivery separately on the published site.
 
 VERIFICATION
 npm test

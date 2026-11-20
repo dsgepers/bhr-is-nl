@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-20",
+  "scope": "Appointment page browser-back action, logo variant and sticky header states. Other page layouts and photo edits are retained.",
+  "reference": "https://www.bhr-is.nl/afspraak-maken",
+  "candidate": "http://127.0.0.1:4173/afspraak-maken/",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "dpr": 1,
+      "zoom": 1
+    },
+    {
+      "name": "mobile",
+      "width": 430,
+      "height": 932,
+      "userAgentProfile": "iPhone 13",
+      "dpr": 1,
+      "zoom": 1
+    }
+  ],
+  "states": {
+    "top": 0,
+    "scrolled": 450,
+    "transitionThreshold": 10,
+    "thresholdChecks": [
+      9,
+      10,
+      0
+    ]
+  },
+  "captureNormalization": {
+    "locale": "nl-NL",
+    "scheme": "light",
+    "cookieChoice": "Afwijzen",
+    "masks": [],
+    "headerCropHeights": {
+      "desktop": 93,
+      "mobile": 97
+    },
+    "metricsNote": "Metrics compare header-only crops from full matched viewport captures. The offline comparer cannot read DPR/zoom from PNGs; both were independently asserted to be 1 in the capture evidence."
+  },
+  "browserFallback": "Two preview automation clicks timed out after 15000ms. Both preview tabs were closed and Playwright was used for reliable captures and actual browser-history checks.",
+  "navigationChecks": [
+    {
+      "role": "candidate",
+      "device": "desktop",
+      "test": "browser-back",
+      "passed": true,
+      "actualUrl": "http://127.0.0.1:4173/expertises/"
+    },
+    {
+      "role": "candidate",
+      "device": "desktop",
+      "test": "browser-back-no-referrer",
+      "passed": true,
+      "actualUrl": "http://127.0.0.1:4173/contact/",
+      "referrer": ""
+    },
+    {
+      "role": "candidate",
+      "device": "desktop",
+      "test": "browser-back-cross-origin",
+      "passed": true,
+      "actualUrl": "http://localhost:4173/contact/",
+      "referrer": "http://localhost:4173/"
+    },
+    {
+      "role": "candidate",
+      "device": "mobile",
+      "test": "browser-back",
+      "passed": true,
+      "actualUrl": "http://127.0.0.1:4173/expertises/"
+    },
+    {
+      "role": "candidate",
+      "device": "mobile",
+      "test": "browser-back-no-referrer",
+      "passed": true,
+      "actualUrl": "http://127.0.0.1:4173/contact/",
+      "referrer": ""
+    },
+    {
+      "role": "candidate",
+      "device": "mobile",
+      "test": "browser-back-cross-origin",
+      "passed": true,
+      "actualUrl": "http://localhost:4173/contact/",
+      "referrer": "http://localhost:4173/"
+    }
+  ],
+  "metrics": {
+    "before": [
+      {
+        "label": "desktop-top",
+        "mismatchPercent": 2.557683691756272,
+        "ssimEstimate": 0.5047665781706822,
+        "width": 1920,
+        "height": 93
+      },
+      {
+        "label": "desktop-scrolled",
+        "mismatchPercent": 97.22726254480287,
+        "ssimEstimate": -0.1337848534285027,
+        "width": 1920,
+        "height": 93
+      },
+      {
+        "label": "mobile-top",
+        "mismatchPercent": 33.68257012706785,
+        "ssimEstimate": 0.11492779384406732,
+        "width": 430,
+        "height": 97
+      },
+      {
+        "label": "mobile-scrolled",
+        "mismatchPercent": 14.54087748741309,
+        "ssimEstimate": 0.08739251282865376,
+        "width": 430,
+        "height": 97
+      }
+    ],
+    "after": [
+      {
+        "label": "desktop-top",
+        "mismatchPercent": 1.0651881720430108,
+        "ssimEstimate": 0.9653959069960572,
+        "width": 1920,
+        "height": 93
+      },
+      {
+        "label": "desktop-scrolled",
+        "mismatchPercent": 0.9268593189964157,
+        "ssimEstimate": 0.9750090214045767,
+        "width": 1920,
+        "height": 93
+      },
+      {
+        "label": "mobile-top",
+        "mismatchPercent": 22.277631263485976,
+        "ssimEstimate": 0.9223117555527592,
+        "width": 430,
+        "height": 97
+      },
+      {
+        "label": "mobile-scrolled",
+        "mismatchPercent": 2.9033804842963318,
+        "ssimEstimate": 0.8834735302945255,
+        "width": 430,
+        "height": 97
+      }
+    ]
+  },
+  "remainingDifferences": [
+    "The local back control remains visible in dark blue on the white sticky header; the live page keeps that control white.",
+    "The mobile telephone glyph and transparent-header hero stripe backdrop still differ from the reference; neither is part of the requested logo variant/history fix."
+  ],
+  "verification": {
+    "build": "pass",
+    "testsPassed": 136,
+    "testsFailed": 0,
+    "routes": 76,
+    "localLinks": 3541,
+    "assetReferences": 1655,
+    "currentAppointmentAssetVersionHashes": "pass",
+    "diffCheck": "pass"
+  },
+  "artifacts": "checks/appointment-header-2026-11-20/diff-after/report.html",
+  "skillChanges": {
+    "globalSkillModified": false,
+    "localCaptureHelper": "checks/appointment-header-2026-11-20/capture.py"
+  }
+}

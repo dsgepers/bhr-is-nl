@@ -121,7 +121,7 @@ class MobileTests(unittest.TestCase):
     self.go(route);p=self.page
     size=p.evaluate('({width:innerWidth,scroll:document.documentElement.scrollWidth})');self.assertEqual(size['width'],self.width,size);self.assertLessEqual(size['scroll'],self.width,size)
     self.assertEqual(p.locator('h1').count(),1)
-    for field in p.locator('form input:not([name=honeypot]):not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=file]),form textarea,form select').all():
+    for field in p.locator('form input:not([type=hidden]):not([type=checkbox]):not([type=radio]):not([type=file]),form textarea,form select').all():
      if not field.is_visible():continue
      box=field.bounding_box();self.assertGreaterEqual(box['width'],50 if (field.get_attribute('name')or'').startswith('birth_')else 180,(route,field.get_attribute('name'),box));self.assertLessEqual(box['x']+box['width'],self.width+1,(route,field.get_attribute('name'),box))
 

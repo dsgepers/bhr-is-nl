@@ -8,18 +8,31 @@ import {expertiseIndex,servicePage,standardPage,aboutPage,careersPage,contactPag
 import {styleGuide} from './style-guide.mjs';
 import {secondaryContent} from './secondary-data.mjs';
 import {secondaryPage,secondaryOptions} from './secondary-pages.mjs';
+import {thankYouPage,thankYouRoutes} from './thank-you.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url)),dist=path.join(root,'dist');
 fs.mkdirSync(dist,{recursive:true});fs.cpSync(path.join(root,'public'),dist,{recursive:true});
+// Version module dependencies too: changing the recipient must invalidate cached imports.
+const moduleVersions=new Map();
+function versionModule(file){
+ if(moduleVersions.has(file))return moduleVersions.get(file);
+ const source=fs.readFileSync(path.join(root,'public',file),'utf8').replace(/(\bfrom\s*['"])(\.\/[^'"]+\.(?:mjs|js))(['"])/g,(_,start,url,end)=>{
+  const dependency=path.posix.normalize(path.posix.join(path.posix.dirname(file),url));
+  return `${start}${url}?v=${versionModule(dependency)}${end}`;
+ });
+ fs.writeFileSync(path.join(dist,file),source);
+ const version=createHash('sha256').update(source).digest('hex').slice(0,12);
+ moduleVersions.set(file,version);return version;
+}
+for(const file of fs.readdirSync(path.join(root,'public')).filter(file=>/\.(?:mjs|js)$/.test(file)))versionModule(file);
 const pages=[],emitted=new Set();
 const assetVersions=new Map();
-function versionSliderAssets(html,allowed=null){
+function versionAssets(html){
  return html.replace(/\b(href|src)="(\/[^"?]+\.(?:css|mjs))"/g,(original,attribute,url)=>{
-  if(allowed&&!allowed.has(url))return original;
-  if(!assetVersions.has(url))assetVersions.set(url,createHash('sha256').update(fs.readFileSync(path.join(root,'public',url))).digest('hex').slice(0,12));
+  if(!assetVersions.has(url))assetVersions.set(url,createHash('sha256').update(fs.readFileSync(path.join(dist,url))).digest('hex').slice(0,12));
   return `${attribute}="${url}?v=${assetVersions.get(url)}"`;
  });
 }
-function add(url,title,body,cls='secondary',simple=false){if(emitted.has(url))throw new Error(`Duplicate route: ${url}`);emitted.add(url);let meta={};if(Object.hasOwn(secondaryContent,url)){const o=secondaryOptions(url);title=o.title;body=secondaryPage(url);cls=o.classes;simple=o.simple;meta={documentTitle:o.documentTitle,canonical:o.canonical};}pages.push({url,title,text:body.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').slice(0,12000)});const folder=path.join(dist,url);fs.mkdirSync(folder,{recursive:true});let html=layout(title,body,cls,simple,meta);if(body.includes('data-step-image='))html=versionSliderAssets(html);html=versionSliderAssets(html,new Set(['/mobile-parity.css','/mobile.mjs']));fs.writeFileSync(path.join(folder,'index.html'),html);}
+function add(url,title,body,cls='secondary',simple=false){if(emitted.has(url))throw new Error(`Duplicate route: ${url}`);emitted.add(url);let meta={};if(Object.hasOwn(secondaryContent,url)){const o=secondaryOptions(url);title=o.title;body=secondaryPage(url);cls=o.classes;simple=o.simple;meta={documentTitle:o.documentTitle,canonical:o.canonical};}pages.push({url,title,text:body.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').slice(0,12000)});const folder=path.join(dist,url);fs.mkdirSync(folder,{recursive:true});let html=layout(title,body,cls,simple,meta);html=versionAssets(html);fs.writeFileSync(path.join(folder,'index.html'),html);}
 add('/','BHR Industrial Automations & Paneelbouw',homepage(),'home');
 add('/expertises','Onze expertises',expertiseIndex(),'secondary reference-page expertise-index parity-page parity-expertises');
 for(const p of services)add(p.url,p.title,servicePage(p));
@@ -42,6 +55,7 @@ add('/cookie-instellingen','Cookie-instellingen',titleSection({title:'Cookie-ins
 // The original privacy/footer links are placeholders; preserve them while supplying dedicated form destinations.
 for(const [url,title] of [['/privacyverklaring','Privacyverklaring'],['/algemene-voorwaarden','Algemene voorwaarden']])add(url,title,titleSection({title},false)+`<section class="text-section"><div class="container"><p>Voor informatie over ${title.toLowerCase()} kunt u contact opnemen met BHR Industrial Solutions.</p>${link('Stuur een e-mail','mailto:info@bhr-is.nl')}</div></section>`);
 add('/bedankt','Bedankt',titleSection({title:'Bedankt voor uw bericht',intro:'Uw bericht is verzonden. Wij nemen zo spoedig mogelijk contact met u op.'},false));
+for(const page of thankYouRoutes)add(page.url,page.title,thankYouPage(page.kind),'secondary reference-page parity-page thank-you-page');
 for(const [route,p] of Object.entries(secondaryContent))if(!emitted.has(route))add(route,p.title,'');
 add('/style-guide','Style guide',styleGuide(),'secondary style-guide');
 fs.writeFileSync(path.join(dist,'search-index.json'),JSON.stringify(pages));

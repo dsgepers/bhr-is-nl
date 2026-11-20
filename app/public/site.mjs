@@ -1,5 +1,5 @@
 import {siteUrl} from './paths.mjs';
-import {searchPages,stepTarget,submitStaticForm,bindFormStatusReset,cookiePreferences,birthDateValue,carouselTarget} from './behavior.mjs';
+import {searchPages,stepTarget,formSubmitSettings,validateFormSubmit,bindFormStatusReset,cookiePreferences,birthDateValue,carouselTarget} from './behavior.mjs';
 import {arrowIcon} from './icons.mjs';
 const $=(q,root=document)=>root.querySelector(q),$$=(q,root=document)=>[...root.querySelectorAll(q)];
 const safeStore={get(k){try{return localStorage.getItem(k)}catch{return null}},set(k,v){try{localStorage.setItem(k,v)}catch{}}};
@@ -17,7 +17,15 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){
  if(header.classList.contains('menu-open')){header.classList.remove('menu-open');toggle?.setAttribute('aria-expanded','false');toggle?.setAttribute('aria-label','Menu openen');toggle?.focus()}
 }});
 const header=$('.site-header');
-const syncHeader=()=>header.classList.toggle('is-scrolled',window.scrollY>20);
+document.addEventListener('click',event=>{
+ if(event.target.closest('[data-history-back]')){event.preventDefault();window.history.back()}
+});
+const simpleHeader=header.classList.contains('simple-header'),simpleLogo=simpleHeader?$('.brand img',header):null;
+const syncHeader=()=>{
+ const scrolled=simpleHeader?window.scrollY>=10:window.scrollY>20;
+ header.classList.toggle('is-scrolled',scrolled);
+ if(simpleLogo){const source=siteUrl(`/assets/images/bhr-brand${scrolled?'':'-white'}.svg`);if(simpleLogo.getAttribute('src')!==source)simpleLogo.src=source}
+};
 window.addEventListener('scroll',syncHeader,{passive:true});syncHeader();
 if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
  const reveal=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');reveal.unobserve(entry.target)}}),{threshold:.12});
@@ -37,21 +45,36 @@ $('.filters')?.addEventListener('submit',e=>{e.preventDefault();const chosen=new
 if($('.filters')){const params=new URLSearchParams(location.search).getAll('categorie');$$('.filters input').forEach(i=>i.checked=params.includes(i.value));if(params.length)$('.filters').dispatchEvent(new Event('submit',{cancelable:true}))}
 $('a[href="#meer-expertises"]')?.addEventListener('click',e=>{e.preventDefault();const open=$('.service-grid').classList.toggle('show-all');e.currentTarget.innerHTML=`<span class="arrow">${arrowIcon(open)}</span>${open?'Toon minder':'Toon meer'}`});
 $$('.lightbox-open').forEach(a=>a.addEventListener('click',e=>{const d=$('.lightbox');if(d?.showModal){e.preventDefault();$('img',d).src=a.href;$('img',d).alt=$('img',a)?.alt||'Vergrote afbeelding';d.showModal()}}));
-const config=window.BHR_CONFIG||{};
-$$('.static-form').forEach(form=>{const subject=$('[name="subject"]',form).value,key=config.formKeys?.[subject]||config.staticFormsKey||'';$('[name="apiKey"]',form).value=key;form.action=config.staticFormsEndpoint||'https://api.staticforms.dev/submit';let step=0;const steps=$$('[data-step]',form);
+const formSiteRoot=new URL('.',import.meta.url);
+$$('[data-form-submit]').forEach(form=>{
+ const settings=formSubmitSettings(form.dataset.formSubmit,formSiteRoot);
+ form.action=settings.action;
+ $('[name="subject"]',form).value=settings.subject;
+ $('[name="redirect"]',form).value=settings.next;
+ $('[name="pagina"]',form).value=location.href;
+ let step=0;const steps=$$('[data-step]',form);
  function change(direction){if(direction>0){const inputs=$$('input,select,textarea',steps[step]);const bad=inputs.find(i=>!i.checkValidity());if(bad){bad.reportValidity();return}}step=stepTarget(step,direction,steps.length);steps.forEach((s,i)=>{s.hidden=i!==step});$$('[data-step-label]',form).forEach((l,i)=>{l.classList.toggle('current',i===step);l.setAttribute('aria-current',i===step?'step':'false')});$('.prev-step',form).hidden=step===0;$('.next-step',form).hidden=step===steps.length-1;$('.wizard-submit',form).hidden=step!==steps.length-1;$('input,select,textarea',steps[step])?.focus()}
  bindFormStatusReset(form,$('.form-status',form));
  $('.next-step',form)?.addEventListener('click',()=>change(1));$('.prev-step',form)?.addEventListener('click',()=>change(-1));
  form.addEventListener('keydown',e=>{if(e.key==='Enter'&&steps.length&&e.target.tagName!=='TEXTAREA'&&e.target.tagName!=='BUTTON'&&step<steps.length-1){e.preventDefault();change(1)}});
  // A wizard validates visible controls as it advances and validates every step at final submission.
  if(steps.length)form.noValidate=true;
- form.addEventListener('submit',async e=>{e.preventDefault();const status=$('.form-status',form);status.textContent='';if(steps.length){const invalid=steps.findIndex(s=>$$('input,select,textarea',s).some(i=>!i.checkValidity()));if(invalid>=0){step=invalid;change(0);$$('input,select,textarea',steps[step]).find(i=>!i.checkValidity())?.reportValidity();return}}else if(!form.reportValidity())return;
- const submit=$('button[type="submit"]',form);submit.disabled=true;status.textContent='Uw bericht wordt verzonden…';
- try{const result=await submitStaticForm(new FormData(form),config);
- if(result.ok){status.textContent='Bedankt voor uw bericht. Wij nemen zo spoedig mogelijk contact met u op.';form.reset();if(steps.length){step=0;change(0)}}
- else{status.textContent=({unconfigured:'Verzenden is tijdelijk niet beschikbaar. Mail naar info@bhr-is.nl of bel +31 (0)162 - 23 88 34.',files:'Uw documenten zijn samen te groot. Kies bestanden van maximaal 4 MB.',honeypot:'Uw bericht is niet verzonden. Probeer het opnieuw.'})[result.reason]||'Uw bericht is niet verzonden. Probeer het opnieuw of neem telefonisch contact met ons op.'}
- }finally{submit.disabled=false}});
- $('button[type="submit"]',form).disabled=false;
+ form.addEventListener('submit',e=>{
+  const status=$('.form-status',form);status.textContent='';
+  if(steps.length){
+   const invalid=steps.findIndex(s=>$$('input,select,textarea',s).some(i=>!i.checkValidity()));
+   if(invalid>=0){e.preventDefault();step=invalid;change(0);$$('input,select,textarea',steps[step]).find(i=>!i.checkValidity())?.reportValidity();return}
+  }else if(!form.reportValidity()){e.preventDefault();return}
+  const result=validateFormSubmit(new FormData(form));
+  if(!result.ok){
+   e.preventDefault();status.textContent=result.reason==='files'?'Uw documenten zijn samen te groot. Kies bestanden van maximaal 4 MB.':'Uw bericht is niet verzonden. Probeer het opnieuw.';return;
+  }
+  // Let the browser POST the complete form; the configured provider handles the redirect.
+  $('button[type="submit"]',form).disabled=true;
+  status.textContent='Uw bericht wordt verzonden…';
+ });
+ const enable=()=>{$('button[type="submit"]',form).disabled=false;$('.form-status',form).textContent=''};
+ window.addEventListener('pageshow',enable);enable();
 });
 
 // Scoped parity controls use the same form delivery contract as the other pages.

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-20",
+  "provider": "Web3Forms",
+  "endpoint": "https://api.web3forms.com/submit",
+  "configuration": "app/public/config.js: formAccessKey shared by all 26 enquiry forms",
+  "verification": {
+    "forms": 26,
+    "routes": 82,
+    "testsPassed": 138,
+    "testsFailed": 0,
+    "localLinks": 3757,
+    "imageScriptReferences": 1650,
+    "interceptedBrowserSubmissions": 22,
+    "viewports": [
+      [
+        1920,
+        1080
+      ],
+      [
+        430,
+        932
+      ]
+    ],
+    "delayedStartupCases": 5,
+    "realSubmissionRequests": 0,
+    "nonProviderHTMLChanges": 0
+  },
+  "preserved": [
+    "individual thank-you pages",
+    "absolute redirects with repository base paths",
+    "privacy consent",
+    "wizard validation",
+    "birth date validation",
+    "CV uploads and 4 MB combined limit",
+    "existing page appearance"
+  ],
+  "providerRequirement": "Web3Forms PRO is required for attachments. Actual provider acceptance and inbox delivery were not tested.",
+  "documentation": "https://docs.web3forms.com/getting-started/api-reference",
+  "localEvidence": "checks/web3forms-all-2026-11-20/browser/results.json"
+}
