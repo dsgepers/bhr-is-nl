@@ -1,0 +1,13 @@
+# SDD ledger — plan: docs/superpowers/plans/2026-11-20-bhr-mobile-parity.md
+
+Authority:user explicitly preapproved planning and execution while away. Design builder check: nothing important left. Scope76 current routes; source mobile/tablet theme, desktop preservation.
+
+Ruling: Work in place on local feature branch mobile-parity and checkpoint the already approved dirty slider fixes — the local dev server points at this checkout and user asked to continue unattended — this branch contains the prior fixes as checkpoint31188e8; no remote or main integration is performed.
+
+Ruling: Use actual device-theme captures rather than narrow desktop captures — CMS chooses a separate mobile/tablet stylesheet and markup, and shared preview has no UA/screen/touch emulation — the device-correct Playwright harness is necessary; old viewport-only mobile reports are not this phase's reference.
+
+Ruling: Decode the mobile menu's double-encoded Industries label into readable Dutch — the source displays a CMS encoding defect — this small text detail differs from that defect while preserving its label and destinations.
+
+Pre-flight:mobile resource tags/desktop hash tests share an interface;strip only the two new inert tags for prior markup comparisons and test their actual guards/fingerprints separately. Navigation/runtime and existing carousel handlers share resize/focus/scroll;use distinct mobile controls and reversible enhancements. Phone/tablet source choice and audit profiles share theme/cookie/UA metadata;assert correct corporate theme and actualDPR1/scale1. Form rendering and mobile layout share native field controls;retain payload/validation/delivery contracts.
+
+Baseline capture in progress:all76 phone source/candidates and immutable local1920 frames. Existing candidate426px overflow is a baseline defect, not a source zoom change or a comparable score. Product build remains frozen until baseline completion.

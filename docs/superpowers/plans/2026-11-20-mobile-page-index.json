@@ -1,0 +1,1218 @@
+[
+  {
+    "route": "/",
+    "key": "home",
+    "title": "BHR Industrial Automations & Paneelbouw",
+    "family": "homepage",
+    "reference": "https://www.bhr-is.nl/",
+    "candidate": "http://localhost:4173/",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises",
+    "key": "expertises",
+    "title": "Onze expertises",
+    "family": "expertise-index",
+    "reference": "https://www.bhr-is.nl/expertises",
+    "candidate": "http://localhost:4173/expertises",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/software-engineering",
+    "key": "expertises--software-engineering",
+    "title": "Software engineering op maat",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/software-engineering",
+    "candidate": "http://localhost:4173/expertises/software-engineering",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/hardware-engineering",
+    "key": "expertises--hardware-engineering",
+    "title": "Hardware engineering als basis voor betrouwbare productie",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/hardware-engineering",
+    "candidate": "http://localhost:4173/expertises/hardware-engineering",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/paneelbouw",
+    "key": "expertises--paneelbouw",
+    "title": "Paneelbouw",
+    "family": "legacy-article",
+    "reference": "https://www.bhr-is.nl/expertises/paneelbouw",
+    "candidate": "http://localhost:4173/expertises/paneelbouw",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/retrofit",
+    "key": "expertises--retrofit",
+    "title": "Retrofit",
+    "family": "legacy-article",
+    "reference": "https://www.bhr-is.nl/expertises/retrofit",
+    "candidate": "http://localhost:4173/expertises/retrofit",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/bekabeling-en-installatie",
+    "key": "expertises--bekabeling-en-installatie",
+    "title": "Bekabeling en installatie van industriële besturingssystemen",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/bekabeling-en-installatie",
+    "candidate": "http://localhost:4173/expertises/bekabeling-en-installatie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/machineveiligheid",
+    "key": "expertises--machineveiligheid",
+    "title": "Machineveiligheid geïntegreerd in installatieontwerp",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/machineveiligheid",
+    "candidate": "http://localhost:4173/expertises/machineveiligheid",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/cybersecurity",
+    "key": "expertises--cybersecurity",
+    "title": "Cybersecurity in industriële automatisering",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/cybersecurity",
+    "candidate": "http://localhost:4173/expertises/cybersecurity",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/elektrocomponenten",
+    "key": "expertises--elektrocomponenten",
+    "title": "Elektrocomponenten zorgen een betrouwbare basis",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/elektrocomponenten",
+    "candidate": "http://localhost:4173/expertises/elektrocomponenten",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/inbedrijfstelling",
+    "key": "expertises--inbedrijfstelling",
+    "title": "Inbedrijfstelling van industriële besturingen",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/inbedrijfstelling",
+    "candidate": "http://localhost:4173/expertises/inbedrijfstelling",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/expertises/industriele-automatisering",
+    "key": "expertises--industriele-automatisering",
+    "title": "Industriële automatisering zorgt voor efficiënte productieprocessen",
+    "family": "expertise",
+    "reference": "https://www.bhr-is.nl/expertises/industriele-automatisering",
+    "candidate": "http://localhost:4173/expertises/industriele-automatisering",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/voor-machinebouwers",
+    "key": "voor-machinebouwers",
+    "title": "Machinebouw- ondersteuning voor OEM’s en professionele machinebouwers",
+    "family": "alias",
+    "reference": "https://www.bhr-is.nl/voor-machinebouwers",
+    "candidate": "http://localhost:4173/voor-machinebouwers",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/voor-machinebouwers/proces-productie",
+    "key": "voor-machinebouwers--proces-productie",
+    "title": "Voor proces & productie",
+    "family": "legacy-article",
+    "reference": "https://www.bhr-is.nl/voor-machinebouwers/proces-productie",
+    "candidate": "http://localhost:4173/voor-machinebouwers/proces-productie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/service-en-onderhoud",
+    "key": "service-en-onderhoud",
+    "title": "Service en onderhoud",
+    "family": "legacy-service",
+    "reference": "https://www.bhr-is.nl/service-en-onderhoud",
+    "candidate": "http://localhost:4173/service-en-onderhoud",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/voor-machinebouwers/voor-machinebouwers",
+    "key": "voor-machinebouwers--voor-machinebouwers",
+    "title": "Voor machinebouwers",
+    "family": "legacy-article",
+    "reference": "https://www.bhr-is.nl/voor-machinebouwers/voor-machinebouwers",
+    "candidate": "http://localhost:4173/voor-machinebouwers/voor-machinebouwers",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/over-ons",
+    "key": "over-ons",
+    "title": "Over ons",
+    "family": "company",
+    "reference": "https://www.bhr-is.nl/over-ons",
+    "candidate": "http://localhost:4173/over-ons",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/over-ons/partners",
+    "key": "over-ons--partners",
+    "title": "Partners",
+    "family": "legacy-partners",
+    "reference": "https://www.bhr-is.nl/over-ons/partners",
+    "candidate": "http://localhost:4173/over-ons/partners",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/over-ons/werken-bij",
+    "key": "over-ons--werken-bij",
+    "title": "Werken bij",
+    "family": "legacy-careers",
+    "reference": "https://www.bhr-is.nl/over-ons/werken-bij",
+    "candidate": "http://localhost:4173/over-ons/werken-bij",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/vacature",
+    "key": "vacature",
+    "title": "Bouw mee aan jouw toekomst in de techniek",
+    "family": "vacancy-listing",
+    "reference": "https://www.bhr-is.nl/vacature",
+    "candidate": "http://localhost:4173/vacature",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten",
+    "key": "projecten",
+    "title": "Projecten waar we trots op zijn",
+    "family": "project-listing",
+    "reference": "https://www.bhr-is.nl/projecten",
+    "candidate": "http://localhost:4173/projecten",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/bierskid-besturing-zonder-plc",
+    "key": "projecten--bierskid-besturing-zonder-plc",
+    "title": "Bierskid besturing zonder PLC",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/bierskid-besturing-zonder-plc",
+    "candidate": "http://localhost:4173/projecten/bierskid-besturing-zonder-plc",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/sc100",
+    "key": "projecten--sc100",
+    "title": "Slimme automatisering voor innovatieve machinebouw",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/sc100",
+    "candidate": "http://localhost:4173/projecten/sc100",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/bouwen-daf-installatie-waterzuivering",
+    "key": "projecten--bouwen-daf-installatie-waterzuivering",
+    "title": "Bouwen DAF installatie waterzuivering",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-daf-installatie-waterzuivering",
+    "candidate": "http://localhost:4173/projecten/bouwen-daf-installatie-waterzuivering",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/energiebesparing-door-frequentieregelaars",
+    "key": "projecten--energiebesparing-door-frequentieregelaars",
+    "title": "Energiebesparing met frequentieregelaars",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/energiebesparing-door-frequentieregelaars",
+    "candidate": "http://localhost:4173/projecten/energiebesparing-door-frequentieregelaars",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/bouwen-afdelingsinstallatie",
+    "key": "projecten--bouwen-afdelingsinstallatie",
+    "title": "Bouwen afdelingsinstallatie",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/bouwen-afdelingsinstallatie",
+    "candidate": "http://localhost:4173/projecten/bouwen-afdelingsinstallatie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/cummins",
+    "key": "projecten--cummins",
+    "title": "Energiebesparing door frequentieregelaars.",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/cummins",
+    "candidate": "http://localhost:4173/projecten/cummins",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "key": "projecten--retrofit-oplossingen-in-bestaande-machineframe",
+    "title": "Retrofit oplossingen in bestaande machineframe",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "candidate": "http://localhost:4173/projecten/retrofit-oplossingen-in-bestaande-machineframe",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/projecten/kleine-verdelerbouw-tot-630-a",
+    "key": "projecten--kleine-verdelerbouw-tot-630-a",
+    "title": "Verdelerbouw 630 A",
+    "family": "project-detail",
+    "reference": "https://www.bhr-is.nl/projecten/kleine-verdelerbouw-tot-630-a",
+    "candidate": "http://localhost:4173/projecten/kleine-verdelerbouw-tot-630-a",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/machinebouw",
+    "key": "branches--machinebouw",
+    "title": "Betrouwbare paneelbouw en automatisering voor machinebouw",
+    "family": "branch",
+    "reference": "https://www.bhr-is.nl/branches/machinebouw",
+    "candidate": "http://localhost:4173/branches/machinebouw",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/voedingsindustrie",
+    "key": "branches--voedingsindustrie",
+    "title": "Paneelbouw in de voedingsindustrie",
+    "family": "branch",
+    "reference": "https://www.bhr-is.nl/branches/voedingsindustrie",
+    "candidate": "http://localhost:4173/branches/voedingsindustrie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/watertechnologie",
+    "key": "branches--watertechnologie",
+    "title": "Paneelbouw en besturing voor continu waterbeheer",
+    "family": "branch",
+    "reference": "https://www.bhr-is.nl/branches/watertechnologie",
+    "candidate": "http://localhost:4173/branches/watertechnologie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/agro",
+    "key": "branches--agro",
+    "title": "Paneelbouw voor de agrosector – betrouwbare techniek met toekomstvisie",
+    "family": "branch",
+    "reference": "https://www.bhr-is.nl/branches/agro",
+    "candidate": "http://localhost:4173/branches/agro",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/verpakkingsindustrie",
+    "key": "branches--verpakkingsindustrie",
+    "title": "Verpakkingsindustrie",
+    "family": "legacy-article",
+    "reference": "https://www.bhr-is.nl/branches/verpakkingsindustrie",
+    "candidate": "http://localhost:4173/branches/verpakkingsindustrie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/chemie-en-farmacie",
+    "key": "branches--chemie-en-farmacie",
+    "title": "Paneelbouw en automatisering voor chemie en farmacie",
+    "family": "branch",
+    "reference": "https://www.bhr-is.nl/branches/chemie-en-farmacie",
+    "candidate": "http://localhost:4173/branches/chemie-en-farmacie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/energie-en-utiliteit",
+    "key": "branches--energie-en-utiliteit",
+    "title": "Paneelbouw en automatisering voor energie en utiliteit",
+    "family": "branch",
+    "reference": "https://www.bhr-is.nl/branches/energie-en-utiliteit",
+    "candidate": "http://localhost:4173/branches/energie-en-utiliteit",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/contact",
+    "key": "contact",
+    "title": "Contact met BHR Industrial Solutions",
+    "family": "contact",
+    "reference": "https://www.bhr-is.nl/contact",
+    "candidate": "http://localhost:4173/contact",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/afspraak-maken",
+    "key": "afspraak-maken",
+    "title": "Maak een afspraak",
+    "family": "appointment",
+    "reference": "https://www.bhr-is.nl/afspraak-maken",
+    "candidate": "http://localhost:4173/afspraak-maken",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/veelgestelde-vragen",
+    "key": "veelgestelde-vragen",
+    "title": "Veelgestelde vragen",
+    "family": "utility",
+    "reference": "https://www.bhr-is.nl/veelgestelde-vragen",
+    "candidate": "http://localhost:4173/veelgestelde-vragen",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/zoeken",
+    "key": "zoeken",
+    "title": "Zoeken",
+    "family": "utility",
+    "reference": "https://www.bhr-is.nl/zoeken",
+    "candidate": "http://localhost:4173/zoeken",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/cookie-instellingen",
+    "key": "cookie-instellingen",
+    "title": "Cookie instellingen",
+    "family": "utility",
+    "reference": "https://www.bhr-is.nl/cookie-instellingen",
+    "candidate": "http://localhost:4173/cookie-instellingen",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/privacyverklaring",
+    "key": "privacyverklaring",
+    "title": "Privacyverklaring",
+    "family": "legacy-article",
+    "reference": "https://www.bhr-is.nl/privacyverklaring",
+    "candidate": "http://localhost:4173/privacyverklaring",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/algemene-voorwaarden",
+    "key": "algemene-voorwaarden",
+    "title": "Algemene voorwaarden",
+    "family": "utility",
+    "reference": "https://www.bhr-is.nl/algemene-voorwaarden",
+    "candidate": "http://localhost:4173/algemene-voorwaarden",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/bedankt",
+    "key": "bedankt",
+    "title": "Bedankt",
+    "family": "legacy-article",
+    "reference": "https://www.bhr-is.nl/bedankt",
+    "candidate": "http://localhost:4173/bedankt",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/privacy",
+    "key": "privacy",
+    "title": "Privacy",
+    "family": "utility",
+    "reference": "https://www.bhr-is.nl/privacy",
+    "candidate": "http://localhost:4173/privacy",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/pagina-niet-gevonden",
+    "key": "pagina-niet-gevonden",
+    "title": "Deze pagina is even buiten gebruik",
+    "family": "utility",
+    "reference": "https://www.bhr-is.nl/pagina-niet-gevonden",
+    "candidate": "http://localhost:4173/pagina-niet-gevonden",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/offerteaanvraag",
+    "key": "offerteaanvraag",
+    "title": "Wil je een offerte aanvragen?",
+    "family": "quote",
+    "reference": "https://www.bhr-is.nl/offerteaanvraag",
+    "candidate": "http://localhost:4173/offerteaanvraag",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/branches/productie-industrie",
+    "key": "branches--productie-industrie",
+    "title": "Paneelbouw en automatisering voor snelle verpakkingslijnen",
+    "family": "branch",
+    "reference": "https://www.bhr-is.nl/branches/productie-industrie",
+    "candidate": "http://localhost:4173/branches/productie-industrie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/bordenbouw-op-maat",
+    "key": "bordenbouw-op-maat",
+    "title": "Bordenbouw op maat",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/bordenbouw-op-maat",
+    "candidate": "http://localhost:4173/bordenbouw-op-maat",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/industriele-bordenbouw",
+    "key": "industriele-bordenbouw",
+    "title": "Industriële bordenbouw",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/industriele-bordenbouw",
+    "candidate": "http://localhost:4173/industriele-bordenbouw",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/bordenbouwer",
+    "key": "bordenbouwer",
+    "title": "Bordenbouwer",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/bordenbouwer",
+    "candidate": "http://localhost:4173/bordenbouwer",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/werken-bij",
+    "key": "werken-bij",
+    "title": "Zo werkt het bij BHR",
+    "family": "alias",
+    "reference": "https://www.bhr-is.nl/werken-bij",
+    "candidate": "http://localhost:4173/werken-bij",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/betrouwbare-paneelbouw-etten-leur",
+    "key": "betrouwbare-paneelbouw-etten-leur",
+    "title": "Industriële paneelbouw in Etten-Leur voor technische diensten",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/betrouwbare-paneelbouw-etten-leur",
+    "candidate": "http://localhost:4173/betrouwbare-paneelbouw-etten-leur",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/certificering",
+    "key": "certificering",
+    "title": "Certificering",
+    "family": "company",
+    "reference": "https://www.bhr-is.nl/certificering",
+    "candidate": "http://localhost:4173/certificering",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/de-mensen-achter-de-techniek",
+    "key": "de-mensen-achter-de-techniek",
+    "title": "De mensen achter de techniek",
+    "family": "company",
+    "reference": "https://www.bhr-is.nl/de-mensen-achter-de-techniek",
+    "candidate": "http://localhost:4173/de-mensen-achter-de-techniek",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties",
+    "key": "locaties",
+    "title": "Locaties",
+    "family": "location-listing",
+    "reference": "https://www.bhr-is.nl/locaties",
+    "candidate": "http://localhost:4173/locaties",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "key": "locaties--betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "title": "Betrouwbare paneelbouw voor industriele installaties in Etten-Leur",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "candidate": "http://localhost:4173/locaties/betrouwbare-paneelbouw-voor-industriele-installaties-in-etten-leur",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/oisterwijk",
+    "key": "locaties--oisterwijk",
+    "title": "Oisterwijk",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/oisterwijk",
+    "candidate": "http://localhost:4173/locaties/oisterwijk",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "key": "locaties--paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "title": "Paneelbouw & automatisering voor industriële installaties in Breda",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "candidate": "http://localhost:4173/locaties/paneelbouw-automatisering-voor-industriele-installaties-in-breda",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "key": "locaties--paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "title": "Paneelbouw en automatisering voor machineparken in Tilburg",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "candidate": "http://localhost:4173/locaties/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "key": "locaties--paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "title": "Paneelbouw op maat voor productiebedrijven in Oosterhout",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "candidate": "http://localhost:4173/locaties/paneelbouw-op-maat-voor-productiebedrijven-in-oosterhout",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/paneelbouwer-in-de-regio-dongen",
+    "key": "locaties--paneelbouwer-in-de-regio-dongen",
+    "title": "Paneelbouwer in de regio Dongen",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/paneelbouwer-in-de-regio-dongen",
+    "candidate": "http://localhost:4173/locaties/paneelbouwer-in-de-regio-dongen",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/raamsdonksveer",
+    "key": "locaties--raamsdonksveer",
+    "title": "Raamsdonksveer",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/raamsdonksveer",
+    "candidate": "http://localhost:4173/locaties/raamsdonksveer",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/s-hertogenbosch",
+    "key": "locaties--s-hertogenbosch",
+    "title": "Paneelbouw met systeemvisie voor industrie in ’s-Hertogenbosch",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/s-hertogenbosch",
+    "candidate": "http://localhost:4173/locaties/s-hertogenbosch",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/locaties/waalwijk",
+    "key": "locaties--waalwijk",
+    "title": "Betrouwbare paneelbouw voor productieomgevingen in Waalwijk",
+    "family": "location-detail",
+    "reference": "https://www.bhr-is.nl/locaties/waalwijk",
+    "candidate": "http://localhost:4173/locaties/waalwijk",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/nieuws",
+    "key": "nieuws",
+    "title": "Nieuws dat onze techniek beweegt",
+    "family": "news",
+    "reference": "https://www.bhr-is.nl/nieuws",
+    "candidate": "http://localhost:4173/nieuws",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/paneelbouw-automatisering-tilburg",
+    "key": "paneelbouw-automatisering-tilburg",
+    "title": "Paneelbouw en automatisering in Tilburg voor machineparken | BHR Industrial Solutions",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/paneelbouw-automatisering-tilburg",
+    "candidate": "http://localhost:4173/paneelbouw-automatisering-tilburg",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "key": "paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "title": "Paneelbouw & automatisering in Tilburg",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "candidate": "http://localhost:4173/paneelbouw-automatisering-voor-machineparken-in-tilburg",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/paneelbouw-oosterhout",
+    "key": "paneelbouw-oosterhout",
+    "title": "Paneelbouw voor productiebedrijven in Oosterhout",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/paneelbouw-oosterhout",
+    "candidate": "http://localhost:4173/paneelbouw-oosterhout",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/paneelbouwer-dongen",
+    "key": "paneelbouwer-dongen",
+    "title": "Paneelbouwer in de regio Dongen",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/paneelbouwer-dongen",
+    "candidate": "http://localhost:4173/paneelbouwer-dongen",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/paneelbrouwer-breda",
+    "key": "paneelbrouwer-breda",
+    "title": "Paneelbouwer in de regio Breda",
+    "family": "seo",
+    "reference": "https://www.bhr-is.nl/paneelbrouwer-breda",
+    "candidate": "http://localhost:4173/paneelbrouwer-breda",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/referentie",
+    "key": "referentie",
+    "title": "Referentie",
+    "family": "company",
+    "reference": "https://www.bhr-is.nl/referentie",
+    "candidate": "http://localhost:4173/referentie",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/sitemap",
+    "key": "sitemap",
+    "title": "Sitemap",
+    "family": "utility",
+    "reference": "https://www.bhr-is.nl/sitemap",
+    "candidate": "http://localhost:4173/sitemap",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/test",
+    "key": "test",
+    "title": "test",
+    "family": "quote",
+    "reference": "https://www.bhr-is.nl/test",
+    "candidate": "http://localhost:4173/test",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/vacature/junior-e-plan-engineer",
+    "key": "vacature--junior-e-plan-engineer",
+    "title": "Junior E-Plan Engineer",
+    "family": "vacancy-detail",
+    "reference": "https://www.bhr-is.nl/vacature/junior-e-plan-engineer",
+    "candidate": "http://localhost:4173/vacature/junior-e-plan-engineer",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  },
+  {
+    "route": "/vacature/monteur-paneelbouw",
+    "key": "vacature--monteur-paneelbouw",
+    "title": "Monteur Paneelbouw",
+    "family": "vacancy-detail",
+    "reference": "https://www.bhr-is.nl/vacature/monteur-paneelbouw",
+    "candidate": "http://localhost:4173/vacature/monteur-paneelbouw",
+    "mobilePlan": [
+      "compact header or observed simple header",
+      "390px typography/containers and original image crop",
+      "observed vertical section order and card variant",
+      "form/slider/FAQ behavior present on route",
+      "mobile footer",
+      "1920px pixel regression against local baseline"
+    ]
+  }
+]
