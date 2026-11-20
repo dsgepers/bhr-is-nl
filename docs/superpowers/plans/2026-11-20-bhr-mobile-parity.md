@@ -27,7 +27,7 @@
 4. Phone form controls/validation/consent/file uploads/local-only behavior remain usable without delivery (Task4 browser cases).
 5. Delayed JS, missing media, reduced motion and touch/sticky controls retain access without covering focus (Tasks2/4/5).
 
-### Task1: Baselines and mobile asset integration
+### Task 1: Baselines and mobile asset integration
 
 **Files:** tools/audit-mobile.py;public/mobile-parity.css;public/mobile.mjs;components.mjs;build.mjs;tests/mobile.test.mjs;tests/secondary-pages.test.mjs.
 **Consumes:** current76-route build and approved checkpoint31188e8. **Produces:** last-loaded media-guarded/versioned mobile resources; original desktop markup untouched except the two inert references; baseline manifest.
@@ -37,7 +37,7 @@
 - [ ] Build and run full node suite plus verifier. Expected:all routes/links/assets resolve and original protected markup still matches.
 - [ ] Commit this task's code and ledger its evidence.
 
-### Task2: Header and navigation
+### Task 2: Header and navigation
 
 **Files:** public/mobile.mjs;public/mobile-parity.css;tools/check-mobile.py.
 **Consumes:** mobile resource guard;existing own brand/media/destinations. **Produces:**≤767px compact96px phone header, tablet78px header, authored drawer, subpanels, simple header, state teardown.
@@ -46,16 +46,16 @@
 - [ ] Compare native closed/open/submenu/scrolled states at390 and768; inspect pairs/heatmaps/overlays. Match desktop after resizing back to1920.
 - [ ] Run cases and full suite;commit and ledger.
 
-### Task3: Homepage and previous-phase families
+### Task 3: Homepage and previous-phase families
 
 **Files:** public/mobile-parity.css;public/mobile.mjs;public/mobile-data.json (only if source-backed mobile content is absent locally);tools/check-mobile.py.
-**Consumes:** source device inventories;navigation layer. **Produces:**stacked home sections, observed10 expertise rows, usable legacy hero/article/service/partner/career/form variants.
+**Consumes:** source device inventories;navigation layer. **Produces:**stacked home sections, eight homepage expertise rows and ten index rows, usable legacy hero/article/service/partner/career/form variants.
 - [ ] Run failing mobile layout cases for home/expertises/machine-builder/process/service/partners/careers plus paneelbouw/retrofit/verpakkingsindustrie. Pin no overflow, real image widths, section ordering, input widths and step photo/card stacking.
-- [ ] Implement phone-only family rules; remove old fixed heights/column gaps/transforms at phone widths. Add the two source-only home expertise rows through reversible mobile enhancement. Do not change desktop copy or card inventory.
+- [ ] Implement phone-only family rules; remove old fixed heights/column gaps/transforms at phone widths. Retain the eight observed homepage expertise rows and ten index rows; do not add index-only cards to the homepage. Do not change desktop copy or card inventory.
 - [ ] Capture and inspect source/local at390 and small/large phone samples. Check sliders, native controls, cookies and footer.
 - [ ] Run tests;commit and ledger.
 
-### Task4: Remaining sitemap families
+### Task 4: Remaining sitemap families
 
 **Files:** public/mobile-parity.css;public/mobile.mjs;tools/check-mobile.py;page-plan-index.json.
 **Consumes:** complete per-route source inventory and shared family classes. **Produces:**mobile editorial/branch/location/project/contact/appointment/job/about/utility compositions across all76 routes.
@@ -64,7 +64,7 @@
 - [ ] Use the per-page plan table below to check every route's hero, image order, headings, sections, forms/cards/footer and links; record a source-error disposition instead of a fabricated score.
 - [ ] Run node/browser/route checks;commit and ledger.
 
-### Task5: Tablet and responsive boundaries
+### Task 5: Tablet and responsive boundaries
 
 **Files:** public/mobile-parity.css;public/mobile.mjs;tools/check-mobile.py.
 **Consumes:** actual tablet-theme inventories. **Produces:**768px tablet layout and reliable transitions at767/768/1199/1200.
@@ -72,7 +72,7 @@
 - [ ] Implement tablet containers/typography/card grids/header/menu and family-specific columns matching reference. Ensure desktop≥1200 remains unchanged.
 - [ ] Check360/390/430/768 plus breakpoint edges. Verify menu exit and carousel recalculation after rotation. Run suite;commit and ledger.
 
-### Task6: Visual acceptance and desktop preservation
+### Task 6: Visual acceptance and desktop preservation
 
 **Files:** tools/audit-mobile.py;tools/report-mobile.py;checks/mobile-parity-2026-11-20/final;docs/superpowers/execution/2026-11-20-mobile-progress.md.
 **Consumes:** frozen implementation. **Produces:**76 phone comparisons and76 desktop before/after records, representative extra widths and interaction states, gallery.
@@ -81,7 +81,7 @@
 - [ ] Require zero desktop regressions or fix them;label every unresolved mobile gate OPEN and retain evidence.
 - [ ] Build a self-contained comparison gallery;check with html_preview then show with html_render. Record skill/helper changes.
 
-### Task7: One final review and handoff
+### Task 7: One final review and handoff
 
 **Files:**execution ledger/review package and relevant tested fixes.
 **Consumes:** full task evidence and spec Review Focus. **Produces:**one fresh whole-change code review,one RED→GREEN Important/Critical fix pass,green suite, final report.
